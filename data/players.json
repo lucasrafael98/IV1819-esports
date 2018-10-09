@@ -1,4 +1,4 @@
-[
+{ "players":[
     {
         "PlayerId": 3145,
         "NameFirst": "Kuro",
@@ -32000,3 +32000,4 @@
         "TotalUSDPrize": "15122.67"
     }
 ]
+}
