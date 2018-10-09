@@ -1,1928 +1,1930 @@
-[
-    {
-        "GameName": "StarCraft II",
-        "TotalUSDPrize": "27674383.81",
-        "TotalTournaments": 5113,
-        "TotalPlayers": 1819
-    },
-    {
-        "GameName": "StarCraft: Brood War",
-        "TotalUSDPrize": "7683483.79",
-        "TotalTournaments": 524,
-        "TotalPlayers": 628
-    },
-    {
-        "GameName": "Halo: Combat Evolved",
-        "TotalUSDPrize": "299281.00",
-        "TotalTournaments": 39,
-        "TotalPlayers": 114
-    },
-    {
-        "GameName": "Halo 2",
-        "TotalUSDPrize": "1489362.47",
-        "TotalTournaments": 71,
-        "TotalPlayers": 119
-    },
-    {
-        "GameName": "Halo 3",
-        "TotalUSDPrize": "1832079.40",
-        "TotalTournaments": 32,
-        "TotalPlayers": 163
-    },
-    {
-        "GameName": "Halo: Reach",
-        "TotalUSDPrize": "772089.97",
-        "TotalTournaments": 28,
-        "TotalPlayers": 97
-    },
-    {
-        "GameName": "Quake Live",
-        "TotalUSDPrize": "682294.04",
-        "TotalTournaments": 410,
-        "TotalPlayers": 213
-    },
-    {
-        "GameName": "WarCraft III",
-        "TotalUSDPrize": "5283426.31",
-        "TotalTournaments": 1265,
-        "TotalPlayers": 556
-    },
-    {
-        "GameName": "Quake III Arena",
-        "TotalUSDPrize": "1137832.19",
-        "TotalTournaments": 100,
-        "TotalPlayers": 243
-    },
-    {
-        "GameName": "QuakeWorld",
-        "TotalUSDPrize": "97061.10",
-        "TotalTournaments": 12,
-        "TotalPlayers": 45
-    },
-    {
-        "GameName": "Quake II",
-        "TotalUSDPrize": "138979.50",
-        "TotalTournaments": 9,
-        "TotalPlayers": 31
-    },
-    {
-        "GameName": "Counter-Strike",
-        "TotalUSDPrize": "12083583.17",
-        "TotalTournaments": 760,
-        "TotalPlayers": 3188
-    },
-    {
-        "GameName": "Defense of the Ancients",
-        "TotalUSDPrize": "857420.65",
-        "TotalTournaments": 94,
-        "TotalPlayers": 459
-    },
-    {
-        "GameName": "League of Legends",
-        "TotalUSDPrize": "56571737.16",
-        "TotalTournaments": 2135,
-        "TotalPlayers": 5798
-    },
-    {
-        "GameName": "World of WarCraft",
-        "TotalUSDPrize": "3967837.61",
-        "TotalTournaments": 89,
-        "TotalPlayers": 356
-    },
-    {
-        "GameName": "Super Street Fighter II Turbo",
-        "TotalUSDPrize": "17618.41",
-        "TotalTournaments": 29,
-        "TotalPlayers": 75
-    },
-    {
-        "GameName": "Street Fighter III: 3rd Strike",
-        "TotalUSDPrize": "43638.94",
-        "TotalTournaments": 25,
-        "TotalPlayers": 54
-    },
-    {
-        "GameName": "Hyper Street Fighter II",
-        "TotalUSDPrize": "10250.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Quake 4",
-        "TotalUSDPrize": "556678.51",
-        "TotalTournaments": 52,
-        "TotalPlayers": 100
-    },
-    {
-        "GameName": "Doom 3",
-        "TotalUSDPrize": "257748.16",
-        "TotalTournaments": 4,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "Counter-Strike: Condition Zero",
-        "TotalUSDPrize": "85000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 15
-    },
-    {
-        "GameName": "TrackMania Nations Forever",
-        "TotalUSDPrize": "112338.31",
-        "TotalTournaments": 40,
-        "TotalPlayers": 76
-    },
-    {
-        "GameName": "Need for Speed Carbon",
-        "TotalUSDPrize": "36322.58",
-        "TotalTournaments": 4,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Need for Speed: Most Wanted",
-        "TotalUSDPrize": "35694.54",
-        "TotalTournaments": 7,
-        "TotalPlayers": 18
-    },
-    {
-        "GameName": "Need for Speed: Underground 2",
-        "TotalUSDPrize": "35000.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Command & Conquer 3",
-        "TotalUSDPrize": "53086.67",
-        "TotalTournaments": 8,
-        "TotalPlayers": 9
-    },
-    {
-        "GameName": "Age of Empires III",
-        "TotalUSDPrize": "45130.00",
-        "TotalTournaments": 20,
-        "TotalPlayers": 41
-    },
-    {
-        "GameName": "Age of Mythology",
-        "TotalUSDPrize": "52360.00",
-        "TotalTournaments": 6,
-        "TotalPlayers": 22
-    },
-    {
-        "GameName": "Age of Empires II: The Age of Kings",
-        "TotalUSDPrize": "666929.39",
-        "TotalTournaments": 80,
-        "TotalPlayers": 261
-    },
-    {
-        "GameName": "Project Gotham Racing 3",
-        "TotalUSDPrize": "297286.85",
-        "TotalTournaments": 10,
-        "TotalPlayers": 33
-    },
-    {
-        "GameName": "Project Gotham Racing 4",
-        "TotalUSDPrize": "25208.46",
-        "TotalTournaments": 4,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Unreal Tournament",
-        "TotalUSDPrize": "89000.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "Unreal Tournament 2003",
-        "TotalUSDPrize": "141856.41",
-        "TotalTournaments": 13,
-        "TotalPlayers": 33
-    },
-    {
-        "GameName": "Unreal Tournament 2004",
-        "TotalUSDPrize": "133969.33",
-        "TotalTournaments": 12,
-        "TotalPlayers": 41
-    },
-    {
-        "GameName": "Tekken 4",
-        "TotalUSDPrize": "12500.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Tekken 5",
-        "TotalUSDPrize": "10250.00",
-        "TotalTournaments": 9,
-        "TotalPlayers": 10
-    },
-    {
-        "GameName": "Tekken 5: Dark Resurrection",
-        "TotalUSDPrize": "11970.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "Tekken Tag Tournament",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 7
-    },
-    {
-        "GameName": "Tekken 6",
-        "TotalUSDPrize": "118874.64",
-        "TotalTournaments": 29,
-        "TotalPlayers": 59
-    },
-    {
-        "GameName": "Virtua Fighter 4: Evolution",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Virtua Fighter 5",
-        "TotalUSDPrize": "39750.00",
-        "TotalTournaments": 6,
-        "TotalPlayers": 13
-    },
-    {
-        "GameName": "Dead or Alive 4",
-        "TotalUSDPrize": "497745.31",
-        "TotalTournaments": 13,
-        "TotalPlayers": 45
-    },
-    {
-        "GameName": "Dead or Alive Ultimate",
-        "TotalUSDPrize": "30000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Marvel vs. Capcom 2",
-        "TotalUSDPrize": "38630.00",
-        "TotalTournaments": 26,
-        "TotalPlayers": 56
-    },
-    {
-        "GameName": "Capcom vs. SNK 2",
-        "TotalUSDPrize": "22926.79",
-        "TotalTournaments": 14,
-        "TotalPlayers": 24
-    },
-    {
-        "GameName": "Marvel vs. Capcom 3",
-        "TotalUSDPrize": "22343.62",
-        "TotalTournaments": 12,
-        "TotalPlayers": 38
-    },
-    {
-        "GameName": "Soul Calibur II",
-        "TotalUSDPrize": "4200.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 9
-    },
-    {
-        "GameName": "Soul Calibur IV",
-        "TotalUSDPrize": "100260.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Guilty Gear XX",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Guilty Gear XX #Reload",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Guilty Gear XX Slash",
-        "TotalUSDPrize": "10250.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Guilty Gear XX Accent Core",
-        "TotalUSDPrize": "10365.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 33
-    },
-    {
-        "GameName": "Guilty Gear XX Accent Core Plus",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Super Smash Bros. Melee",
-        "TotalUSDPrize": "2747219.88",
-        "TotalTournaments": 2408,
-        "TotalPlayers": 1621
-    },
-    {
-        "GameName": "Super Smash Bros. Brawl",
-        "TotalUSDPrize": "241364.34",
-        "TotalTournaments": 329,
-        "TotalPlayers": 479
-    },
-    {
-        "GameName": "Street Fighter IV",
-        "TotalUSDPrize": "7938.22",
-        "TotalTournaments": 12,
-        "TotalPlayers": 41
-    },
-    {
-        "GameName": "Super Street Fighter II Turbo HD Remix",
-        "TotalUSDPrize": "16360.00",
-        "TotalTournaments": 8,
-        "TotalPlayers": 29
-    },
-    {
-        "GameName": "Super Street Fighter IV Arcade Edition",
-        "TotalUSDPrize": "343878.08",
-        "TotalTournaments": 202,
-        "TotalPlayers": 153
-    },
-    {
-        "GameName": "Melty Blood: Actress Again",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 10
-    },
-    {
-        "GameName": "Tatsunoko vs. Capcom: Ultimate All-Stars",
-        "TotalUSDPrize": "470.81",
-        "TotalTournaments": 4,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Mortal Kombat 9",
-        "TotalUSDPrize": "136131.67",
-        "TotalTournaments": 26,
-        "TotalPlayers": 67
-    },
-    {
-        "GameName": "BlazBlue: Continuum Shift II",
-        "TotalUSDPrize": "24591.01",
-        "TotalTournaments": 5,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "Street Fighter X Tekken",
-        "TotalUSDPrize": "81440.64",
-        "TotalTournaments": 83,
-        "TotalPlayers": 104
-    },
-    {
-        "GameName": "Gears of War",
-        "TotalUSDPrize": "252195.57",
-        "TotalTournaments": 18,
-        "TotalPlayers": 33
-    },
-    {
-        "GameName": "FIFA 11",
-        "TotalUSDPrize": "93983.77",
-        "TotalTournaments": 78,
-        "TotalPlayers": 72
-    },
-    {
-        "GameName": "FIFA 10",
-        "TotalUSDPrize": "117026.71",
-        "TotalTournaments": 48,
-        "TotalPlayers": 64
-    },
-    {
-        "GameName": "FIFA 09",
-        "TotalUSDPrize": "121618.34",
-        "TotalTournaments": 19,
-        "TotalPlayers": 52
-    },
-    {
-        "GameName": "FIFA 08",
-        "TotalUSDPrize": "207129.94",
-        "TotalTournaments": 17,
-        "TotalPlayers": 68
-    },
-    {
-        "GameName": "FIFA 07",
-        "TotalUSDPrize": "237812.23",
-        "TotalTournaments": 13,
-        "TotalPlayers": 42
-    },
-    {
-        "GameName": "FIFA 06",
-        "TotalUSDPrize": "110764.53",
-        "TotalTournaments": 10,
-        "TotalPlayers": 21
-    },
-    {
-        "GameName": "FIFA 05",
-        "TotalUSDPrize": "57728.01",
-        "TotalTournaments": 8,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "FIFA 04",
-        "TotalUSDPrize": "40000.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "FIFA 03",
-        "TotalUSDPrize": "54066.44",
-        "TotalTournaments": 3,
-        "TotalPlayers": 10
-    },
-    {
-        "GameName": "FIFA 2002 World Cup",
-        "TotalUSDPrize": "43000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Warhammer 40,000: Dawn of War",
-        "TotalUSDPrize": "79816.50",
-        "TotalTournaments": 3,
-        "TotalPlayers": 7
-    },
-    {
-        "GameName": "Counter-Strike: Source",
-        "TotalUSDPrize": "3070442.38",
-        "TotalTournaments": 320,
-        "TotalPlayers": 1445
-    },
-    {
-        "GameName": "Need for Speed: Underground",
-        "TotalUSDPrize": "35000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Project Gotham Racing 2",
-        "TotalUSDPrize": "35000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "FIFA 2001",
-        "TotalUSDPrize": "46000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 9
-    },
-    {
-        "GameName": "Super Street Fighter IV",
-        "TotalUSDPrize": "20877.30",
-        "TotalTournaments": 16,
-        "TotalPlayers": 40
-    },
-    {
-        "GameName": "Dota 2",
-        "TotalUSDPrize": "169719840.45",
-        "TotalTournaments": 975,
-        "TotalPlayers": 2615
-    },
-    {
-        "GameName": "Need for Speed: Shift",
-        "TotalUSDPrize": "10500.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "TrackMania Nations",
-        "TotalUSDPrize": "74000.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 7
-    },
-    {
-        "GameName": "Pro Evolution Soccer 3",
-        "TotalUSDPrize": "25000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Pro Evolution Soccer 4",
-        "TotalUSDPrize": "40550.64",
-        "TotalTournaments": 2,
-        "TotalPlayers": 11
-    },
-    {
-        "GameName": "Pro Evolution Soccer 5",
-        "TotalUSDPrize": "32000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Pro Evolution Soccer 6",
-        "TotalUSDPrize": "20216.82",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Gran Turismo 4",
-        "TotalUSDPrize": "44000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Painkiller",
-        "TotalUSDPrize": "1015000.00",
-        "TotalTournaments": 13,
-        "TotalPlayers": 48
-    },
-    {
-        "GameName": "Soul Calibur V",
-        "TotalUSDPrize": "59625.90",
-        "TotalTournaments": 23,
-        "TotalPlayers": 65
-    },
-    {
-        "GameName": "King of Fighters XIII",
-        "TotalUSDPrize": "44244.28",
-        "TotalTournaments": 42,
-        "TotalPlayers": 105
-    },
-    {
-        "GameName": "Heroes of Newerth",
-        "TotalUSDPrize": "2856206.56",
-        "TotalTournaments": 368,
-        "TotalPlayers": 805
-    },
-    {
-        "GameName": "Call of Duty: Black Ops",
-        "TotalUSDPrize": "346393.48",
-        "TotalTournaments": 21,
-        "TotalPlayers": 117
-    },
-    {
-        "GameName": "Bloodline Champions",
-        "TotalUSDPrize": "41905.32",
-        "TotalTournaments": 12,
-        "TotalPlayers": 43
-    },
-    {
-        "GameName": "Counter-Strike: Global Offensive",
-        "TotalUSDPrize": "62096624.33",
-        "TotalTournaments": 3525,
-        "TotalPlayers": 10426
-    },
-    {
-        "GameName": "Aliens versus Predator 2",
-        "TotalUSDPrize": "40000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Return to Castle Wolfenstein",
-        "TotalUSDPrize": "67424.30",
-        "TotalTournaments": 3,
-        "TotalPlayers": 30
-    },
-    {
-        "GameName": "Battlefield 3",
-        "TotalUSDPrize": "18296.60",
-        "TotalTournaments": 7,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Ultimate Marvel vs. Capcom 3",
-        "TotalUSDPrize": "109809.69",
-        "TotalTournaments": 152,
-        "TotalPlayers": 174
-    },
-    {
-        "GameName": "FIFA 12",
-        "TotalUSDPrize": "51720.27",
-        "TotalTournaments": 65,
-        "TotalPlayers": 51
-    },
-    {
-        "GameName": "Tekken Tag Tournament 2",
-        "TotalUSDPrize": "82205.70",
-        "TotalTournaments": 132,
-        "TotalPlayers": 140
-    },
-    {
-        "GameName": "Persona 4 Arena",
-        "TotalUSDPrize": "6336.63",
-        "TotalTournaments": 11,
-        "TotalPlayers": 42
-    },
-    {
-        "GameName": "Dead or Alive 5",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "ShootMania Storm",
-        "TotalUSDPrize": "261687.04",
-        "TotalTournaments": 40,
-        "TotalPlayers": 80
-    },
-    {
-        "GameName": "FIFA 13",
-        "TotalUSDPrize": "457827.98",
-        "TotalTournaments": 61,
-        "TotalPlayers": 50
-    },
-    {
-        "GameName": "Halo 4",
-        "TotalUSDPrize": "430748.76",
-        "TotalTournaments": 19,
-        "TotalPlayers": 66
-    },
-    {
-        "GameName": "Call of Duty: Black Ops 2",
-        "TotalUSDPrize": "1456799.88",
-        "TotalTournaments": 51,
-        "TotalPlayers": 167
-    },
-    {
-        "GameName": "Call of Duty: Modern Warfare 3",
-        "TotalUSDPrize": "1095195.18",
-        "TotalTournaments": 35,
-        "TotalPlayers": 158
-    },
-    {
-        "GameName": "Unreal Tournament 3",
-        "TotalUSDPrize": "104977.82",
-        "TotalTournaments": 4,
-        "TotalPlayers": 7
-    },
-    {
-        "GameName": "Injustice: Gods Among Us",
-        "TotalUSDPrize": "35176.89",
-        "TotalTournaments": 117,
-        "TotalPlayers": 101
-    },
-    {
-        "GameName": "BlazBlue: Continuum Shift Extend",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Doom II: Hell on Earth",
-        "TotalUSDPrize": "1000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Gears of War 2",
-        "TotalUSDPrize": "135000.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Call of Duty 4: Modern Warfare",
-        "TotalUSDPrize": "419370.97",
-        "TotalTournaments": 85,
-        "TotalPlayers": 414
-    },
-    {
-        "GameName": "Rainbow Six: Vegas",
-        "TotalUSDPrize": "176400.77",
-        "TotalTournaments": 7,
-        "TotalPlayers": 137
-    },
-    {
-        "GameName": "Rainbow Six: Vegas 2",
-        "TotalUSDPrize": "79000.00",
-        "TotalTournaments": 8,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Shadowrun",
-        "TotalUSDPrize": "24000.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Call of Duty 2",
-        "TotalUSDPrize": "66828.51",
-        "TotalTournaments": 17,
-        "TotalPlayers": 41
-    },
-    {
-        "GameName": "Dead or Alive 5 Ultimate",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 7,
-        "TotalPlayers": 37
-    },
-    {
-        "GameName": "Forza Motorsport 2",
-        "TotalUSDPrize": "222000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 17
-    },
-    {
-        "GameName": "FIFA 14",
-        "TotalUSDPrize": "80484.76",
-        "TotalTournaments": 66,
-        "TotalPlayers": 47
-    },
-    {
-        "GameName": "TrackMania 2: Stadium",
-        "TotalUSDPrize": "82562.58",
-        "TotalTournaments": 53,
-        "TotalPlayers": 85
-    },
-    {
-        "GameName": "Call of Duty: Ghosts",
-        "TotalUSDPrize": "1572641.54",
-        "TotalTournaments": 74,
-        "TotalPlayers": 153
-    },
-    {
-        "GameName": "Battlefield 4",
-        "TotalUSDPrize": "241241.50",
-        "TotalTournaments": 144,
-        "TotalPlayers": 196
-    },
-    {
-        "GameName": "Madden NFL 2013",
-        "TotalUSDPrize": "400000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "NHL 13",
-        "TotalUSDPrize": "70000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Need for Speed: ProStreet",
-        "TotalUSDPrize": "32208.46",
-        "TotalTournaments": 3,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Hearthstone",
-        "TotalUSDPrize": "14220717.46",
-        "TotalTournaments": 789,
-        "TotalPlayers": 2027
-    },
-    {
-        "GameName": "NHL 14",
-        "TotalUSDPrize": "3023.96",
-        "TotalTournaments": 3,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Super Smash Bros.",
-        "TotalUSDPrize": "59269.94",
-        "TotalTournaments": 105,
-        "TotalPlayers": 202
-    },
-    {
-        "GameName": "Project M",
-        "TotalUSDPrize": "193643.03",
-        "TotalTournaments": 308,
-        "TotalPlayers": 522
-    },
-    {
-        "GameName": "BlazBlue: Chronophantasma",
-        "TotalUSDPrize": "37020.58",
-        "TotalTournaments": 15,
-        "TotalPlayers": 63
-    },
-    {
-        "GameName": "Killer Instinct (2013)",
-        "TotalUSDPrize": "219016.96",
-        "TotalTournaments": 43,
-        "TotalPlayers": 120
-    },
-    {
-        "GameName": "Guilty Gear XX Accent Core Plus R",
-        "TotalUSDPrize": "1770.00",
-        "TotalTournaments": 12,
-        "TotalPlayers": 55
-    },
-    {
-        "GameName": "Team Fortress 2",
-        "TotalUSDPrize": "506101.66",
-        "TotalTournaments": 118,
-        "TotalPlayers": 761
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2008",
-        "TotalUSDPrize": "2084.15",
-        "TotalTournaments": 3,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2009",
-        "TotalUSDPrize": "1395.97",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Ultra Street Fighter IV",
-        "TotalUSDPrize": "738300.71",
-        "TotalTournaments": 213,
-        "TotalPlayers": 200
-    },
-    {
-        "GameName": "Soul Calibur II HD Online",
-        "TotalUSDPrize": "650.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 22
-    },
-    {
-        "GameName": "Virtua Fighter 5 Final Showdown",
-        "TotalUSDPrize": "413.77",
-        "TotalTournaments": 5,
-        "TotalPlayers": 25
-    },
-    {
-        "GameName": "Skullgirls",
-        "TotalUSDPrize": "300.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Skullgirls Encore",
-        "TotalUSDPrize": "9025.40",
-        "TotalTournaments": 12,
-        "TotalPlayers": 35
-    },
-    {
-        "GameName": "Divekick",
-        "TotalUSDPrize": "5350.00",
-        "TotalTournaments": 9,
-        "TotalPlayers": 24
-    },
-    {
-        "GameName": "World of Tanks",
-        "TotalUSDPrize": "3656496.59",
-        "TotalTournaments": 49,
-        "TotalPlayers": 403
-    },
-    {
-        "GameName": "Point Blank",
-        "TotalUSDPrize": "415167.75",
-        "TotalTournaments": 29,
-        "TotalPlayers": 250
-    },
-    {
-        "GameName": "World in Conflict",
-        "TotalUSDPrize": "293338.23",
-        "TotalTournaments": 11,
-        "TotalPlayers": 36
-    },
-    {
-        "GameName": "Live for Speed",
-        "TotalUSDPrize": "6727.52",
-        "TotalTournaments": 8,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Star Wars Jedi Knight II: Jedi Outcast",
-        "TotalUSDPrize": "7679.25",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "NASCAR Thunder 2002",
-        "TotalUSDPrize": "7679.25",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "SMITE",
-        "TotalUSDPrize": "8550112.75",
-        "TotalTournaments": 91,
-        "TotalPlayers": 510
-    },
-    {
-        "GameName": "CrossFire",
-        "TotalUSDPrize": "3966183.48",
-        "TotalTournaments": 289,
-        "TotalPlayers": 571
-    },
-    {
-        "GameName": "Street Fighter Alpha 3",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Day of Defeat: Source",
-        "TotalUSDPrize": "7063.99",
-        "TotalTournaments": 6,
-        "TotalPlayers": 39
-    },
-    {
-        "GameName": "Battlefield 2142",
-        "TotalUSDPrize": "18546.14",
-        "TotalTournaments": 4,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Call of Duty",
-        "TotalUSDPrize": "50629.77",
-        "TotalTournaments": 3,
-        "TotalPlayers": 51
-    },
-    {
-        "GameName": "Battlefield 2",
-        "TotalUSDPrize": "91715.22",
-        "TotalTournaments": 12,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "NASCAR Thunder 2003",
-        "TotalUSDPrize": "5933.50",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "TrackMania 2: Canyon",
-        "TotalUSDPrize": "16080.36",
-        "TotalTournaments": 29,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Ultimate Mortal Kombat 3",
-        "TotalUSDPrize": "150.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Mortal Kombat vs. DC Universe",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "FIFA 15",
-        "TotalUSDPrize": "143283.15",
-        "TotalTournaments": 349,
-        "TotalPlayers": 162
-    },
-    {
-        "GameName": "Just Dance 2014",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Call of Duty: Advanced Warfare",
-        "TotalUSDPrize": "2598295.00",
-        "TotalTournaments": 401,
-        "TotalPlayers": 769
-    },
-    {
-        "GameName": "Descent 3",
-        "TotalUSDPrize": "50000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "F.E.A.R.",
-        "TotalUSDPrize": "177500.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 20
-    },
-    {
-        "GameName": "FIFA Online 3",
-        "TotalUSDPrize": "1434341.90",
-        "TotalTournaments": 9,
-        "TotalPlayers": 88
-    },
-    {
-        "GameName": "Call of Duty: Modern Warfare 2",
-        "TotalUSDPrize": "60010.64",
-        "TotalTournaments": 8,
-        "TotalPlayers": 40
-    },
-    {
-        "GameName": "Turbo Racing League",
-        "TotalUSDPrize": "1000000.00",
-        "TotalTournaments": 9,
-        "TotalPlayers": 16
-    },
-    {
-        "GameName": "Heroes of the Storm",
-        "TotalUSDPrize": "14633269.93",
-        "TotalTournaments": 419,
-        "TotalPlayers": 1092
-    },
-    {
-        "GameName": "Carom 3D",
-        "TotalUSDPrize": "60500.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 11
-    },
-    {
-        "GameName": "Red Stone",
-        "TotalUSDPrize": "58000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Super Smash Bros. for Wii U",
-        "TotalUSDPrize": "1370651.06",
-        "TotalTournaments": 820,
-        "TotalPlayers": 1058
-    },
-    {
-        "GameName": "Guilty Gear Xrd -SIGN-",
-        "TotalUSDPrize": "37445.66",
-        "TotalTournaments": 38,
-        "TotalPlayers": 80
-    },
-    {
-        "GameName": "Xonotic",
-        "TotalUSDPrize": "2126.44",
-        "TotalTournaments": 10,
-        "TotalPlayers": 24
-    },
-    {
-        "GameName": "NHL 12",
-        "TotalUSDPrize": "702.93",
-        "TotalTournaments": 2,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Forza Motorsport 4",
-        "TotalUSDPrize": "132.37",
-        "TotalTournaments": 1,
-        "TotalPlayers": 2
-    },
-    {
-        "GameName": "Warsow",
-        "TotalUSDPrize": "183.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 2
-    },
-    {
-        "GameName": "Forza Motorsport 3",
-        "TotalUSDPrize": "11000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Guild Wars 2",
-        "TotalUSDPrize": "476005.50",
-        "TotalTournaments": 57,
-        "TotalPlayers": 152
-    },
-    {
-        "GameName": "Gears of War 3",
-        "TotalUSDPrize": "4555.81",
-        "TotalTournaments": 2,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "NHL 15",
-        "TotalUSDPrize": "3157.16",
-        "TotalTournaments": 3,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Halo 2 Anniversary",
-        "TotalUSDPrize": "468705.05",
-        "TotalTournaments": 20,
-        "TotalPlayers": 97
-    },
-    {
-        "GameName": "Street Fighter Alpha 2",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Capcom vs. SNK",
-        "TotalUSDPrize": "140.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Unreal Tournament (2016)",
-        "TotalUSDPrize": "1386.05",
-        "TotalTournaments": 5,
-        "TotalPlayers": 23
-    },
-    {
-        "GameName": "Dead or Alive 5: Last Round",
-        "TotalUSDPrize": "7003.82",
-        "TotalTournaments": 13,
-        "TotalPlayers": 35
-    },
-    {
-        "GameName": "Persona 4 Arena Ultimax",
-        "TotalUSDPrize": "18078.16",
-        "TotalTournaments": 16,
-        "TotalPlayers": 54
-    },
-    {
-        "GameName": "Under Night In-Birth EXE: Late",
-        "TotalUSDPrize": "5065.76",
-        "TotalTournaments": 21,
-        "TotalPlayers": 49
-    },
-    {
-        "GameName": "Mortal Kombat X",
-        "TotalUSDPrize": "523052.42",
-        "TotalTournaments": 61,
-        "TotalPlayers": 97
-    },
-    {
-        "GameName": "Day of Defeat",
-        "TotalUSDPrize": "50300.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 23
-    },
-    {
-        "GameName": "Battlefield Hardline",
-        "TotalUSDPrize": "13463.28",
-        "TotalTournaments": 1,
-        "TotalPlayers": 20
-    },
-    {
-        "GameName": "Crysis",
-        "TotalUSDPrize": "11340.95",
-        "TotalTournaments": 2,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Supreme Commander: Forged Alliance",
-        "TotalUSDPrize": "1290.01",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Enemy Territory: Quake Wars",
-        "TotalUSDPrize": "60923.12",
-        "TotalTournaments": 4,
-        "TotalPlayers": 27
-    },
-    {
-        "GameName": "Rise of Nations: Rise of Legends",
-        "TotalUSDPrize": "69600.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Supreme Commander",
-        "TotalUSDPrize": "4901.26",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
-        "TotalUSDPrize": "4901.26",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Guitar Hero 5",
-        "TotalUSDPrize": "10500.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Reflex",
-        "TotalUSDPrize": "2112.26",
-        "TotalTournaments": 5,
-        "TotalPlayers": 15
-    },
-    {
-        "GameName": "Blade & Soul",
-        "TotalUSDPrize": "409355.52",
-        "TotalTournaments": 5,
-        "TotalPlayers": 51
-    },
-    {
-        "GameName": "Tekken 7",
-        "TotalUSDPrize": "495599.61",
-        "TotalTournaments": 47,
-        "TotalPlayers": 121
-    },
-    {
-        "GameName": "Evolve",
-        "TotalUSDPrize": "131509.05",
-        "TotalTournaments": 33,
-        "TotalPlayers": 110
-    },
-    {
-        "GameName": "Gran Turismo 3: A-Spec",
-        "TotalUSDPrize": "3250.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Rocket League",
-        "TotalUSDPrize": "2642135.72",
-        "TotalTournaments": 229,
-        "TotalPlayers": 410
-    },
-    {
-        "GameName": "Guitar Hero III: Legends of Rock",
-        "TotalUSDPrize": "19000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "S.K.I.L.L. - Special Force 2",
-        "TotalUSDPrize": "132532.93",
-        "TotalTournaments": 21,
-        "TotalPlayers": 82
-    },
-    {
-        "GameName": "Madden NFL 2004",
-        "TotalUSDPrize": "1500.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "BlazBlue: Chronophantasma Extend",
-        "TotalUSDPrize": "4918.77",
-        "TotalTournaments": 11,
-        "TotalPlayers": 28
-    },
-    {
-        "GameName": "FIFA 2000",
-        "TotalUSDPrize": "50000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Splatoon",
-        "TotalUSDPrize": "1390.00",
-        "TotalTournaments": 4,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "NHL '94",
-        "TotalUSDPrize": "3818.56",
-        "TotalTournaments": 8,
-        "TotalPlayers": 25
-    },
-    {
-        "GameName": "Dengeki Bunko: Fighting Climax",
-        "TotalUSDPrize": "60.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Rising Thunder",
-        "TotalUSDPrize": "1000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "H1Z1",
-        "TotalUSDPrize": "2067122.00",
-        "TotalTournaments": 13,
-        "TotalPlayers": 115
-    },
-    {
-        "GameName": "Nitroplus Blasterz: Heroines Infinite Duel",
-        "TotalUSDPrize": "1844.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "FIFA 16",
-        "TotalUSDPrize": "115495.75",
-        "TotalTournaments": 24,
-        "TotalPlayers": 52
-    },
-    {
-        "GameName": "Shards of War",
-        "TotalUSDPrize": "1029.21",
-        "TotalTournaments": 1,
-        "TotalPlayers": 20
-    },
-    {
-        "GameName": "Halo 5: Guardians",
-        "TotalUSDPrize": "6771480.97",
-        "TotalTournaments": 74,
-        "TotalPlayers": 229
-    },
-    {
-        "GameName": "Legend of Glory",
-        "TotalUSDPrize": "472.66",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Call of Duty: Black Ops III",
-        "TotalUSDPrize": "3836654.41",
-        "TotalTournaments": 74,
-        "TotalPlayers": 389
-    },
-    {
-        "GameName": "Overwatch",
-        "TotalUSDPrize": "11570305.95",
-        "TotalTournaments": 610,
-        "TotalPlayers": 2709
-    },
-    {
-        "GameName": "King of Fighters XI",
-        "TotalUSDPrize": "25.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Tetris Ultimate",
-        "TotalUSDPrize": "2500.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Dragon Ball Z: Budokai 3",
-        "TotalUSDPrize": "204.06",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "BlazBlue: Calamity Trigger",
-        "TotalUSDPrize": "35.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Arcana Heart 3",
-        "TotalUSDPrize": "1000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Metal Gear Online",
-        "TotalUSDPrize": "8000.00",
-        "TotalTournaments": 8,
-        "TotalPlayers": 37
-    },
-    {
-        "GameName": "Grey Goo",
-        "TotalUSDPrize": "36400.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 18
-    },
-    {
-        "GameName": "Street Fighter V",
-        "TotalUSDPrize": "2238185.16",
-        "TotalTournaments": 107,
-        "TotalPlayers": 226
-    },
-    {
-        "GameName": "Pokk\u00e9n Tournament",
-        "TotalUSDPrize": "75521.66",
-        "TotalTournaments": 15,
-        "TotalPlayers": 56
-    },
-    {
-        "GameName": "Guilty Gear Xrd -REVELATOR-",
-        "TotalUSDPrize": "29527.43",
-        "TotalTournaments": 14,
-        "TotalPlayers": 53
-    },
-    {
-        "GameName": "Rainbow Six Siege",
-        "TotalUSDPrize": "2234994.55",
-        "TotalTournaments": 35,
-        "TotalPlayers": 296
-    },
-    {
-        "GameName": "Dengeki Bunko: Fighting Climax Ignition",
-        "TotalUSDPrize": "932.30",
-        "TotalTournaments": 3,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "King of Fighters XIV",
-        "TotalUSDPrize": "27727.16",
-        "TotalTournaments": 12,
-        "TotalPlayers": 47
-    },
-    {
-        "GameName": "King of Fighters 2002 Unlimited Match",
-        "TotalUSDPrize": "380.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Brawlhalla",
-        "TotalUSDPrize": "404809.39",
-        "TotalTournaments": 193,
-        "TotalPlayers": 317
-    },
-    {
-        "GameName": "Vampire Savior",
-        "TotalUSDPrize": "1828.74",
-        "TotalTournaments": 4,
-        "TotalPlayers": 16
-    },
-    {
-        "GameName": "Paladins",
-        "TotalUSDPrize": "716526.63",
-        "TotalTournaments": 24,
-        "TotalPlayers": 149
-    },
-    {
-        "GameName": "Mortal Kombat XL",
-        "TotalUSDPrize": "104661.39",
-        "TotalTournaments": 11,
-        "TotalPlayers": 36
-    },
-    {
-        "GameName": "Vainglory",
-        "TotalUSDPrize": "797421.19",
-        "TotalTournaments": 35,
-        "TotalPlayers": 247
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2016",
-        "TotalUSDPrize": "27243.84",
-        "TotalTournaments": 6,
-        "TotalPlayers": 17
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2017",
-        "TotalUSDPrize": "514697.71",
-        "TotalTournaments": 16,
-        "TotalPlayers": 39
-    },
-    {
-        "GameName": "Gears of War 4",
-        "TotalUSDPrize": "2425285.00",
-        "TotalTournaments": 34,
-        "TotalPlayers": 110
-    },
-    {
-        "GameName": "Battlerite",
-        "TotalUSDPrize": "65173.45",
-        "TotalTournaments": 75,
-        "TotalPlayers": 86
-    },
-    {
-        "GameName": "Uncharted 4: A Thief's End",
-        "TotalUSDPrize": "46235.07",
-        "TotalTournaments": 1,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Call of Duty: Infinite Warfare",
-        "TotalUSDPrize": "4151666.26",
-        "TotalTournaments": 75,
-        "TotalPlayers": 314
-    },
-    {
-        "GameName": "BlazBlue: Central Fiction",
-        "TotalUSDPrize": "24526.51",
-        "TotalTournaments": 9,
-        "TotalPlayers": 39
-    },
-    {
-        "GameName": "Aquapazza: Aquaplus Dream Match",
-        "TotalUSDPrize": "160.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Melty Blood: Actress Again Current Code",
-        "TotalUSDPrize": "1220.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Skullgirls 2nd Encore",
-        "TotalUSDPrize": "5880.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 18
-    },
-    {
-        "GameName": "Catherine",
-        "TotalUSDPrize": "840.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 7
-    },
-    {
-        "GameName": "Koihime Enbu",
-        "TotalUSDPrize": "440.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 5
-    },
-    {
-        "GameName": "Arcana Heart 3: LOVE MAX!!!!!",
-        "TotalUSDPrize": "410.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Counter-Strike Online",
-        "TotalUSDPrize": "406989.60",
-        "TotalTournaments": 12,
-        "TotalPlayers": 70
-    },
-    {
-        "GameName": "Clash Royale",
-        "TotalUSDPrize": "1189852.37",
-        "TotalTournaments": 24,
-        "TotalPlayers": 118
-    },
-    {
-        "GameName": "FIFA 17",
-        "TotalUSDPrize": "1467553.50",
-        "TotalTournaments": 44,
-        "TotalPlayers": 147
-    },
-    {
-        "GameName": "Ghost Recon Advanced Warfighter",
-        "TotalUSDPrize": "24000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "MOBA Legends",
-        "TotalUSDPrize": "225.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Rivals of Aether",
-        "TotalUSDPrize": "14600.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 15
-    },
-    {
-        "GameName": "Marvel vs. Capcom: Infinite",
-        "TotalUSDPrize": "3920.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "ComPet",
-        "TotalUSDPrize": "2000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 50
-    },
-    {
-        "GameName": "Mad Skills Motocross 2",
-        "TotalUSDPrize": "20163.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Critical Ops",
-        "TotalUSDPrize": "12606.41",
-        "TotalTournaments": 3,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Madden NFL 2017",
-        "TotalUSDPrize": "1004000.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 42
-    },
-    {
-        "GameName": "Madden NFL 2016",
-        "TotalUSDPrize": "50000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Madden NFL 2006",
-        "TotalUSDPrize": "100000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Madden NFL 2007",
-        "TotalUSDPrize": "100000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Madden NFL 2008",
-        "TotalUSDPrize": "100000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Madden NFL 2009",
-        "TotalUSDPrize": "100000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 1
-    },
-    {
-        "GameName": "Project Cars",
-        "TotalUSDPrize": "36380.79",
-        "TotalTournaments": 8,
-        "TotalPlayers": 19
-    },
-    {
-        "GameName": "KartRider",
-        "TotalUSDPrize": "567366.35",
-        "TotalTournaments": 20,
-        "TotalPlayers": 76
-    },
-    {
-        "GameName": "Special Force",
-        "TotalUSDPrize": "130250.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Naruto Shippuden: Ultimate Ninja Storm 4",
-        "TotalUSDPrize": "2000.00",
-        "TotalTournaments": 2,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Gwent",
-        "TotalUSDPrize": "619557.17",
-        "TotalTournaments": 104,
-        "TotalPlayers": 303
-    },
-    {
-        "GameName": "MechWarrior Online",
-        "TotalUSDPrize": "143490.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Call of Duty: World War II",
-        "TotalUSDPrize": "4438433.83",
-        "TotalTournaments": 52,
-        "TotalPlayers": 199
-    },
-    {
-        "GameName": "The Elder Scrolls: Legends",
-        "TotalUSDPrize": "5000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Doom (2016)",
-        "TotalUSDPrize": "7000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Rage",
-        "TotalUSDPrize": "5000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Injustice 2",
-        "TotalUSDPrize": "522484.11",
-        "TotalTournaments": 12,
-        "TotalPlayers": 37
-    },
-    {
-        "GameName": "Guilty Gear Xrd REV 2",
-        "TotalUSDPrize": "34580.00",
-        "TotalTournaments": 7,
-        "TotalPlayers": 35
-    },
-    {
-        "GameName": "Wolfenstein: Enemy Territory",
-        "TotalUSDPrize": "137658.15",
-        "TotalTournaments": 16,
-        "TotalPlayers": 150
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2014",
-        "TotalUSDPrize": "29410.25",
-        "TotalTournaments": 1,
-        "TotalPlayers": 4
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2015",
-        "TotalUSDPrize": "26544.76",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Quake Champions",
-        "TotalUSDPrize": "1845704.14",
-        "TotalTournaments": 164,
-        "TotalPlayers": 187
-    },
-    {
-        "GameName": "Heavy Metal Machines",
-        "TotalUSDPrize": "12339.33",
-        "TotalTournaments": 1,
-        "TotalPlayers": 35
-    },
-    {
-        "GameName": "Hand of the Gods",
-        "TotalUSDPrize": "94400.00",
-        "TotalTournaments": 35,
-        "TotalPlayers": 48
-    },
-    {
-        "GameName": "Pok\u00e9mon VGC",
-        "TotalUSDPrize": "211500.00",
-        "TotalTournaments": 24,
-        "TotalPlayers": 170
-    },
-    {
-        "GameName": "PLAYERUNKNOWN\u2019S BATTLEGROUNDS",
-        "TotalUSDPrize": "6577834.64",
-        "TotalTournaments": 84,
-        "TotalPlayers": 1095
-    },
-    {
-        "GameName": "Gears of War: Ultimate Edition",
-        "TotalUSDPrize": "170000.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 39
-    },
-    {
-        "GameName": "Pokk\u00e9n Tournament DX",
-        "TotalUSDPrize": "6140.01",
-        "TotalTournaments": 5,
-        "TotalPlayers": 12
-    },
-    {
-        "GameName": "Clash of Clans",
-        "TotalUSDPrize": "1576.87",
-        "TotalTournaments": 1,
-        "TotalPlayers": 2
-    },
-    {
-        "GameName": "ARMS",
-        "TotalUSDPrize": "15898.84",
-        "TotalTournaments": 60,
-        "TotalPlayers": 89
-    },
-    {
-        "GameName": "Splatoon 2",
-        "TotalUSDPrize": "8785.00",
-        "TotalTournaments": 6,
-        "TotalPlayers": 0
-    },
-    {
-        "GameName": "Age of Empires",
-        "TotalUSDPrize": "162958.61",
-        "TotalTournaments": 80,
-        "TotalPlayers": 224
-    },
-    {
-        "GameName": "Under Night In-Birth EXE: Late[st]",
-        "TotalUSDPrize": "3040.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 15
-    },
-    {
-        "GameName": "Chaos Code: New Sign of Catastrophe",
-        "TotalUSDPrize": "140.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Gundam Versus",
-        "TotalUSDPrize": "280.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 6
-    },
-    {
-        "GameName": "Puyo Puyo Tetris",
-        "TotalUSDPrize": "240.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "Power Rangers: Legacy Wars",
-        "TotalUSDPrize": "4178.55",
-        "TotalTournaments": 1,
-        "TotalPlayers": 2
-    },
-    {
-        "GameName": "World of Tanks Blitz",
-        "TotalUSDPrize": "30000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 14
-    },
-    {
-        "GameName": "FIFA 18",
-        "TotalUSDPrize": "2216409.74",
-        "TotalTournaments": 40,
-        "TotalPlayers": 247
-    },
-    {
-        "GameName": "Madden NFL 2018",
-        "TotalUSDPrize": "279676.62",
-        "TotalTournaments": 3,
-        "TotalPlayers": 40
-    },
-    {
-        "GameName": "Yu-Gi-Oh! Duel Links",
-        "TotalUSDPrize": "48205.61",
-        "TotalTournaments": 217,
-        "TotalPlayers": 321
-    },
-    {
-        "GameName": "Asphalt 4",
-        "TotalUSDPrize": "17500.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 3
-    },
-    {
-        "GameName": "osu!",
-        "TotalUSDPrize": "16880.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 757
-    },
-    {
-        "GameName": "rFactor 2",
-        "TotalUSDPrize": "1000000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 30
-    },
-    {
-        "GameName": "Battalion 1944",
-        "TotalUSDPrize": "78576.62",
-        "TotalTournaments": 7,
-        "TotalPlayers": 48
-    },
-    {
-        "GameName": "Arena of Valor",
-        "TotalUSDPrize": "1269818.75",
-        "TotalTournaments": 11,
-        "TotalPlayers": 112
-    },
-    {
-        "GameName": "iRacing.com",
-        "TotalUSDPrize": "65157.10",
-        "TotalTournaments": 8,
-        "TotalPlayers": 18
-    },
-    {
-        "GameName": "Fortnite",
-        "TotalUSDPrize": "10542982.86",
-        "TotalTournaments": 99,
-        "TotalPlayers": 817
-    },
-    {
-        "GameName": "Zula",
-        "TotalUSDPrize": "100000.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 10
-    },
-    {
-        "GameName": "Street Fighter V: Arcade Edition",
-        "TotalUSDPrize": "620248.88",
-        "TotalTournaments": 27,
-        "TotalPlayers": 73
-    },
-    {
-        "GameName": "NBA 2K18",
-        "TotalUSDPrize": "400000.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 78
-    },
-    {
-        "GameName": "Age of Empires Online",
-        "TotalUSDPrize": "1100.00",
-        "TotalTournaments": 3,
-        "TotalPlayers": 11
-    },
-    {
-        "GameName": "Dragon Ball FighterZ",
-        "TotalUSDPrize": "43090.26",
-        "TotalTournaments": 6,
-        "TotalPlayers": 16
-    },
-    {
-        "GameName": "NHL 18",
-        "TotalUSDPrize": "96850.00",
-        "TotalTournaments": 5,
-        "TotalPlayers": 20
-    },
-    {
-        "GameName": "Magic: the Gathering Online",
-        "TotalUSDPrize": "1018000.00",
-        "TotalTournaments": 9,
-        "TotalPlayers": 112
-    },
-    {
-        "GameName": "Realm Royale",
-        "TotalUSDPrize": "263000.00",
-        "TotalTournaments": 9,
-        "TotalPlayers": 47
-    },
-    {
-        "GameName": "BlazBlue: Cross Tag Battle",
-        "TotalUSDPrize": "11810.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 8
-    },
-    {
-        "GameName": "Pro Evolution Soccer 2018",
-        "TotalUSDPrize": "0.00",
-        "TotalTournaments": 1,
-        "TotalPlayers": 6
-    }
-]
+{
+    "games": [
+        {
+            "GameName": "StarCraft II",
+            "TotalUSDPrize": "27674383.81",
+            "TotalTournaments": 5113,
+            "TotalPlayers": 1819
+        },
+        {
+            "GameName": "StarCraft: Brood War",
+            "TotalUSDPrize": "7683483.79",
+            "TotalTournaments": 524,
+            "TotalPlayers": 628
+        },
+        {
+            "GameName": "Halo: Combat Evolved",
+            "TotalUSDPrize": "299281.00",
+            "TotalTournaments": 39,
+            "TotalPlayers": 114
+        },
+        {
+            "GameName": "Halo 2",
+            "TotalUSDPrize": "1489362.47",
+            "TotalTournaments": 71,
+            "TotalPlayers": 119
+        },
+        {
+            "GameName": "Halo 3",
+            "TotalUSDPrize": "1832079.40",
+            "TotalTournaments": 32,
+            "TotalPlayers": 163
+        },
+        {
+            "GameName": "Halo: Reach",
+            "TotalUSDPrize": "772089.97",
+            "TotalTournaments": 28,
+            "TotalPlayers": 97
+        },
+        {
+            "GameName": "Quake Live",
+            "TotalUSDPrize": "682294.04",
+            "TotalTournaments": 410,
+            "TotalPlayers": 213
+        },
+        {
+            "GameName": "WarCraft III",
+            "TotalUSDPrize": "5283426.31",
+            "TotalTournaments": 1265,
+            "TotalPlayers": 556
+        },
+        {
+            "GameName": "Quake III Arena",
+            "TotalUSDPrize": "1137832.19",
+            "TotalTournaments": 100,
+            "TotalPlayers": 243
+        },
+        {
+            "GameName": "QuakeWorld",
+            "TotalUSDPrize": "97061.10",
+            "TotalTournaments": 12,
+            "TotalPlayers": 45
+        },
+        {
+            "GameName": "Quake II",
+            "TotalUSDPrize": "138979.50",
+            "TotalTournaments": 9,
+            "TotalPlayers": 31
+        },
+        {
+            "GameName": "Counter-Strike",
+            "TotalUSDPrize": "12083583.17",
+            "TotalTournaments": 760,
+            "TotalPlayers": 3188
+        },
+        {
+            "GameName": "Defense of the Ancients",
+            "TotalUSDPrize": "857420.65",
+            "TotalTournaments": 94,
+            "TotalPlayers": 459
+        },
+        {
+            "GameName": "League of Legends",
+            "TotalUSDPrize": "56571737.16",
+            "TotalTournaments": 2135,
+            "TotalPlayers": 5798
+        },
+        {
+            "GameName": "World of WarCraft",
+            "TotalUSDPrize": "3967837.61",
+            "TotalTournaments": 89,
+            "TotalPlayers": 356
+        },
+        {
+            "GameName": "Super Street Fighter II Turbo",
+            "TotalUSDPrize": "17618.41",
+            "TotalTournaments": 29,
+            "TotalPlayers": 75
+        },
+        {
+            "GameName": "Street Fighter III: 3rd Strike",
+            "TotalUSDPrize": "43638.94",
+            "TotalTournaments": 25,
+            "TotalPlayers": 54
+        },
+        {
+            "GameName": "Hyper Street Fighter II",
+            "TotalUSDPrize": "10250.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Quake 4",
+            "TotalUSDPrize": "556678.51",
+            "TotalTournaments": 52,
+            "TotalPlayers": 100
+        },
+        {
+            "GameName": "Doom 3",
+            "TotalUSDPrize": "257748.16",
+            "TotalTournaments": 4,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "Counter-Strike: Condition Zero",
+            "TotalUSDPrize": "85000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 15
+        },
+        {
+            "GameName": "TrackMania Nations Forever",
+            "TotalUSDPrize": "112338.31",
+            "TotalTournaments": 40,
+            "TotalPlayers": 76
+        },
+        {
+            "GameName": "Need for Speed Carbon",
+            "TotalUSDPrize": "36322.58",
+            "TotalTournaments": 4,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Need for Speed: Most Wanted",
+            "TotalUSDPrize": "35694.54",
+            "TotalTournaments": 7,
+            "TotalPlayers": 18
+        },
+        {
+            "GameName": "Need for Speed: Underground 2",
+            "TotalUSDPrize": "35000.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Command & Conquer 3",
+            "TotalUSDPrize": "53086.67",
+            "TotalTournaments": 8,
+            "TotalPlayers": 9
+        },
+        {
+            "GameName": "Age of Empires III",
+            "TotalUSDPrize": "45130.00",
+            "TotalTournaments": 20,
+            "TotalPlayers": 41
+        },
+        {
+            "GameName": "Age of Mythology",
+            "TotalUSDPrize": "52360.00",
+            "TotalTournaments": 6,
+            "TotalPlayers": 22
+        },
+        {
+            "GameName": "Age of Empires II: The Age of Kings",
+            "TotalUSDPrize": "666929.39",
+            "TotalTournaments": 80,
+            "TotalPlayers": 261
+        },
+        {
+            "GameName": "Project Gotham Racing 3",
+            "TotalUSDPrize": "297286.85",
+            "TotalTournaments": 10,
+            "TotalPlayers": 33
+        },
+        {
+            "GameName": "Project Gotham Racing 4",
+            "TotalUSDPrize": "25208.46",
+            "TotalTournaments": 4,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Unreal Tournament",
+            "TotalUSDPrize": "89000.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "Unreal Tournament 2003",
+            "TotalUSDPrize": "141856.41",
+            "TotalTournaments": 13,
+            "TotalPlayers": 33
+        },
+        {
+            "GameName": "Unreal Tournament 2004",
+            "TotalUSDPrize": "133969.33",
+            "TotalTournaments": 12,
+            "TotalPlayers": 41
+        },
+        {
+            "GameName": "Tekken 4",
+            "TotalUSDPrize": "12500.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Tekken 5",
+            "TotalUSDPrize": "10250.00",
+            "TotalTournaments": 9,
+            "TotalPlayers": 10
+        },
+        {
+            "GameName": "Tekken 5: Dark Resurrection",
+            "TotalUSDPrize": "11970.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "Tekken Tag Tournament",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 7
+        },
+        {
+            "GameName": "Tekken 6",
+            "TotalUSDPrize": "118874.64",
+            "TotalTournaments": 29,
+            "TotalPlayers": 59
+        },
+        {
+            "GameName": "Virtua Fighter 4: Evolution",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Virtua Fighter 5",
+            "TotalUSDPrize": "39750.00",
+            "TotalTournaments": 6,
+            "TotalPlayers": 13
+        },
+        {
+            "GameName": "Dead or Alive 4",
+            "TotalUSDPrize": "497745.31",
+            "TotalTournaments": 13,
+            "TotalPlayers": 45
+        },
+        {
+            "GameName": "Dead or Alive Ultimate",
+            "TotalUSDPrize": "30000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Marvel vs. Capcom 2",
+            "TotalUSDPrize": "38630.00",
+            "TotalTournaments": 26,
+            "TotalPlayers": 56
+        },
+        {
+            "GameName": "Capcom vs. SNK 2",
+            "TotalUSDPrize": "22926.79",
+            "TotalTournaments": 14,
+            "TotalPlayers": 24
+        },
+        {
+            "GameName": "Marvel vs. Capcom 3",
+            "TotalUSDPrize": "22343.62",
+            "TotalTournaments": 12,
+            "TotalPlayers": 38
+        },
+        {
+            "GameName": "Soul Calibur II",
+            "TotalUSDPrize": "4200.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 9
+        },
+        {
+            "GameName": "Soul Calibur IV",
+            "TotalUSDPrize": "100260.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Guilty Gear XX",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Guilty Gear XX #Reload",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Guilty Gear XX Slash",
+            "TotalUSDPrize": "10250.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Guilty Gear XX Accent Core",
+            "TotalUSDPrize": "10365.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 33
+        },
+        {
+            "GameName": "Guilty Gear XX Accent Core Plus",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Super Smash Bros. Melee",
+            "TotalUSDPrize": "2747219.88",
+            "TotalTournaments": 2408,
+            "TotalPlayers": 1621
+        },
+        {
+            "GameName": "Super Smash Bros. Brawl",
+            "TotalUSDPrize": "241364.34",
+            "TotalTournaments": 329,
+            "TotalPlayers": 479
+        },
+        {
+            "GameName": "Street Fighter IV",
+            "TotalUSDPrize": "7938.22",
+            "TotalTournaments": 12,
+            "TotalPlayers": 41
+        },
+        {
+            "GameName": "Super Street Fighter II Turbo HD Remix",
+            "TotalUSDPrize": "16360.00",
+            "TotalTournaments": 8,
+            "TotalPlayers": 29
+        },
+        {
+            "GameName": "Super Street Fighter IV Arcade Edition",
+            "TotalUSDPrize": "343878.08",
+            "TotalTournaments": 202,
+            "TotalPlayers": 153
+        },
+        {
+            "GameName": "Melty Blood: Actress Again",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 10
+        },
+        {
+            "GameName": "Tatsunoko vs. Capcom: Ultimate All-Stars",
+            "TotalUSDPrize": "470.81",
+            "TotalTournaments": 4,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Mortal Kombat 9",
+            "TotalUSDPrize": "136131.67",
+            "TotalTournaments": 26,
+            "TotalPlayers": 67
+        },
+        {
+            "GameName": "BlazBlue: Continuum Shift II",
+            "TotalUSDPrize": "24591.01",
+            "TotalTournaments": 5,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "Street Fighter X Tekken",
+            "TotalUSDPrize": "81440.64",
+            "TotalTournaments": 83,
+            "TotalPlayers": 104
+        },
+        {
+            "GameName": "Gears of War",
+            "TotalUSDPrize": "252195.57",
+            "TotalTournaments": 18,
+            "TotalPlayers": 33
+        },
+        {
+            "GameName": "FIFA 11",
+            "TotalUSDPrize": "93983.77",
+            "TotalTournaments": 78,
+            "TotalPlayers": 72
+        },
+        {
+            "GameName": "FIFA 10",
+            "TotalUSDPrize": "117026.71",
+            "TotalTournaments": 48,
+            "TotalPlayers": 64
+        },
+        {
+            "GameName": "FIFA 09",
+            "TotalUSDPrize": "121618.34",
+            "TotalTournaments": 19,
+            "TotalPlayers": 52
+        },
+        {
+            "GameName": "FIFA 08",
+            "TotalUSDPrize": "207129.94",
+            "TotalTournaments": 17,
+            "TotalPlayers": 68
+        },
+        {
+            "GameName": "FIFA 07",
+            "TotalUSDPrize": "237812.23",
+            "TotalTournaments": 13,
+            "TotalPlayers": 42
+        },
+        {
+            "GameName": "FIFA 06",
+            "TotalUSDPrize": "110764.53",
+            "TotalTournaments": 10,
+            "TotalPlayers": 21
+        },
+        {
+            "GameName": "FIFA 05",
+            "TotalUSDPrize": "57728.01",
+            "TotalTournaments": 8,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "FIFA 04",
+            "TotalUSDPrize": "40000.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "FIFA 03",
+            "TotalUSDPrize": "54066.44",
+            "TotalTournaments": 3,
+            "TotalPlayers": 10
+        },
+        {
+            "GameName": "FIFA 2002 World Cup",
+            "TotalUSDPrize": "43000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Warhammer 40,000: Dawn of War",
+            "TotalUSDPrize": "79816.50",
+            "TotalTournaments": 3,
+            "TotalPlayers": 7
+        },
+        {
+            "GameName": "Counter-Strike: Source",
+            "TotalUSDPrize": "3070442.38",
+            "TotalTournaments": 320,
+            "TotalPlayers": 1445
+        },
+        {
+            "GameName": "Need for Speed: Underground",
+            "TotalUSDPrize": "35000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Project Gotham Racing 2",
+            "TotalUSDPrize": "35000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "FIFA 2001",
+            "TotalUSDPrize": "46000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 9
+        },
+        {
+            "GameName": "Super Street Fighter IV",
+            "TotalUSDPrize": "20877.30",
+            "TotalTournaments": 16,
+            "TotalPlayers": 40
+        },
+        {
+            "GameName": "Dota 2",
+            "TotalUSDPrize": "169719840.45",
+            "TotalTournaments": 975,
+            "TotalPlayers": 2615
+        },
+        {
+            "GameName": "Need for Speed: Shift",
+            "TotalUSDPrize": "10500.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "TrackMania Nations",
+            "TotalUSDPrize": "74000.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 7
+        },
+        {
+            "GameName": "Pro Evolution Soccer 3",
+            "TotalUSDPrize": "25000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Pro Evolution Soccer 4",
+            "TotalUSDPrize": "40550.64",
+            "TotalTournaments": 2,
+            "TotalPlayers": 11
+        },
+        {
+            "GameName": "Pro Evolution Soccer 5",
+            "TotalUSDPrize": "32000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Pro Evolution Soccer 6",
+            "TotalUSDPrize": "20216.82",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Gran Turismo 4",
+            "TotalUSDPrize": "44000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Painkiller",
+            "TotalUSDPrize": "1015000.00",
+            "TotalTournaments": 13,
+            "TotalPlayers": 48
+        },
+        {
+            "GameName": "Soul Calibur V",
+            "TotalUSDPrize": "59625.90",
+            "TotalTournaments": 23,
+            "TotalPlayers": 65
+        },
+        {
+            "GameName": "King of Fighters XIII",
+            "TotalUSDPrize": "44244.28",
+            "TotalTournaments": 42,
+            "TotalPlayers": 105
+        },
+        {
+            "GameName": "Heroes of Newerth",
+            "TotalUSDPrize": "2856206.56",
+            "TotalTournaments": 368,
+            "TotalPlayers": 805
+        },
+        {
+            "GameName": "Call of Duty: Black Ops",
+            "TotalUSDPrize": "346393.48",
+            "TotalTournaments": 21,
+            "TotalPlayers": 117
+        },
+        {
+            "GameName": "Bloodline Champions",
+            "TotalUSDPrize": "41905.32",
+            "TotalTournaments": 12,
+            "TotalPlayers": 43
+        },
+        {
+            "GameName": "Counter-Strike: Global Offensive",
+            "TotalUSDPrize": "62096624.33",
+            "TotalTournaments": 3525,
+            "TotalPlayers": 10426
+        },
+        {
+            "GameName": "Aliens versus Predator 2",
+            "TotalUSDPrize": "40000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Return to Castle Wolfenstein",
+            "TotalUSDPrize": "67424.30",
+            "TotalTournaments": 3,
+            "TotalPlayers": 30
+        },
+        {
+            "GameName": "Battlefield 3",
+            "TotalUSDPrize": "18296.60",
+            "TotalTournaments": 7,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Ultimate Marvel vs. Capcom 3",
+            "TotalUSDPrize": "109809.69",
+            "TotalTournaments": 152,
+            "TotalPlayers": 174
+        },
+        {
+            "GameName": "FIFA 12",
+            "TotalUSDPrize": "51720.27",
+            "TotalTournaments": 65,
+            "TotalPlayers": 51
+        },
+        {
+            "GameName": "Tekken Tag Tournament 2",
+            "TotalUSDPrize": "82205.70",
+            "TotalTournaments": 132,
+            "TotalPlayers": 140
+        },
+        {
+            "GameName": "Persona 4 Arena",
+            "TotalUSDPrize": "6336.63",
+            "TotalTournaments": 11,
+            "TotalPlayers": 42
+        },
+        {
+            "GameName": "Dead or Alive 5",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "ShootMania Storm",
+            "TotalUSDPrize": "261687.04",
+            "TotalTournaments": 40,
+            "TotalPlayers": 80
+        },
+        {
+            "GameName": "FIFA 13",
+            "TotalUSDPrize": "457827.98",
+            "TotalTournaments": 61,
+            "TotalPlayers": 50
+        },
+        {
+            "GameName": "Halo 4",
+            "TotalUSDPrize": "430748.76",
+            "TotalTournaments": 19,
+            "TotalPlayers": 66
+        },
+        {
+            "GameName": "Call of Duty: Black Ops 2",
+            "TotalUSDPrize": "1456799.88",
+            "TotalTournaments": 51,
+            "TotalPlayers": 167
+        },
+        {
+            "GameName": "Call of Duty: Modern Warfare 3",
+            "TotalUSDPrize": "1095195.18",
+            "TotalTournaments": 35,
+            "TotalPlayers": 158
+        },
+        {
+            "GameName": "Unreal Tournament 3",
+            "TotalUSDPrize": "104977.82",
+            "TotalTournaments": 4,
+            "TotalPlayers": 7
+        },
+        {
+            "GameName": "Injustice: Gods Among Us",
+            "TotalUSDPrize": "35176.89",
+            "TotalTournaments": 117,
+            "TotalPlayers": 101
+        },
+        {
+            "GameName": "BlazBlue: Continuum Shift Extend",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Doom II: Hell on Earth",
+            "TotalUSDPrize": "1000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Gears of War 2",
+            "TotalUSDPrize": "135000.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Call of Duty 4: Modern Warfare",
+            "TotalUSDPrize": "419370.97",
+            "TotalTournaments": 85,
+            "TotalPlayers": 414
+        },
+        {
+            "GameName": "Rainbow Six: Vegas",
+            "TotalUSDPrize": "176400.77",
+            "TotalTournaments": 7,
+            "TotalPlayers": 137
+        },
+        {
+            "GameName": "Rainbow Six: Vegas 2",
+            "TotalUSDPrize": "79000.00",
+            "TotalTournaments": 8,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Shadowrun",
+            "TotalUSDPrize": "24000.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Call of Duty 2",
+            "TotalUSDPrize": "66828.51",
+            "TotalTournaments": 17,
+            "TotalPlayers": 41
+        },
+        {
+            "GameName": "Dead or Alive 5 Ultimate",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 7,
+            "TotalPlayers": 37
+        },
+        {
+            "GameName": "Forza Motorsport 2",
+            "TotalUSDPrize": "222000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 17
+        },
+        {
+            "GameName": "FIFA 14",
+            "TotalUSDPrize": "80484.76",
+            "TotalTournaments": 66,
+            "TotalPlayers": 47
+        },
+        {
+            "GameName": "TrackMania 2: Stadium",
+            "TotalUSDPrize": "82562.58",
+            "TotalTournaments": 53,
+            "TotalPlayers": 85
+        },
+        {
+            "GameName": "Call of Duty: Ghosts",
+            "TotalUSDPrize": "1572641.54",
+            "TotalTournaments": 74,
+            "TotalPlayers": 153
+        },
+        {
+            "GameName": "Battlefield 4",
+            "TotalUSDPrize": "241241.50",
+            "TotalTournaments": 144,
+            "TotalPlayers": 196
+        },
+        {
+            "GameName": "Madden NFL 2013",
+            "TotalUSDPrize": "400000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "NHL 13",
+            "TotalUSDPrize": "70000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Need for Speed: ProStreet",
+            "TotalUSDPrize": "32208.46",
+            "TotalTournaments": 3,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Hearthstone",
+            "TotalUSDPrize": "14220717.46",
+            "TotalTournaments": 789,
+            "TotalPlayers": 2027
+        },
+        {
+            "GameName": "NHL 14",
+            "TotalUSDPrize": "3023.96",
+            "TotalTournaments": 3,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Super Smash Bros.",
+            "TotalUSDPrize": "59269.94",
+            "TotalTournaments": 105,
+            "TotalPlayers": 202
+        },
+        {
+            "GameName": "Project M",
+            "TotalUSDPrize": "193643.03",
+            "TotalTournaments": 308,
+            "TotalPlayers": 522
+        },
+        {
+            "GameName": "BlazBlue: Chronophantasma",
+            "TotalUSDPrize": "37020.58",
+            "TotalTournaments": 15,
+            "TotalPlayers": 63
+        },
+        {
+            "GameName": "Killer Instinct (2013)",
+            "TotalUSDPrize": "219016.96",
+            "TotalTournaments": 43,
+            "TotalPlayers": 120
+        },
+        {
+            "GameName": "Guilty Gear XX Accent Core Plus R",
+            "TotalUSDPrize": "1770.00",
+            "TotalTournaments": 12,
+            "TotalPlayers": 55
+        },
+        {
+            "GameName": "Team Fortress 2",
+            "TotalUSDPrize": "506101.66",
+            "TotalTournaments": 118,
+            "TotalPlayers": 761
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2008",
+            "TotalUSDPrize": "2084.15",
+            "TotalTournaments": 3,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2009",
+            "TotalUSDPrize": "1395.97",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Ultra Street Fighter IV",
+            "TotalUSDPrize": "738300.71",
+            "TotalTournaments": 213,
+            "TotalPlayers": 200
+        },
+        {
+            "GameName": "Soul Calibur II HD Online",
+            "TotalUSDPrize": "650.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 22
+        },
+        {
+            "GameName": "Virtua Fighter 5 Final Showdown",
+            "TotalUSDPrize": "413.77",
+            "TotalTournaments": 5,
+            "TotalPlayers": 25
+        },
+        {
+            "GameName": "Skullgirls",
+            "TotalUSDPrize": "300.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Skullgirls Encore",
+            "TotalUSDPrize": "9025.40",
+            "TotalTournaments": 12,
+            "TotalPlayers": 35
+        },
+        {
+            "GameName": "Divekick",
+            "TotalUSDPrize": "5350.00",
+            "TotalTournaments": 9,
+            "TotalPlayers": 24
+        },
+        {
+            "GameName": "World of Tanks",
+            "TotalUSDPrize": "3656496.59",
+            "TotalTournaments": 49,
+            "TotalPlayers": 403
+        },
+        {
+            "GameName": "Point Blank",
+            "TotalUSDPrize": "415167.75",
+            "TotalTournaments": 29,
+            "TotalPlayers": 250
+        },
+        {
+            "GameName": "World in Conflict",
+            "TotalUSDPrize": "293338.23",
+            "TotalTournaments": 11,
+            "TotalPlayers": 36
+        },
+        {
+            "GameName": "Live for Speed",
+            "TotalUSDPrize": "6727.52",
+            "TotalTournaments": 8,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Star Wars Jedi Knight II: Jedi Outcast",
+            "TotalUSDPrize": "7679.25",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "NASCAR Thunder 2002",
+            "TotalUSDPrize": "7679.25",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "SMITE",
+            "TotalUSDPrize": "8550112.75",
+            "TotalTournaments": 91,
+            "TotalPlayers": 510
+        },
+        {
+            "GameName": "CrossFire",
+            "TotalUSDPrize": "3966183.48",
+            "TotalTournaments": 289,
+            "TotalPlayers": 571
+        },
+        {
+            "GameName": "Street Fighter Alpha 3",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Day of Defeat: Source",
+            "TotalUSDPrize": "7063.99",
+            "TotalTournaments": 6,
+            "TotalPlayers": 39
+        },
+        {
+            "GameName": "Battlefield 2142",
+            "TotalUSDPrize": "18546.14",
+            "TotalTournaments": 4,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Call of Duty",
+            "TotalUSDPrize": "50629.77",
+            "TotalTournaments": 3,
+            "TotalPlayers": 51
+        },
+        {
+            "GameName": "Battlefield 2",
+            "TotalUSDPrize": "91715.22",
+            "TotalTournaments": 12,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "NASCAR Thunder 2003",
+            "TotalUSDPrize": "5933.50",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "TrackMania 2: Canyon",
+            "TotalUSDPrize": "16080.36",
+            "TotalTournaments": 29,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Ultimate Mortal Kombat 3",
+            "TotalUSDPrize": "150.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Mortal Kombat vs. DC Universe",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "FIFA 15",
+            "TotalUSDPrize": "143283.15",
+            "TotalTournaments": 349,
+            "TotalPlayers": 162
+        },
+        {
+            "GameName": "Just Dance 2014",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Call of Duty: Advanced Warfare",
+            "TotalUSDPrize": "2598295.00",
+            "TotalTournaments": 401,
+            "TotalPlayers": 769
+        },
+        {
+            "GameName": "Descent 3",
+            "TotalUSDPrize": "50000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "F.E.A.R.",
+            "TotalUSDPrize": "177500.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 20
+        },
+        {
+            "GameName": "FIFA Online 3",
+            "TotalUSDPrize": "1434341.90",
+            "TotalTournaments": 9,
+            "TotalPlayers": 88
+        },
+        {
+            "GameName": "Call of Duty: Modern Warfare 2",
+            "TotalUSDPrize": "60010.64",
+            "TotalTournaments": 8,
+            "TotalPlayers": 40
+        },
+        {
+            "GameName": "Turbo Racing League",
+            "TotalUSDPrize": "1000000.00",
+            "TotalTournaments": 9,
+            "TotalPlayers": 16
+        },
+        {
+            "GameName": "Heroes of the Storm",
+            "TotalUSDPrize": "14633269.93",
+            "TotalTournaments": 419,
+            "TotalPlayers": 1092
+        },
+        {
+            "GameName": "Carom 3D",
+            "TotalUSDPrize": "60500.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 11
+        },
+        {
+            "GameName": "Red Stone",
+            "TotalUSDPrize": "58000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Super Smash Bros. for Wii U",
+            "TotalUSDPrize": "1370651.06",
+            "TotalTournaments": 820,
+            "TotalPlayers": 1058
+        },
+        {
+            "GameName": "Guilty Gear Xrd -SIGN-",
+            "TotalUSDPrize": "37445.66",
+            "TotalTournaments": 38,
+            "TotalPlayers": 80
+        },
+        {
+            "GameName": "Xonotic",
+            "TotalUSDPrize": "2126.44",
+            "TotalTournaments": 10,
+            "TotalPlayers": 24
+        },
+        {
+            "GameName": "NHL 12",
+            "TotalUSDPrize": "702.93",
+            "TotalTournaments": 2,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Forza Motorsport 4",
+            "TotalUSDPrize": "132.37",
+            "TotalTournaments": 1,
+            "TotalPlayers": 2
+        },
+        {
+            "GameName": "Warsow",
+            "TotalUSDPrize": "183.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 2
+        },
+        {
+            "GameName": "Forza Motorsport 3",
+            "TotalUSDPrize": "11000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Guild Wars 2",
+            "TotalUSDPrize": "476005.50",
+            "TotalTournaments": 57,
+            "TotalPlayers": 152
+        },
+        {
+            "GameName": "Gears of War 3",
+            "TotalUSDPrize": "4555.81",
+            "TotalTournaments": 2,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "NHL 15",
+            "TotalUSDPrize": "3157.16",
+            "TotalTournaments": 3,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Halo 2 Anniversary",
+            "TotalUSDPrize": "468705.05",
+            "TotalTournaments": 20,
+            "TotalPlayers": 97
+        },
+        {
+            "GameName": "Street Fighter Alpha 2",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Capcom vs. SNK",
+            "TotalUSDPrize": "140.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Unreal Tournament (2016)",
+            "TotalUSDPrize": "1386.05",
+            "TotalTournaments": 5,
+            "TotalPlayers": 23
+        },
+        {
+            "GameName": "Dead or Alive 5: Last Round",
+            "TotalUSDPrize": "7003.82",
+            "TotalTournaments": 13,
+            "TotalPlayers": 35
+        },
+        {
+            "GameName": "Persona 4 Arena Ultimax",
+            "TotalUSDPrize": "18078.16",
+            "TotalTournaments": 16,
+            "TotalPlayers": 54
+        },
+        {
+            "GameName": "Under Night In-Birth EXE: Late",
+            "TotalUSDPrize": "5065.76",
+            "TotalTournaments": 21,
+            "TotalPlayers": 49
+        },
+        {
+            "GameName": "Mortal Kombat X",
+            "TotalUSDPrize": "523052.42",
+            "TotalTournaments": 61,
+            "TotalPlayers": 97
+        },
+        {
+            "GameName": "Day of Defeat",
+            "TotalUSDPrize": "50300.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 23
+        },
+        {
+            "GameName": "Battlefield Hardline",
+            "TotalUSDPrize": "13463.28",
+            "TotalTournaments": 1,
+            "TotalPlayers": 20
+        },
+        {
+            "GameName": "Crysis",
+            "TotalUSDPrize": "11340.95",
+            "TotalTournaments": 2,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Supreme Commander: Forged Alliance",
+            "TotalUSDPrize": "1290.01",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Enemy Territory: Quake Wars",
+            "TotalUSDPrize": "60923.12",
+            "TotalTournaments": 4,
+            "TotalPlayers": 27
+        },
+        {
+            "GameName": "Rise of Nations: Rise of Legends",
+            "TotalUSDPrize": "69600.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Supreme Commander",
+            "TotalUSDPrize": "4901.26",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+            "TotalUSDPrize": "4901.26",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Guitar Hero 5",
+            "TotalUSDPrize": "10500.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Reflex",
+            "TotalUSDPrize": "2112.26",
+            "TotalTournaments": 5,
+            "TotalPlayers": 15
+        },
+        {
+            "GameName": "Blade & Soul",
+            "TotalUSDPrize": "409355.52",
+            "TotalTournaments": 5,
+            "TotalPlayers": 51
+        },
+        {
+            "GameName": "Tekken 7",
+            "TotalUSDPrize": "495599.61",
+            "TotalTournaments": 47,
+            "TotalPlayers": 121
+        },
+        {
+            "GameName": "Evolve",
+            "TotalUSDPrize": "131509.05",
+            "TotalTournaments": 33,
+            "TotalPlayers": 110
+        },
+        {
+            "GameName": "Gran Turismo 3: A-Spec",
+            "TotalUSDPrize": "3250.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Rocket League",
+            "TotalUSDPrize": "2642135.72",
+            "TotalTournaments": 229,
+            "TotalPlayers": 410
+        },
+        {
+            "GameName": "Guitar Hero III: Legends of Rock",
+            "TotalUSDPrize": "19000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "S.K.I.L.L. - Special Force 2",
+            "TotalUSDPrize": "132532.93",
+            "TotalTournaments": 21,
+            "TotalPlayers": 82
+        },
+        {
+            "GameName": "Madden NFL 2004",
+            "TotalUSDPrize": "1500.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "BlazBlue: Chronophantasma Extend",
+            "TotalUSDPrize": "4918.77",
+            "TotalTournaments": 11,
+            "TotalPlayers": 28
+        },
+        {
+            "GameName": "FIFA 2000",
+            "TotalUSDPrize": "50000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Splatoon",
+            "TotalUSDPrize": "1390.00",
+            "TotalTournaments": 4,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "NHL '94",
+            "TotalUSDPrize": "3818.56",
+            "TotalTournaments": 8,
+            "TotalPlayers": 25
+        },
+        {
+            "GameName": "Dengeki Bunko: Fighting Climax",
+            "TotalUSDPrize": "60.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Rising Thunder",
+            "TotalUSDPrize": "1000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "H1Z1",
+            "TotalUSDPrize": "2067122.00",
+            "TotalTournaments": 13,
+            "TotalPlayers": 115
+        },
+        {
+            "GameName": "Nitroplus Blasterz: Heroines Infinite Duel",
+            "TotalUSDPrize": "1844.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "FIFA 16",
+            "TotalUSDPrize": "115495.75",
+            "TotalTournaments": 24,
+            "TotalPlayers": 52
+        },
+        {
+            "GameName": "Shards of War",
+            "TotalUSDPrize": "1029.21",
+            "TotalTournaments": 1,
+            "TotalPlayers": 20
+        },
+        {
+            "GameName": "Halo 5: Guardians",
+            "TotalUSDPrize": "6771480.97",
+            "TotalTournaments": 74,
+            "TotalPlayers": 229
+        },
+        {
+            "GameName": "Legend of Glory",
+            "TotalUSDPrize": "472.66",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Call of Duty: Black Ops III",
+            "TotalUSDPrize": "3836654.41",
+            "TotalTournaments": 74,
+            "TotalPlayers": 389
+        },
+        {
+            "GameName": "Overwatch",
+            "TotalUSDPrize": "11570305.95",
+            "TotalTournaments": 610,
+            "TotalPlayers": 2709
+        },
+        {
+            "GameName": "King of Fighters XI",
+            "TotalUSDPrize": "25.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Tetris Ultimate",
+            "TotalUSDPrize": "2500.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Dragon Ball Z: Budokai 3",
+            "TotalUSDPrize": "204.06",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "BlazBlue: Calamity Trigger",
+            "TotalUSDPrize": "35.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Arcana Heart 3",
+            "TotalUSDPrize": "1000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Metal Gear Online",
+            "TotalUSDPrize": "8000.00",
+            "TotalTournaments": 8,
+            "TotalPlayers": 37
+        },
+        {
+            "GameName": "Grey Goo",
+            "TotalUSDPrize": "36400.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 18
+        },
+        {
+            "GameName": "Street Fighter V",
+            "TotalUSDPrize": "2238185.16",
+            "TotalTournaments": 107,
+            "TotalPlayers": 226
+        },
+        {
+            "GameName": "Pokk\u00e9n Tournament",
+            "TotalUSDPrize": "75521.66",
+            "TotalTournaments": 15,
+            "TotalPlayers": 56
+        },
+        {
+            "GameName": "Guilty Gear Xrd -REVELATOR-",
+            "TotalUSDPrize": "29527.43",
+            "TotalTournaments": 14,
+            "TotalPlayers": 53
+        },
+        {
+            "GameName": "Rainbow Six Siege",
+            "TotalUSDPrize": "2234994.55",
+            "TotalTournaments": 35,
+            "TotalPlayers": 296
+        },
+        {
+            "GameName": "Dengeki Bunko: Fighting Climax Ignition",
+            "TotalUSDPrize": "932.30",
+            "TotalTournaments": 3,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "King of Fighters XIV",
+            "TotalUSDPrize": "27727.16",
+            "TotalTournaments": 12,
+            "TotalPlayers": 47
+        },
+        {
+            "GameName": "King of Fighters 2002 Unlimited Match",
+            "TotalUSDPrize": "380.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Brawlhalla",
+            "TotalUSDPrize": "404809.39",
+            "TotalTournaments": 193,
+            "TotalPlayers": 317
+        },
+        {
+            "GameName": "Vampire Savior",
+            "TotalUSDPrize": "1828.74",
+            "TotalTournaments": 4,
+            "TotalPlayers": 16
+        },
+        {
+            "GameName": "Paladins",
+            "TotalUSDPrize": "716526.63",
+            "TotalTournaments": 24,
+            "TotalPlayers": 149
+        },
+        {
+            "GameName": "Mortal Kombat XL",
+            "TotalUSDPrize": "104661.39",
+            "TotalTournaments": 11,
+            "TotalPlayers": 36
+        },
+        {
+            "GameName": "Vainglory",
+            "TotalUSDPrize": "797421.19",
+            "TotalTournaments": 35,
+            "TotalPlayers": 247
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2016",
+            "TotalUSDPrize": "27243.84",
+            "TotalTournaments": 6,
+            "TotalPlayers": 17
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2017",
+            "TotalUSDPrize": "514697.71",
+            "TotalTournaments": 16,
+            "TotalPlayers": 39
+        },
+        {
+            "GameName": "Gears of War 4",
+            "TotalUSDPrize": "2425285.00",
+            "TotalTournaments": 34,
+            "TotalPlayers": 110
+        },
+        {
+            "GameName": "Battlerite",
+            "TotalUSDPrize": "65173.45",
+            "TotalTournaments": 75,
+            "TotalPlayers": 86
+        },
+        {
+            "GameName": "Uncharted 4: A Thief's End",
+            "TotalUSDPrize": "46235.07",
+            "TotalTournaments": 1,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Call of Duty: Infinite Warfare",
+            "TotalUSDPrize": "4151666.26",
+            "TotalTournaments": 75,
+            "TotalPlayers": 314
+        },
+        {
+            "GameName": "BlazBlue: Central Fiction",
+            "TotalUSDPrize": "24526.51",
+            "TotalTournaments": 9,
+            "TotalPlayers": 39
+        },
+        {
+            "GameName": "Aquapazza: Aquaplus Dream Match",
+            "TotalUSDPrize": "160.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Melty Blood: Actress Again Current Code",
+            "TotalUSDPrize": "1220.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Skullgirls 2nd Encore",
+            "TotalUSDPrize": "5880.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 18
+        },
+        {
+            "GameName": "Catherine",
+            "TotalUSDPrize": "840.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 7
+        },
+        {
+            "GameName": "Koihime Enbu",
+            "TotalUSDPrize": "440.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 5
+        },
+        {
+            "GameName": "Arcana Heart 3: LOVE MAX!!!!!",
+            "TotalUSDPrize": "410.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Counter-Strike Online",
+            "TotalUSDPrize": "406989.60",
+            "TotalTournaments": 12,
+            "TotalPlayers": 70
+        },
+        {
+            "GameName": "Clash Royale",
+            "TotalUSDPrize": "1189852.37",
+            "TotalTournaments": 24,
+            "TotalPlayers": 118
+        },
+        {
+            "GameName": "FIFA 17",
+            "TotalUSDPrize": "1467553.50",
+            "TotalTournaments": 44,
+            "TotalPlayers": 147
+        },
+        {
+            "GameName": "Ghost Recon Advanced Warfighter",
+            "TotalUSDPrize": "24000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "MOBA Legends",
+            "TotalUSDPrize": "225.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Rivals of Aether",
+            "TotalUSDPrize": "14600.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 15
+        },
+        {
+            "GameName": "Marvel vs. Capcom: Infinite",
+            "TotalUSDPrize": "3920.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "ComPet",
+            "TotalUSDPrize": "2000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 50
+        },
+        {
+            "GameName": "Mad Skills Motocross 2",
+            "TotalUSDPrize": "20163.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Critical Ops",
+            "TotalUSDPrize": "12606.41",
+            "TotalTournaments": 3,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Madden NFL 2017",
+            "TotalUSDPrize": "1004000.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 42
+        },
+        {
+            "GameName": "Madden NFL 2016",
+            "TotalUSDPrize": "50000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Madden NFL 2006",
+            "TotalUSDPrize": "100000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Madden NFL 2007",
+            "TotalUSDPrize": "100000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Madden NFL 2008",
+            "TotalUSDPrize": "100000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Madden NFL 2009",
+            "TotalUSDPrize": "100000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 1
+        },
+        {
+            "GameName": "Project Cars",
+            "TotalUSDPrize": "36380.79",
+            "TotalTournaments": 8,
+            "TotalPlayers": 19
+        },
+        {
+            "GameName": "KartRider",
+            "TotalUSDPrize": "567366.35",
+            "TotalTournaments": 20,
+            "TotalPlayers": 76
+        },
+        {
+            "GameName": "Special Force",
+            "TotalUSDPrize": "130250.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Naruto Shippuden: Ultimate Ninja Storm 4",
+            "TotalUSDPrize": "2000.00",
+            "TotalTournaments": 2,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Gwent",
+            "TotalUSDPrize": "619557.17",
+            "TotalTournaments": 104,
+            "TotalPlayers": 303
+        },
+        {
+            "GameName": "MechWarrior Online",
+            "TotalUSDPrize": "143490.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Call of Duty: World War II",
+            "TotalUSDPrize": "4438433.83",
+            "TotalTournaments": 52,
+            "TotalPlayers": 199
+        },
+        {
+            "GameName": "The Elder Scrolls: Legends",
+            "TotalUSDPrize": "5000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Doom (2016)",
+            "TotalUSDPrize": "7000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Rage",
+            "TotalUSDPrize": "5000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Injustice 2",
+            "TotalUSDPrize": "522484.11",
+            "TotalTournaments": 12,
+            "TotalPlayers": 37
+        },
+        {
+            "GameName": "Guilty Gear Xrd REV 2",
+            "TotalUSDPrize": "34580.00",
+            "TotalTournaments": 7,
+            "TotalPlayers": 35
+        },
+        {
+            "GameName": "Wolfenstein: Enemy Territory",
+            "TotalUSDPrize": "137658.15",
+            "TotalTournaments": 16,
+            "TotalPlayers": 150
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2014",
+            "TotalUSDPrize": "29410.25",
+            "TotalTournaments": 1,
+            "TotalPlayers": 4
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2015",
+            "TotalUSDPrize": "26544.76",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Quake Champions",
+            "TotalUSDPrize": "1845704.14",
+            "TotalTournaments": 164,
+            "TotalPlayers": 187
+        },
+        {
+            "GameName": "Heavy Metal Machines",
+            "TotalUSDPrize": "12339.33",
+            "TotalTournaments": 1,
+            "TotalPlayers": 35
+        },
+        {
+            "GameName": "Hand of the Gods",
+            "TotalUSDPrize": "94400.00",
+            "TotalTournaments": 35,
+            "TotalPlayers": 48
+        },
+        {
+            "GameName": "Pok\u00e9mon VGC",
+            "TotalUSDPrize": "211500.00",
+            "TotalTournaments": 24,
+            "TotalPlayers": 170
+        },
+        {
+            "GameName": "PLAYERUNKNOWN\u2019S BATTLEGROUNDS",
+            "TotalUSDPrize": "6577834.64",
+            "TotalTournaments": 84,
+            "TotalPlayers": 1095
+        },
+        {
+            "GameName": "Gears of War: Ultimate Edition",
+            "TotalUSDPrize": "170000.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 39
+        },
+        {
+            "GameName": "Pokk\u00e9n Tournament DX",
+            "TotalUSDPrize": "6140.01",
+            "TotalTournaments": 5,
+            "TotalPlayers": 12
+        },
+        {
+            "GameName": "Clash of Clans",
+            "TotalUSDPrize": "1576.87",
+            "TotalTournaments": 1,
+            "TotalPlayers": 2
+        },
+        {
+            "GameName": "ARMS",
+            "TotalUSDPrize": "15898.84",
+            "TotalTournaments": 60,
+            "TotalPlayers": 89
+        },
+        {
+            "GameName": "Splatoon 2",
+            "TotalUSDPrize": "8785.00",
+            "TotalTournaments": 6,
+            "TotalPlayers": 0
+        },
+        {
+            "GameName": "Age of Empires",
+            "TotalUSDPrize": "162958.61",
+            "TotalTournaments": 80,
+            "TotalPlayers": 224
+        },
+        {
+            "GameName": "Under Night In-Birth EXE: Late[st]",
+            "TotalUSDPrize": "3040.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 15
+        },
+        {
+            "GameName": "Chaos Code: New Sign of Catastrophe",
+            "TotalUSDPrize": "140.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Gundam Versus",
+            "TotalUSDPrize": "280.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 6
+        },
+        {
+            "GameName": "Puyo Puyo Tetris",
+            "TotalUSDPrize": "240.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "Power Rangers: Legacy Wars",
+            "TotalUSDPrize": "4178.55",
+            "TotalTournaments": 1,
+            "TotalPlayers": 2
+        },
+        {
+            "GameName": "World of Tanks Blitz",
+            "TotalUSDPrize": "30000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 14
+        },
+        {
+            "GameName": "FIFA 18",
+            "TotalUSDPrize": "2216409.74",
+            "TotalTournaments": 40,
+            "TotalPlayers": 247
+        },
+        {
+            "GameName": "Madden NFL 2018",
+            "TotalUSDPrize": "279676.62",
+            "TotalTournaments": 3,
+            "TotalPlayers": 40
+        },
+        {
+            "GameName": "Yu-Gi-Oh! Duel Links",
+            "TotalUSDPrize": "48205.61",
+            "TotalTournaments": 217,
+            "TotalPlayers": 321
+        },
+        {
+            "GameName": "Asphalt 4",
+            "TotalUSDPrize": "17500.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 3
+        },
+        {
+            "GameName": "osu!",
+            "TotalUSDPrize": "16880.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 757
+        },
+        {
+            "GameName": "rFactor 2",
+            "TotalUSDPrize": "1000000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 30
+        },
+        {
+            "GameName": "Battalion 1944",
+            "TotalUSDPrize": "78576.62",
+            "TotalTournaments": 7,
+            "TotalPlayers": 48
+        },
+        {
+            "GameName": "Arena of Valor",
+            "TotalUSDPrize": "1269818.75",
+            "TotalTournaments": 11,
+            "TotalPlayers": 112
+        },
+        {
+            "GameName": "iRacing.com",
+            "TotalUSDPrize": "65157.10",
+            "TotalTournaments": 8,
+            "TotalPlayers": 18
+        },
+        {
+            "GameName": "Fortnite",
+            "TotalUSDPrize": "10542982.86",
+            "TotalTournaments": 99,
+            "TotalPlayers": 817
+        },
+        {
+            "GameName": "Zula",
+            "TotalUSDPrize": "100000.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 10
+        },
+        {
+            "GameName": "Street Fighter V: Arcade Edition",
+            "TotalUSDPrize": "620248.88",
+            "TotalTournaments": 27,
+            "TotalPlayers": 73
+        },
+        {
+            "GameName": "NBA 2K18",
+            "TotalUSDPrize": "400000.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 78
+        },
+        {
+            "GameName": "Age of Empires Online",
+            "TotalUSDPrize": "1100.00",
+            "TotalTournaments": 3,
+            "TotalPlayers": 11
+        },
+        {
+            "GameName": "Dragon Ball FighterZ",
+            "TotalUSDPrize": "43090.26",
+            "TotalTournaments": 6,
+            "TotalPlayers": 16
+        },
+        {
+            "GameName": "NHL 18",
+            "TotalUSDPrize": "96850.00",
+            "TotalTournaments": 5,
+            "TotalPlayers": 20
+        },
+        {
+            "GameName": "Magic: the Gathering Online",
+            "TotalUSDPrize": "1018000.00",
+            "TotalTournaments": 9,
+            "TotalPlayers": 112
+        },
+        {
+            "GameName": "Realm Royale",
+            "TotalUSDPrize": "263000.00",
+            "TotalTournaments": 9,
+            "TotalPlayers": 47
+        },
+        {
+            "GameName": "BlazBlue: Cross Tag Battle",
+            "TotalUSDPrize": "11810.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 8
+        },
+        {
+            "GameName": "Pro Evolution Soccer 2018",
+            "TotalUSDPrize": "0.00",
+            "TotalTournaments": 1,
+            "TotalPlayers": 6
+        }
+    ]
+}
