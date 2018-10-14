@@ -1,0 +1,1523 @@
+{
+  "countries": [
+    {
+      "country_name": "Faroe Islands",
+      "expenditure_on_education_USD": 41.6,
+      "urban_population_percentage": 41.6,
+      "unemployment_total_perc": 41.6,
+      "annual_GDP_USD": 41.6
+    },
+    {
+      "country_name": "Malta",
+      "expenditure_on_education_USD": 94.4,
+      "urban_population_percentage": 94.4,
+      "unemployment_total_perc": 94.4,
+      "annual_GDP_USD": 94.4
+    },
+    {
+      "country_name": "Vietnam",
+      "expenditure_on_education_USD": 33.8,
+      "urban_population_percentage": 33.8,
+      "unemployment_total_perc": 33.8,
+      "annual_GDP_USD": 33.8
+    },
+    {
+      "country_name": "Oman",
+      "expenditure_on_education_USD": 81.4,
+      "urban_population_percentage": 81.4,
+      "unemployment_total_perc": 81.4,
+      "annual_GDP_USD": 81.4
+    },
+    {
+      "country_name": "Australia",
+      "expenditure_on_education_USD": 85.7,
+      "urban_population_percentage": 85.7,
+      "unemployment_total_perc": 85.7,
+      "annual_GDP_USD": 85.7
+    },
+    {
+      "country_name": "Lao PDR",
+      "expenditure_on_education_USD": 33.1,
+      "urban_population_percentage": 33.1,
+      "unemployment_total_perc": 33.1,
+      "annual_GDP_USD": 33.1
+    },
+    {
+      "country_name": "Cyprus",
+      "expenditure_on_education_USD": 66.9,
+      "urban_population_percentage": 66.9,
+      "unemployment_total_perc": 66.9,
+      "annual_GDP_USD": 66.9
+    },
+    {
+      "country_name": "American Samoa",
+      "expenditure_on_education_USD": 87.2,
+      "urban_population_percentage": 87.2,
+      "unemployment_total_perc": 87.2,
+      "annual_GDP_USD": 87.2
+    },
+    {
+      "country_name": "Macedonia, FYR",
+      "expenditure_on_education_USD": 57.4,
+      "urban_population_percentage": 57.4,
+      "unemployment_total_perc": 57.4,
+      "annual_GDP_USD": 57.4
+    },
+    {
+      "country_name": "Costa Rica",
+      "expenditure_on_education_USD": 76.9,
+      "urban_population_percentage": 76.9,
+      "unemployment_total_perc": 76.9,
+      "annual_GDP_USD": 76.9
+    },
+    {
+      "country_name": "United States",
+      "expenditure_on_education_USD": 81.7,
+      "urban_population_percentage": 81.7,
+      "unemployment_total_perc": 81.7,
+      "annual_GDP_USD": 81.7
+    },
+    {
+      "country_name": "Chad",
+      "expenditure_on_education_USD": 22.5,
+      "urban_population_percentage": 22.5,
+      "unemployment_total_perc": 22.5,
+      "annual_GDP_USD": 22.5
+    },
+    {
+      "country_name": "Guinea",
+      "expenditure_on_education_USD": 35.1,
+      "urban_population_percentage": 35.1,
+      "unemployment_total_perc": 35.1,
+      "annual_GDP_USD": 35.1
+    },
+    {
+      "country_name": "Ukraine",
+      "expenditure_on_education_USD": 69.1,
+      "urban_population_percentage": 69.1,
+      "unemployment_total_perc": 69.1,
+      "annual_GDP_USD": 69.1
+    },
+    {
+      "country_name": "Mauritania",
+      "expenditure_on_education_USD": 51.1,
+      "urban_population_percentage": 51.1,
+      "unemployment_total_perc": 51.1,
+      "annual_GDP_USD": 51.1
+    },
+    {
+      "country_name": "Syrian Arab Republic",
+      "expenditure_on_education_USD": 52.2,
+      "urban_population_percentage": 52.2,
+      "unemployment_total_perc": 52.2,
+      "annual_GDP_USD": 52.2
+    },
+    {
+      "country_name": "Uruguay",
+      "expenditure_on_education_USD": 95,
+      "urban_population_percentage": 95,
+      "unemployment_total_perc": 95,
+      "annual_GDP_USD": 95
+    },
+    {
+      "country_name": "Spain",
+      "expenditure_on_education_USD": 79.6,
+      "urban_population_percentage": 79.6,
+      "unemployment_total_perc": 79.6,
+      "annual_GDP_USD": 79.6
+    },
+    {
+      "country_name": "Turkey",
+      "expenditure_on_education_USD": 73.6,
+      "urban_population_percentage": 73.6,
+      "unemployment_total_perc": 73.6,
+      "annual_GDP_USD": 73.6
+    },
+    {
+      "country_name": "Congo, Rep.",
+      "expenditure_on_education_USD": 65.5,
+      "urban_population_percentage": 65.5,
+      "unemployment_total_perc": 65.5,
+      "annual_GDP_USD": 65.5
+    },
+    {
+      "country_name": "St. Lucia",
+      "expenditure_on_education_USD": 18.5,
+      "urban_population_percentage": 18.5,
+      "unemployment_total_perc": 18.5,
+      "annual_GDP_USD": 18.5
+    },
+    {
+      "country_name": "Serbia",
+      "expenditure_on_education_USD": 55.7,
+      "urban_population_percentage": 55.7,
+      "unemployment_total_perc": 55.7,
+      "annual_GDP_USD": 55.7
+    },
+    {
+      "country_name": "Uganda",
+      "expenditure_on_education_USD": 22.1,
+      "urban_population_percentage": 22.1,
+      "unemployment_total_perc": 22.1,
+      "annual_GDP_USD": 22.1
+    },
+    {
+      "country_name": "Botswana",
+      "expenditure_on_education_USD": 67.2,
+      "urban_population_percentage": 67.2,
+      "unemployment_total_perc": 67.2,
+      "annual_GDP_USD": 67.2
+    },
+    {
+      "country_name": "Malaysia",
+      "expenditure_on_education_USD": 74.2,
+      "urban_population_percentage": 74.2,
+      "unemployment_total_perc": 74.2,
+      "annual_GDP_USD": 74.2
+    },
+    {
+      "country_name": "Aruba",
+      "expenditure_on_education_USD": 43.1,
+      "urban_population_percentage": 43.1,
+      "unemployment_total_perc": 43.1,
+      "annual_GDP_USD": 43.1
+    },
+    {
+      "country_name": "Brunei Darussalam",
+      "expenditure_on_education_USD": 76.7,
+      "urban_population_percentage": 76.7,
+      "unemployment_total_perc": 76.7,
+      "annual_GDP_USD": 76.7
+    },
+    {
+      "country_name": "Gabon",
+      "expenditure_on_education_USD": 88.1,
+      "urban_population_percentage": 88.1,
+      "unemployment_total_perc": 88.1,
+      "annual_GDP_USD": 88.1
+    },
+    {
+      "country_name": "Monaco",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Sao Tome and Principe",
+      "expenditure_on_education_USD": 70.2,
+      "urban_population_percentage": 70.2,
+      "unemployment_total_perc": 70.2,
+      "annual_GDP_USD": 70.2
+    },
+    {
+      "country_name": "Uzbekistan",
+      "expenditure_on_education_USD": 50.8,
+      "urban_population_percentage": 50.8,
+      "unemployment_total_perc": 50.8,
+      "annual_GDP_USD": 50.8
+    },
+    {
+      "country_name": "Gibraltar",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Sierra Leone",
+      "expenditure_on_education_USD": 40.8,
+      "urban_population_percentage": 40.8,
+      "unemployment_total_perc": 40.8,
+      "annual_GDP_USD": 40.8
+    },
+    {
+      "country_name": "Italy",
+      "expenditure_on_education_USD": 69.6,
+      "urban_population_percentage": 69.6,
+      "unemployment_total_perc": 69.6,
+      "annual_GDP_USD": 69.6
+    },
+    {
+      "country_name": "Antigua and Barbuda",
+      "expenditure_on_education_USD": 25,
+      "urban_population_percentage": 25,
+      "unemployment_total_perc": 25,
+      "annual_GDP_USD": 25
+    },
+    {
+      "country_name": "Mali",
+      "expenditure_on_education_USD": 40,
+      "urban_population_percentage": 40,
+      "unemployment_total_perc": 40,
+      "annual_GDP_USD": 40
+    },
+    {
+      "country_name": "Timor-Leste",
+      "expenditure_on_education_USD": 29.5,
+      "urban_population_percentage": 29.5,
+      "unemployment_total_perc": 29.5,
+      "annual_GDP_USD": 29.5
+    },
+    {
+      "country_name": "Japan",
+      "expenditure_on_education_USD": 91.4,
+      "urban_population_percentage": 91.4,
+      "unemployment_total_perc": 91.4,
+      "annual_GDP_USD": 91.4
+    },
+    {
+      "country_name": "Kiribati",
+      "expenditure_on_education_USD": 51.6,
+      "urban_population_percentage": 51.6,
+      "unemployment_total_perc": 51.6,
+      "annual_GDP_USD": 51.6
+    },
+    {
+      "country_name": "Djibouti",
+      "expenditure_on_education_USD": 77.4,
+      "urban_population_percentage": 77.4,
+      "unemployment_total_perc": 77.4,
+      "annual_GDP_USD": 77.4
+    },
+    {
+      "country_name": "Mexico",
+      "expenditure_on_education_USD": 79.3,
+      "urban_population_percentage": 79.3,
+      "unemployment_total_perc": 79.3,
+      "annual_GDP_USD": 79.3
+    },
+    {
+      "country_name": "Equatorial Guinea",
+      "expenditure_on_education_USD": 70.6,
+      "urban_population_percentage": 70.6,
+      "unemployment_total_perc": 70.6,
+      "annual_GDP_USD": 70.6
+    },
+    {
+      "country_name": "Tuvalu",
+      "expenditure_on_education_USD": 59.7,
+      "urban_population_percentage": 59.7,
+      "unemployment_total_perc": 59.7,
+      "annual_GDP_USD": 59.7
+    },
+    {
+      "country_name": "Eritrea",
+      "expenditure_on_education_USD": 38.2,
+      "urban_population_percentage": 38.2,
+      "unemployment_total_perc": 38.2,
+      "annual_GDP_USD": 38.2
+    },
+    {
+      "country_name": "Micronesia, Fed. Sts.",
+      "expenditure_on_education_USD": 22.5,
+      "urban_population_percentage": 22.5,
+      "unemployment_total_perc": 22.5,
+      "annual_GDP_USD": 22.5
+    },
+    {
+      "country_name": "Jamaica",
+      "expenditure_on_education_USD": 54.8,
+      "urban_population_percentage": 54.8,
+      "unemployment_total_perc": 54.8,
+      "annual_GDP_USD": 54.8
+    },
+    {
+      "country_name": "Bhutan",
+      "expenditure_on_education_USD": 38.7,
+      "urban_population_percentage": 38.7,
+      "unemployment_total_perc": 38.7,
+      "annual_GDP_USD": 38.7
+    },
+    {
+      "country_name": "Estonia",
+      "expenditure_on_education_USD": 68.4,
+      "urban_population_percentage": 68.4,
+      "unemployment_total_perc": 68.4,
+      "annual_GDP_USD": 68.4
+    },
+    {
+      "country_name": "Papua New Guinea",
+      "expenditure_on_education_USD": 13,
+      "urban_population_percentage": 13,
+      "unemployment_total_perc": 13,
+      "annual_GDP_USD": 13
+    },
+    {
+      "country_name": "Central African Republic",
+      "expenditure_on_education_USD": 40.3,
+      "urban_population_percentage": 40.3,
+      "unemployment_total_perc": 40.3,
+      "annual_GDP_USD": 40.3
+    },
+    {
+      "country_name": "Cabo Verde",
+      "expenditure_on_education_USD": 64.3,
+      "urban_population_percentage": 64.3,
+      "unemployment_total_perc": 64.3,
+      "annual_GDP_USD": 64.3
+    },
+    {
+      "country_name": "Korea, Dem. People’s Rep.",
+      "expenditure_on_education_USD": 61.3,
+      "urban_population_percentage": 61.3,
+      "unemployment_total_perc": 61.3,
+      "annual_GDP_USD": 61.3
+    },
+    {
+      "country_name": "Madagascar",
+      "expenditure_on_education_USD": 35.2,
+      "urban_population_percentage": 35.2,
+      "unemployment_total_perc": 35.2,
+      "annual_GDP_USD": 35.2
+    },
+    {
+      "country_name": "Eswatini",
+      "expenditure_on_education_USD": 23.3,
+      "urban_population_percentage": 23.3,
+      "unemployment_total_perc": 23.3,
+      "annual_GDP_USD": 23.3
+    },
+    {
+      "country_name": "Colombia",
+      "expenditure_on_education_USD": 79.8,
+      "urban_population_percentage": 79.8,
+      "unemployment_total_perc": 79.8,
+      "annual_GDP_USD": 79.8
+    },
+    {
+      "country_name": "Niger",
+      "expenditure_on_education_USD": 16.2,
+      "urban_population_percentage": 16.2,
+      "unemployment_total_perc": 16.2,
+      "annual_GDP_USD": 16.2
+    },
+    {
+      "country_name": "Czech Republic",
+      "expenditure_on_education_USD": 73.5,
+      "urban_population_percentage": 73.5,
+      "unemployment_total_perc": 73.5,
+      "annual_GDP_USD": 73.5
+    },
+    {
+      "country_name": "Peru",
+      "expenditure_on_education_USD": 77.4,
+      "urban_population_percentage": 77.4,
+      "unemployment_total_perc": 77.4,
+      "annual_GDP_USD": 77.4
+    },
+    {
+      "country_name": "Palau",
+      "expenditure_on_education_USD": 78.2,
+      "urban_population_percentage": 78.2,
+      "unemployment_total_perc": 78.2,
+      "annual_GDP_USD": 78.2
+    },
+    {
+      "country_name": "Maldives",
+      "expenditure_on_education_USD": 38.5,
+      "urban_population_percentage": 38.5,
+      "unemployment_total_perc": 38.5,
+      "annual_GDP_USD": 38.5
+    },
+    {
+      "country_name": "Russian Federation",
+      "expenditure_on_education_USD": 74.1,
+      "urban_population_percentage": 74.1,
+      "unemployment_total_perc": 74.1,
+      "annual_GDP_USD": 74.1
+    },
+    {
+      "country_name": "Brazil",
+      "expenditure_on_education_USD": 85.8,
+      "urban_population_percentage": 85.8,
+      "unemployment_total_perc": 85.8,
+      "annual_GDP_USD": 85.8
+    },
+    {
+      "country_name": "Macao SAR, China",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Sint Maarten (Dutch part)",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Grenada",
+      "expenditure_on_education_USD": 36,
+      "urban_population_percentage": 36,
+      "unemployment_total_perc": 36,
+      "annual_GDP_USD": 36
+    },
+    {
+      "country_name": "West Bank and Gaza",
+      "expenditure_on_education_USD": 75.4,
+      "urban_population_percentage": 75.4,
+      "unemployment_total_perc": 75.4,
+      "annual_GDP_USD": 75.4
+    },
+    {
+      "country_name": "Puerto Rico",
+      "expenditure_on_education_USD": 93.6,
+      "urban_population_percentage": 93.6,
+      "unemployment_total_perc": 93.6,
+      "annual_GDP_USD": 93.6
+    },
+    {
+      "country_name": "Barbados",
+      "expenditure_on_education_USD": 31.2,
+      "urban_population_percentage": 31.2,
+      "unemployment_total_perc": 31.2,
+      "annual_GDP_USD": 31.2
+    },
+    {
+      "country_name": "Albania",
+      "expenditure_on_education_USD": 57.4,
+      "urban_population_percentage": 57.4,
+      "unemployment_total_perc": 57.4,
+      "annual_GDP_USD": 57.4
+    },
+    {
+      "country_name": "Nicaragua",
+      "expenditure_on_education_USD": 57.9,
+      "urban_population_percentage": 57.9,
+      "unemployment_total_perc": 57.9,
+      "annual_GDP_USD": 57.9
+    },
+    {
+      "country_name": "Turks and Caicos Islands",
+      "expenditure_on_education_USD": 92.2,
+      "urban_population_percentage": 92.2,
+      "unemployment_total_perc": 92.2,
+      "annual_GDP_USD": 92.2
+    },
+    {
+      "country_name": "Greenland",
+      "expenditure_on_education_USD": 86.1,
+      "urban_population_percentage": 86.1,
+      "unemployment_total_perc": 86.1,
+      "annual_GDP_USD": 86.1
+    },
+    {
+      "country_name": "Slovak Republic",
+      "expenditure_on_education_USD": 53.9,
+      "urban_population_percentage": 53.9,
+      "unemployment_total_perc": 53.9,
+      "annual_GDP_USD": 53.9
+    },
+    {
+      "country_name": "Guam",
+      "expenditure_on_education_USD": 94.5,
+      "urban_population_percentage": 94.5,
+      "unemployment_total_perc": 94.5,
+      "annual_GDP_USD": 94.5
+    },
+    {
+      "country_name": "French Polynesia",
+      "expenditure_on_education_USD": 61.7,
+      "urban_population_percentage": 61.7,
+      "unemployment_total_perc": 61.7,
+      "annual_GDP_USD": 61.7
+    },
+    {
+      "country_name": "United Kingdom",
+      "expenditure_on_education_USD": 82.6,
+      "urban_population_percentage": 82.6,
+      "unemployment_total_perc": 82.6,
+      "annual_GDP_USD": 82.6
+    },
+    {
+      "country_name": "Isle of Man",
+      "expenditure_on_education_USD": 52.2,
+      "urban_population_percentage": 52.2,
+      "unemployment_total_perc": 52.2,
+      "annual_GDP_USD": 52.2
+    },
+    {
+      "country_name": "Nigeria",
+      "expenditure_on_education_USD": 47.8,
+      "urban_population_percentage": 47.8,
+      "unemployment_total_perc": 47.8,
+      "annual_GDP_USD": 47.8
+    },
+    {
+      "country_name": "Nauru",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Mongolia",
+      "expenditure_on_education_USD": 68.2,
+      "urban_population_percentage": 68.2,
+      "unemployment_total_perc": 68.2,
+      "annual_GDP_USD": 68.2
+    },
+    {
+      "country_name": "Dominican Republic",
+      "expenditure_on_education_USD": 78.6,
+      "urban_population_percentage": 78.6,
+      "unemployment_total_perc": 78.6,
+      "annual_GDP_USD": 78.6
+    },
+    {
+      "country_name": "Namibia",
+      "expenditure_on_education_USD": 46.9,
+      "urban_population_percentage": 46.9,
+      "unemployment_total_perc": 46.9,
+      "annual_GDP_USD": 46.9
+    },
+    {
+      "country_name": "Kosovo",
+      "expenditure_on_education_USD": "",
+      "urban_population_percentage": "",
+      "unemployment_total_perc": "",
+      "annual_GDP_USD": ""
+    },
+    {
+      "country_name": "Zambia",
+      "expenditure_on_education_USD": 41.9,
+      "urban_population_percentage": 41.9,
+      "unemployment_total_perc": 41.9,
+      "annual_GDP_USD": 41.9
+    },
+    {
+      "country_name": "India",
+      "expenditure_on_education_USD": 32.8,
+      "urban_population_percentage": 32.8,
+      "unemployment_total_perc": 32.8,
+      "annual_GDP_USD": 32.8
+    },
+    {
+      "country_name": "Mauritius",
+      "expenditure_on_education_USD": 41,
+      "urban_population_percentage": 41,
+      "unemployment_total_perc": 41,
+      "annual_GDP_USD": 41
+    },
+    {
+      "country_name": "St. Vincent and the Grenadines",
+      "expenditure_on_education_USD": 51,
+      "urban_population_percentage": 51,
+      "unemployment_total_perc": 51,
+      "annual_GDP_USD": 51
+    },
+    {
+      "country_name": "Algeria",
+      "expenditure_on_education_USD": 70.8,
+      "urban_population_percentage": 70.8,
+      "unemployment_total_perc": 70.8,
+      "annual_GDP_USD": 70.8
+    },
+    {
+      "country_name": "Guyana",
+      "expenditure_on_education_USD": 26.4,
+      "urban_population_percentage": 26.4,
+      "unemployment_total_perc": 26.4,
+      "annual_GDP_USD": 26.4
+    },
+    {
+      "country_name": "Jordan",
+      "expenditure_on_education_USD": 90.3,
+      "urban_population_percentage": 90.3,
+      "unemployment_total_perc": 90.3,
+      "annual_GDP_USD": 90.3
+    },
+    {
+      "country_name": "Norway",
+      "expenditure_on_education_USD": 81.1,
+      "urban_population_percentage": 81.1,
+      "unemployment_total_perc": 81.1,
+      "annual_GDP_USD": 81.1
+    },
+    {
+      "country_name": "Philippines",
+      "expenditure_on_education_USD": 46.3,
+      "urban_population_percentage": 46.3,
+      "unemployment_total_perc": 46.3,
+      "annual_GDP_USD": 46.3
+    },
+    {
+      "country_name": "Ethiopia",
+      "expenditure_on_education_USD": 19.4,
+      "urban_population_percentage": 19.4,
+      "unemployment_total_perc": 19.4,
+      "annual_GDP_USD": 19.4
+    },
+    {
+      "country_name": "Hong Kong SAR, China",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Korea, Rep.",
+      "expenditure_on_education_USD": 81.6,
+      "urban_population_percentage": 81.6,
+      "unemployment_total_perc": 81.6,
+      "annual_GDP_USD": 81.6
+    },
+    {
+      "country_name": "El Salvador",
+      "expenditure_on_education_USD": 69.7,
+      "urban_population_percentage": 69.7,
+      "unemployment_total_perc": 69.7,
+      "annual_GDP_USD": 69.7
+    },
+    {
+      "country_name": "Trinidad and Tobago",
+      "expenditure_on_education_USD": 53.3,
+      "urban_population_percentage": 53.3,
+      "unemployment_total_perc": 53.3,
+      "annual_GDP_USD": 53.3
+    },
+    {
+      "country_name": "Bahamas, The",
+      "expenditure_on_education_USD": 82.7,
+      "urban_population_percentage": 82.7,
+      "unemployment_total_perc": 82.7,
+      "annual_GDP_USD": 82.7
+    },
+    {
+      "country_name": "St. Martin (French part)",
+      "expenditure_on_education_USD": "",
+      "urban_population_percentage": "",
+      "unemployment_total_perc": "",
+      "annual_GDP_USD": ""
+    },
+    {
+      "country_name": "Marshall Islands",
+      "expenditure_on_education_USD": 75.8,
+      "urban_population_percentage": 75.8,
+      "unemployment_total_perc": 75.8,
+      "annual_GDP_USD": 75.8
+    },
+    {
+      "country_name": "Fiji",
+      "expenditure_on_education_USD": 54.7,
+      "urban_population_percentage": 54.7,
+      "unemployment_total_perc": 54.7,
+      "annual_GDP_USD": 54.7
+    },
+    {
+      "country_name": "Congo, Dem. Rep.",
+      "expenditure_on_education_USD": 42.7,
+      "urban_population_percentage": 42.7,
+      "unemployment_total_perc": 42.7,
+      "annual_GDP_USD": 42.7
+    },
+    {
+      "country_name": "Benin",
+      "expenditure_on_education_USD": 45.7,
+      "urban_population_percentage": 45.7,
+      "unemployment_total_perc": 45.7,
+      "annual_GDP_USD": 45.7
+    },
+    {
+      "country_name": "Netherlands",
+      "expenditure_on_education_USD": 90.2,
+      "urban_population_percentage": 90.2,
+      "unemployment_total_perc": 90.2,
+      "annual_GDP_USD": 90.2
+    },
+    {
+      "country_name": "Denmark",
+      "expenditure_on_education_USD": 87.5,
+      "urban_population_percentage": 87.5,
+      "unemployment_total_perc": 87.5,
+      "annual_GDP_USD": 87.5
+    },
+    {
+      "country_name": "Slovenia",
+      "expenditure_on_education_USD": 53.8,
+      "urban_population_percentage": 53.8,
+      "unemployment_total_perc": 53.8,
+      "annual_GDP_USD": 53.8
+    },
+    {
+      "country_name": "Kenya",
+      "expenditure_on_education_USD": 25.7,
+      "urban_population_percentage": 25.7,
+      "unemployment_total_perc": 25.7,
+      "annual_GDP_USD": 25.7
+    },
+    {
+      "country_name": "Zimbabwe",
+      "expenditure_on_education_USD": 32.4,
+      "urban_population_percentage": 32.4,
+      "unemployment_total_perc": 32.4,
+      "annual_GDP_USD": 32.4
+    },
+    {
+      "country_name": "France",
+      "expenditure_on_education_USD": 79.7,
+      "urban_population_percentage": 79.7,
+      "unemployment_total_perc": 79.7,
+      "annual_GDP_USD": 79.7
+    },
+    {
+      "country_name": "British Virgin Islands",
+      "expenditure_on_education_USD": 46.6,
+      "urban_population_percentage": 46.6,
+      "unemployment_total_perc": 46.6,
+      "annual_GDP_USD": 46.6
+    },
+    {
+      "country_name": "Bermuda",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Bahrain",
+      "expenditure_on_education_USD": 89,
+      "urban_population_percentage": 89,
+      "unemployment_total_perc": 89,
+      "annual_GDP_USD": 89
+    },
+    {
+      "country_name": "Belarus",
+      "expenditure_on_education_USD": 77.2,
+      "urban_population_percentage": 77.2,
+      "unemployment_total_perc": 77.2,
+      "annual_GDP_USD": 77.2
+    },
+    {
+      "country_name": "Burundi",
+      "expenditure_on_education_USD": 12.1,
+      "urban_population_percentage": 12.1,
+      "unemployment_total_perc": 12.1,
+      "annual_GDP_USD": 12.1
+    },
+    {
+      "country_name": "Cayman Islands",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Solomon Islands",
+      "expenditure_on_education_USD": 22.4,
+      "urban_population_percentage": 22.4,
+      "unemployment_total_perc": 22.4,
+      "annual_GDP_USD": 22.4
+    },
+    {
+      "country_name": "Romania",
+      "expenditure_on_education_USD": 53.9,
+      "urban_population_percentage": 53.9,
+      "unemployment_total_perc": 53.9,
+      "annual_GDP_USD": 53.9
+    },
+    {
+      "country_name": "Thailand",
+      "expenditure_on_education_USD": 47.7,
+      "urban_population_percentage": 47.7,
+      "unemployment_total_perc": 47.7,
+      "annual_GDP_USD": 47.7
+    },
+    {
+      "country_name": "Kuwait",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "Cote d'Ivoire",
+      "expenditure_on_education_USD": 49.4,
+      "urban_population_percentage": 49.4,
+      "unemployment_total_perc": 49.4,
+      "annual_GDP_USD": 49.4
+    },
+    {
+      "country_name": "Tanzania",
+      "expenditure_on_education_USD": 31.6,
+      "urban_population_percentage": 31.6,
+      "unemployment_total_perc": 31.6,
+      "annual_GDP_USD": 31.6
+    },
+    {
+      "country_name": "Georgia",
+      "expenditure_on_education_USD": 57.4,
+      "urban_population_percentage": 57.4,
+      "unemployment_total_perc": 57.4,
+      "annual_GDP_USD": 57.4
+    },
+    {
+      "country_name": "Lebanon",
+      "expenditure_on_education_USD": 88.1,
+      "urban_population_percentage": 88.1,
+      "unemployment_total_perc": 88.1,
+      "annual_GDP_USD": 88.1
+    },
+    {
+      "country_name": "Rwanda",
+      "expenditure_on_education_USD": 17,
+      "urban_population_percentage": 17,
+      "unemployment_total_perc": 17,
+      "annual_GDP_USD": 17
+    },
+    {
+      "country_name": "Cuba",
+      "expenditure_on_education_USD": 76.9,
+      "urban_population_percentage": 76.9,
+      "unemployment_total_perc": 76.9,
+      "annual_GDP_USD": 76.9
+    },
+    {
+      "country_name": "Montenegro",
+      "expenditure_on_education_USD": 65.8,
+      "urban_population_percentage": 65.8,
+      "unemployment_total_perc": 65.8,
+      "annual_GDP_USD": 65.8
+    },
+    {
+      "country_name": "Singapore",
+      "expenditure_on_education_USD": 100,
+      "urban_population_percentage": 100,
+      "unemployment_total_perc": 100,
+      "annual_GDP_USD": 100
+    },
+    {
+      "country_name": "South Sudan",
+      "expenditure_on_education_USD": 18.9,
+      "urban_population_percentage": 18.9,
+      "unemployment_total_perc": 18.9,
+      "annual_GDP_USD": 18.9
+    },
+    {
+      "country_name": "Suriname",
+      "expenditure_on_education_USD": 66.1,
+      "urban_population_percentage": 66.1,
+      "unemployment_total_perc": 66.1,
+      "annual_GDP_USD": 66.1
+    },
+    {
+      "country_name": "New Zealand",
+      "expenditure_on_education_USD": 86.3,
+      "urban_population_percentage": 86.3,
+      "unemployment_total_perc": 86.3,
+      "annual_GDP_USD": 86.3
+    },
+    {
+      "country_name": "San Marino",
+      "expenditure_on_education_USD": 96.7,
+      "urban_population_percentage": 96.7,
+      "unemployment_total_perc": 96.7,
+      "annual_GDP_USD": 96.7
+    },
+    {
+      "country_name": "Indonesia",
+      "expenditure_on_education_USD": 53.3,
+      "urban_population_percentage": 53.3,
+      "unemployment_total_perc": 53.3,
+      "annual_GDP_USD": 53.3
+    },
+    {
+      "country_name": "Virgin Islands (U.S.)",
+      "expenditure_on_education_USD": 95.4,
+      "urban_population_percentage": 95.4,
+      "unemployment_total_perc": 95.4,
+      "annual_GDP_USD": 95.4
+    },
+    {
+      "country_name": "Portugal",
+      "expenditure_on_education_USD": 63.5,
+      "urban_population_percentage": 63.5,
+      "unemployment_total_perc": 63.5,
+      "annual_GDP_USD": 63.5
+    },
+    {
+      "country_name": "Lesotho",
+      "expenditure_on_education_USD": 26.9,
+      "urban_population_percentage": 26.9,
+      "unemployment_total_perc": 26.9,
+      "annual_GDP_USD": 26.9
+    },
+    {
+      "country_name": "Tajikistan",
+      "expenditure_on_education_USD": 26.7,
+      "urban_population_percentage": 26.7,
+      "unemployment_total_perc": 26.7,
+      "annual_GDP_USD": 26.7
+    },
+    {
+      "country_name": "Iceland",
+      "expenditure_on_education_USD": 93.7,
+      "urban_population_percentage": 93.7,
+      "unemployment_total_perc": 93.7,
+      "annual_GDP_USD": 93.7
+    },
+    {
+      "country_name": "Pakistan",
+      "expenditure_on_education_USD": 36,
+      "urban_population_percentage": 36,
+      "unemployment_total_perc": 36,
+      "annual_GDP_USD": 36
+    },
+    {
+      "country_name": "Tonga",
+      "expenditure_on_education_USD": 23.3,
+      "urban_population_percentage": 23.3,
+      "unemployment_total_perc": 23.3,
+      "annual_GDP_USD": 23.3
+    },
+    {
+      "country_name": "Chile",
+      "expenditure_on_education_USD": 87.4,
+      "urban_population_percentage": 87.4,
+      "unemployment_total_perc": 87.4,
+      "annual_GDP_USD": 87.4
+    },
+    {
+      "country_name": "South Africa",
+      "expenditure_on_education_USD": 64.8,
+      "urban_population_percentage": 64.8,
+      "unemployment_total_perc": 64.8,
+      "annual_GDP_USD": 64.8
+    },
+    {
+      "country_name": "Egypt, Arab Rep.",
+      "expenditure_on_education_USD": 42.8,
+      "urban_population_percentage": 42.8,
+      "unemployment_total_perc": 42.8,
+      "annual_GDP_USD": 42.8
+    },
+    {
+      "country_name": "Luxembourg",
+      "expenditure_on_education_USD": 90.2,
+      "urban_population_percentage": 90.2,
+      "unemployment_total_perc": 90.2,
+      "annual_GDP_USD": 90.2
+    },
+    {
+      "country_name": "Yemen, Rep.",
+      "expenditure_on_education_USD": 34.8,
+      "urban_population_percentage": 34.8,
+      "unemployment_total_perc": 34.8,
+      "annual_GDP_USD": 34.8
+    },
+    {
+      "country_name": "Somalia",
+      "expenditure_on_education_USD": 43.2,
+      "urban_population_percentage": 43.2,
+      "unemployment_total_perc": 43.2,
+      "annual_GDP_USD": 43.2
+    },
+    {
+      "country_name": "Croatia",
+      "expenditure_on_education_USD": 56.2,
+      "urban_population_percentage": 56.2,
+      "unemployment_total_perc": 56.2,
+      "annual_GDP_USD": 56.2
+    },
+    {
+      "country_name": "Saudi Arabia",
+      "expenditure_on_education_USD": 83.2,
+      "urban_population_percentage": 83.2,
+      "unemployment_total_perc": 83.2,
+      "annual_GDP_USD": 83.2
+    },
+    {
+      "country_name": "Ireland",
+      "expenditure_on_education_USD": 62.5,
+      "urban_population_percentage": 62.5,
+      "unemployment_total_perc": 62.5,
+      "annual_GDP_USD": 62.5
+    },
+    {
+      "country_name": "Iran, Islamic Rep.",
+      "expenditure_on_education_USD": 73.4,
+      "urban_population_percentage": 73.4,
+      "unemployment_total_perc": 73.4,
+      "annual_GDP_USD": 73.4
+    },
+    {
+      "country_name": "Gambia, The",
+      "expenditure_on_education_USD": 59.2,
+      "urban_population_percentage": 59.2,
+      "unemployment_total_perc": 59.2,
+      "annual_GDP_USD": 59.2
+    },
+    {
+      "country_name": "Curacao",
+      "expenditure_on_education_USD": 89.4,
+      "urban_population_percentage": 89.4,
+      "unemployment_total_perc": 89.4,
+      "annual_GDP_USD": 89.4
+    },
+    {
+      "country_name": "Turkmenistan",
+      "expenditure_on_education_USD": 50.3,
+      "urban_population_percentage": 50.3,
+      "unemployment_total_perc": 50.3,
+      "annual_GDP_USD": 50.3
+    },
+    {
+      "country_name": "Poland",
+      "expenditure_on_education_USD": 60.3,
+      "urban_population_percentage": 60.3,
+      "unemployment_total_perc": 60.3,
+      "annual_GDP_USD": 60.3
+    },
+    {
+      "country_name": "Senegal",
+      "expenditure_on_education_USD": 45.9,
+      "urban_population_percentage": 45.9,
+      "unemployment_total_perc": 45.9,
+      "annual_GDP_USD": 45.9
+    },
+    {
+      "country_name": "Myanmar",
+      "expenditure_on_education_USD": 29.9,
+      "urban_population_percentage": 29.9,
+      "unemployment_total_perc": 29.9,
+      "annual_GDP_USD": 29.9
+    },
+    {
+      "country_name": "Greece",
+      "expenditure_on_education_USD": 78,
+      "urban_population_percentage": 78,
+      "unemployment_total_perc": 78,
+      "annual_GDP_USD": 78
+    },
+    {
+      "country_name": "Samoa",
+      "expenditure_on_education_USD": 18.9,
+      "urban_population_percentage": 18.9,
+      "unemployment_total_perc": 18.9,
+      "annual_GDP_USD": 18.9
+    },
+    {
+      "country_name": "Lithuania",
+      "expenditure_on_education_USD": 67.2,
+      "urban_population_percentage": 67.2,
+      "unemployment_total_perc": 67.2,
+      "annual_GDP_USD": 67.2
+    },
+    {
+      "country_name": "New Caledonia",
+      "expenditure_on_education_USD": 69.4,
+      "urban_population_percentage": 69.4,
+      "unemployment_total_perc": 69.4,
+      "annual_GDP_USD": 69.4
+    },
+    {
+      "country_name": "Ghana",
+      "expenditure_on_education_USD": 54.1,
+      "urban_population_percentage": 54.1,
+      "unemployment_total_perc": 54.1,
+      "annual_GDP_USD": 54.1
+    },
+    {
+      "country_name": "Tunisia",
+      "expenditure_on_education_USD": 68.1,
+      "urban_population_percentage": 68.1,
+      "unemployment_total_perc": 68.1,
+      "annual_GDP_USD": 68.1
+    },
+    {
+      "country_name": "Mozambique",
+      "expenditure_on_education_USD": 34.4,
+      "urban_population_percentage": 34.4,
+      "unemployment_total_perc": 34.4,
+      "annual_GDP_USD": 34.4
+    },
+    {
+      "country_name": "Sudan",
+      "expenditure_on_education_USD": 33.9,
+      "urban_population_percentage": 33.9,
+      "unemployment_total_perc": 33.9,
+      "annual_GDP_USD": 33.9
+    },
+    {
+      "country_name": "Liechtenstein",
+      "expenditure_on_education_USD": 14.3,
+      "urban_population_percentage": 14.3,
+      "unemployment_total_perc": 14.3,
+      "annual_GDP_USD": 14.3
+    },
+    {
+      "country_name": "Guatemala",
+      "expenditure_on_education_USD": 50,
+      "urban_population_percentage": 50,
+      "unemployment_total_perc": 50,
+      "annual_GDP_USD": 50
+    },
+    {
+      "country_name": "Cambodia",
+      "expenditure_on_education_USD": 22.2,
+      "urban_population_percentage": 22.2,
+      "unemployment_total_perc": 22.2,
+      "annual_GDP_USD": 22.2
+    },
+    {
+      "country_name": "St. Kitts and Nevis",
+      "expenditure_on_education_USD": 30.8,
+      "urban_population_percentage": 30.8,
+      "unemployment_total_perc": 30.8,
+      "annual_GDP_USD": 30.8
+    },
+    {
+      "country_name": "Nepal",
+      "expenditure_on_education_USD": 18.6,
+      "urban_population_percentage": 18.6,
+      "unemployment_total_perc": 18.6,
+      "annual_GDP_USD": 18.6
+    },
+    {
+      "country_name": "Burkina Faso",
+      "expenditure_on_education_USD": 27.5,
+      "urban_population_percentage": 27.5,
+      "unemployment_total_perc": 27.5,
+      "annual_GDP_USD": 27.5
+    },
+    {
+      "country_name": "Haiti",
+      "expenditure_on_education_USD": 52.4,
+      "urban_population_percentage": 52.4,
+      "unemployment_total_perc": 52.4,
+      "annual_GDP_USD": 52.4
+    },
+    {
+      "country_name": "Germany",
+      "expenditure_on_education_USD": 77.2,
+      "urban_population_percentage": 77.2,
+      "unemployment_total_perc": 77.2,
+      "annual_GDP_USD": 77.2
+    },
+    {
+      "country_name": "Afghanistan",
+      "expenditure_on_education_USD": 24.8,
+      "urban_population_percentage": 24.8,
+      "unemployment_total_perc": 24.8,
+      "annual_GDP_USD": 24.8
+    },
+    {
+      "country_name": "Canada",
+      "expenditure_on_education_USD": 81.3,
+      "urban_population_percentage": 81.3,
+      "unemployment_total_perc": 81.3,
+      "annual_GDP_USD": 81.3
+    },
+    {
+      "country_name": "Cameroon",
+      "expenditure_on_education_USD": 54.6,
+      "urban_population_percentage": 54.6,
+      "unemployment_total_perc": 54.6,
+      "annual_GDP_USD": 54.6
+    },
+    {
+      "country_name": "Kyrgyz Republic",
+      "expenditure_on_education_USD": 35.8,
+      "urban_population_percentage": 35.8,
+      "unemployment_total_perc": 35.8,
+      "annual_GDP_USD": 35.8
+    },
+    {
+      "country_name": "Bosnia and Herzegovina",
+      "expenditure_on_education_USD": 47.2,
+      "urban_population_percentage": 47.2,
+      "unemployment_total_perc": 47.2,
+      "annual_GDP_USD": 47.2
+    },
+    {
+      "country_name": "Moldova",
+      "expenditure_on_education_USD": 42.5,
+      "urban_population_percentage": 42.5,
+      "unemployment_total_perc": 42.5,
+      "annual_GDP_USD": 42.5
+    },
+    {
+      "country_name": "Switzerland",
+      "expenditure_on_education_USD": 73.7,
+      "urban_population_percentage": 73.7,
+      "unemployment_total_perc": 73.7,
+      "annual_GDP_USD": 73.7
+    },
+    {
+      "country_name": "Israel",
+      "expenditure_on_education_USD": 92.2,
+      "urban_population_percentage": 92.2,
+      "unemployment_total_perc": 92.2,
+      "annual_GDP_USD": 92.2
+    },
+    {
+      "country_name": "Malawi",
+      "expenditure_on_education_USD": 16.3,
+      "urban_population_percentage": 16.3,
+      "unemployment_total_perc": 16.3,
+      "annual_GDP_USD": 16.3
+    },
+    {
+      "country_name": "Angola",
+      "expenditure_on_education_USD": 63.4,
+      "urban_population_percentage": 63.4,
+      "unemployment_total_perc": 63.4,
+      "annual_GDP_USD": 63.4
+    },
+    {
+      "country_name": "Venezuela, RB",
+      "expenditure_on_education_USD": 88.2,
+      "urban_population_percentage": 88.2,
+      "unemployment_total_perc": 88.2,
+      "annual_GDP_USD": 88.2
+    },
+    {
+      "country_name": "Northern Mariana Islands",
+      "expenditure_on_education_USD": 91.4,
+      "urban_population_percentage": 91.4,
+      "unemployment_total_perc": 91.4,
+      "annual_GDP_USD": 91.4
+    },
+    {
+      "country_name": "Sri Lanka",
+      "expenditure_on_education_USD": 18.3,
+      "urban_population_percentage": 18.3,
+      "unemployment_total_perc": 18.3,
+      "annual_GDP_USD": 18.3
+    },
+    {
+      "country_name": "Latvia",
+      "expenditure_on_education_USD": 68,
+      "urban_population_percentage": 68,
+      "unemployment_total_perc": 68,
+      "annual_GDP_USD": 68
+    },
+    {
+      "country_name": "Finland",
+      "expenditure_on_education_USD": 85.2,
+      "urban_population_percentage": 85.2,
+      "unemployment_total_perc": 85.2,
+      "annual_GDP_USD": 85.2
+    },
+    {
+      "country_name": "Bangladesh",
+      "expenditure_on_education_USD": 34.3,
+      "urban_population_percentage": 34.3,
+      "unemployment_total_perc": 34.3,
+      "annual_GDP_USD": 34.3
+    },
+    {
+      "country_name": "Argentina",
+      "expenditure_on_education_USD": 91.5,
+      "urban_population_percentage": 91.5,
+      "unemployment_total_perc": 91.5,
+      "annual_GDP_USD": 91.5
+    },
+    {
+      "country_name": "Seychelles",
+      "expenditure_on_education_USD": 55.4,
+      "urban_population_percentage": 55.4,
+      "unemployment_total_perc": 55.4,
+      "annual_GDP_USD": 55.4
+    },
+    {
+      "country_name": "Bolivia",
+      "expenditure_on_education_USD": 68.4,
+      "urban_population_percentage": 68.4,
+      "unemployment_total_perc": 68.4,
+      "annual_GDP_USD": 68.4
+    },
+    {
+      "country_name": "Belgium",
+      "expenditure_on_education_USD": 97.9,
+      "urban_population_percentage": 97.9,
+      "unemployment_total_perc": 97.9,
+      "annual_GDP_USD": 97.9
+    },
+    {
+      "country_name": "United Arab Emirates",
+      "expenditure_on_education_USD": 85.7,
+      "urban_population_percentage": 85.7,
+      "unemployment_total_perc": 85.7,
+      "annual_GDP_USD": 85.7
+    },
+    {
+      "country_name": "Bulgaria",
+      "expenditure_on_education_USD": 74,
+      "urban_population_percentage": 74,
+      "unemployment_total_perc": 74,
+      "annual_GDP_USD": 74
+    },
+    {
+      "country_name": "Channel Islands",
+      "expenditure_on_education_USD": 31,
+      "urban_population_percentage": 31,
+      "unemployment_total_perc": 31,
+      "annual_GDP_USD": 31
+    },
+    {
+      "country_name": "Guinea-Bissau",
+      "expenditure_on_education_USD": 42.1,
+      "urban_population_percentage": 42.1,
+      "unemployment_total_perc": 42.1,
+      "annual_GDP_USD": 42.1
+    },
+    {
+      "country_name": "China",
+      "expenditure_on_education_USD": 55.5,
+      "urban_population_percentage": 55.5,
+      "unemployment_total_perc": 55.5,
+      "annual_GDP_USD": 55.5
+    },
+    {
+      "country_name": "Honduras",
+      "expenditure_on_education_USD": 55.2,
+      "urban_population_percentage": 55.2,
+      "unemployment_total_perc": 55.2,
+      "annual_GDP_USD": 55.2
+    },
+    {
+      "country_name": "Libya",
+      "expenditure_on_education_USD": 79.3,
+      "urban_population_percentage": 79.3,
+      "unemployment_total_perc": 79.3,
+      "annual_GDP_USD": 79.3
+    },
+    {
+      "country_name": "Comoros",
+      "expenditure_on_education_USD": 28.5,
+      "urban_population_percentage": 28.5,
+      "unemployment_total_perc": 28.5,
+      "annual_GDP_USD": 28.5
+    },
+    {
+      "country_name": "Paraguay",
+      "expenditure_on_education_USD": 60.8,
+      "urban_population_percentage": 60.8,
+      "unemployment_total_perc": 60.8,
+      "annual_GDP_USD": 60.8
+    },
+    {
+      "country_name": "Kazakhstan",
+      "expenditure_on_education_USD": 57.2,
+      "urban_population_percentage": 57.2,
+      "unemployment_total_perc": 57.2,
+      "annual_GDP_USD": 57.2
+    },
+    {
+      "country_name": "Togo",
+      "expenditure_on_education_USD": 40.1,
+      "urban_population_percentage": 40.1,
+      "unemployment_total_perc": 40.1,
+      "annual_GDP_USD": 40.1
+    },
+    {
+      "country_name": "Austria",
+      "expenditure_on_education_USD": 57.7,
+      "urban_population_percentage": 57.7,
+      "unemployment_total_perc": 57.7,
+      "annual_GDP_USD": 57.7
+    },
+    {
+      "country_name": "Panama",
+      "expenditure_on_education_USD": 66.7,
+      "urban_population_percentage": 66.7,
+      "unemployment_total_perc": 66.7,
+      "annual_GDP_USD": 66.7
+    },
+    {
+      "country_name": "Hungary",
+      "expenditure_on_education_USD": 70.5,
+      "urban_population_percentage": 70.5,
+      "unemployment_total_perc": 70.5,
+      "annual_GDP_USD": 70.5
+    },
+    {
+      "country_name": "Liberia",
+      "expenditure_on_education_USD": 49.8,
+      "urban_population_percentage": 49.8,
+      "unemployment_total_perc": 49.8,
+      "annual_GDP_USD": 49.8
+    },
+    {
+      "country_name": "Sweden",
+      "expenditure_on_education_USD": 86.6,
+      "urban_population_percentage": 86.6,
+      "unemployment_total_perc": 86.6,
+      "annual_GDP_USD": 86.6
+    },
+    {
+      "country_name": "Iraq",
+      "expenditure_on_education_USD": 69.9,
+      "urban_population_percentage": 69.9,
+      "unemployment_total_perc": 69.9,
+      "annual_GDP_USD": 69.9
+    },
+    {
+      "country_name": "Vanuatu",
+      "expenditure_on_education_USD": 25,
+      "urban_population_percentage": 25,
+      "unemployment_total_perc": 25,
+      "annual_GDP_USD": 25
+    },
+    {
+      "country_name": "Morocco",
+      "expenditure_on_education_USD": 60.8,
+      "urban_population_percentage": 60.8,
+      "unemployment_total_perc": 60.8,
+      "annual_GDP_USD": 60.8
+    },
+    {
+      "country_name": "Azerbaijan",
+      "expenditure_on_education_USD": 54.7,
+      "urban_population_percentage": 54.7,
+      "unemployment_total_perc": 54.7,
+      "annual_GDP_USD": 54.7
+    },
+    {
+      "country_name": "Andorra",
+      "expenditure_on_education_USD": 88.3,
+      "urban_population_percentage": 88.3,
+      "unemployment_total_perc": 88.3,
+      "annual_GDP_USD": 88.3
+    },
+    {
+      "country_name": "Belize",
+      "expenditure_on_education_USD": 45.4,
+      "urban_population_percentage": 45.4,
+      "unemployment_total_perc": 45.4,
+      "annual_GDP_USD": 45.4
+    },
+    {
+      "country_name": "Dominica",
+      "expenditure_on_education_USD": 69.6,
+      "urban_population_percentage": 69.6,
+      "unemployment_total_perc": 69.6,
+      "annual_GDP_USD": 69.6
+    },
+    {
+      "country_name": "Qatar",
+      "expenditure_on_education_USD": 98.9,
+      "urban_population_percentage": 98.9,
+      "unemployment_total_perc": 98.9,
+      "annual_GDP_USD": 98.9
+    },
+    {
+      "country_name": "Ecuador",
+      "expenditure_on_education_USD": 63.4,
+      "urban_population_percentage": 63.4,
+      "unemployment_total_perc": 63.4,
+      "annual_GDP_USD": 63.4
+    },
+    {
+      "country_name": "Armenia",
+      "expenditure_on_education_USD": 63.1,
+      "urban_population_percentage": 63.1,
+      "unemployment_total_perc": 63.1,
+      "annual_GDP_USD": 63.1
+    }
+  ]
+}
