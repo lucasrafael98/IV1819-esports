@@ -437,21 +437,6 @@
   </notepads>
   <order>
     <hop>
-      <from>Merge Join</from>
-      <to>JSON Output 2</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
-      <from>earnings</from>
-      <to>Sort rows 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Sort rows 2</from>
-      <to>Merge Join</to>
-      <enabled>N</enabled>
-    </hop>
-    <hop>
       <from>players</from>
       <to>Sort rows</to>
       <enabled>Y</enabled>
@@ -469,7 +454,7 @@
     <hop>
       <from>Sort rows 3</from>
       <to>Merge Join 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Sort rows 4</from>
@@ -519,11 +504,46 @@
     <hop>
       <from>Group by</from>
       <to>Merge Join 2</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Merge Join 2</from>
       <to>JSON Output</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>tournaments</from>
+      <to>Calculator</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator</from>
+      <to>Sort rows 6</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows 6</from>
+      <to>Group by 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Group by 3</from>
+      <to>JSON Output 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>earnings</from>
+      <to>Sort rows 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Sort rows 2</from>
+      <to>Group by 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Group by 4</from>
+      <to>JSON Output 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -709,7 +729,7 @@
     <encoding>UTF-8</encoding>
     <addtoresult>N</addtoresult>
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/playersPlusEarnings</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/earningsByAge</name>
       <extention>json</extention>
       <append>N</append>
       <split>N</split>
@@ -722,32 +742,12 @@
     </file>
     <fields>
       <field>
-        <name>PlayerId</name>
-        <element>PlayerId</element>
+        <name>age</name>
+        <element>age</element>
       </field>
       <field>
-        <name>NameFirst</name>
-        <element>NameFirst</element>
-      </field>
-      <field>
-        <name>NameLast</name>
-        <element>NameLast</element>
-      </field>
-      <field>
-        <name>CurrentHandle</name>
-        <element>CurrentHandle</element>
-      </field>
-      <field>
-        <name>CountryCode</name>
-        <element>CountryCode</element>
-      </field>
-      <field>
-        <name>TotalUSDPrize</name>
-        <element>TotalUSDPrize</element>
-      </field>
-      <field>
-        <name>EarningsByAge</name>
-        <element>EarningsByAge</element>
+        <name>earnings</name>
+        <element>earnings</element>
       </field>
     </fields>
     <cluster_schema />
@@ -882,39 +882,6 @@
     <GUI>
       <xloc>576</xloc>
       <yloc>464</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Merge Join</name>
-    <type>MergeJoin</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <join_type>INNER</join_type>
-    <step1>Sort rows</step1>
-    <step2>Sort rows 2</step2>
-    <keys_1>
-      <key>PlayerId</key>
-    </keys_1>
-    <keys_2>
-      <key>PlayerId</key>
-    </keys_2>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1121,47 +1088,6 @@
     </GUI>
   </step>
   <step>
-    <name>Sort rows 2</name>
-    <type>SortRows</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <directory>%%java.io.tmpdir%%</directory>
-    <prefix>out</prefix>
-    <sort_size>1000000</sort_size>
-    <free_memory />
-    <compress>N</compress>
-    <compress_variable />
-    <unique_rows>N</unique_rows>
-    <fields>
-      <field>
-        <name>PlayerId</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-    </fields>
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>192</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Sort rows 3</name>
     <type>SortRows</type>
     <description />
@@ -1306,7 +1232,7 @@
     <ignoreMissingPath>Y</ignoreMissingPath>
     <rownum_field />
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/countries.json</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/countries.json</name>
       <filemask />
       <exclude_filemask />
       <file_required>N</file_required>
@@ -1439,7 +1365,7 @@
     <ignoreMissingPath>Y</ignoreMissingPath>
     <rownum_field />
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/earningByAgeWithIntId.json</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/earningByAgeWithIntId.json</name>
       <filemask />
       <exclude_filemask />
       <file_required>N</file_required>
@@ -1447,10 +1373,10 @@
     </file>
     <fields>
       <field>
-        <name>PlayerId</name>
-        <path>$.earningsByAge.*.PlayerId</path>
+        <name>age</name>
+        <path>$.earningsByAge.*.EarningsPerAge.*.Age</path>
         <type>None</type>
-        <format />
+        <format>#</format>
         <currency />
         <decimal />
         <group />
@@ -1460,8 +1386,8 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>EarningsByAge</name>
-        <path>$.earningsByAge.*.EarningsPerAge</path>
+        <name>earnings</name>
+        <path>$.earningsByAge.*.EarningsPerAge.*.EarningsUSD</path>
         <type>None</type>
         <format />
         <currency />
@@ -1627,7 +1553,7 @@
     <ignoreMissingPath>Y</ignoreMissingPath>
     <rownum_field />
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/playersWithIntId.json</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/playersWithIntId.json</name>
       <filemask />
       <exclude_filemask />
       <file_required>N</file_required>
@@ -1760,7 +1686,7 @@
     <ignoreMissingPath>Y</ignoreMissingPath>
     <rownum_field />
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/playersWithIntId.json</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/playersWithIntId.json</name>
       <filemask />
       <exclude_filemask />
       <file_required>N</file_required>
@@ -1907,8 +1833,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>256</xloc>
-      <yloc>544</yloc>
+      <xloc>208</xloc>
+      <yloc>560</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1934,7 +1860,7 @@
     <ignoreMissingPath>Y</ignoreMissingPath>
     <rownum_field />
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/teams.json</name>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/teams.json</name>
       <filemask />
       <exclude_filemask />
       <file_required>N</file_required>
@@ -2016,6 +1942,426 @@
     <GUI>
       <xloc>96</xloc>
       <yloc>560</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>tournaments</name>
+    <type>JsonInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <include>N</include>
+    <include_field />
+    <rownum>N</rownum>
+    <addresultfile>N</addresultfile>
+    <readurl>N</readurl>
+    <removeSourceField>N</removeSourceField>
+    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
+    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
+    <ignoreMissingPath>Y</ignoreMissingPath>
+    <rownum_field />
+    <file>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/tournaments.json</name>
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>gameId</name>
+        <path>$.tournaments.*.GameId</path>
+        <type>None</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>tournamentId</name>
+        <path>$.tournaments.*.TournamentId</path>
+        <type>None</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>totalUSDPrize</name>
+        <path>$.tournaments.*.TotalUSDPrize</path>
+        <type>None</type>
+        <format>#.#</format>
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>startDate</name>
+        <path>$.tournaments.*.StartDate</path>
+        <type>None</type>
+        <format>yyyy-MM-dd</format>
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>endDate</name>
+        <path>$.tournaments.*.EndDate</path>
+        <type>None</type>
+        <format>yyyy-MM-dd</format>
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <IsInFields>N</IsInFields>
+    <IsAFile>N</IsAFile>
+    <valueField />
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>640</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Group by 3</name>
+    <type>GroupBy</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>startMonth</name>
+      </field>
+      <field>
+        <name>startYear</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>startYear</aggregate>
+        <subject>startYear</subject>
+        <type>COUNT_ANY</type>
+        <valuefield />
+      </field>
+      <field>
+        <aggregate>startMonth</aggregate>
+        <subject>startMonth</subject>
+        <type>COUNT_ANY</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>640</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculator</name>
+    <type>Calculator</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <calculation>
+      <field_name>startMonth</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>startDate</field_a>
+      <field_b />
+      <field_c />
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <currency_symbol />
+    </calculation>
+    <calculation>
+      <field_name>startYear</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>startDate</field_a>
+      <field_b />
+      <field_c />
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <currency_symbol />
+    </calculation>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>192</xloc>
+      <yloc>640</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows 6</name>
+    <type>SortRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>startYear</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>startMonth</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>288</xloc>
+      <yloc>640</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>JSON Output 5</name>
+    <type>JsonOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <outputValue>outputValue</outputValue>
+    <jsonBloc>data</jsonBloc>
+    <nrRowsInBloc>40000</nrRowsInBloc>
+    <operation_type>writetofile</operation_type>
+    <compatibility_mode>N</compatibility_mode>
+    <encoding>UTF-8</encoding>
+    <addtoresult>N</addtoresult>
+    <file>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/tourn_mmyyyy</name>
+      <extention>json</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <create_parent_folder>N</create_parent_folder>
+      <DoNotOpenNewFileInit>N</DoNotOpenNewFileInit>
+      <servlet_output>N</servlet_output>
+    </file>
+    <fields>
+      <field>
+        <name>startMonth</name>
+        <element>startMonth</element>
+      </field>
+      <field>
+        <name>startYear</name>
+        <element>startYear</element>
+      </field>
+      <field>
+        <name>startMonth_1</name>
+        <element>tournaments</element>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>560</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Group by 4</name>
+    <type>GroupBy</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <all_rows>N</all_rows>
+    <ignore_aggregate>N</ignore_aggregate>
+    <field_ignore />
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>grp</prefix>
+    <add_linenr>N</add_linenr>
+    <linenr_fieldname />
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>age</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>earnings</aggregate>
+        <subject>earnings</subject>
+        <type>SUM</type>
+        <valuefield />
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Sort rows 2</name>
+    <type>SortRows</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <compress>N</compress>
+    <compress_variable />
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>age</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>208</xloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

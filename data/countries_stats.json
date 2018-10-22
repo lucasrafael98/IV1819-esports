@@ -1,5 +1,5 @@
 {
-    "data": [
+    "countries": [
         {
             "countryCode": "am",
             "players": 1,
@@ -128,7 +128,7 @@
         },
         {
             "countryCode": "cn",
-            "players": 415,
+            "players": 430,
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "55.5",
             "annualGDPUSD": "1.10646662826255E13",
@@ -195,7 +195,7 @@
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "42.8",
             "annualGDPUSD": "3.326980410308E11",
-            "countryName": "Egypt, Arab Rep.",
+            "countryName": "Egypt",
             "unemploymentPercentage": "13.1"
         },
         {
@@ -260,15 +260,6 @@
             "annualGDPUSD": "1.955417612431E11",
             "countryName": "Greece",
             "unemploymentPercentage": "24.9"
-        },
-        {
-            "countryCode": "hk",
-            "players": 14,
-            "educationExpenditureMilUSD": "9507.7",
-            "urbanPopPercentage": "100.0",
-            "annualGDPUSD": "3.093836270286E11",
-            "countryName": "Hong Kong SAR, China",
-            "unemploymentPercentage": "3.3"
         },
         {
             "countryCode": "hr",
@@ -366,7 +357,7 @@
             "educationExpenditureMilUSD": "399.7",
             "urbanPopPercentage": "35.8",
             "annualGDPUSD": "6.6781783405E9",
-            "countryName": "Kyrgyz Republic",
+            "countryName": "Kyrgyzstan",
             "unemploymentPercentage": "7.6"
         },
         {
@@ -375,7 +366,7 @@
             "educationExpenditureMilUSD": "71490.3",
             "urbanPopPercentage": "81.6",
             "annualGDPUSD": "1.3827640271138E12",
-            "countryName": "Korea, Rep.",
+            "countryName": "South Korea",
             "unemploymentPercentage": "3.6"
         },
         {
@@ -456,7 +447,7 @@
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "57.4",
             "annualGDPUSD": "1.00516591612E10",
-            "countryName": "Macedonia, FYR",
+            "countryName": "Macedonia",
             "unemploymentPercentage": "26.1"
         },
         {
@@ -467,15 +458,6 @@
             "annualGDPUSD": "1.17496206196E10",
             "countryName": "Mongolia",
             "unemploymentPercentage": "4.9"
-        },
-        {
-            "countryCode": "mo",
-            "players": 1,
-            "educationExpenditureMilUSD": "1352.6",
-            "urbanPopPercentage": "100.0",
-            "annualGDPUSD": "4.53616781465E10",
-            "countryName": "Macao SAR, China",
-            "unemploymentPercentage": "1.8"
         },
         {
             "countryCode": "mt",
@@ -577,15 +559,6 @@
             "unemploymentPercentage": "7.5"
         },
         {
-            "countryCode": "pr",
-            "players": 5,
-            "educationExpenditureMilUSD": "",
-            "urbanPopPercentage": "93.6",
-            "annualGDPUSD": "1.031435E11",
-            "countryName": "Puerto Rico",
-            "unemploymentPercentage": "12.0"
-        },
-        {
             "countryCode": "pt",
             "players": 6,
             "educationExpenditureMilUSD": "",
@@ -618,7 +591,7 @@
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "74.1",
             "annualGDPUSD": "1.368400705491E12",
-            "countryName": "Russian Federation",
+            "countryName": "Russia",
             "unemploymentPercentage": "5.6"
         },
         {
@@ -663,7 +636,7 @@
             "educationExpenditureMilUSD": "4068.6",
             "urbanPopPercentage": "53.9",
             "annualGDPUSD": "8.75014238825E10",
-            "countryName": "Slovak Republic",
+            "countryName": "Slovakia",
             "unemploymentPercentage": "11.5"
         },
         {
@@ -704,7 +677,7 @@
         },
         {
             "countryCode": "us",
-            "players": 807,
+            "players": 812,
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "81.7",
             "annualGDPUSD": "1.8120714E13",
@@ -726,7 +699,7 @@
             "educationExpenditureMilUSD": "",
             "urbanPopPercentage": "88.2",
             "annualGDPUSD": "",
-            "countryName": "Venezuela, RB",
+            "countryName": "Venezuela",
             "unemploymentPercentage": "6.8"
         },
         {
