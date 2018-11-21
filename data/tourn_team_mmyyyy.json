@@ -1,0 +1,5626 @@
+{
+    "TournsWonPerTeamYM": [
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 1996,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 1997,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 4,
+            "startMonth": 11,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 1998,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 8,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 1999,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 1,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 2,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 8,
+            "startMonth": 4,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 6,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 8,
+            "startMonth": 7,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 8,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 8,
+            "startMonth": 9,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 10,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 6,
+            "startMonth": 12,
+            "startYear": 2000,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 6,
+            "startMonth": 1,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2001,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 2,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 3,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 4,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2001,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 4,
+            "startMonth": 5,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 6,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 8,
+            "startMonth": 8,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2001,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 9,
+            "startMonth": 12,
+            "startYear": 2001,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2001,
+            "TeamId": 162
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2001,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2001,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2001,
+            "TeamId": 609
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 2,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 3,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 4,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 7,
+            "startMonth": 7,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2002,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 8,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 9,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 7,
+            "startMonth": 10,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2002,
+            "TeamId": 661
+        },
+        {
+            "TournamentsWon": 10,
+            "startMonth": 11,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 9,
+            "startMonth": 12,
+            "startYear": 2002,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2002,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 1,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 2,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2003,
+            "TeamId": 652
+        },
+        {
+            "TournamentsWon": 6,
+            "startMonth": 3,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 11,
+            "startMonth": 4,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 4,
+            "startMonth": 5,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2003,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 6,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2003,
+            "TeamId": 191
+        },
+        {
+            "TournamentsWon": 9,
+            "startMonth": 7,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2003,
+            "TeamId": 191
+        },
+        {
+            "TournamentsWon": 23,
+            "startMonth": 8,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2003,
+            "TeamId": 652
+        },
+        {
+            "TournamentsWon": 10,
+            "startMonth": 9,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 25,
+            "startMonth": 10,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2003,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2003,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2003,
+            "TeamId": 598
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2003,
+            "TeamId": 637
+        },
+        {
+            "TournamentsWon": 20,
+            "startMonth": 11,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 9,
+            "startMonth": 12,
+            "startYear": 2003,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2003,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 16,
+            "startMonth": 1,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2004,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 7,
+            "startMonth": 2,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 8,
+            "startMonth": 3,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2004,
+            "TeamId": 190
+        },
+        {
+            "TournamentsWon": 16,
+            "startMonth": 4,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2004,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2004,
+            "TeamId": 465
+        },
+        {
+            "TournamentsWon": 20,
+            "startMonth": 5,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 15,
+            "startMonth": 6,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2004,
+            "TeamId": 145
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2004,
+            "TeamId": 471
+        },
+        {
+            "TournamentsWon": 36,
+            "startMonth": 7,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2004,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2004,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 25,
+            "startMonth": 8,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2004,
+            "TeamId": 709
+        },
+        {
+            "TournamentsWon": 18,
+            "startMonth": 9,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2004,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 28,
+            "startMonth": 10,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 12,
+            "startMonth": 11,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 13,
+            "startMonth": 12,
+            "startYear": 2004,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 12,
+            "startMonth": 1,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2005,
+            "TeamId": 158
+        },
+        {
+            "TournamentsWon": 15,
+            "startMonth": 2,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 17,
+            "startMonth": 3,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2005,
+            "TeamId": 465
+        },
+        {
+            "TournamentsWon": 16,
+            "startMonth": 4,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 13,
+            "startMonth": 5,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2005,
+            "TeamId": 145
+        },
+        {
+            "TournamentsWon": 19,
+            "startMonth": 6,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2005,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2005,
+            "TeamId": 471
+        },
+        {
+            "TournamentsWon": 24,
+            "startMonth": 7,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2005,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2005,
+            "TeamId": 158
+        },
+        {
+            "TournamentsWon": 44,
+            "startMonth": 8,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2005,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2005,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 16,
+            "startMonth": 9,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2005,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2005,
+            "TeamId": 145
+        },
+        {
+            "TournamentsWon": 24,
+            "startMonth": 10,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2005,
+            "TeamId": 282
+        },
+        {
+            "TournamentsWon": 32,
+            "startMonth": 11,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2005,
+            "TeamId": 201
+        },
+        {
+            "TournamentsWon": 20,
+            "startMonth": 12,
+            "startYear": 2005,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2005,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 4,
+            "startMonth": 1,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 19,
+            "startMonth": 2,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2006,
+            "TeamId": 145
+        },
+        {
+            "TournamentsWon": 15,
+            "startMonth": 3,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 37,
+            "startMonth": 4,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 11,
+            "startMonth": 5,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 42,
+            "startMonth": 6,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2006,
+            "TeamId": 221
+        },
+        {
+            "TournamentsWon": 23,
+            "startMonth": 7,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 46,
+            "startMonth": 8,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2006,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2006,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2006,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 8,
+            "startYear": 2006,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 29,
+            "startMonth": 9,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 37,
+            "startMonth": 10,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2006,
+            "TeamId": 221
+        },
+        {
+            "TournamentsWon": 40,
+            "startMonth": 11,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2006,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 31,
+            "startMonth": 12,
+            "startYear": 2006,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2006,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2006,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 17,
+            "startMonth": 1,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2007,
+            "TeamId": 158
+        },
+        {
+            "TournamentsWon": 19,
+            "startMonth": 2,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2007,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 30,
+            "startMonth": 3,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2007,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 53,
+            "startMonth": 4,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2007,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2007,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2007,
+            "TeamId": 144
+        },
+        {
+            "TournamentsWon": 25,
+            "startMonth": 5,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2007,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 40,
+            "startMonth": 6,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2007,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2007,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2007,
+            "TeamId": 282
+        },
+        {
+            "TournamentsWon": 26,
+            "startMonth": 7,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 53,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 587
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2007,
+            "TeamId": 588
+        },
+        {
+            "TournamentsWon": 40,
+            "startMonth": 9,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 41,
+            "startMonth": 10,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2007,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2007,
+            "TeamId": 287
+        },
+        {
+            "TournamentsWon": 39,
+            "startMonth": 11,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2007,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2007,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2007,
+            "TeamId": 277
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2007,
+            "TeamId": 459
+        },
+        {
+            "TournamentsWon": 37,
+            "startMonth": 12,
+            "startYear": 2007,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2007,
+            "TeamId": 374
+        },
+        {
+            "TournamentsWon": 17,
+            "startMonth": 1,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 28,
+            "startMonth": 2,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2008,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2008,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2008,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2008,
+            "TeamId": 277
+        },
+        {
+            "TournamentsWon": 56,
+            "startMonth": 3,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2008,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2008,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2008,
+            "TeamId": 366
+        },
+        {
+            "TournamentsWon": 17,
+            "startMonth": 4,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2008,
+            "TeamId": 144
+        },
+        {
+            "TournamentsWon": 31,
+            "startMonth": 5,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2008,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2008,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2008,
+            "TeamId": 188
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2008,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 30,
+            "startMonth": 6,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2008,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2008,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 46,
+            "startMonth": 7,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2008,
+            "TeamId": 101
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2008,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2008,
+            "TeamId": 366
+        },
+        {
+            "TournamentsWon": 43,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 306
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 366
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 508
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 587
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 593
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2008,
+            "TeamId": 711
+        },
+        {
+            "TournamentsWon": 27,
+            "startMonth": 9,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2008,
+            "TeamId": 158
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2008,
+            "TeamId": 366
+        },
+        {
+            "TournamentsWon": 42,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2008,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 62,
+            "startMonth": 11,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2008,
+            "TeamId": 119
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2008,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2008,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 27,
+            "startMonth": 12,
+            "startYear": 2008,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2008,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2008,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 35,
+            "startMonth": 1,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2009,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 41,
+            "startMonth": 2,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 43,
+            "startMonth": 3,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 72,
+            "startMonth": 4,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2009,
+            "TeamId": 101
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2009,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2009,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 53,
+            "startMonth": 5,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2009,
+            "TeamId": 287
+        },
+        {
+            "TournamentsWon": 44,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": 282
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2009,
+            "TeamId": 380
+        },
+        {
+            "TournamentsWon": 49,
+            "startMonth": 7,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2009,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2009,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 59,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2009,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 59,
+            "startMonth": 9,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 43,
+            "startMonth": 10,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2009,
+            "TeamId": 145
+        },
+        {
+            "TournamentsWon": 51,
+            "startMonth": 11,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2009,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 26,
+            "startMonth": 12,
+            "startYear": 2009,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2009,
+            "TeamId": 108
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2009,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2009,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2009,
+            "TeamId": 220
+        },
+        {
+            "TournamentsWon": 33,
+            "startMonth": 1,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2010,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 51,
+            "startMonth": 2,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2010,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 55,
+            "startMonth": 3,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2010,
+            "TeamId": 101
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2010,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 65,
+            "startMonth": 4,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2010,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2010,
+            "TeamId": 447
+        },
+        {
+            "TournamentsWon": 54,
+            "startMonth": 5,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2010,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 66,
+            "startMonth": 6,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2010,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 61,
+            "startMonth": 7,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 2010,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2010,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2010,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 101,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 579
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 582
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 584
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2010,
+            "TeamId": 608
+        },
+        {
+            "TournamentsWon": 84,
+            "startMonth": 9,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 115,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 104
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 177
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2010,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 112,
+            "startMonth": 11,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2010,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 85,
+            "startMonth": 12,
+            "startYear": 2010,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2010,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2010,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2010,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 128,
+            "startMonth": 1,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2011,
+            "TeamId": 110
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2011,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 117,
+            "startMonth": 2,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2011,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2011,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 118,
+            "startMonth": 3,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 124,
+            "startMonth": 4,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2011,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 128,
+            "startMonth": 5,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 139,
+            "startMonth": 6,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2011,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2011,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2011,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2011,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 126,
+            "startMonth": 7,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2011,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2011,
+            "TeamId": 160
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2011,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 131,
+            "startMonth": 8,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2011,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2011,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2011,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2011,
+            "TeamId": 233
+        },
+        {
+            "TournamentsWon": 115,
+            "startMonth": 9,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2011,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2011,
+            "TeamId": 589
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2011,
+            "TeamId": 772
+        },
+        {
+            "TournamentsWon": 155,
+            "startMonth": 10,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2011,
+            "TeamId": 120
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2011,
+            "TeamId": 285
+        },
+        {
+            "TournamentsWon": 141,
+            "startMonth": 11,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2011,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2011,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2011,
+            "TeamId": 285
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2011,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 119,
+            "startMonth": 12,
+            "startYear": 2011,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2011,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2011,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2011,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2011,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 133,
+            "startMonth": 1,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2012,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2012,
+            "TeamId": 134
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2012,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2012,
+            "TeamId": 285
+        },
+        {
+            "TournamentsWon": 134,
+            "startMonth": 2,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2012,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2012,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 164,
+            "startMonth": 3,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2012,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2012,
+            "TeamId": 105
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2012,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 174,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 227
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 277
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2012,
+            "TeamId": 286
+        },
+        {
+            "TournamentsWon": 164,
+            "startMonth": 5,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2012,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2012,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2012,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 184,
+            "startMonth": 6,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2012,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2012,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 190,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 104
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 236
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2012,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 153,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": 114
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": 136
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": 162
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": 207
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2012,
+            "TeamId": 286
+        },
+        {
+            "TournamentsWon": 146,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 104
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 107
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 218
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 236
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 286
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2012,
+            "TeamId": 387
+        },
+        {
+            "TournamentsWon": 134,
+            "startMonth": 10,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2012,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2012,
+            "TeamId": 207
+        },
+        {
+            "TournamentsWon": 166,
+            "startMonth": 11,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2012,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2012,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2012,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 120,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": 132
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": 147
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": 352
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2012,
+            "TeamId": 380
+        },
+        {
+            "TournamentsWon": 115,
+            "startMonth": 1,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2013,
+            "TeamId": 131
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2013,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2013,
+            "TeamId": 236
+        },
+        {
+            "TournamentsWon": 160,
+            "startMonth": 2,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2013,
+            "TeamId": 132
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2013,
+            "TeamId": 385
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2013,
+            "TeamId": 508
+        },
+        {
+            "TournamentsWon": 170,
+            "startMonth": 3,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2013,
+            "TeamId": 104
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2013,
+            "TeamId": 131
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2013,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 3,
+            "startYear": 2013,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 145,
+            "startMonth": 4,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2013,
+            "TeamId": 233
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2013,
+            "TeamId": 305
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2013,
+            "TeamId": 772
+        },
+        {
+            "TournamentsWon": 179,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": 403
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2013,
+            "TeamId": 434
+        },
+        {
+            "TournamentsWon": 205,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": 377
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": 434
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2013,
+            "TeamId": 744
+        },
+        {
+            "TournamentsWon": 204,
+            "startMonth": 7,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 5,
+            "startMonth": 7,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 211,
+            "startMonth": 8,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2013,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 8,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2013,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2013,
+            "TeamId": 447
+        },
+        {
+            "TournamentsWon": 182,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 208,
+            "startMonth": 10,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2013,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2013,
+            "TeamId": 266
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2013,
+            "TeamId": 344
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2013,
+            "TeamId": 682
+        },
+        {
+            "TournamentsWon": 222,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 289
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 344
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 403
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2013,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 163,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 193
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 344
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 381
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 602
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2013,
+            "TeamId": 743
+        },
+        {
+            "TournamentsWon": 190,
+            "startMonth": 1,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2014,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2014,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2014,
+            "TeamId": 580
+        },
+        {
+            "TournamentsWon": 241,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 144
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 172
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 256
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 403
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2014,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 238,
+            "startMonth": 3,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2014,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2014,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 256,
+            "startMonth": 4,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2014,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2014,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 4,
+            "startYear": 2014,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 230,
+            "startMonth": 5,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2014,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2014,
+            "TeamId": 580
+        },
+        {
+            "TournamentsWon": 225,
+            "startMonth": 6,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2014,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2014,
+            "TeamId": 162
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2014,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2014,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 224,
+            "startMonth": 7,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2014,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2014,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 245,
+            "startMonth": 8,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2014,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2014,
+            "TeamId": 331
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2014,
+            "TeamId": 586
+        },
+        {
+            "TournamentsWon": 239,
+            "startMonth": 9,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2014,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2014,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2014,
+            "TeamId": 745
+        },
+        {
+            "TournamentsWon": 314,
+            "startMonth": 10,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2014,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2014,
+            "TeamId": 184
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2014,
+            "TeamId": 266
+        },
+        {
+            "TournamentsWon": 309,
+            "startMonth": 11,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2014,
+            "TeamId": 121
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2014,
+            "TeamId": 236
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2014,
+            "TeamId": 311
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2014,
+            "TeamId": 745
+        },
+        {
+            "TournamentsWon": 268,
+            "startMonth": 12,
+            "startYear": 2014,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2014,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 290,
+            "startMonth": 1,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2015,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2015,
+            "TeamId": 184
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2015,
+            "TeamId": 340
+        },
+        {
+            "TournamentsWon": 324,
+            "startMonth": 2,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2015,
+            "TeamId": 335
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2015,
+            "TeamId": 745
+        },
+        {
+            "TournamentsWon": 402,
+            "startMonth": 3,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2015,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2015,
+            "TeamId": 266
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2015,
+            "TeamId": 331
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2015,
+            "TeamId": 813
+        },
+        {
+            "TournamentsWon": 460,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 209
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 548
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2015,
+            "TeamId": 743
+        },
+        {
+            "TournamentsWon": 482,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": 427
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2015,
+            "TeamId": 478
+        },
+        {
+            "TournamentsWon": 416,
+            "startMonth": 6,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2015,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2015,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2015,
+            "TeamId": 256
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2015,
+            "TeamId": 745
+        },
+        {
+            "TournamentsWon": 447,
+            "startMonth": 7,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2015,
+            "TeamId": 426
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 2015,
+            "TeamId": 478
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2015,
+            "TeamId": 610
+        },
+        {
+            "TournamentsWon": 503,
+            "startMonth": 8,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2015,
+            "TeamId": 103
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2015,
+            "TeamId": 248
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2015,
+            "TeamId": 408
+        },
+        {
+            "TournamentsWon": 401,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 172
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2015,
+            "TeamId": 349
+        },
+        {
+            "TournamentsWon": 490,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 120
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 121
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 331
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2015,
+            "TeamId": 586
+        },
+        {
+            "TournamentsWon": 423,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 4,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 319
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 400
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 406
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 437
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 478
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2015,
+            "TeamId": 548
+        },
+        {
+            "TournamentsWon": 304,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 207
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 209
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 302
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 331
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 586
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2015,
+            "TeamId": 616
+        },
+        {
+            "TournamentsWon": 392,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 101
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 103
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 172
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 317
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 480
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2016,
+            "TeamId": 519
+        },
+        {
+            "TournamentsWon": 345,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": 132
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": 193
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2016,
+            "TeamId": 338
+        },
+        {
+            "TournamentsWon": 378,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 211
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 317
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 338
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 442
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 646
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2016,
+            "TeamId": 671
+        },
+        {
+            "TournamentsWon": 348,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 111
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 197
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 198
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 207
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 268
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 337
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 481
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 489
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2016,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 370,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 209
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 317
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 337
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2016,
+            "TeamId": 404
+        },
+        {
+            "TournamentsWon": 333,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 211
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 256
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 385
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 414
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 430
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2016,
+            "TeamId": 539
+        },
+        {
+            "TournamentsWon": 304,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 103
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 309
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 335
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2016,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 309,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 120
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 210
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 338
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2016,
+            "TeamId": 687
+        },
+        {
+            "TournamentsWon": 334,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 103
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 162
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 196
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 311
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 411
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2016,
+            "TeamId": 529
+        },
+        {
+            "TournamentsWon": 379,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 163
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 211
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 312
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 382
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 385
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 414
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 481
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 548
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 591
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2016,
+            "TeamId": 632
+        },
+        {
+            "TournamentsWon": 362,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 123
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 124
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 192
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 211
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 251
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 330
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 411
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 3,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 414
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 489
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 501
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 558
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 575
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2016,
+            "TeamId": 765
+        },
+        {
+            "TournamentsWon": 288,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 103
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 319
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 398
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2016,
+            "TeamId": 687
+        },
+        {
+            "TournamentsWon": 308,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 184
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 317
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 396
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 411
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 439
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 557
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 572
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 609
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 613
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 658
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 1,
+            "startYear": 2017,
+            "TeamId": 663
+        },
+        {
+            "TournamentsWon": 307,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 168
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 172
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 193
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 229
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 644
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 2,
+            "startYear": 2017,
+            "TeamId": 718
+        },
+        {
+            "TournamentsWon": 309,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 118
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 172
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 211
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 396
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 439
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 539
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 644
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 3,
+            "startYear": 2017,
+            "TeamId": 673
+        },
+        {
+            "TournamentsWon": 392,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 266
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 372
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 396
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 439
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 536
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 557
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 593
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 658
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 4,
+            "startYear": 2017,
+            "TeamId": 708
+        },
+        {
+            "TournamentsWon": 336,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 266
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 323
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 337
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 411
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 452
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 5,
+            "startYear": 2017,
+            "TeamId": 705
+        },
+        {
+            "TournamentsWon": 284,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 184
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 205
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 268
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 319
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 337
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 385
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 403
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 548
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 644
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 658
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 6,
+            "startYear": 2017,
+            "TeamId": 718
+        },
+        {
+            "TournamentsWon": 351,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 104
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 162
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 193
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 195
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 207
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 227
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 331
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 337
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 427
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 462
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 539
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 548
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 572
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 609
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 635
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 656
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 7,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 349,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 126
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 132
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 215
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 385
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 425
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 427
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 494
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 589
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 608
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 609
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 8,
+            "startYear": 2017,
+            "TeamId": 739
+        },
+        {
+            "TournamentsWon": 366,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 117
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 494
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 558
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 572
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 656
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 707
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 740
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 9,
+            "startYear": 2017,
+            "TeamId": 765
+        },
+        {
+            "TournamentsWon": 321,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 225
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 317
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 322
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 338
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 413
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 613
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 657
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 671
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 740
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 10,
+            "startYear": 2017,
+            "TeamId": 810
+        },
+        {
+            "TournamentsWon": 333,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 169
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 185
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 193
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 227
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 231
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 349
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 420
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 494
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 544
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 571
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 582
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 583
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 587
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 660
+        },
+        {
+            "TournamentsWon": 2,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 732
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 11,
+            "startYear": 2017,
+            "TeamId": 740
+        },
+        {
+            "TournamentsWon": 278,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": -1
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 102
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 112
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 113
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 192
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 212
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 216
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 229
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 340
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 421
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 494
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 708
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 739
+        },
+        {
+            "TournamentsWon": 1,
+            "startMonth": 12,
+            "startYear": 2017,
+            "TeamId": 740
+        }
+    ]
+}
