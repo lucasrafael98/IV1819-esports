@@ -1,0 +1,724 @@
+{
+    "countries": [
+        {
+            "countryCode": "am",
+            "players": 1,
+            "educationExpenditureMilUSD": "296.1",
+            "urbanPopPercentage": "63.1",
+            "annualGDPUSD": "1.0553337673E10",
+            "countryName": "Armenia",
+            "unemploymentPercentage": "18.3"
+        },
+        {
+            "countryCode": "ar",
+            "players": 9,
+            "educationExpenditureMilUSD": "34353.4",
+            "urbanPopPercentage": "91.5",
+            "annualGDPUSD": "5.947492854132E11",
+            "countryName": "Argentina",
+            "unemploymentPercentage": "7.2"
+        },
+        {
+            "countryCode": "at",
+            "players": 8,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "57.7",
+            "annualGDPUSD": "3.82065930308E11",
+            "countryName": "Austria",
+            "unemploymentPercentage": "5.7"
+        },
+        {
+            "countryCode": "au",
+            "players": 63,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "85.7",
+            "annualGDPUSD": "1.3490340294534E12",
+            "countryName": "Australia",
+            "unemploymentPercentage": "6.1"
+        },
+        {
+            "countryCode": "ba",
+            "players": 4,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "47.2",
+            "annualGDPUSD": "1.62097028636E10",
+            "countryName": "Bosnia and Herzegovina",
+            "unemploymentPercentage": "27.7"
+        },
+        {
+            "countryCode": "be",
+            "players": 17,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "97.9",
+            "annualGDPUSD": "4.550395631328E11",
+            "countryName": "Belgium",
+            "unemploymentPercentage": "8.5"
+        },
+        {
+            "countryCode": "bg",
+            "players": 20,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "74.0",
+            "annualGDPUSD": "5.01991045114E10",
+            "countryName": "Bulgaria",
+            "unemploymentPercentage": "9.1"
+        },
+        {
+            "countryCode": "bh",
+            "players": 1,
+            "educationExpenditureMilUSD": "830.5",
+            "urbanPopPercentage": "89.0",
+            "annualGDPUSD": "3.11258510638E10",
+            "countryName": "Bahrain",
+            "unemploymentPercentage": "1.2"
+        },
+        {
+            "countryCode": "bo",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "68.4",
+            "annualGDPUSD": "3.30001982634E10",
+            "countryName": "Bolivia",
+            "unemploymentPercentage": "3.1"
+        },
+        {
+            "countryCode": "br",
+            "players": 92,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "85.8",
+            "annualGDPUSD": "1.8022143737413E12",
+            "countryName": "Brazil",
+            "unemploymentPercentage": "8.4"
+        },
+        {
+            "countryCode": "by",
+            "players": 8,
+            "educationExpenditureMilUSD": "2702.8",
+            "urbanPopPercentage": "77.2",
+            "annualGDPUSD": "5.64547343966E10",
+            "countryName": "Belarus",
+            "unemploymentPercentage": "0.5"
+        },
+        {
+            "countryCode": "ca",
+            "players": 136,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "81.3",
+            "annualGDPUSD": "1.5596233930387E12",
+            "countryName": "Canada",
+            "unemploymentPercentage": "6.9"
+        },
+        {
+            "countryCode": "ch",
+            "players": 6,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "73.7",
+            "annualGDPUSD": "6.792891668582E11",
+            "countryName": "Switzerland",
+            "unemploymentPercentage": "4.8"
+        },
+        {
+            "countryCode": "cl",
+            "players": 6,
+            "educationExpenditureMilUSD": "11891.8",
+            "urbanPopPercentage": "87.4",
+            "annualGDPUSD": "2.439994777379E11",
+            "countryName": "Chile",
+            "unemploymentPercentage": "6.5"
+        },
+        {
+            "countryCode": "cn",
+            "players": 430,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "55.5",
+            "annualGDPUSD": "1.10646662826255E13",
+            "countryName": "China",
+            "unemploymentPercentage": "4.6"
+        },
+        {
+            "countryCode": "co",
+            "players": 6,
+            "educationExpenditureMilUSD": "13119.8",
+            "urbanPopPercentage": "79.8",
+            "annualGDPUSD": "2.91519591533E11",
+            "countryName": "Colombia",
+            "unemploymentPercentage": "8.2"
+        },
+        {
+            "countryCode": "cz",
+            "players": 17,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "73.5",
+            "annualGDPUSD": "1.868299405458E11",
+            "countryName": "Czech Republic",
+            "unemploymentPercentage": "5.1"
+        },
+        {
+            "countryCode": "de",
+            "players": 161,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "77.2",
+            "annualGDPUSD": "3.3756111007422E12",
+            "countryName": "Germany",
+            "unemploymentPercentage": "4.6"
+        },
+        {
+            "countryCode": "dk",
+            "players": 126,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "87.5",
+            "annualGDPUSD": "3.012984648614E11",
+            "countryName": "Denmark",
+            "unemploymentPercentage": "6.2"
+        },
+        {
+            "countryCode": "do",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "78.6",
+            "annualGDPUSD": "6.88020920209E10",
+            "countryName": "Dominican Republic",
+            "unemploymentPercentage": "5.9"
+        },
+        {
+            "countryCode": "ee",
+            "players": 8,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "68.4",
+            "annualGDPUSD": "2.25669569822E10",
+            "countryName": "Estonia",
+            "unemploymentPercentage": "6.2"
+        },
+        {
+            "countryCode": "eg",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "42.8",
+            "annualGDPUSD": "3.326980410308E11",
+            "countryName": "Egypt",
+            "unemploymentPercentage": "13.1"
+        },
+        {
+            "countryCode": "es",
+            "players": 32,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "79.6",
+            "annualGDPUSD": "1.1977899027744E12",
+            "countryName": "Spain",
+            "unemploymentPercentage": "22.1"
+        },
+        {
+            "countryCode": "et",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "19.4",
+            "annualGDPUSD": "6.44645479153E10",
+            "countryName": "Ethiopia",
+            "unemploymentPercentage": "5.0"
+        },
+        {
+            "countryCode": "fi",
+            "players": 69,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "85.2",
+            "annualGDPUSD": "2.324648330656E11",
+            "countryName": "Finland",
+            "unemploymentPercentage": "9.4"
+        },
+        {
+            "countryCode": "fr",
+            "players": 142,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "79.7",
+            "annualGDPUSD": "2.4382078962518E12",
+            "countryName": "France",
+            "unemploymentPercentage": "10.4"
+        },
+        {
+            "countryCode": "gb",
+            "players": 149,
+            "educationExpenditureMilUSD": "170229.8",
+            "urbanPopPercentage": "82.6",
+            "annualGDPUSD": "2.8855703091609E12",
+            "countryName": "United Kingdom",
+            "unemploymentPercentage": "5.3"
+        },
+        {
+            "countryCode": "gi",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "100.0",
+            "annualGDPUSD": "",
+            "countryName": "Gibraltar",
+            "unemploymentPercentage": ""
+        },
+        {
+            "countryCode": "gr",
+            "players": 12,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "78.0",
+            "annualGDPUSD": "1.955417612431E11",
+            "countryName": "Greece",
+            "unemploymentPercentage": "24.9"
+        },
+        {
+            "countryCode": "hr",
+            "players": 7,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "56.2",
+            "annualGDPUSD": "4.94255136112E10",
+            "countryName": "Croatia",
+            "unemploymentPercentage": "16.2"
+        },
+        {
+            "countryCode": "hu",
+            "players": 6,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "70.5",
+            "annualGDPUSD": "1.228790420019E11",
+            "countryName": "Hungary",
+            "unemploymentPercentage": "6.8"
+        },
+        {
+            "countryCode": "id",
+            "players": 4,
+            "educationExpenditureMilUSD": "30849.6",
+            "urbanPopPercentage": "53.3",
+            "annualGDPUSD": "8.608542350651E11",
+            "countryName": "Indonesia",
+            "unemploymentPercentage": "4.5"
+        },
+        {
+            "countryCode": "ie",
+            "players": 5,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "62.5",
+            "annualGDPUSD": "2.906170083676E11",
+            "countryName": "Ireland",
+            "unemploymentPercentage": "9.4"
+        },
+        {
+            "countryCode": "il",
+            "players": 4,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "92.2",
+            "annualGDPUSD": "2.990938396896E11",
+            "countryName": "Israel",
+            "unemploymentPercentage": "5.3"
+        },
+        {
+            "countryCode": "iq",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "69.9",
+            "annualGDPUSD": "1.796402107264E11",
+            "countryName": "Iraq",
+            "unemploymentPercentage": "8.1"
+        },
+        {
+            "countryCode": "is",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "93.7",
+            "annualGDPUSD": "1.6942247374E10",
+            "countryName": "Iceland",
+            "unemploymentPercentage": "4.0"
+        },
+        {
+            "countryCode": "it",
+            "players": 16,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "69.6",
+            "annualGDPUSD": "1.8328684905341E12",
+            "countryName": "Italy",
+            "unemploymentPercentage": "11.9"
+        },
+        {
+            "countryCode": "jo",
+            "players": 3,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "90.3",
+            "annualGDPUSD": "3.75174102817E10",
+            "countryName": "Jordan",
+            "unemploymentPercentage": "13.1"
+        },
+        {
+            "countryCode": "jp",
+            "players": 32,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "91.4",
+            "annualGDPUSD": "4.3949777528778E12",
+            "countryName": "Japan",
+            "unemploymentPercentage": "3.3"
+        },
+        {
+            "countryCode": "kg",
+            "players": 1,
+            "educationExpenditureMilUSD": "399.7",
+            "urbanPopPercentage": "35.8",
+            "annualGDPUSD": "6.6781783405E9",
+            "countryName": "Kyrgyzstan",
+            "unemploymentPercentage": "7.6"
+        },
+        {
+            "countryCode": "kr",
+            "players": 593,
+            "educationExpenditureMilUSD": "71490.3",
+            "urbanPopPercentage": "81.6",
+            "annualGDPUSD": "1.3827640271138E12",
+            "countryName": "South Korea",
+            "unemploymentPercentage": "3.6"
+        },
+        {
+            "countryCode": "kw",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "100.0",
+            "annualGDPUSD": "1.145672981057E11",
+            "countryName": "Kuwait",
+            "unemploymentPercentage": "2.2"
+        },
+        {
+            "countryCode": "kz",
+            "players": 14,
+            "educationExpenditureMilUSD": "5141.8",
+            "urbanPopPercentage": "57.2",
+            "annualGDPUSD": "1.843884321487E11",
+            "countryName": "Kazakhstan",
+            "unemploymentPercentage": "4.9"
+        },
+        {
+            "countryCode": "lb",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "88.1",
+            "annualGDPUSD": "4.94592964633E10",
+            "countryName": "Lebanon",
+            "unemploymentPercentage": "6.6"
+        },
+        {
+            "countryCode": "lt",
+            "players": 11,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "67.2",
+            "annualGDPUSD": "4.15086092328E10",
+            "countryName": "Lithuania",
+            "unemploymentPercentage": "9.1"
+        },
+        {
+            "countryCode": "lv",
+            "players": 5,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "68.0",
+            "annualGDPUSD": "2.69728633936E10",
+            "countryName": "Latvia",
+            "unemploymentPercentage": "9.9"
+        },
+        {
+            "countryCode": "ma",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "60.8",
+            "annualGDPUSD": "1.005932836967E11",
+            "countryName": "Morocco",
+            "unemploymentPercentage": "9.7"
+        },
+        {
+            "countryCode": "md",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "42.5",
+            "annualGDPUSD": "6.5128995403E9",
+            "countryName": "Moldova",
+            "unemploymentPercentage": "3.7"
+        },
+        {
+            "countryCode": "me",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "65.8",
+            "annualGDPUSD": "4.0529133858E9",
+            "countryName": "Montenegro",
+            "unemploymentPercentage": "17.5"
+        },
+        {
+            "countryCode": "mk",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "57.4",
+            "annualGDPUSD": "1.00516591612E10",
+            "countryName": "Macedonia",
+            "unemploymentPercentage": "26.1"
+        },
+        {
+            "countryCode": "mn",
+            "players": 7,
+            "educationExpenditureMilUSD": "490.8",
+            "urbanPopPercentage": "68.2",
+            "annualGDPUSD": "1.17496206196E10",
+            "countryName": "Mongolia",
+            "unemploymentPercentage": "4.9"
+        },
+        {
+            "countryCode": "mt",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "94.4",
+            "annualGDPUSD": "1.05740268382E10",
+            "countryName": "Malta",
+            "unemploymentPercentage": "5.4"
+        },
+        {
+            "countryCode": "mx",
+            "players": 18,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "79.3",
+            "annualGDPUSD": "1.1696226724633E12",
+            "countryName": "Mexico",
+            "unemploymentPercentage": "4.3"
+        },
+        {
+            "countryCode": "my",
+            "players": 28,
+            "educationExpenditureMilUSD": "14750.9",
+            "urbanPopPercentage": "74.2",
+            "annualGDPUSD": "2.964340033286E11",
+            "countryName": "Malaysia",
+            "unemploymentPercentage": "3.1"
+        },
+        {
+            "countryCode": "ni",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "57.9",
+            "annualGDPUSD": "1.26110870315E10",
+            "countryName": "Nicaragua",
+            "unemploymentPercentage": "4.5"
+        },
+        {
+            "countryCode": "nl",
+            "players": 49,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "90.2",
+            "annualGDPUSD": "7.579994533143E11",
+            "countryName": "Netherlands",
+            "unemploymentPercentage": "6.9"
+        },
+        {
+            "countryCode": "no",
+            "players": 35,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "81.1",
+            "annualGDPUSD": "3.866631394027E11",
+            "countryName": "Norway",
+            "unemploymentPercentage": "4.3"
+        },
+        {
+            "countryCode": "nz",
+            "players": 13,
+            "educationExpenditureMilUSD": "12733.2",
+            "urbanPopPercentage": "86.3",
+            "annualGDPUSD": "1.776209487613E11",
+            "countryName": "New Zealand",
+            "unemploymentPercentage": "5.4"
+        },
+        {
+            "countryCode": "pe",
+            "players": 16,
+            "educationExpenditureMilUSD": "7534.0",
+            "urbanPopPercentage": "77.4",
+            "annualGDPUSD": "1.899265167693E11",
+            "countryName": "Peru",
+            "unemploymentPercentage": "3.0"
+        },
+        {
+            "countryCode": "ph",
+            "players": 31,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "46.3",
+            "annualGDPUSD": "2.927740990142E11",
+            "countryName": "Philippines",
+            "unemploymentPercentage": "3.0"
+        },
+        {
+            "countryCode": "pk",
+            "players": 2,
+            "educationExpenditureMilUSD": "6475.6",
+            "urbanPopPercentage": "36.0",
+            "annualGDPUSD": "2.705561268201E11",
+            "countryName": "Pakistan",
+            "unemploymentPercentage": "3.6"
+        },
+        {
+            "countryCode": "pl",
+            "players": 80,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "60.3",
+            "annualGDPUSD": "4.773556174559E11",
+            "countryName": "Poland",
+            "unemploymentPercentage": "7.5"
+        },
+        {
+            "countryCode": "pt",
+            "players": 6,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "63.5",
+            "annualGDPUSD": "1.994202560497E11",
+            "countryName": "Portugal",
+            "unemploymentPercentage": "12.4"
+        },
+        {
+            "countryCode": "ro",
+            "players": 11,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "53.9",
+            "annualGDPUSD": "1.779111016801E11",
+            "countryName": "Romania",
+            "unemploymentPercentage": "6.8"
+        },
+        {
+            "countryCode": "rs",
+            "players": 8,
+            "educationExpenditureMilUSD": "1501.5",
+            "urbanPopPercentage": "55.7",
+            "annualGDPUSD": "3.71603324652E10",
+            "countryName": "Serbia",
+            "unemploymentPercentage": "17.9"
+        },
+        {
+            "countryCode": "ru",
+            "players": 159,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "74.1",
+            "annualGDPUSD": "1.368400705491E12",
+            "countryName": "Russia",
+            "unemploymentPercentage": "5.6"
+        },
+        {
+            "countryCode": "sa",
+            "players": 11,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "83.2",
+            "annualGDPUSD": "6.542699028887E11",
+            "countryName": "Saudi Arabia",
+            "unemploymentPercentage": "5.6"
+        },
+        {
+            "countryCode": "se",
+            "players": 195,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "86.6",
+            "annualGDPUSD": "4.979181093024E11",
+            "countryName": "Sweden",
+            "unemploymentPercentage": "7.4"
+        },
+        {
+            "countryCode": "sg",
+            "players": 22,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "100.0",
+            "annualGDPUSD": "3.040977596741E11",
+            "countryName": "Singapore",
+            "unemploymentPercentage": "1.7"
+        },
+        {
+            "countryCode": "si",
+            "players": 8,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "53.8",
+            "annualGDPUSD": "4.30724150174E10",
+            "countryName": "Slovenia",
+            "unemploymentPercentage": "9.0"
+        },
+        {
+            "countryCode": "sk",
+            "players": 11,
+            "educationExpenditureMilUSD": "4068.6",
+            "urbanPopPercentage": "53.9",
+            "annualGDPUSD": "8.75014238825E10",
+            "countryName": "Slovakia",
+            "unemploymentPercentage": "11.5"
+        },
+        {
+            "countryCode": "th",
+            "players": 31,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "47.7",
+            "annualGDPUSD": "4.01399422443E11",
+            "countryName": "Thailand",
+            "unemploymentPercentage": "0.6"
+        },
+        {
+            "countryCode": "tn",
+            "players": 1,
+            "educationExpenditureMilUSD": "2847.7",
+            "urbanPopPercentage": "68.1",
+            "annualGDPUSD": "4.31567088091E10",
+            "countryName": "Tunisia",
+            "unemploymentPercentage": "15.2"
+        },
+        {
+            "countryCode": "tr",
+            "players": 21,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "73.6",
+            "annualGDPUSD": "8.597968727941E11",
+            "countryName": "Turkey",
+            "unemploymentPercentage": "10.2"
+        },
+        {
+            "countryCode": "ua",
+            "players": 67,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "69.1",
+            "annualGDPUSD": "9.10309594547E10",
+            "countryName": "Ukraine",
+            "unemploymentPercentage": "9.1"
+        },
+        {
+            "countryCode": "us",
+            "players": 812,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "81.7",
+            "annualGDPUSD": "1.8120714E13",
+            "countryName": "United States",
+            "unemploymentPercentage": "5.3"
+        },
+        {
+            "countryCode": "uy",
+            "players": 2,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "95.0",
+            "annualGDPUSD": "5.32743042221E10",
+            "countryName": "Uruguay",
+            "unemploymentPercentage": "7.5"
+        },
+        {
+            "countryCode": "ve",
+            "players": 1,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "88.2",
+            "annualGDPUSD": "",
+            "countryName": "Venezuela",
+            "unemploymentPercentage": "6.8"
+        },
+        {
+            "countryCode": "vn",
+            "players": 33,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "33.8",
+            "annualGDPUSD": "1.932411087095E11",
+            "countryName": "Vietnam",
+            "unemploymentPercentage": "2.1"
+        },
+        {
+            "countryCode": "za",
+            "players": 10,
+            "educationExpenditureMilUSD": "",
+            "urbanPopPercentage": "64.8",
+            "annualGDPUSD": "3.177410391978E11",
+            "countryName": "South Africa",
+            "unemploymentPercentage": "25.2"
+        }
+    ]
+}

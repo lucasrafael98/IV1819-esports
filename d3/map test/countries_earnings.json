@@ -1,0 +1,478 @@
+{
+    "countries": [
+        {
+            "CountryName": "Armenia",
+            "players": 1,
+            "countryCode": "am",
+            "totalUSDPrize": 126145.96
+        },
+        {
+            "CountryName": "Argentina",
+            "players": 9,
+            "countryCode": "ar",
+            "totalUSDPrize": 271784.87
+        },
+        {
+            "CountryName": "Austria",
+            "players": 8,
+            "countryCode": "at",
+            "totalUSDPrize": 296105.87
+        },
+        {
+            "CountryName": "Australia",
+            "players": 63,
+            "countryCode": "au",
+            "totalUSDPrize": 6478356.2
+        },
+        {
+            "CountryName": "Bosnia and Herzegovina",
+            "players": 4,
+            "countryCode": "ba",
+            "totalUSDPrize": 620835.9400000001
+        },
+        {
+            "CountryName": "Belgium",
+            "players": 17,
+            "countryCode": "be",
+            "totalUSDPrize": 988276.1399999998
+        },
+        {
+            "CountryName": "Bulgaria",
+            "players": 20,
+            "countryCode": "bg",
+            "totalUSDPrize": 4241776.5
+        },
+        {
+            "CountryName": "Bahrain",
+            "players": 1,
+            "countryCode": "bh",
+            "totalUSDPrize": 41347.85
+        },
+        {
+            "CountryName": "Bolivia",
+            "players": 1,
+            "countryCode": "bo",
+            "totalUSDPrize": 16740.55
+        },
+        {
+            "CountryName": "Brazil",
+            "players": 92,
+            "countryCode": "br",
+            "totalUSDPrize": 7960636.169999996
+        },
+        {
+            "CountryName": "Belarus",
+            "players": 8,
+            "countryCode": "by",
+            "totalUSDPrize": 1137785.02
+        },
+        {
+            "CountryName": "Canada",
+            "players": 136,
+            "countryCode": "ca",
+            "totalUSDPrize": 1.4559263630000005E7
+        },
+        {
+            "CountryName": "Switzerland",
+            "players": 6,
+            "countryCode": "ch",
+            "totalUSDPrize": 359301.48
+        },
+        {
+            "CountryName": "Chile",
+            "players": 6,
+            "countryCode": "cl",
+            "totalUSDPrize": 320452.46
+        },
+        {
+            "CountryName": "China",
+            "players": 430,
+            "countryCode": "cn",
+            "totalUSDPrize": 7.47814692199999E7
+        },
+        {
+            "CountryName": "Colombia",
+            "players": 6,
+            "countryCode": "co",
+            "totalUSDPrize": 108500.0
+        },
+        {
+            "CountryName": "Czech Republic",
+            "players": 17,
+            "countryCode": "cz",
+            "totalUSDPrize": 807314.93
+        },
+        {
+            "CountryName": "Germany",
+            "players": 161,
+            "countryCode": "de",
+            "totalUSDPrize": 1.3632940290000001E7
+        },
+        {
+            "CountryName": "Denmark",
+            "players": 126,
+            "countryCode": "dk",
+            "totalUSDPrize": 2.010664409000001E7
+        },
+        {
+            "CountryName": "Dominican Republic",
+            "players": 2,
+            "countryCode": "do",
+            "totalUSDPrize": 303917.92000000004
+        },
+        {
+            "CountryName": "Estonia",
+            "players": 8,
+            "countryCode": "ee",
+            "totalUSDPrize": 2420137.2400000007
+        },
+        {
+            "CountryName": "Egypt",
+            "players": 1,
+            "countryCode": "eg",
+            "totalUSDPrize": 17800.0
+        },
+        {
+            "CountryName": "Spain",
+            "players": 32,
+            "countryCode": "es",
+            "totalUSDPrize": 1750393.8599999996
+        },
+        {
+            "CountryName": "Ethiopia",
+            "players": 1,
+            "countryCode": "et",
+            "totalUSDPrize": 22639.99
+        },
+        {
+            "CountryName": "Finland",
+            "players": 69,
+            "countryCode": "fi",
+            "totalUSDPrize": 1.226704215999999E7
+        },
+        {
+            "CountryName": "France",
+            "players": 142,
+            "countryCode": "fr",
+            "totalUSDPrize": 1.2112154469999993E7
+        },
+        {
+            "CountryName": "United Kingdom",
+            "players": 150,
+            "countryCode": "gb",
+            "totalUSDPrize": 7974266.349999999
+        },
+        {
+            "CountryName": "Greece",
+            "players": 12,
+            "countryCode": "gr",
+            "totalUSDPrize": 1042292.2400000001
+        },
+        {
+            "CountryName": "Croatia",
+            "players": 7,
+            "countryCode": "hr",
+            "totalUSDPrize": 386686.2100000001
+        },
+        {
+            "CountryName": "Hungary",
+            "players": 6,
+            "countryCode": "hu",
+            "totalUSDPrize": 290471.06000000006
+        },
+        {
+            "CountryName": "Indonesia",
+            "players": 4,
+            "countryCode": "id",
+            "totalUSDPrize": 188983.99
+        },
+        {
+            "CountryName": "Ireland",
+            "players": 5,
+            "countryCode": "ie",
+            "totalUSDPrize": 328535.86
+        },
+        {
+            "CountryName": "Israel",
+            "players": 4,
+            "countryCode": "il",
+            "totalUSDPrize": 2296901.39
+        },
+        {
+            "CountryName": "Iraq",
+            "players": 1,
+            "countryCode": "iq",
+            "totalUSDPrize": 24646.99
+        },
+        {
+            "CountryName": "Iceland",
+            "players": 2,
+            "countryCode": "is",
+            "totalUSDPrize": 53406.57
+        },
+        {
+            "CountryName": "Italy",
+            "players": 16,
+            "countryCode": "it",
+            "totalUSDPrize": 967109.7
+        },
+        {
+            "CountryName": "Jordan",
+            "players": 3,
+            "countryCode": "jo",
+            "totalUSDPrize": 4381672.35
+        },
+        {
+            "CountryName": "Japan",
+            "players": 32,
+            "countryCode": "jp",
+            "totalUSDPrize": 2020007.32
+        },
+        {
+            "CountryName": "Kyrgyzstan",
+            "players": 1,
+            "countryCode": "kg",
+            "totalUSDPrize": 16341.05
+        },
+        {
+            "CountryName": "South Korea",
+            "players": 593,
+            "countryCode": "kr",
+            "totalUSDPrize": 6.083679157E7
+        },
+        {
+            "CountryName": "Kuwait",
+            "players": 1,
+            "countryCode": "kw",
+            "totalUSDPrize": 27166.67
+        },
+        {
+            "CountryName": "Kazakhstan",
+            "players": 14,
+            "countryCode": "kz",
+            "totalUSDPrize": 1147594.2900000003
+        },
+        {
+            "CountryName": "Lebanon",
+            "players": 2,
+            "countryCode": "lb",
+            "totalUSDPrize": 3072304.24
+        },
+        {
+            "CountryName": "Lithuania",
+            "players": 11,
+            "countryCode": "lt",
+            "totalUSDPrize": 291310.81
+        },
+        {
+            "CountryName": "Latvia",
+            "players": 5,
+            "countryCode": "lv",
+            "totalUSDPrize": 199880.13999999996
+        },
+        {
+            "CountryName": "Morocco",
+            "players": 1,
+            "countryCode": "ma",
+            "totalUSDPrize": 38333.33
+        },
+        {
+            "CountryName": "Moldova",
+            "players": 2,
+            "countryCode": "md",
+            "totalUSDPrize": 59180.479999999996
+        },
+        {
+            "CountryName": "Montenegro",
+            "players": 1,
+            "countryCode": "me",
+            "totalUSDPrize": 48000.0
+        },
+        {
+            "CountryName": "Macedonia",
+            "players": 2,
+            "countryCode": "mk",
+            "totalUSDPrize": 865170.12
+        },
+        {
+            "CountryName": "Mongolia",
+            "players": 7,
+            "countryCode": "mn",
+            "totalUSDPrize": 142406.08000000002
+        },
+        {
+            "CountryName": "Malta",
+            "players": 1,
+            "countryCode": "mt",
+            "totalUSDPrize": 37500.0
+        },
+        {
+            "CountryName": "Mexico",
+            "players": 18,
+            "countryCode": "mx",
+            "totalUSDPrize": 953696.9199999999
+        },
+        {
+            "CountryName": "Malaysia",
+            "players": 28,
+            "countryCode": "my",
+            "totalUSDPrize": 6567975.84
+        },
+        {
+            "CountryName": "Nicaragua",
+            "players": 1,
+            "countryCode": "ni",
+            "totalUSDPrize": 20085.89
+        },
+        {
+            "CountryName": "Netherlands",
+            "players": 49,
+            "countryCode": "nl",
+            "totalUSDPrize": 3815264.4800000004
+        },
+        {
+            "CountryName": "Norway",
+            "players": 35,
+            "countryCode": "no",
+            "totalUSDPrize": 2423523.2800000003
+        },
+        {
+            "CountryName": "New Zealand",
+            "players": 13,
+            "countryCode": "nz",
+            "totalUSDPrize": 273285.45999999996
+        },
+        {
+            "CountryName": "Peru",
+            "players": 16,
+            "countryCode": "pe",
+            "totalUSDPrize": 615181.52
+        },
+        {
+            "CountryName": "Philippines",
+            "players": 31,
+            "countryCode": "ph",
+            "totalUSDPrize": 4265070.660000002
+        },
+        {
+            "CountryName": "Pakistan",
+            "players": 2,
+            "countryCode": "pk",
+            "totalUSDPrize": 3471119.14
+        },
+        {
+            "CountryName": "Poland",
+            "players": 80,
+            "countryCode": "pl",
+            "totalUSDPrize": 7657190.450000003
+        },
+        {
+            "CountryName": "Portugal",
+            "players": 6,
+            "countryCode": "pt",
+            "totalUSDPrize": 290519.39
+        },
+        {
+            "CountryName": "Romania",
+            "players": 11,
+            "countryCode": "ro",
+            "totalUSDPrize": 2026531.84
+        },
+        {
+            "CountryName": "Serbia",
+            "players": 8,
+            "countryCode": "rs",
+            "totalUSDPrize": 255062.63
+        },
+        {
+            "CountryName": "Russia",
+            "players": 159,
+            "countryCode": "ru",
+            "totalUSDPrize": 1.5231980700000009E7
+        },
+        {
+            "CountryName": "Saudi Arabia",
+            "players": 11,
+            "countryCode": "sa",
+            "totalUSDPrize": 762083.3500000002
+        },
+        {
+            "CountryName": "Sweden",
+            "players": 195,
+            "countryCode": "se",
+            "totalUSDPrize": 2.5379463859999992E7
+        },
+        {
+            "CountryName": "Singapore",
+            "players": 22,
+            "countryCode": "sg",
+            "totalUSDPrize": 2357859.0299999993
+        },
+        {
+            "CountryName": "Slovenia",
+            "players": 8,
+            "countryCode": "si",
+            "totalUSDPrize": 230616.34
+        },
+        {
+            "CountryName": "Slovakia",
+            "players": 11,
+            "countryCode": "sk",
+            "totalUSDPrize": 1127241.03
+        },
+        {
+            "CountryName": "Thailand",
+            "players": 31,
+            "countryCode": "th",
+            "totalUSDPrize": 1190125.8699999996
+        },
+        {
+            "CountryName": "Tunisia",
+            "players": 1,
+            "countryCode": "tn",
+            "totalUSDPrize": 32250.0
+        },
+        {
+            "CountryName": "Turkey",
+            "players": 21,
+            "countryCode": "tr",
+            "totalUSDPrize": 1301403.9400000002
+        },
+        {
+            "CountryName": "Ukraine",
+            "players": 67,
+            "countryCode": "ua",
+            "totalUSDPrize": 1.2218928760000004E7
+        },
+        {
+            "CountryName": "United States",
+            "players": 812,
+            "countryCode": "us",
+            "totalUSDPrize": 7.000193740999988E7
+        },
+        {
+            "CountryName": "Uruguay",
+            "players": 2,
+            "countryCode": "uy",
+            "totalUSDPrize": 32150.55
+        },
+        {
+            "CountryName": "Venezuela",
+            "players": 1,
+            "countryCode": "ve",
+            "totalUSDPrize": 27458.13
+        },
+        {
+            "CountryName": "Vietnam",
+            "players": 33,
+            "countryCode": "vn",
+            "totalUSDPrize": 990686.8300000002
+        },
+        {
+            "CountryName": "South Africa",
+            "players": 10,
+            "countryCode": "za",
+            "totalUSDPrize": 251010.86
+        }
+    ]
+}
