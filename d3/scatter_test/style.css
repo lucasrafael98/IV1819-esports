@@ -1,0 +1,52 @@
+body{
+    background-color: #2c2c2c;
+}
+
+h1{
+    color: rgb(224, 224, 224);
+}
+
+.scatter-y line{
+    stroke: rgb(224, 224, 224);
+}
+
+.scatter-y path{
+    stroke: rgb(224, 224, 224);
+}
+  
+.scatter-y text{
+    fill: rgb(224, 224, 224);
+}  
+
+.scatter-x line{
+    stroke: rgb(224, 224, 224);
+}
+
+.scatter-x path{
+    stroke: rgb(224, 224, 224);
+}
+  
+.scatter-x text{
+    fill: rgb(224, 224, 224);
+} 
+
+.btn {
+	width: 100px;
+	cursor: pointer;
+	font-family: calibri, sans serif;
+	padding: 10px;
+	border: solid 1px black;
+	color: white;
+}
+
+#up-ue {
+	background-color: red;
+}
+
+#gdp {
+	background-color: gold;
+}
+
+#ee {
+	background-color: blue;
+}
