@@ -70,9 +70,8 @@ Promise.all(promises).then(function(values){
                 d.totalUSDPrize = data.get(d.id);
                 // Set the color
                 return data.get(d.id) ? colorScale(d.totalUSDPrize) : "#d6d6d6";
-            })
-            .on("click", function(){ console.log(this.__data__.totalUSDPrize)}) //FIXME testing click lul
-            });
+            })})
+            .on("mousedown", function(){ console.log(data.get(this.__data__.id) ? this.__data__.totalUSDPrize : 0)}) //FIXME testing click lul
 })
 
 </script>
