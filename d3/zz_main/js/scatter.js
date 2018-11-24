@@ -157,38 +157,38 @@ function gen_scatter(){
 
                 svg.selectAll(".scpl-circle0")
                     .selectAll("circle")
-                    .data(series[0])
+                    .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", function(d, i) { return color(0); })
+                    .attr("fill", function() { return color(0); })
                     .attr("cy", function(d){
-                                    return yscale(d.y / 100)})
+                                    return yscale(d.unemploymentPercentage / 100)})
                     .select("title")
                     .text(function(d) {
                         if(!scplXMode)
-                            return ("Country:\t" + d.title + "\nPlayers:\t" + d.x +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.y / 100));
+                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
+                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100));
                         else
-                            return ("Country:\t" + d.title + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.y / 100)); 
+                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
+                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100)); 
                     });
 
                 svg.selectAll(".scpl-circle1")
                     .selectAll("circle")
-                    .data(series[1])
+                    .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", function(d, i) { return color(1); })
+                    .attr("fill", function() { return color(1); })
                     .attr("cy", function(d){
-                                    return yscale(d.y / 100)})
+                                    return yscale(d.urbanPopPercentage / 100)})
                     .select("title")
                     .text(function(d) {
                         if(!scplXMode)
-                            return ("Country:\t" + d.title + "\nPlayers:\t" + d.x +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.y / 100));
+                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
+                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100));
                         else
-                            return ("Country:\t" + d.title + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.y / 100)); 
+                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
+                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100)); 
                     });
                 
                 yaxis = d3.axisLeft()
