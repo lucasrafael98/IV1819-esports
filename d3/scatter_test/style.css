@@ -35,18 +35,14 @@ h1{
 	cursor: pointer;
 	font-family: calibri, sans serif;
 	padding: 10px;
-	border: solid 1px black;
-	color: white;
+	border: solid 1px white;
+	color: black;
 }
 
-#up-ue {
-	background-color: red;
+#togg-y {
+	background-color: lightblue;
 }
 
-#gdp {
-	background-color: gold;
-}
-
-#ee {
-	background-color: blue;
+#togg-x {
+	background-color: lightskyblue;
 }
