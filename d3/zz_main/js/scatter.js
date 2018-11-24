@@ -17,7 +17,7 @@ function gen_scatter(){
     var xscale = d3.scaleLog()
         .domain([1,1000])
         .range([padding + 10,w-padding]);
-    var color = d3.scaleOrdinal(d3.schemeCategory10);
+    var color = d3.scaleOrdinal(["#095689", "#335066"]);
     var svg = d3.select("#scatter");
 
     var seriesNames = d3.keys(countryStats[0])
@@ -41,11 +41,11 @@ function gen_scatter(){
         .data(series)
         .enter()
         .append("g")
-        .attr("fill", function(d, i) { return color(i); })
         .attr("class", function(d, i) { return ("scpl-circle" + i); })
         .selectAll(".point")
         .data(function(d) { return d; })
         .enter().append("circle")
+        .attr("fill", function(d) { return color(d.i); })
         .attr("cx",function(d) {
             return xscale(d.x);
         })
@@ -108,7 +108,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "gold")
+                    .attr("fill", "#009684")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
@@ -127,7 +127,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "gold")
+                    .attr("fill", "#009684")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
