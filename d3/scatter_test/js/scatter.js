@@ -28,7 +28,7 @@ function gen_scatter(){
     // Map the data to an array of arrays of {x, y} tuples.
     var series = seriesNames.map(function(series) {
         return countryStats.map(function(d) {
-        return {x: +d.players, y: +d[series], title: d.countryName};
+        return {x: +d.players, y: +d[series], title: d.countryName, code: d.countryCode};
         });
     });
 
@@ -53,6 +53,7 @@ function gen_scatter(){
             return yscale(d.y / 100);
         })
         .attr("r", 4.5)
+        .attr("id", function(d) { return d.code; })
         .append("title")
         .text(function(d) { return d.title;});
     
