@@ -48,6 +48,8 @@ var promises = [
   })
 ]
 
+var selectedCountries = {};
+
 Promise.all(promises).then(function(values){
   svg.append("g")
         .attr("class", "countries")
@@ -65,13 +67,24 @@ Promise.all(promises).then(function(values){
               d3.select(this).attr("fill", "red");
             })
             .on("mouseleave", function(){
-              d3.select(this).attr("fill", function (d){
-                // Pull data for this country
-                d.totalUSDPrize = data.get(d.id);
-                // Set the color
-                return data.get(d.id) ? colorScale(d.totalUSDPrize) : "#d6d6d6";
+              if(selectedCountries[this.__data__.id] == null)
+                d3.select(this).attr("fill", function (d){
+                  // Pull data for this country
+                  d.totalUSDPrize = data.get(d.id);
+                  // Set the color
+                  return data.get(d.id) ? colorScale(d.totalUSDPrize) : "#d6d6d6";
             })})
-            .on("mousedown", function(){ console.log(data.get(this.__data__.id) ? this.__data__.totalUSDPrize : 0)}) //FIXME testing click lul
+            .on("mousedown", function(){
+              if(selectedCountries[this.__data__.id] == null){
+                console.log("there");
+                selectedCountries[this.__data__.id] = data.get(this.__data__.id) ? colorScale(this.__data__.totalUSDPrize) : "#d6d6d6";
+              } 
+              else{
+                console.log("not there");
+                delete selectedCountries[this.__data__.id]
+              }
+              console.log(data.get(this.__data__.id) ? this.__data__.totalUSDPrize : 0)}
+            ) //FIXME testing click lul
 })
 
 </script>
