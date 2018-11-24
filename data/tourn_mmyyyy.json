@@ -1,91 +1,6 @@
 {
     "data": [
         {
-            "tournaments": 2,
-            "startMonth": 7,
-            "startYear": 1996
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 6,
-            "startYear": 1997
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 1,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 5,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 2,
-            "startMonth": 7,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 10,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 4,
-            "startMonth": 11,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 12,
-            "startYear": 1998
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 3,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 4,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 5,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 7,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 5,
-            "startMonth": 8,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 9,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 2,
-            "startMonth": 10,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 2,
-            "startMonth": 11,
-            "startYear": 1999
-        },
-        {
-            "tournaments": 1,
-            "startMonth": 12,
-            "startYear": 1999
-        },
-        {
             "tournaments": 5,
             "startMonth": 1,
             "startYear": 2000
@@ -96,6 +11,11 @@
             "startYear": 2000
         },
         {
+            "tournaments": 0,
+            "startMonth": 3,
+            "startYear": 2000
+        },
+        {
             "tournaments": 8,
             "startMonth": 4,
             "startYear": 2000
@@ -128,6 +48,11 @@
         {
             "tournaments": 5,
             "startMonth": 10,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 0,
+            "startMonth": 11,
             "startYear": 2000
         },
         {
@@ -194,6 +119,11 @@
             "tournaments": 13,
             "startMonth": 12,
             "startYear": 2001
+        },
+        {
+            "tournaments": 0,
+            "startMonth": 1,
+            "startYear": 2002
         },
         {
             "tournaments": 2,
@@ -1149,56 +1079,6 @@
             "tournaments": 291,
             "startMonth": 12,
             "startYear": 2017
-        },
-        {
-            "tournaments": 256,
-            "startMonth": 1,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 250,
-            "startMonth": 2,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 355,
-            "startMonth": 3,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 249,
-            "startMonth": 4,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 287,
-            "startMonth": 5,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 295,
-            "startMonth": 6,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 290,
-            "startMonth": 7,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 241,
-            "startMonth": 8,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 197,
-            "startMonth": 9,
-            "startYear": 2018
-        },
-        {
-            "tournaments": 56,
-            "startMonth": 10,
-            "startYear": 2018
         }
     ]
 }
