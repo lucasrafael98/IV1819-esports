@@ -17,7 +17,7 @@ function gen_scatter(){
     var xscale = d3.scaleLog()
         .domain([1,1000])
         .range([padding + 10,w-padding]);
-    var color = d3.scaleOrdinal(["#095689", "#335066"]);
+    var color = d3.scaleOrdinal(["#095689", "#466c89"]);
     var svg = d3.select("#scatter");
 
     var seriesNames = d3.keys(countryStats[0])

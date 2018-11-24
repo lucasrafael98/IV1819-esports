@@ -20,7 +20,7 @@ var colorEarningsScale = d3.scaleLog()
 var colorPlayersScale = d3.scaleLinear()
 	.domain([0, 1000])
 	.interpolate(d3.interpolateHcl)
-  .range([d3.rgb("#969696"), d3.rgb('#28638c')]);  
+  .range([d3.rgb("#677d91"), d3.rgb('#28638c')]);  
 
 
 //Load Data
@@ -67,14 +67,14 @@ Promise.all(promises).then(function(values){
               if(selectedCountries[this.__data__.id] == null)
               d3.select(this)
                 .transition()
-                .duration(350)
+                .duration(200)
                 .attr("fill", "#009684");
             })
             .on("mouseleave", function(){
               if(selectedCountries[this.__data__.id] == null)
                 d3.select(this)
                   .transition()
-                  .duration(1000)
+                  .duration(1500)
                   .attr("fill", function (d){
                     // Set the color
                     return data.get(d.id+choroMode) ? returnActualColorScale((choroMode == 0 ? d.totalUSDPrize : d.players)) : "#969696";
@@ -105,7 +105,7 @@ Promise.all(promises).then(function(values){
           .duration(700)
           .attr("fill", function (d){
             // Set the color
-            return data.get(d.id+choroMode) ? colorPlayersScale(d.players) : "#d6d6d6"; 
+            return data.get(d.id+choroMode) ? colorPlayersScale(d.players) : "#969696"; 
           })
       }
     })
@@ -123,7 +123,7 @@ Promise.all(promises).then(function(values){
           .duration(700)
           .attr("fill", function (d){ 
             // Set the color
-            return data.get(d.id+choroMode) ? colorEarningsScale(d.totalUSDPrize) : "#d6d6d6";
+            return data.get(d.id+choroMode) ? colorEarningsScale(d.totalUSDPrize) : "#969696";
           })
       }
     })
