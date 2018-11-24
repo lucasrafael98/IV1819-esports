@@ -1,0 +1,1084 @@
+{
+    "data": [
+        {
+            "tournaments": 5,
+            "startMonth": 1,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 2,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 0,
+            "startMonth": 3,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 4,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 5,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 6,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 7,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 8,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 9,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 5,
+            "startMonth": 10,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 0,
+            "startMonth": 11,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 6,
+            "startMonth": 12,
+            "startYear": 2000
+        },
+        {
+            "tournaments": 7,
+            "startMonth": 1,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 2,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 3,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 4,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 4,
+            "startMonth": 5,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 6,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 1,
+            "startMonth": 7,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 8,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 1,
+            "startMonth": 9,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 10,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 11,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 13,
+            "startMonth": 12,
+            "startYear": 2001
+        },
+        {
+            "tournaments": 0,
+            "startMonth": 1,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 2,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 3,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 4,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 2,
+            "startMonth": 5,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 1,
+            "startMonth": 6,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 7,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 5,
+            "startMonth": 8,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 9,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 8,
+            "startMonth": 10,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 10,
+            "startMonth": 11,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 10,
+            "startMonth": 12,
+            "startYear": 2002
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 1,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 3,
+            "startMonth": 2,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 6,
+            "startMonth": 3,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 11,
+            "startMonth": 4,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 5,
+            "startMonth": 5,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 6,
+            "startMonth": 6,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 10,
+            "startMonth": 7,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 24,
+            "startMonth": 8,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 10,
+            "startMonth": 9,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 30,
+            "startMonth": 10,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 20,
+            "startMonth": 11,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 10,
+            "startMonth": 12,
+            "startYear": 2003
+        },
+        {
+            "tournaments": 17,
+            "startMonth": 1,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 7,
+            "startMonth": 2,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 9,
+            "startMonth": 3,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 18,
+            "startMonth": 4,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 20,
+            "startMonth": 5,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 17,
+            "startMonth": 6,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 38,
+            "startMonth": 7,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 26,
+            "startMonth": 8,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 20,
+            "startMonth": 9,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 28,
+            "startMonth": 10,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 12,
+            "startMonth": 11,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 13,
+            "startMonth": 12,
+            "startYear": 2004
+        },
+        {
+            "tournaments": 13,
+            "startMonth": 1,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 15,
+            "startMonth": 2,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 18,
+            "startMonth": 3,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 16,
+            "startMonth": 4,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 14,
+            "startMonth": 5,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 21,
+            "startMonth": 6,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 26,
+            "startMonth": 7,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 46,
+            "startMonth": 8,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 18,
+            "startMonth": 9,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 25,
+            "startMonth": 10,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 33,
+            "startMonth": 11,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 21,
+            "startMonth": 12,
+            "startYear": 2005
+        },
+        {
+            "tournaments": 4,
+            "startMonth": 1,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 20,
+            "startMonth": 2,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 15,
+            "startMonth": 3,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 37,
+            "startMonth": 4,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 11,
+            "startMonth": 5,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 43,
+            "startMonth": 6,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 23,
+            "startMonth": 7,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 51,
+            "startMonth": 8,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 29,
+            "startMonth": 9,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 38,
+            "startMonth": 10,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 41,
+            "startMonth": 11,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 33,
+            "startMonth": 12,
+            "startYear": 2006
+        },
+        {
+            "tournaments": 18,
+            "startMonth": 1,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 20,
+            "startMonth": 2,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 31,
+            "startMonth": 3,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 56,
+            "startMonth": 4,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 26,
+            "startMonth": 5,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 43,
+            "startMonth": 6,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 26,
+            "startMonth": 7,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 60,
+            "startMonth": 8,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 40,
+            "startMonth": 9,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 43,
+            "startMonth": 10,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 43,
+            "startMonth": 11,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 38,
+            "startMonth": 12,
+            "startYear": 2007
+        },
+        {
+            "tournaments": 17,
+            "startMonth": 1,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 32,
+            "startMonth": 2,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 59,
+            "startMonth": 3,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 18,
+            "startMonth": 4,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 35,
+            "startMonth": 5,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 32,
+            "startMonth": 6,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 49,
+            "startMonth": 7,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 51,
+            "startMonth": 8,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 29,
+            "startMonth": 9,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 48,
+            "startMonth": 10,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 65,
+            "startMonth": 11,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 29,
+            "startMonth": 12,
+            "startYear": 2008
+        },
+        {
+            "tournaments": 36,
+            "startMonth": 1,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 41,
+            "startMonth": 2,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 43,
+            "startMonth": 3,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 75,
+            "startMonth": 4,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 54,
+            "startMonth": 5,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 49,
+            "startMonth": 6,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 51,
+            "startMonth": 7,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 65,
+            "startMonth": 8,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 59,
+            "startMonth": 9,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 44,
+            "startMonth": 10,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 53,
+            "startMonth": 11,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 30,
+            "startMonth": 12,
+            "startYear": 2009
+        },
+        {
+            "tournaments": 34,
+            "startMonth": 1,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 52,
+            "startMonth": 2,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 57,
+            "startMonth": 3,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 67,
+            "startMonth": 4,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 55,
+            "startMonth": 5,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 67,
+            "startMonth": 6,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 65,
+            "startMonth": 7,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 109,
+            "startMonth": 8,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 84,
+            "startMonth": 9,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 121,
+            "startMonth": 10,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 113,
+            "startMonth": 11,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 88,
+            "startMonth": 12,
+            "startYear": 2010
+        },
+        {
+            "tournaments": 130,
+            "startMonth": 1,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 119,
+            "startMonth": 2,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 118,
+            "startMonth": 3,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 125,
+            "startMonth": 4,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 128,
+            "startMonth": 5,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 143,
+            "startMonth": 6,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 129,
+            "startMonth": 7,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 135,
+            "startMonth": 8,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 118,
+            "startMonth": 9,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 157,
+            "startMonth": 10,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 146,
+            "startMonth": 11,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 123,
+            "startMonth": 12,
+            "startYear": 2011
+        },
+        {
+            "tournaments": 137,
+            "startMonth": 1,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 136,
+            "startMonth": 2,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 167,
+            "startMonth": 3,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 183,
+            "startMonth": 4,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 167,
+            "startMonth": 5,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 188,
+            "startMonth": 6,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 198,
+            "startMonth": 7,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 160,
+            "startMonth": 8,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 156,
+            "startMonth": 9,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 136,
+            "startMonth": 10,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 169,
+            "startMonth": 11,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 125,
+            "startMonth": 12,
+            "startYear": 2012
+        },
+        {
+            "tournaments": 118,
+            "startMonth": 1,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 163,
+            "startMonth": 2,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 175,
+            "startMonth": 3,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 148,
+            "startMonth": 4,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 184,
+            "startMonth": 5,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 213,
+            "startMonth": 6,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 209,
+            "startMonth": 7,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 217,
+            "startMonth": 8,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 188,
+            "startMonth": 9,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 212,
+            "startMonth": 10,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 230,
+            "startMonth": 11,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 169,
+            "startMonth": 12,
+            "startYear": 2013
+        },
+        {
+            "tournaments": 193,
+            "startMonth": 1,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 249,
+            "startMonth": 2,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 240,
+            "startMonth": 3,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 260,
+            "startMonth": 4,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 232,
+            "startMonth": 5,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 229,
+            "startMonth": 6,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 226,
+            "startMonth": 7,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 248,
+            "startMonth": 8,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 242,
+            "startMonth": 9,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 318,
+            "startMonth": 10,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 313,
+            "startMonth": 11,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 269,
+            "startMonth": 12,
+            "startYear": 2014
+        },
+        {
+            "tournaments": 294,
+            "startMonth": 1,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 326,
+            "startMonth": 2,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 406,
+            "startMonth": 3,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 466,
+            "startMonth": 4,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 489,
+            "startMonth": 5,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 420,
+            "startMonth": 6,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 452,
+            "startMonth": 7,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 507,
+            "startMonth": 8,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 408,
+            "startMonth": 9,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 497,
+            "startMonth": 10,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 437,
+            "startMonth": 11,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 316,
+            "startMonth": 12,
+            "startYear": 2015
+        },
+        {
+            "tournaments": 400,
+            "startMonth": 1,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 350,
+            "startMonth": 2,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 388,
+            "startMonth": 3,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 360,
+            "startMonth": 4,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 378,
+            "startMonth": 5,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 344,
+            "startMonth": 6,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 312,
+            "startMonth": 7,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 317,
+            "startMonth": 8,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 350,
+            "startMonth": 9,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 406,
+            "startMonth": 10,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 384,
+            "startMonth": 11,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 303,
+            "startMonth": 12,
+            "startYear": 2016
+        },
+        {
+            "tournaments": 321,
+            "startMonth": 1,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 313,
+            "startMonth": 2,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 323,
+            "startMonth": 3,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 406,
+            "startMonth": 4,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 352,
+            "startMonth": 5,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 304,
+            "startMonth": 6,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 375,
+            "startMonth": 7,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 367,
+            "startMonth": 8,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 379,
+            "startMonth": 9,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 341,
+            "startMonth": 10,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 356,
+            "startMonth": 11,
+            "startYear": 2017
+        },
+        {
+            "tournaments": 291,
+            "startMonth": 12,
+            "startYear": 2017
+        }
+    ]
+}
