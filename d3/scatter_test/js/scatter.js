@@ -54,6 +54,18 @@ function gen_scatter(){
         })
         .attr("r", 4.5)
         .attr("id", function(d) { return d.code; })
+        .on("mouseover", function(){
+            d3.select(this)
+                .transition()
+                .duration(300)
+                .attr("r", 7.5);
+        })
+        .on("mouseout", function(){
+            d3.select(this)
+                .transition()
+                .duration(300)
+                .attr("r", 4.5);
+        })
         .append("title")
         .text(function(d) { return d.title;});
     
