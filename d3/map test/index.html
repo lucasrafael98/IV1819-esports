@@ -34,22 +34,21 @@ var path = d3.geoPath()
 
 // Data and color scale
 var data = d3.map();
-var colorScheme = d3.schemeBlues[6];
-colorScheme.unshift("#eee")
-var colorScale = d3.scaleThreshold()
-    .domain([1, 6, 11, 26, 101, 1001])
-    .range(colorScheme);
+var colorScale = d3.scaleLinear().domain([1,10000000])
+      .interpolate(d3.interpolateHcl)
+      .range([d3.rgb("#d6d6d6"), d3.rgb('#0061ff')]);
 
 
 //Load Data
+
 var promises = [
   d3.json("world-110m.geojson"),
-  d3.csv("mooc-countries.csv", function(d) { data.set(d.code, +d.total); })
+  d3.json("countries_earnings.json").then(function(d) { 
+    for(var country in d["countries"]) data.set(d["countries"][country]["countryCode"], d["countries"][country]["totalUSDPrize"]);
+  })
 ]
 
 Promise.all(promises).then(function(values){
-  console.log(values[0].features);
-
   svg.append("g")
         .attr("class", "countries")
         .selectAll("path")
@@ -57,11 +56,23 @@ Promise.all(promises).then(function(values){
         .enter().append("path")
             .attr("fill", function (d){
                 // Pull data for this country
-                d.total = data.get(d.id) || 0;
+                d.totalUSDPrize = data.get(d.id);
                 // Set the color
-                return colorScale(d.total);
+                return data.get(d.id) ? colorScale(d.totalUSDPrize) : "#d6d6d6";
             })
-            .attr("d", path);
+            .attr("d", path)
+            .on("mouseover", function () {
+              d3.select(this).attr("fill", "red");
+            })
+            .on("mouseleave", function(){
+              d3.select(this).attr("fill", function (d){
+                // Pull data for this country
+                d.totalUSDPrize = data.get(d.id);
+                // Set the color
+                return data.get(d.id) ? colorScale(d.totalUSDPrize) : "#d6d6d6";
+            })
+            .on("click", function(){ console.log(this.__data__.totalUSDPrize)}) //FIXME testing click lul
+            });
 })
 
 </script>
