@@ -46,6 +46,32 @@ returnActualColorScale = function(info){
 }
 
 Promise.all(promises).then(function(values){
+  
+  var mSelect = $('.multipleSelect').fastselect({
+    onItemSelect: function(item, value){
+      //console.log(item);
+      //console.log(value.value);
+      //console.log(this.optionsCollection.selectedValues);
+      if(selectedCountries[value.value] == null){
+        d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })
+          .transition()
+          .duration(1500)
+          .attr("fill", "#009684");
+        selectedCountries[value.value] = data.get(value.value+choroMode) ? returnActualColorScale(data.get(value.value+choroMode)) : "#d6d6d6";
+      } 
+      else{
+        d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })
+          .transition()
+          .duration(1500)
+          .attr("fill", function (d){
+            // Set the color
+            return data.get(d.id+choroMode) ? returnActualColorScale(data.get(d.id+choroMode)) : "#969696";
+          })
+        delete selectedCountries[value.value]
+      }
+    }
+  });
+
   var svg = d3.select("#chloropleth")
             .insert("svg", ":first-child")
             .attr("width",width)
@@ -77,18 +103,39 @@ Promise.all(promises).then(function(values){
                   .duration(1500)
                   .attr("fill", function (d){
                     // Set the color
-                    return data.get(d.id+choroMode) ? returnActualColorScale((choroMode == 0 ? d.totalUSDPrize : d.players)) : "#969696";
+                    return data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696";
               })})
             .on("mousedown", function(){
-              if(selectedCountries[this.__data__.id] == null){
-                console.log("there");
-                selectedCountries[this.__data__.id] = data.get(this.__data__.id+choroMode) ? returnActualColorScale((choroMode == 0 ? this.__data__.totalUSDPrize : this.__data__.players)) : "#d6d6d6";
+              var option = d3.selectAll(".multipleSelect").select("[value='"+this.__data__.id+"']")._groups[0][0];
+              if(selectedCountries[this.__data__.id] == null){                
+
+                hammerTest.optionsCollection.setSelected(option);
+
+                var selectedModel = hammerTest.optionsCollection.findWhere(function(model) {
+                    return model.value === option.value;
+                });
+
+                selectedModel && selectedModel.$item.addClass(hammerTest.options.itemSelectedClass);
+
+                hammerTest.updateDomElements();
+                selectedCountries[this.__data__.id] = data.get(this.__data__.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#d6d6d6";
               } 
               else{
-                console.log("not there");
+                
+                //console.log(hammerTest.optionsCollection);            
+                var removedModel = hammerTest.optionsCollection.removeSelected(option);
+
+                if (removedModel && removedModel.$item) {
+
+                  removedModel.$item.removeClass(hammerTest.options.itemSelectedClass);
+
+                }
+                hammerTest.updateDomElements();
                 delete selectedCountries[this.__data__.id]
               }
-              console.log(data.get(this.__data__.id+choroMode) ? (choroMode == 0 ? this.__data__.totalUSDPrize : this.__data__.players) : 0)} //demo to show clicked data
+
+              
+              console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
   
   d3.selectAll("#switchToPlayerAmountChoro")
@@ -128,4 +175,5 @@ Promise.all(promises).then(function(values){
       }
     })
 
+    
 })
