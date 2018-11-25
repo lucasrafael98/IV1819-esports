@@ -19,13 +19,11 @@
     function Fastselect(inputElement, options) {
 
         this.init.apply(this, arguments);
-
     }
 
     $.extend(Fastselect.prototype, {
 
         init: function(inputElement, options) {
-
             this.$input = $(inputElement);
 
             this.options = pickTo($.extend(true, {}, Fastselect.defaults, options, {
@@ -46,7 +44,9 @@
             this.setupDomElements();
             this.setupFastsearch();
             this.setupEvents();
-
+            hammerTest = this;
+            
+            //console.log(hammerTest);
         },
 
         setupDomElements: function() {
@@ -366,6 +366,7 @@
         setSelectedOption: function(option) {
 
             if (this.optionsCollection.isSelected(option.value)) {
+                console.log(option);
                 //TIRAR DE SELECIONADOS E' AQUI
                 var removedModel = this.optionsCollection.removeSelected(option);
 
@@ -760,7 +761,7 @@
         onItemCreate: null,
         onMaxItemsReached: null,
 
-        placeholder: 'Choose option',
+        placeholder: 'Select countries',
         searchPlaceholder: 'Search options',
         noResultsText: 'No results',
         userOptionPrefix: 'Add '
