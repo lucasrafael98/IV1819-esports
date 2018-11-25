@@ -4,14 +4,22 @@
         <title>A Deep Dive into the World of Esports</title>
         <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="style.css">
-        <script src="../d3/d3.v5.min.js" charset="utf-8"></script>
+        <script src="d3/d3.v5.min.js" charset="utf-8"></script>
+        <script src="d3/d3-scale-chromatic.v1.min.js"></script>
+        <script src="d3/d3-geo-projection.v2.min.js"></script>
         <script src="js/scatter.js" charset="utf-8"></script>
         <script src="js/heatmap.js" charset="utf-8"></script>
+        <script src="js/chloropleth.js" charset="utf-8"></script>
     </head>
     
     <body>
-        <div id="heatmap"></div>
-        <div id="scatter">
+        <div id="chloropleth" style="float: left; display: block; padding-left: 50;">
+            <br/>
+            <span class="btn" id="switchToEarningsAmountChoro" style="background-color: lightblue;">Show Earnings</span>
+            <span class="btn" id="switchToPlayerAmountChoro" style="background-color: white;">Show Players</span>
+        </div>
+        <div id="heatmap" style="float: right; padding-right: 25;"></div>
+        <div id="scatter" style="float: left;">
             <br/>
             <span class="btn" id="togg-y">Toggle Y</span>
             <span class="btn" id="togg-x">Toggle X</span>

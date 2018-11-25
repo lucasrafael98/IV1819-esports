@@ -11,6 +11,7 @@ d3.json("data/tourn_mmyyyy.json").then(function (data) {
 });
 
 function gen_heatmap(){
+
     let margin = {
         top: 0,
         right: 25,
@@ -33,7 +34,7 @@ function gen_heatmap(){
 
     let colorScale = d3.scaleLog()
         .domain([1, d3.max(full_dataset, function(d) {return d.tournaments; })/2, d3.max(full_dataset, function(d) {return d.tournaments; })])
-        .range(["#727171", "#28638c", "#002a47"])
+        .range(["#64827e", "#28638c", "#002a47"])
 
     let monthLabels = svg.selectAll(".monthLabel")
         .data(months)
@@ -54,6 +55,8 @@ function gen_heatmap(){
         .attr("y", function(d, i) { return (i-0.9) * gridSize /2; })
         .style("text-anchor", "end")
         .attr("transform", "translate(" + gridSize / 2 + ", 57.5)");
+
+    var defs = svg.append("svg:defs");
 
     let heatMap = svg.selectAll(".hour")
         .data(full_dataset)
