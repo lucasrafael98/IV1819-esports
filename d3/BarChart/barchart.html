@@ -1,0 +1,39 @@
+<html>
+
+  <head>
+   <title>Bar Chart</title>
+   <link rel="stylesheet" href="barchart.css">
+   <script src="../d3/d3.v5.min.js" charset="utf-8"></script>
+   <script src="barchart.js"></script>
+  </head>
+
+  <body>
+    <h1>Bar Chart</h1>
+    <div id="the_chart"></div>
+    <div id="second_chart"></div>
+    <div id="third_chart"></div>
+    <div class="chart-menu">
+      <label class="container">
+        <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
+        Earnings by age
+      </label>
+      <br>
+      <label class="container">
+        <input id="check2" onchange="handleCheckBox(this)" type="checkbox">
+        Tournaments
+      </label>
+      <div class="chart-submenu">
+        <label class="container">
+          <input id="check3" onchange="handleCheckBox(this)" type="checkbox" >
+          Earnings
+        </label>
+        <br>
+        <label class="container">
+          <input id="check4" onchange="handleCheckBox(this)" type="checkbox">
+          Quantity
+        </label>
+      </div>
+    </div>
+  </body>
+
+</html>
