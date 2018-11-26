@@ -64,7 +64,7 @@ function gen_scatter(){
             d3.select(this)
                 .transition()
                 .duration(1800)
-                .attr("r", 4.5);
+                .attr("r", function(d){ return (selectedCountries[d.countryCode] == null) ? 0.75 : 4.5});
         })
         .append("title")
         .text(function(d) {

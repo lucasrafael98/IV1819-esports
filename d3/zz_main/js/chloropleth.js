@@ -31,8 +31,6 @@ var promises_cl = [
     }
   })
 ]
-
-var selectedCountries = {};
 choroMode = 0; //0 -> earnings, 1-> players
 var countriesStatesChoro;
 
