@@ -1,11 +1,11 @@
-var width = 850, height = 465;
+var width = window.innerWidth * 0.55, height = window.innerHeight * 0.45;
 
 
 
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoNaturalEarth()
-    .scale(width / 1.75 / Math.PI)
+    .scale(width / 2.3 / Math.PI)
     .translate([width / 2, height / 2])
 var path = d3.geoPath()
     .projection(projection);
