@@ -168,6 +168,7 @@ Promise.all(promises_cl).then(function(values){
               })})
             .on("mousedown", function(){
               var option = d3.selectAll(".multipleSelect").select("[value='"+this.__data__.id+"']")._groups[0][0];
+              
               if(selectedCountries[this.__data__.id] == null){                
 
                 hammerTest.optionsCollection.setSelected(option);
@@ -259,6 +260,16 @@ Promise.all(promises_cl).then(function(values){
                 }
               }
 
+              d3.select(this)
+                .transition()
+                .duration(400)
+                .attr("fill", "#3bf99a")
+                .transition()
+                .duration(400)
+                .attr("fill", function (d){
+                  // Set the color
+                  return selectedCountries[this.__data__.id] ? "#009684" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
+                });
               
             }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
