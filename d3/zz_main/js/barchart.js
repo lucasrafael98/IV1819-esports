@@ -43,7 +43,7 @@ function gen_vis(){
         .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
         .rangeRound([0, barChartWidth]).paddingInner([0.5]);
 
-    var yscale = d3.scaleLinear()
+    var yscale = d3.scaleSqrt()
         .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
         .range([barChartHeight, 0]);
   
@@ -83,7 +83,7 @@ function gen_vis(){
         xscale = d3.scaleBand()
             .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yscale = d3.scaleLinear()
+        yscale = d3.scaleSqrt()
             .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
             .range([barChartHeight, 0]);
         xAxis  = d3.axisBottom().scale(xscale);
@@ -93,7 +93,7 @@ function gen_vis(){
         xOverview = d3.scaleBand()
             .domain(earningsByAge.map(function (d) { return d.age; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview = d3.scaleSqrt().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         diagram.selectAll('.extra-subBar').remove();
         subBars = diagram.selectAll('.subBar');
@@ -125,7 +125,7 @@ function gen_vis(){
         xscale = d3.scaleBand()
             .domain(teams_sorted.slice(0,numBars).map(function (d) { return d.TeamName; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yscale = d3.scaleLinear()
+        yscale = d3.scaleSqrt()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
             .range([barChartHeight, 0]);
         xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags[i] });
@@ -138,7 +138,7 @@ function gen_vis(){
         xOverview = d3.scaleBand()
             .domain(teams_sorted.map(function (d) { return d.TeamName; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview = d3.scaleSqrt().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         rects = bars.selectAll("rect").data(teams_sorted)
             .transition()
@@ -176,12 +176,12 @@ function gen_vis(){
     });
     d3.select("#check3").on("change",function(){
         if(last_changed == 2 || last_changed == 3){return;}
-        yscale = d3.scaleLinear()
+        yscale = d3.scaleSqrt()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
             .range([barChartHeight, 0]);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".y.axis").call(yAxis);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview = d3.scaleSqrt().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         subBars = diagram.selectAll('.subBar');
         subBars.data(teams_sorted)
@@ -201,12 +201,12 @@ function gen_vis(){
     d3.select("#check4").on("change",function(){
         if(last_changed == 4){return;}
         quantity = true;
-        yscale = d3.scaleLinear()
+        yscale = d3.scaleSqrt()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalTournaments; })])
             .range([barChartHeight, 0]);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".y.axis").call(yAxis);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview = d3.scaleSqrt().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         subBars = diagram.selectAll('.subBar');
         subBars.data(teams_sorted)
@@ -228,7 +228,7 @@ if (isScrollDisplayed)
     var xOverview = d3.scaleBand()
         .domain(earningsByAge.map(function (d) { return d.age; }))
         .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-    yOverview = d3.scaleLinear().range([heightOverview, 0]);
+    yOverview = d3.scaleSqrt().range([heightOverview, 0]);
     yOverview.domain(yscale.domain());
 
     var subBars = diagram.selectAll('.subBar')
