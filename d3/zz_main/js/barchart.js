@@ -138,11 +138,11 @@ function gen_vis(){
             .domain(teams_sorted.slice(0,numBars).map(function (d) { return d.TeamName; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         if(document.getElementById("check3").checked){
-            yscale = d3.scaleLinear()
-                .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
+            yscale = d3.scalePow().exponent(0.35)
+                .domain([0, 25E6])
                 .range([barChartHeight, 0]);
             xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_teams[i] });
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
             d3.selectAll(".x.axis").selectAll("text").append("title")
@@ -151,7 +151,7 @@ function gen_vis(){
             xOverview = d3.scaleBand()
                 .domain(teams_sorted.map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             rects = bars.selectAll("rect").data(teams_sorted)
                 .transition()
@@ -176,11 +176,11 @@ function gen_vis(){
                 .attr("width", function(d) { return xOverview.bandwidth();});
                 last_changed = 3;
         }else{
-            yscale = d3.scaleLinear()
+            yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(teams_sorted, function (d) { return d.TotalTournaments; })])
                 .range([barChartHeight, 0]);
             xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_teams[i] });
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
             d3.selectAll(".x.axis").selectAll("text").append("title")
@@ -189,7 +189,7 @@ function gen_vis(){
             xOverview = d3.scaleBand()
                 .domain(teams_sorted.map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             rects = bars.selectAll("rect").data(teams_sorted)
                 .transition()
@@ -251,12 +251,12 @@ function gen_vis(){
                 .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); });
         }else{
-            yscale = d3.scaleLinear()
+            yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalUSDPrize; })])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.0")).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(games_sorted)
@@ -298,12 +298,12 @@ function gen_vis(){
                 .attr("y", function (d) { return yscale(d.TotalTournaments); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.TotalTournaments); });
         }else{
-            yscale = d3.scaleLinear()
+            yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalTournaments; })])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(games_sorted)
@@ -338,12 +338,12 @@ function gen_vis(){
             .domain(games_sorted.map(function (d) { return d.gameName; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         if(document.getElementById("check3").checked){
-            yscale = d3.scaleLinear()
+            yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalUSDPrize; })])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.0")).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(games_sorted)
@@ -351,13 +351,13 @@ function gen_vis(){
                 .duration(1000)
                 .attr("height", function(d) {return heightOverview - yOverview(d.totalUSDPrize);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.totalUSDPrize); })
-                .attr("x", function(d) { return xOverview(d.gameName) - 60;})
+                .attr("x", function(d) { return xOverview(d.gameName) - 102;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
             subBars.data(games_sorted).enter().append("rect")
                 .classed('subBar extra-subBar2', true)
                 .attr("height", function(d) {return heightOverview - yOverview(d.totalUSDPrize);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.totalUSDPrize); })
-                .attr("x", function(d) { return xOverview(d.gameName) - 60;})
+                .attr("x", function(d) { return xOverview(d.gameName) - 102;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
             rects = bars.selectAll("rect")
                 .data(games_sorted)
@@ -369,12 +369,12 @@ function gen_vis(){
                 .attr("width", function (d) { return xscale.bandwidth(); });
             quantity = false;
         }else{
-            yscale = d3.scaleLinear()
+            yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalTournaments; })])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(games_sorted)
@@ -382,13 +382,13 @@ function gen_vis(){
                 .duration(1000)
                 .attr("height", function(d) {return heightOverview - yOverview(d.totalTournaments);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.totalTournaments); })
-                .attr("x", function(d) { return xOverview(d.gameName) - 60;})
+                .attr("x", function(d) { return xOverview(d.gameName) - 102;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
             subBars.data(games_sorted).enter().append("rect")
                 .classed('subBar extra-subBar2', true)
                 .attr("height", function(d) {return heightOverview - yOverview(d.totalTournaments);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.totalTournaments); })
-                .attr("x", function(d) { return xOverview(d.gameName) - 60;})
+                .attr("x", function(d) { return xOverview(d.gameName) - 102;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
             rects = bars.selectAll("rect")
                 .data(games_sorted)
