@@ -21,8 +21,8 @@ function gen_heatmap(){
     let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec"];
     let years = d3.range(2000,2018);
 
-    let width = Math.max(Math.min(window.innerWidth, 650), 500) - margin.left - margin.right - 20;
-	let gridSize = Math.floor(width / months.length);
+    let width = window.innerWidth / 2.4;
+	let gridSize = Math.floor(width / months.length * 0.8);
 	let height = (gridSize) * (years.length) / 2.35;
 
     let svg = d3.select('#heatmap')
