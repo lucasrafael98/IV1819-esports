@@ -24,7 +24,7 @@ var colorPlayersScale = d3.scaleLinear()
 
 
 //Load Data
-var promises = [
+var promises_cl = [
   d3.json("data/world-110m.geojson"),
   d3.json("data/countries.json").then(function(d) { 
     for(var country in d["countries"]) {
@@ -45,7 +45,7 @@ returnActualColorScale = function(info){
     return colorPlayersScale(info)
 }
 
-Promise.all(promises).then(function(values){
+Promise.all(promises_cl).then(function(values){
   
   var mSelect = $('.multipleSelect').fastselect({
     onItemSelect: function(item, value){

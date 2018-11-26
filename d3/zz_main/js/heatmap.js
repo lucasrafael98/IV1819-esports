@@ -22,7 +22,7 @@ function gen_heatmap(){
     let years = d3.range(2000,2018);
 
     let width = window.innerWidth / 2.4;
-	let gridSize = Math.floor(width / months.length * 0.8);
+	let gridSize = Math.floor(width / months.length * 0.7);
 	let height = (gridSize) * (years.length) / 2.35;
 
     let svg = d3.select('#heatmap')

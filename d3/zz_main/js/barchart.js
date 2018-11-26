@@ -31,9 +31,9 @@ function gen_vis(){
     var margin =  {top: 20, right: 10, bottom: 20, left: 70};
     var marginOverview = {top: 30, right: 10, bottom: 20, left: 70};
     var selectorHeight = 40;
-    var width = 1000 - margin.left - margin.right;
-    var height = 400 - margin.top - margin.bottom - selectorHeight;
-    var heightOverview = 80 - marginOverview.top - marginOverview.bottom;
+    var width = window.innerWidth * 0.5 - margin.left - margin.right;
+    var height = window.innerHeight * 0.4 - margin.top - margin.bottom - selectorHeight;
+    var heightOverview = window.innerHeight * 0.089 - marginOverview.top - marginOverview.bottom;
         
     var maxLength = d3.max(teams_sorted.map(function(d){ return d.TeamName.length}))
     var barWidth = maxLength * 3;
@@ -55,7 +55,7 @@ function gen_vis(){
     var xAxis  = d3.axisBottom().scale(xscale);
     var yAxis  = d3.axisLeft().scale(yscale);
   
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#barchart").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom + selectorHeight);
   
@@ -107,7 +107,7 @@ function gen_vis(){
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
             .attr("y", function (d) { return height + heightOverview + yOverview(d.earnings); })
-            .attr("x", function(d) { return xOverview(d.age) -5;})
+            .attr("x", function(d) { return xOverview(d.age) - 5;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         rects = bars.selectAll("rect").data(earningsByAge)
             .transition()
@@ -158,13 +158,13 @@ function gen_vis(){
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
             .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
-            .attr("x", function(d) { return xOverview(d.TeamName) - 117;})
+            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         subBars.data(teams_sorted).enter().append("rect")
             .classed('subBar extra-subBar', true)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
             .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
-            .attr("x", function(d) { return xOverview(d.TeamName) - 117;})
+            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         displayed = d3.scaleQuantize()
             .domain([0, width])

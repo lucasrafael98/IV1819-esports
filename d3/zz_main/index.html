@@ -6,6 +6,7 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/fastselect.css">
+        <link rel="stylesheet" href="css/barchart.css">
         <script>
             var hammerTest = "ff";
         </script>
@@ -14,6 +15,7 @@
         <script src="d3/d3-geo-projection.v2.min.js"></script>
         <script src="js/scatter.js" charset="utf-8"></script>
         <script src="js/heatmap.js" charset="utf-8"></script>
+        <script src="js/barchart.js" charset="utf-8"></script>
         <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
         <script src="js/chloropleth.js" charset="utf-8"></script>
         <script src="js/fastsearch.js" charset="utf-8"></script>
@@ -217,6 +219,33 @@
             <br/>
             <span class="btn" id="togg-y">Toggle Unemployment + Urban Pop / GDP</span>
             <span class="btn" id="togg-x">Toggle Players / Earnings</span>
+        </div>
+        <div class="superbchart">
+            <div id="barchart" style="position: absolute; top: 55vh; left: 44vw;"></div>
+            <div class="chart-menu">
+                <label class="container">
+                    <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Earnings by age
+                </label>
+                <label class="container">
+                    <input id="check2" onchange="handleCheckBox(this)" type="checkbox">
+                    <span class="checkmark"></span>
+                    Tournaments
+                </label>
+                <div class="chart-submenu">
+                    <label class="container">
+                        <input id="check3" onchange="handleCheckBox(this)" type="checkbox">
+                        <span class="checkmark"></span>
+                    Earnings
+                    </label>
+                    <label class="container">
+                        <input id="check4" onchange="handleCheckBox(this)" type="checkbox">
+                        <span class="checkmark"></span>
+                    Quantity
+                    </label>
+                </div>
+            </div>
         </div>
     </body>
 </html>
