@@ -30,36 +30,36 @@ function gen_vis(){
     var margin =  {top: 20, right: 10, bottom: 20, left: 70};
     var marginOverview = {top: 30, right: 10, bottom: 20, left: 70};
     var selectorHeight = 40;
-    var width = window.innerWidth * 0.5 - margin.left - margin.right;
-    var height = window.innerHeight * 0.4 - margin.top - margin.bottom - selectorHeight;
-    var heightOverview = window.innerHeight * 0.089 - marginOverview.top - marginOverview.bottom;
+    barChartWidth = window.innerWidth * 0.5 - margin.left - margin.right;
+    barChartHeight = window.innerHeight * 0.4 - margin.top - margin.bottom - selectorHeight;
+    heightOverview = window.innerHeight * 0.089 - marginOverview.top - marginOverview.bottom;
         
     var maxLength = d3.max(teams_sorted.map(function(d){ return d.TeamName.length}))
     var barWidth = maxLength * 3;
-    var numBars = Math.round(width/barWidth);
-    var isScrollDisplayed = barWidth * teams_sorted.length > width;
+    numBars = Math.round(barChartWidth/barWidth);
+    var isScrollDisplayed = barWidth * teams_sorted.length > barChartWidth;
   
     var xscale = d3.scaleBand()
         .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
-        .rangeRound([0, width]).paddingInner([0.5]);
+        .rangeRound([0, barChartWidth]).paddingInner([0.5]);
 
     var yscale = d3.scaleLinear()
         .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
-        .range([height, 0]);
+        .range([barChartHeight, 0]);
   
     var xAxis  = d3.axisBottom().scale(xscale);
     var yAxis  = d3.axisLeft().scale(yscale);
   
     var svg = d3.select("#barchart").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom + selectorHeight);
+        .attr("width", barChartWidth + margin.left + margin.right)
+        .attr("height", barChartHeight + margin.top + margin.bottom + selectorHeight);
   
     var diagram = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
   
     diagram.append("g")
   	    .attr("class", "x axis")
-        .attr("transform", "translate(0, " + height + ")")
+        .attr("transform", "translate(0, " + barChartHeight + ")")
         .call(xAxis);
   
     diagram.append("g")
@@ -75,24 +75,24 @@ function gen_vis(){
         .attr("x", function (d) { return xscale(d.age); })
         .attr("y", function (d) { return yscale(d.earnings); })
         .attr("width", xscale.bandwidth())
-        .attr("height", function (d) { return height - yscale(d.earnings); });
+        .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
 
 
     d3.select("#check1").on("change",function(){
         if(last_changed == 1){return;}
         xscale = d3.scaleBand()
             .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
-            .rangeRound([0, width]).paddingInner([0.5]);
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         yscale = d3.scaleLinear()
             .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
-            .range([height, 0]);
+            .range([barChartHeight, 0]);
         xAxis  = d3.axisBottom().scale(xscale);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".x.axis").call(xAxis);
         d3.selectAll(".y.axis").call(yAxis);
         xOverview = d3.scaleBand()
             .domain(earningsByAge.map(function (d) { return d.age; }))
-            .rangeRound([0, width]).paddingInner([0.5]);
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         yOverview = d3.scaleLinear().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         diagram.selectAll('.extra-subBar').remove();
@@ -101,22 +101,22 @@ function gen_vis(){
             .transition()
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
-            .attr("y", function (d) { return height + heightOverview + yOverview(d.earnings); })
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
             .attr("x", function(d) { return xOverview(d.age) - 5;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         rects = bars.selectAll("rect").data(earningsByAge)
             .transition()
             .duration(1000)
             .attr("y", function (d) { return yscale(d.earnings); })
-            .attr("height", function (d) { return height - yscale(d.earnings); })
+            .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
             .attr("x", function (d) { return xscale(d.age); })
             .attr("width", function (d) { return xscale.bandwidth(); });
         displayed = d3.scaleQuantize()
-            .domain([0, width])
+            .domain([0, barChartWidth])
             .range(d3.range(earningsByAge.length));
 
         d3.select(".mover")
-            .attr("width", Math.round(parseFloat(numBars * width)/earningsByAge.length))
+            .attr("width", Math.round(parseFloat(numBars * barChartWidth)/earningsByAge.length))
         last_changed = 1;
         age_selected = true;
     });
@@ -124,10 +124,10 @@ function gen_vis(){
         if(last_changed != 1){return;}
         xscale = d3.scaleBand()
             .domain(teams_sorted.slice(0,numBars).map(function (d) { return d.TeamName; }))
-            .rangeRound([0, width]).paddingInner([0.5]);
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         yscale = d3.scaleLinear()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
-            .range([height, 0]);
+            .range([barChartHeight, 0]);
         xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags[i] });
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".x.axis").call(xAxis);
@@ -137,14 +137,14 @@ function gen_vis(){
             .text(function(d) { return d.TeamName;});
         xOverview = d3.scaleBand()
             .domain(teams_sorted.map(function (d) { return d.TeamName; }))
-            .rangeRound([0, width]).paddingInner([0.5]);
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
         yOverview = d3.scaleLinear().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         rects = bars.selectAll("rect").data(teams_sorted)
             .transition()
             .duration(1000)
             .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
-            .attr("height", function (d) { return height - yscale(d.TotalUSDPrize); })
+            .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); })
             .attr("x", function (d) { return xscale(d.TeamName); })
             .attr("width", function (d) { return xscale.bandwidth(); });
         subBars = diagram.selectAll('.subBar');
@@ -152,21 +152,21 @@ function gen_vis(){
             .transition()
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
-            .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalUSDPrize); })
             .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         subBars.data(teams_sorted).enter().append("rect")
             .classed('subBar extra-subBar', true)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
-            .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalUSDPrize); })
             .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         displayed = d3.scaleQuantize()
-            .domain([0, width])
+            .domain([0, barChartWidth])
             .range(d3.range(teams_sorted.length));
 
         d3.select(".mover")
-            .attr("width", Math.round(parseFloat(numBars * width)/teams_sorted.length))
+            .attr("width", Math.round(parseFloat(numBars * barChartWidth)/teams_sorted.length))
             .attr("x", 0)
             .attr("y", 0);
         
@@ -178,7 +178,7 @@ function gen_vis(){
         if(last_changed == 2 || last_changed == 3){return;}
         yscale = d3.scaleLinear()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
-            .range([height, 0]);
+            .range([barChartHeight, 0]);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".y.axis").call(yAxis);
         yOverview = d3.scaleLinear().range([heightOverview, 0]);
@@ -188,13 +188,13 @@ function gen_vis(){
             .transition()
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
-            .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); });
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalUSDPrize); });
 
         rects = bars.selectAll("rect")
             .transition()
             .duration(1000)
             .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
-            .attr("height", function (d) { return height - yscale(d.TotalUSDPrize); });
+            .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); });
         last_changed = 3;
         quantity = false;
     });
@@ -203,7 +203,7 @@ function gen_vis(){
         quantity = true;
         yscale = d3.scaleLinear()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalTournaments; })])
-            .range([height, 0]);
+            .range([barChartHeight, 0]);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".y.axis").call(yAxis);
         yOverview = d3.scaleLinear().range([heightOverview, 0]);
@@ -213,13 +213,13 @@ function gen_vis(){
             .transition()
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalTournaments);})
-            .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalTournaments); });
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalTournaments); });
 
         rects = bars.selectAll("rect")
             .transition()
             .duration(1000)
             .attr("y", function (d) { return yscale(d.TotalTournaments); })
-            .attr("height", function (d) { return height - yscale(d.TotalTournaments); });
+            .attr("height", function (d) { return barChartHeight - yscale(d.TotalTournaments); });
         last_changed = 4;
     });
   
@@ -227,7 +227,7 @@ if (isScrollDisplayed)
 {
     var xOverview = d3.scaleBand()
         .domain(earningsByAge.map(function (d) { return d.age; }))
-        .rangeRound([0, width]).paddingInner([0.5]);
+        .rangeRound([0, barChartWidth]).paddingInner([0.5]);
     yOverview = d3.scaleLinear().range([heightOverview, 0]);
     yOverview.domain(yscale.domain());
 
@@ -245,19 +245,19 @@ if (isScrollDisplayed)
             return xOverview(d.age) - 15;
         })
         .attr("y", function(d) {
-            return height + heightOverview + yOverview(d.earnings)
+            return barChartHeight + heightOverview + yOverview(d.earnings)
         })
         var displayed = d3.scaleQuantize()
-            .domain([0, width])
+            .domain([0, barChartWidth])
             .range(d3.range(earningsByAge.length));
 
         diagram.append("rect")
-            .attr("transform", "translate(0, " + (height + margin.bottom) + ")")
+            .attr("transform", "translate(0, " + (barChartHeight + margin.bottom) + ")")
             .attr("class", "mover")
             .attr("x", 0)
             .attr("y", 0)
             .attr("height", selectorHeight)
-            .attr("width", Math.round(parseFloat(numBars * width)/earningsByAge.length))
+            .attr("width", Math.round(parseFloat(numBars * barChartWidth)/earningsByAge.length))
             .attr("pointer-events", "all")
             .attr("cursor", "ew-resize")
             .call(d3.drag().on("drag", display));
@@ -268,7 +268,7 @@ if (isScrollDisplayed)
             w = parseInt(d3.select(this).attr("width")),
             f, nf, new_data, rects;
 
-        if ( nx < 0 || nx + w > width ) return;
+        if ( nx < 0 || nx + w > barChartWidth ) return;
 
         d3.select(this).attr("x", nx);
 
@@ -293,7 +293,7 @@ if (isScrollDisplayed)
                 .attr("x", function (d) { return xscale(d.age); })
                 .attr("y", function (d) { return yscale(d.earnings); })
                 .attr("width", xscale.bandwidth())
-                .attr("height", function (d) { return height - yscale(d.earnings); });
+                .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
             
             rects.exit().remove();
         }else {
@@ -316,7 +316,7 @@ if (isScrollDisplayed)
                 .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("y", function (d) { return yscale(d.TotalTournaments); })
                 .attr("width", xscale.bandwidth())
-                .attr("height", function (d) { return height - yscale(d.TotalTournaments); });
+                .attr("height", function (d) { return barChartHeight - yscale(d.TotalTournaments); });
             }
             else{
                 rects.enter().append("rect")
@@ -324,7 +324,7 @@ if (isScrollDisplayed)
                 .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
                 .attr("width", xscale.bandwidth())
-                .attr("height", function (d) { return height - yscale(d.TotalUSDPrize); });
+                .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); });
             }
             d3.selectAll(".x.axis").selectAll("text").append("title")
                 .data(new_data)
