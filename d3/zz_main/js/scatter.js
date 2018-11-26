@@ -249,7 +249,7 @@ function gen_scatter(){
                 
                 xaxis = d3.axisBottom()
                     .scale(xscale)
-                    .tickFormat(d3.format("$.0"))
+                    .tickFormat(d3.format("$,d"))
                     .ticks(3);
                 svg.selectAll(".scatter-x")
                     .transition()
