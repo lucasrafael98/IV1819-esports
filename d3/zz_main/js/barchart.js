@@ -2,7 +2,7 @@ let teams_sorted, earningsByAge;
 let quantity = false;
 let age_selected = true;
 let last_changed = 1;
-
+let tags = []
 let promises = [
     d3.json("data/earningsByAge_global.json").then(function (data) {
         data.earningsByAge.forEach(element => {
@@ -16,7 +16,7 @@ let promises = [
             element.TeamId = +element.TeamId;
             element.TotalUSDPrize = +element.TotalUSDPrize;
             element.TotalTournaments = +element.TotalTournaments;
-            element["Tag"] = createTag(element.TeamName);
+            tags.push(createTag(element.TeamName));
         });
         teams_sorted = data.teams;
     })
@@ -27,6 +27,7 @@ Promise.all(promises).then(function(values){
 });
                     
 function gen_vis(){
+    console.log(tags);
     var margin =  {top: 20, right: 10, bottom: 20, left: 70};
     var marginOverview = {top: 30, right: 10, bottom: 20, left: 70};
     var selectorHeight = 40;
@@ -34,14 +35,18 @@ function gen_vis(){
     var height = 400 - margin.top - margin.bottom - selectorHeight;
     var heightOverview = 80 - marginOverview.top - marginOverview.bottom;
         
-    var maxLength = d3.max(teams_sorted.map(function(d){ return d.Tag.length}))
-    var barWidth = maxLength * 10;
+    var maxLength = d3.max(teams_sorted.map(function(d){ return d.TeamName.length}))
+    var barWidth = maxLength * 3;
     var numBars = Math.round(width/barWidth);
     var isScrollDisplayed = barWidth * teams_sorted.length > width;
   
     var xscale = d3.scaleBand()
         .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
         .rangeRound([0, width]).paddingInner([0.5]);
+
+    var xaxis_xscale = d3.scaleBand()
+            .domain(tags.slice(0,numBars))
+            .rangeRound([0, width]).paddingInner([0.5]);
 
     var yscale = d3.scaleLinear()
         .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
@@ -123,21 +128,20 @@ function gen_vis(){
     d3.select("#check2").on("change",function(){
         if(last_changed != 1){return;}
         xscale = d3.scaleBand()
-            .domain(teams_sorted.slice(0,numBars).map(function (d) { return d.Tag; }))
+            .domain(teams_sorted.slice(0,numBars).map(function (d) { return d.TeamName; }))
             .rangeRound([0, width]).paddingInner([0.5]);
         yscale = d3.scaleLinear()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
             .range([height, 0]);
-        xAxis  = d3.axisBottom().scale(xscale);
+        xAxis  = d3.axisBottom().scale(xaxis_xscale);
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".x.axis").call(xAxis);
         d3.selectAll(".y.axis").call(yAxis);
-        console.log("EITOU ", d3.selectAll(".x.axis").selectAll("text"));
         d3.selectAll(".x.axis").selectAll("text").append("title")
             .data(teams_sorted)
             .text(function(d) { return d.TeamName;});
         xOverview = d3.scaleBand()
-            .domain(teams_sorted.map(function (d) { return d.Tag; }))
+            .domain(teams_sorted.map(function (d) { return d.TeamName; }))
             .rangeRound([0, width]).paddingInner([0.5]);
         yOverview = d3.scaleLinear().range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
@@ -146,7 +150,7 @@ function gen_vis(){
             .duration(1000)
             .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
             .attr("height", function (d) { return height - yscale(d.TotalUSDPrize); })
-            .attr("x", function (d) { return xscale(d.Tag); })
+            .attr("x", function (d) { return xscale(d.TeamName); })
             .attr("width", function (d) { return xscale.bandwidth(); });
         subBars = diagram.selectAll('.subBar');
         subBars.data(teams_sorted)
@@ -154,13 +158,13 @@ function gen_vis(){
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
             .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
-            .attr("x", function(d) { return xOverview(d.Tag) - 15;})
+            .attr("x", function(d) { return xOverview(d.TeamName) - 117;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         subBars.data(teams_sorted).enter().append("rect")
             .classed('subBar extra-subBar', true)
             .attr("height", function(d) {return heightOverview - yOverview(d.TotalUSDPrize);})
             .attr("y", function (d) { return height + heightOverview + yOverview(d.TotalUSDPrize); })
-            .attr("x", function(d) { return xOverview(d.Tag) - 15;})
+            .attr("x", function(d) { return xOverview(d.TeamName) - 117;})
             .attr("width", function(d) { return xOverview.bandwidth();});
         displayed = d3.scaleQuantize()
             .domain([0, width])
@@ -295,21 +299,26 @@ if (isScrollDisplayed)
                 .attr("y", function (d) { return yscale(d.earnings); })
                 .attr("width", xscale.bandwidth())
                 .attr("height", function (d) { return height - yscale(d.earnings); });
+            
+            rects.exit().remove();
         }else {
             new_data = teams_sorted.slice(nf, nf + numBars);
 
-            xscale.domain(new_data.map(function (d) { return d.Tag; }));
+            xscale.domain(new_data.map(function (d) { return d.TeamName; }));
+
+            xaxis_xscale.domain(tags.slice(nf, nf + numBars));
+
             diagram.select(".x.axis").call(xAxis);
 
             rects = bars.selectAll("rect")
-                .data(new_data, function (d) {return d.Tag; });
+                .data(new_data, function (d) {return d.TeamName; });
 
-            rects.attr("x", function (d) { return xscale(d.Tag); });
+            rects.attr("x", function (d) { return xscale(d.TeamName); });
             
             if(quantity){
                 rects.enter().append("rect")
                 .attr("class", "bar")
-                .attr("x", function (d) { return xscale(d.Tag); })
+                .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("y", function (d) { return yscale(d.TotalTournaments); })
                 .attr("width", xscale.bandwidth())
                 .attr("height", function (d) { return height - yscale(d.TotalTournaments); });
@@ -317,14 +326,16 @@ if (isScrollDisplayed)
             else{
                 rects.enter().append("rect")
                 .attr("class", "bar")
-                .attr("x", function (d) { return xscale(d.Tag); })
+                .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
                 .attr("width", xscale.bandwidth())
                 .attr("height", function (d) { return height - yscale(d.TotalUSDPrize); });
             }
+            d3.selectAll(".x.axis").selectAll("text").append("title")
+                .data(new_data)
+                .text(function(d) { return d.TeamName;});
+            rects.exit().remove();
         }
-
-        rects.exit().remove();
     };
 }
 
