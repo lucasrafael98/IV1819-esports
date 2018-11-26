@@ -35,6 +35,8 @@ General styling
 
 .fstElement {
   display: inline-block;
+  height: 5.90vh;
+  width: 15vw;
   position: relative;
   border: 1px solid #D7D7D7;
   box-sizing: border-box;
