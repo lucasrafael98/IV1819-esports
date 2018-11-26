@@ -44,10 +44,6 @@ function gen_vis(){
         .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
         .rangeRound([0, width]).paddingInner([0.5]);
 
-    var xaxis_xscale = d3.scaleBand()
-            .domain(tags.slice(0,numBars))
-            .rangeRound([0, width]).paddingInner([0.5]);
-
     var yscale = d3.scaleLinear()
         .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
         .range([height, 0]);
@@ -133,7 +129,7 @@ function gen_vis(){
         yscale = d3.scaleLinear()
             .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
             .range([height, 0]);
-        xAxis  = d3.axisBottom().scale(xaxis_xscale);
+        xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags[i] });
         yAxis  = d3.axisLeft().scale(yscale);
         d3.selectAll(".x.axis").call(xAxis);
         d3.selectAll(".y.axis").call(yAxis);
@@ -303,10 +299,10 @@ if (isScrollDisplayed)
             rects.exit().remove();
         }else {
             new_data = teams_sorted.slice(nf, nf + numBars);
-
+            new_tags = tags.slice(nf, nf + numBars);
             xscale.domain(new_data.map(function (d) { return d.TeamName; }));
 
-            xaxis_xscale.domain(tags.slice(nf, nf + numBars));
+            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return new_tags[i] });
 
             diagram.select(".x.axis").call(xAxis);
 
