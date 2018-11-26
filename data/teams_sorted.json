@@ -1,6 +1,12 @@
 {
     "teams": [
         {
+            "TeamId": -1,
+            "TeamName": "No team found",
+            "TotalUSDPrize": "23951642.48",
+            "TotalTournaments": 1395
+        },
+        {
             "TeamId": 102,
             "TeamName": "Team Liquid",
             "TotalUSDPrize": "23951642.48",

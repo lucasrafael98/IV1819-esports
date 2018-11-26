@@ -439,7 +439,7 @@
     <hop>
       <from>players</from>
       <to>Sort rows</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Sort rows</from>
@@ -449,7 +449,7 @@
     <hop>
       <from>countries</from>
       <to>Sort rows 3</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Sort rows 3</from>
@@ -459,7 +459,7 @@
     <hop>
       <from>players 2</from>
       <to>Sort rows 4</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Group by</from>
@@ -489,12 +489,12 @@
     <hop>
       <from>games</from>
       <to>Select values</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Select values</from>
       <to>Sort rows 5</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Group by</from>
@@ -599,16 +599,31 @@
     <hop>
       <from>JSON Input 3</from>
       <to>Merge Join 3</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>JSON Input 3 2</from>
       <to>Merge Join 3</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>Merge Join 3</from>
       <to>JSON Output 8</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>teams 2</from>
+      <to>Merge Join 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>JSON Input 5</from>
+      <to>Merge Join 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Merge Join 4</from>
+      <to>JSON Output 9</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -1900,6 +1915,83 @@
     </GUI>
   </step>
   <step>
+    <name>JSON Output 8</name>
+    <type>JsonOutput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <outputValue>outputValue</outputValue>
+    <jsonBloc>data</jsonBloc>
+    <nrRowsInBloc>1000</nrRowsInBloc>
+    <operation_type>writetofile</operation_type>
+    <compatibility_mode>N</compatibility_mode>
+    <encoding>UTF-8</encoding>
+    <addtoresult>N</addtoresult>
+    <file>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/countries</name>
+      <extention>json</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <create_parent_folder>N</create_parent_folder>
+      <DoNotOpenNewFileInit>N</DoNotOpenNewFileInit>
+      <servlet_output>N</servlet_output>
+    </file>
+    <fields>
+      <field>
+        <name>countryCode</name>
+        <element>countryCode</element>
+      </field>
+      <field>
+        <name>players</name>
+        <element>players</element>
+      </field>
+      <field>
+        <name>educationExpenditureMilUSD</name>
+        <element>educationExpenditureMilUSD</element>
+      </field>
+      <field>
+        <name>urbanPopPercentage</name>
+        <element>urbanPopPercentage</element>
+      </field>
+      <field>
+        <name>annualGDPUSD</name>
+        <element>annualGDPUSD</element>
+      </field>
+      <field>
+        <name>countryName</name>
+        <element>countryName</element>
+      </field>
+      <field>
+        <name>unemploymentPercentage</name>
+        <element>unemploymentPercentage</element>
+      </field>
+      <field>
+        <name>totalUSDPrize</name>
+        <element>totalUSDPrize</element>
+      </field>
+    </fields>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1088</xloc>
+      <yloc>400</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>Merge Join</name>
     <type>MergeJoin</type>
     <description />
@@ -1995,6 +2087,39 @@
     <GUI>
       <xloc>448</xloc>
       <yloc>208</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge Join 3</name>
+    <type>MergeJoin</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <join_type>INNER</join_type>
+    <step1>JSON Input 3</step1>
+    <step2>JSON Input 3 2</step2>
+    <keys_1>
+      <key>countryCode</key>
+    </keys_1>
+    <keys_2>
+      <key>countryCode</key>
+    </keys_2>
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>976</xloc>
+      <yloc>400</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -3439,7 +3564,195 @@
     </GUI>
   </step>
   <step>
-    <name>Merge Join 3</name>
+    <name>JSON Input 5</name>
+    <type>JsonInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <include>N</include>
+    <include_field />
+    <rownum>N</rownum>
+    <addresultfile>N</addresultfile>
+    <readurl>N</readurl>
+    <removeSourceField>N</removeSourceField>
+    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
+    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
+    <ignoreMissingPath>Y</ignoreMissingPath>
+    <rownum_field />
+    <file>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/tourn_team_mmyyyy.json</name>
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>startMonth</name>
+        <path>$.TournsWonPerTeamYM.*.startMonth</path>
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>startYear</name>
+        <path>$.TournsWonPerTeamYM.*.startYear</path>
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>TournamentsWon</name>
+        <path>$.TournsWonPerTeamYM.*.TournamentsWon</path>
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>TeamId</name>
+        <path>$.TournsWonPerTeamYM.*.TeamId</path>
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <IsInFields>N</IsInFields>
+    <IsAFile>N</IsAFile>
+    <valueField />
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>848</xloc>
+      <yloc>624</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>teams 2</name>
+    <type>JsonInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <include>N</include>
+    <include_field />
+    <rownum>N</rownum>
+    <addresultfile>N</addresultfile>
+    <readurl>N</readurl>
+    <removeSourceField>N</removeSourceField>
+    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
+    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
+    <ignoreMissingPath>Y</ignoreMissingPath>
+    <rownum_field />
+    <file>
+      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/temp/teams.json</name>
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>TeamId</name>
+        <path>$.teams.*.TeamId</path>
+        <type>Integer</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>TeamName</name>
+        <path>$.teams.*.TeamName</path>
+        <type>None</type>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <IsInFields>N</IsInFields>
+    <IsAFile>N</IsAFile>
+    <valueField />
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>848</xloc>
+      <yloc>544</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Merge Join 4</name>
     <type>MergeJoin</type>
     <description />
     <distribute>Y</distribute>
@@ -3450,13 +3763,13 @@
       <schema_name />
     </partitioning>
     <join_type>INNER</join_type>
-    <step1>JSON Input 3</step1>
-    <step2>JSON Input 3 2</step2>
+    <step1>teams 2</step1>
+    <step2>JSON Input 5</step2>
     <keys_1>
-      <key>countryCode</key>
+      <key>TeamId</key>
     </keys_1>
     <keys_2>
-      <key>countryCode</key>
+      <key>TeamId</key>
     </keys_2>
     <cluster_schema />
     <remotesteps>
@@ -3467,12 +3780,12 @@
     </remotesteps>
     <GUI>
       <xloc>976</xloc>
-      <yloc>400</yloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>JSON Output 8</name>
+    <name>JSON Output 9</name>
     <type>JsonOutput</type>
     <description />
     <distribute>Y</distribute>
@@ -3484,13 +3797,13 @@
     </partitioning>
     <outputValue>outputValue</outputValue>
     <jsonBloc>data</jsonBloc>
-    <nrRowsInBloc>1000</nrRowsInBloc>
+    <nrRowsInBloc>1</nrRowsInBloc>
     <operation_type>writetofile</operation_type>
     <compatibility_mode>N</compatibility_mode>
     <encoding>UTF-8</encoding>
     <addtoresult>N</addtoresult>
     <file>
-      <name>/home/lucas/Desktop/A4S1/VI/IV1819-esports/data/countries</name>
+      <name />
       <extention>json</extention>
       <append>N</append>
       <split>N</split>
@@ -3503,36 +3816,24 @@
     </file>
     <fields>
       <field>
-        <name>countryCode</name>
-        <element>countryCode</element>
+        <name>TeamId</name>
+        <element>TeamId</element>
       </field>
       <field>
-        <name>players</name>
-        <element>players</element>
+        <name>TeamName</name>
+        <element>TeamName</element>
       </field>
       <field>
-        <name>educationExpenditureMilUSD</name>
-        <element>educationExpenditureMilUSD</element>
+        <name>startMonth</name>
+        <element>startMonth</element>
       </field>
       <field>
-        <name>urbanPopPercentage</name>
-        <element>urbanPopPercentage</element>
+        <name>startYear</name>
+        <element>startYear</element>
       </field>
       <field>
-        <name>annualGDPUSD</name>
-        <element>annualGDPUSD</element>
-      </field>
-      <field>
-        <name>countryName</name>
-        <element>countryName</element>
-      </field>
-      <field>
-        <name>unemploymentPercentage</name>
-        <element>unemploymentPercentage</element>
-      </field>
-      <field>
-        <name>totalUSDPrize</name>
-        <element>totalUSDPrize</element>
+        <name>TournamentsWon</name>
+        <element>TournamentsWon</element>
       </field>
     </fields>
     <cluster_schema />
@@ -3543,8 +3844,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
-      <yloc>400</yloc>
+      <xloc>1104</xloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

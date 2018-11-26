@@ -3,8 +3,8 @@ var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5 - window
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoNaturalEarth()
-    .scale(width / 2.2 / Math.PI)
-    .translate([width / 2, height / 2 + height * 0.07])
+    .scale(width / 2.15 / Math.PI)
+    .translate([width / 2, height / 2 + height * 0.09])
 var path = d3.geoPath()
     .projection(projection);
 
@@ -31,8 +31,6 @@ var promises_cl = [
     }
   })
 ]
-
-var selectedCountries = {};
 choroMode = 0; //0 -> earnings, 1-> players
 var countriesStatesChoro;
 
