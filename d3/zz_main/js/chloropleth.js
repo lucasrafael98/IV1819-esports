@@ -1,4 +1,4 @@
-var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5;
+var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5 - window.innerHeight * 0.5*0.15;
 
 
 
@@ -6,7 +6,7 @@ var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5;
 var path = d3.geoPath();
 var projection = d3.geoNaturalEarth()
     .scale(width / 2.2 / Math.PI)
-    .translate([width / 2, height / 2])
+    .translate([width / 2, height / 2 + height * 0.07])
 var path = d3.geoPath()
     .projection(projection);
 
