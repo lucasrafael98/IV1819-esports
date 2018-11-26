@@ -66,7 +66,7 @@ function gen_vis(){
         .attr("class", "y axis")
         .call(yAxis);
   
-    var bars = diagram.append("g");
+    var bars = diagram.append("g").attr("class", "main-bars");
   
     bars.selectAll("rect")
         .data(earningsByAge.slice(0, numBars), function (d) {return d.age; })

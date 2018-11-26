@@ -74,7 +74,8 @@ function gen_heatmap(){
             else return colorScale(d.tournaments); });
 
     svg.selectAll(".heatmap-block").on("click",function(){
-        //INSERT ACTION HERE!
+        let bars = d3.select(".superbchart").select("#barchart").select("svg").select("g").select(".main-bars");
+        bars.selectAll("rect");
     });
     svg.selectAll(".heatmap-block").on("mouseover",function(){
         laststyle =  d3.select(this).style("fill");
