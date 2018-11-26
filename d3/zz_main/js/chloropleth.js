@@ -1,7 +1,5 @@
 var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5 - window.innerHeight * 0.5*0.15;
 
-
-
 // Map and projection
 var path = d3.geoPath();
 var projection = d3.geoNaturalEarth()
@@ -58,6 +56,32 @@ Promise.all(promises_cl).then(function(values){
           .duration(1500)
           .attr("fill", "#009684");
         selectedCountries[value.value] = data.get(value.value+choroMode) ? returnActualColorScale(data.get(value.value+choroMode)) : "#d6d6d6";
+
+        circles0 = d3.selectAll("#scatter")
+                                .select("svg")
+                                .select(".scpl-circle0")
+                                .selectAll("circle");
+        circles0.filter(function(d){ return selectedCountries[d.countryCode] == null; })
+          .transition()
+          .duration(200)
+          .attr("r", 0.75);
+        circles0.filter(function(d){ return selectedCountries[d.countryCode] != null; })
+          .transition()
+          .duration(200)
+          .attr("r", 4.5);
+
+        circles1 = d3.selectAll("#scatter")
+                      .select("svg")
+                      .select(".scpl-circle1")
+                      .selectAll("circle");
+        circles1.filter(function(d){ return selectedCountries[d.countryCode] == null; })
+          .transition()
+          .duration(200)
+          .attr("r", 0.75);
+        circles1.filter(function(d){ return selectedCountries[d.countryCode] != null; })
+          .transition()
+          .duration(200)
+          .attr("r", 4.5);
       } 
       else{
         d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })
@@ -68,6 +92,43 @@ Promise.all(promises_cl).then(function(values){
             return data.get(d.id+choroMode) ? returnActualColorScale(data.get(d.id+choroMode)) : "#969696";
           })
         delete selectedCountries[value.value]
+        let removedId = value.value;
+        if(Object.keys(selectedCountries).length === 0){
+          circles0 = d3.selectAll("#scatter")
+                        .select("svg")
+                        .select(".scpl-circle0")
+                        .selectAll("circle");
+          circles0.transition()
+            .duration(200)
+            .attr("r", 4.5);
+
+          circles1 = d3.selectAll("#scatter")
+                        .select("svg")
+                        .select(".scpl-circle1")
+                        .selectAll("circle");
+          circles1.transition()
+            .duration(200)
+            .attr("r", 4.5);
+        }
+        else{
+          circles0 = d3.selectAll("#scatter")
+                        .select("svg")
+                        .select(".scpl-circle0")
+                        .selectAll("circle");
+          circles0.filter(function(d){ return d.countryCode == removedId; })
+            .transition()
+            .duration(200)
+            .attr("r", 0.75);
+
+          circles1 = d3.selectAll("#scatter")
+            .select("svg")
+            .select(".scpl-circle1")
+            .selectAll("circle");
+          circles1.filter(function(d){ return d.countryCode == removedId; })
+            .transition()
+            .duration(200)
+            .attr("r", 0.75);
+        }
       }
     }
   });
@@ -119,6 +180,32 @@ Promise.all(promises_cl).then(function(values){
 
                 hammerTest.updateDomElements();
                 selectedCountries[this.__data__.id] = data.get(this.__data__.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#d6d6d6";
+                temp = this;
+                circles0 = d3.selectAll("#scatter")
+                                .select("svg")
+                                .select(".scpl-circle0")
+                                .selectAll("circle");
+                circles0.filter(function(d){ return selectedCountries[d.countryCode] == null; })
+                  .transition()
+                  .duration(200)
+                  .attr("r", 0.75);
+                circles0.filter(function(d){ return selectedCountries[d.countryCode] != null; })
+                  .transition()
+                  .duration(200)
+                  .attr("r", 4.5);
+
+                circles1 = d3.selectAll("#scatter")
+                              .select("svg")
+                              .select(".scpl-circle1")
+                              .selectAll("circle");
+                circles1.filter(function(d){ return selectedCountries[d.countryCode] == null; })
+                  .transition()
+                  .duration(200)
+                  .attr("r", 0.75);
+                circles1.filter(function(d){ return selectedCountries[d.countryCode] != null; })
+                  .transition()
+                  .duration(200)
+                  .attr("r", 4.5);
               } 
               else{
                 
@@ -132,10 +219,48 @@ Promise.all(promises_cl).then(function(values){
                 }
                 hammerTest.updateDomElements();
                 delete selectedCountries[this.__data__.id]
+                let removedId = this.__data__.id;
+
+                if(Object.keys(selectedCountries).length === 0){
+                  circles0 = d3.selectAll("#scatter")
+                                .select("svg")
+                                .select(".scpl-circle0")
+                                .selectAll("circle");
+                  circles0.transition()
+                    .duration(200)
+                    .attr("r", 4.5);
+
+                  circles1 = d3.selectAll("#scatter")
+                                .select("svg")
+                                .select(".scpl-circle1")
+                                .selectAll("circle");
+                  circles1.transition()
+                    .duration(200)
+                    .attr("r", 4.5);
+                }
+                else{
+                  circles0 = d3.selectAll("#scatter")
+                                .select("svg")
+                                .select(".scpl-circle0")
+                                .selectAll("circle");
+                  circles0.filter(function(d){ return d.countryCode == removedId; })
+                    .transition()
+                    .duration(200)
+                    .attr("r", 0.75);
+
+                  circles1 = d3.selectAll("#scatter")
+                    .select("svg")
+                    .select(".scpl-circle1")
+                    .selectAll("circle");
+                  circles1.filter(function(d){ return d.countryCode == removedId; })
+                    .transition()
+                    .duration(200)
+                    .attr("r", 0.75);
+                }
               }
 
               
-              console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
+            }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
   
   d3.selectAll("#switchToPlayerAmountChoro")
