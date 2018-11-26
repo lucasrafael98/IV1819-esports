@@ -1,5 +1,6 @@
 let full_dataset;
 times = d3.range(24);
+let laststyle = "";
 d3.json("data/tourn_mmyyyy.json").then(function (data) {
     data.data.forEach(element => {
         element.tournaments = +element.tournaments;
@@ -65,9 +66,26 @@ function gen_heatmap(){
         .attr("y", function(d) { return (d.startYear - 1999) * gridSize / 2; })
         .attr("width", gridSize)
         .attr("height", gridSize / 2)
+        .attr("class", "heatmap-block")
         .style("stroke", "black")
         .style("stroke-opacity", 0.6)
         .style("fill", function(d) { 
             if(d.tournaments === 0) return "#848484";
             else return colorScale(d.tournaments); });
+
+    svg.selectAll(".heatmap-block").on("click",function(){
+        //INSERT ACTION HERE!
+    });
+    svg.selectAll(".heatmap-block").on("mouseover",function(){
+        laststyle =  d3.select(this).style("fill");
+        d3.select(this).style("stroke-opacity", "1");
+        d3.select(this).style("fill", "rgba(45, 101, 139,0.5)");
+        d3.select(this).style("cursor", "pointer");
+    });
+
+    svg.selectAll(".heatmap-block").on("mouseout",function(){
+
+        d3.select(this).style("stroke-opacity", "0.6");
+        d3.select(this).style("fill", laststyle);
+    });
 }

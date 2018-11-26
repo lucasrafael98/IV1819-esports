@@ -27,7 +27,6 @@ Promise.all(promises).then(function(values){
 });
                     
 function gen_vis(){
-    console.log(tags);
     var margin =  {top: 20, right: 10, bottom: 20, left: 70};
     var marginOverview = {top: 30, right: 10, bottom: 20, left: 70};
     var selectorHeight = 40;
