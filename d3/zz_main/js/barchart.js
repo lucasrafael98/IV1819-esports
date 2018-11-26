@@ -54,12 +54,12 @@ function gen_vis(){
         .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
         .rangeRound([0, barChartWidth]).paddingInner([0.5]);
 
-    var yscale = d3.scaleLinear()
+    var yscale = d3.scalePow().exponent(0.4)
         .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
         .range([barChartHeight, 0]);
   
     var xAxis  = d3.axisBottom().scale(xscale);
-    var yAxis  = d3.axisLeft().scale(yscale);
+    var yAxis  = d3.axisLeft().scale(yscale).ticks(5).ticks(5);
   
     var svg = d3.select("#barchart").append("svg")
         .attr("width", barChartWidth + margin.left + margin.right)
@@ -94,17 +94,17 @@ function gen_vis(){
         xscale = d3.scaleBand()
             .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yscale = d3.scaleLinear()
+        yscale = d3.scalePow().exponent(0.4)
             .domain([0, d3.max(earningsByAge, function (d) { return d.earnings; })])
             .range([barChartHeight, 0]);
         xAxis  = d3.axisBottom().scale(xscale);
-        yAxis  = d3.axisLeft().scale(yscale);
+        yAxis  = d3.axisLeft().scale(yscale).ticks(5);
         d3.selectAll(".x.axis").call(xAxis);
         d3.selectAll(".y.axis").call(yAxis);
         xOverview = d3.scaleBand()
             .domain(earningsByAge.map(function (d) { return d.age; }))
             .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview = d3.scalePow().exponent(0.4).range([heightOverview, 0]);
         yOverview.domain(yscale.domain());
         diagram.selectAll('.extra-subBar1').remove();
         diagram.selectAll('.extra-subBar2').remove();
@@ -231,12 +231,12 @@ function gen_vis(){
     d3.select("#check3").on("change",function(){
         if(last_changed == 2 && teams_selected){return;}
         if(document.getElementById("check2").checked){
-            yscale = d3.scaleLinear()
-                .domain([0, d3.max(teams_sorted, function (d) { return d.TotalUSDPrize; })])
+            yscale = d3.scalePow().exponent(0.35)
+                .domain([0, 2.5E7])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(teams_sorted)
@@ -278,12 +278,12 @@ function gen_vis(){
     d3.select("#check4").on("change",function(){
         if(last_changed == 4){return;}
         if(document.getElementById("check2").checked){
-            yscale = d3.scaleLinear()
-                .domain([0, d3.max(teams_sorted, function (d) { return d.TotalTournaments; })])
+            yscale = d3.scalePow().exponent(0.4)
+                .domain([0, 1400])
                 .range([barChartHeight, 0]);
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".y.axis").call(yAxis);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
+            yOverview = d3.scalePow().exponent(0.4).range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
             subBars = diagram.selectAll('.subBar');
             subBars.data(teams_sorted)
@@ -416,7 +416,7 @@ if (isScrollDisplayed)
     var xOverview = d3.scaleBand()
         .domain(earningsByAge.map(function (d) { return d.age; }))
         .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-    yOverview = d3.scaleLinear().range([heightOverview, 0]);
+    yOverview = d3.scalePow().exponent(0.4).range([heightOverview, 0]);
     yOverview.domain(yscale.domain());
 
     var subBars = diagram.selectAll('.subBar')

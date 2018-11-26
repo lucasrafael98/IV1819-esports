@@ -64,7 +64,7 @@ function gen_heatmap(){
         .enter()
         .append("text")
         .text(function(d) { return d; })
-        .attr("x", function(d, i) { return (i-0.8) * gridSize; })
+        .attr("x", function(d, i) { return (i-1.1) * gridSize; })
         .attr("y", 0)
         .style("text-anchor", "middle")
         .attr("transform", "translate(115," + (height + 2.25 * gridSize)  + ")")
@@ -75,7 +75,7 @@ function gen_heatmap(){
         .append("text")
         .text(function(d) { return d; })
         .attr("x", 10)
-        .attr("y", function(d, i) { return (i-0.6) * gridSize /2; })
+        .attr("y", function(d, i) { return (i-0.9) * gridSize /2; })
         .style("text-anchor", "end")
         .attr("transform", "translate(" + gridSize / 2 + ", 57.5)");
 

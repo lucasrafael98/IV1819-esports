@@ -11,7 +11,7 @@ var path = d3.geoPath()
 // Data and color scale
 var data = d3.map();
 var colorEarningsScale = d3.scaleLog()
-	.domain([10000, 10000000])
+	.domain([1000, 10000000])
 	.interpolate(d3.interpolateHcl)
   .range([d3.rgb("#969696"), d3.rgb('#28638c')]); 
 
