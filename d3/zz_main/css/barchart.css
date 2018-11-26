@@ -5,7 +5,7 @@ svg {
   
   
   .bar {
-    fill: steelblue;
+    fill: #095689;
     clip-path: url(#clip);
   }
     
@@ -23,7 +23,7 @@ svg {
   
   .brush .extent {
     stroke: #fff;
-    fill: steelblue;
+    fill: #095689;
     fill-opacity: .25;
     shape-rendering: crispEdges;
   }
