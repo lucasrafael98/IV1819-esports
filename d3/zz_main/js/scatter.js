@@ -83,7 +83,14 @@ function gen_scatter(){
     svg.append("g")
         .attr("transform","translate(" + padding + ",0)")
         .attr("class","scatter-y")
-        .call(yaxis);
+        .call(yaxis)
+        .append("text")
+        .attr("x", -h / 2)
+        .attr("y", -padding * 0.8)
+        .attr("transform", "rotate(-90)")
+        .attr("class", "scatter-y-text")
+        .style("text-anchor", "middle")
+        .text("Unemployment / Urban Population");
     var xaxis = d3.axisBottom()
         .scale(d3.scaleLog()
             .domain([1, 1000])
@@ -93,7 +100,13 @@ function gen_scatter(){
     svg.append("g")
         .attr("transform","translate(0," + (h-padding) + ")")
         .attr("class","scatter-x")
-        .call(xaxis);
+        .call(xaxis)
+        .append("text")
+        .attr("x", w / 2)
+        .attr("y", (h/6)-padding * 0.8)
+        .attr("class", "scatter-x-text")
+        .style("text-anchor", "middle")
+        .text("Number of Players");
 
 
     // Switch Y axis
@@ -149,7 +162,9 @@ function gen_scatter(){
                     .transition()
                     .duration(700)
                     .attr("transform","translate(" + padding + ",0)")
-                    .call(yaxis);
+                    .call(yaxis)
+                    .selectAll(".scatter-y-text")
+                    .text("GDP");
             }
             else{
                 yscale = d3.scaleLinear()
@@ -200,7 +215,9 @@ function gen_scatter(){
                     .transition()
                     .duration(700)
                     .attr("transform","translate(" + padding + ",0)")
-                    .call(yaxis);
+                    .call(yaxis)
+                    .selectAll(".scatter-y-text")
+                    .text("Unemployment / Urban Population");
             }
             scplYMode = !scplYMode;
         })
@@ -256,7 +273,9 @@ function gen_scatter(){
                     .transition()
                     .duration(700)
                     .attr("transform","translate(0, " + (h-padding) + ")")
-                    .call(xaxis);
+                    .call(xaxis)
+                    .selectAll(".scatter-x-text")
+                    .text("Player Earnings");
             }
             else{
                 xscale = d3.scaleLog()
@@ -305,7 +324,9 @@ function gen_scatter(){
                     .transition()
                     .duration(700)
                     .attr("transform","translate(0, " + (h-padding) + ")")
-                    .call(xaxis);
+                    .call(xaxis)
+                    .selectAll(".scatter-x-text")
+                    .text("Number of Players");
             }
             scplXMode = !scplXMode;
         });
