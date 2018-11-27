@@ -1,0 +1,6444 @@
+{
+    "prizePerTeamYM": [
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2000,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2001,
+            "prizeSum": 1605.06,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2001,
+            "prizeSum": 4570.43,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2001,
+            "prizeSum": 2245.51,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2001,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Ninjas in Pyjamas",
+            "TeamId": 162,
+            "startYear": 2001,
+            "prizeSum": 50000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2001,
+            "prizeSum": 6000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2001,
+            "prizeSum": 6000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Chinese National Team",
+            "TeamId": 609,
+            "startYear": 2001,
+            "prizeSum": 6000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2002,
+            "prizeSum": 25000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "M19",
+            "TeamId": 661,
+            "startYear": 2002,
+            "prizeSum": 40000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2002,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2002,
+            "prizeSum": 15358.5,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Greatest Ones",
+            "TeamId": 652,
+            "startYear": 2003,
+            "prizeSum": 17685.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2003,
+            "prizeSum": 1000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "a-Losers",
+            "TeamId": 191,
+            "startYear": 2003,
+            "prizeSum": 17800.5,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "a-Losers",
+            "TeamId": 191,
+            "startYear": 2003,
+            "prizeSum": 11510.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Greatest Ones",
+            "TeamId": 652,
+            "startYear": 2003,
+            "prizeSum": 13949.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2003,
+            "prizeSum": 7000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2003,
+            "prizeSum": 7000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Dutch National Team",
+            "TeamId": 598,
+            "startYear": 2003,
+            "prizeSum": 7000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Taiwanese National Team",
+            "TeamId": 637,
+            "startYear": 2003,
+            "prizeSum": 14000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2003,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2003,
+            "prizeSum": 12274.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2004,
+            "prizeSum": 6200.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Destination-Skyline",
+            "TeamId": 190,
+            "startYear": 2004,
+            "prizeSum": 4856.14,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2004,
+            "prizeSum": 1500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Astralis (Finnish)",
+            "TeamId": 465,
+            "startYear": 2004,
+            "prizeSum": 2381.8,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "SK Telecom T1",
+            "TeamId": 145,
+            "startYear": 2004,
+            "prizeSum": 21815.5,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Ocrana",
+            "TeamId": 471,
+            "startYear": 2004,
+            "prizeSum": 12007.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2004,
+            "prizeSum": 15000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2004,
+            "prizeSum": 10000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Pantech",
+            "TeamId": 709,
+            "startYear": 2004,
+            "prizeSum": 68530.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2004,
+            "prizeSum": 10854.03,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2004,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "4Kings",
+            "TeamId": 158,
+            "startYear": 2005,
+            "prizeSum": 1500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Astralis (Finnish)",
+            "TeamId": 465,
+            "startYear": 2005,
+            "prizeSum": 1295.35,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "SK Telecom T1",
+            "TeamId": 145,
+            "startYear": 2005,
+            "prizeSum": 48075.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2005,
+            "prizeSum": 20000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Ocrana",
+            "TeamId": 471,
+            "startYear": 2005,
+            "prizeSum": 18128.97,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2005,
+            "prizeSum": 15000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "4Kings",
+            "TeamId": 158,
+            "startYear": 2005,
+            "prizeSum": 1500.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2005,
+            "prizeSum": 6152.5,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2005,
+            "prizeSum": 4922.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2005,
+            "prizeSum": 8588.95,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "SK Telecom T1",
+            "TeamId": 145,
+            "startYear": 2005,
+            "prizeSum": 48075.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Templars of Twilight",
+            "TeamId": 282,
+            "startYear": 2005,
+            "prizeSum": 300.75,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team 3D",
+            "TeamId": 201,
+            "startYear": 2005,
+            "prizeSum": 50000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2005,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2005,
+            "prizeSum": 17734.58,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "SK Telecom T1",
+            "TeamId": 145,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Made in Brazil",
+            "TeamId": 221,
+            "startYear": 2006,
+            "prizeSum": 52000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2006,
+            "prizeSum": 12752.5,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2006,
+            "prizeSum": 12200.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2006,
+            "prizeSum": 5101.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2006,
+            "prizeSum": 26780.25,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Made in Brazil",
+            "TeamId": 221,
+            "startYear": 2006,
+            "prizeSum": 3600.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2006,
+            "prizeSum": 738.83,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2006,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2006,
+            "prizeSum": 19988.54,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2006,
+            "prizeSum": 50000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "4Kings",
+            "TeamId": 158,
+            "startYear": 2007,
+            "prizeSum": 12909.06,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2007,
+            "prizeSum": 3503.24,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2007,
+            "prizeSum": 10000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2007,
+            "prizeSum": 3921.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2007,
+            "prizeSum": 392.1,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Samsung",
+            "TeamId": 144,
+            "startYear": 2007,
+            "prizeSum": 86240.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2007,
+            "prizeSum": 6793.25,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2007,
+            "prizeSum": 4263.42,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2007,
+            "prizeSum": 13469.46,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Templars of Twilight",
+            "TeamId": 282,
+            "startYear": 2007,
+            "prizeSum": 1018.52,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2007,
+            "prizeSum": 22000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2007,
+            "prizeSum": 9686.060000000001,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2007,
+            "prizeSum": 10000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2007,
+            "prizeSum": 5470.42,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Polish National Team",
+            "TeamId": 587,
+            "startYear": 2007,
+            "prizeSum": 20514.08,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Finnish National Team",
+            "TeamId": 588,
+            "startYear": 2007,
+            "prizeSum": 8205.63,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2007,
+            "prizeSum": 6718.04,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "H2K",
+            "TeamId": 287,
+            "startYear": 2007,
+            "prizeSum": 3302.66,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2007,
+            "prizeSum": 7328.8,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2007,
+            "prizeSum": 4695.13,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "n!faculty",
+            "TeamId": 277,
+            "startYear": 2007,
+            "prizeSum": 5851.8,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "London Mint",
+            "TeamId": 459,
+            "startYear": 2007,
+            "prizeSum": 8801.14,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2007,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Chicago Chimera",
+            "TeamId": 374,
+            "startYear": 2007,
+            "prizeSum": 250000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2008,
+            "prizeSum": 2325.06,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2008,
+            "prizeSum": 4650.13,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2008,
+            "prizeSum": 10000.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "n!faculty",
+            "TeamId": 277,
+            "startYear": 2008,
+            "prizeSum": 7591.23,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2008,
+            "prizeSum": 2361.4,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2008,
+            "prizeSum": 11907.79,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Birmingham Salvo",
+            "TeamId": 366,
+            "startYear": 2008,
+            "prizeSum": 9923.16,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Samsung",
+            "TeamId": 144,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2008,
+            "prizeSum": 4915.6,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2008,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Begrip Gaming",
+            "TeamId": 188,
+            "startYear": 2008,
+            "prizeSum": 1648.61,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2008,
+            "prizeSum": 7745.34,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2008,
+            "prizeSum": 4477.32,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2008,
+            "prizeSum": 11507.22,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Evil Geniuses",
+            "TeamId": 101,
+            "startYear": 2008,
+            "prizeSum": 14631.82,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2008,
+            "prizeSum": 7500.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Birmingham Salvo",
+            "TeamId": 366,
+            "startYear": 2008,
+            "prizeSum": 250000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Nihilum Gaming",
+            "TeamId": 306,
+            "startYear": 2008,
+            "prizeSum": 15000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Birmingham Salvo",
+            "TeamId": 366,
+            "startYear": 2008,
+            "prizeSum": 8975.89,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "LowLandLions",
+            "TeamId": 508,
+            "startYear": 2008,
+            "prizeSum": 8975.89,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2008,
+            "prizeSum": 7387.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2008,
+            "prizeSum": 22160.99,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Polish National Team",
+            "TeamId": 587,
+            "startYear": 2008,
+            "prizeSum": 5909.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Czech National Team",
+            "TeamId": 593,
+            "startYear": 2008,
+            "prizeSum": 7387.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Zenith",
+            "TeamId": 711,
+            "startYear": 2008,
+            "prizeSum": 13000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "4Kings",
+            "TeamId": 158,
+            "startYear": 2008,
+            "prizeSum": 13799.96,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Birmingham Salvo",
+            "TeamId": 366,
+            "startYear": 2008,
+            "prizeSum": 9199.97,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2008,
+            "prizeSum": 15000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2008,
+            "prizeSum": 7609.5,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2008,
+            "prizeSum": 3809.69,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2008,
+            "prizeSum": 16382.7,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2008,
+            "prizeSum": 15000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Meet Your Makers",
+            "TeamId": 119,
+            "startYear": 2008,
+            "prizeSum": 3330.09,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2008,
+            "prizeSum": 3809.69,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2008,
+            "prizeSum": 9890.11,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2008,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2008,
+            "prizeSum": 7607.7,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2008,
+            "prizeSum": 3347.62,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2009,
+            "prizeSum": 9959.81,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Evil Geniuses",
+            "TeamId": 101,
+            "startYear": 2009,
+            "prizeSum": 4000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2009,
+            "prizeSum": 2139.16,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2009,
+            "prizeSum": 2967.11,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "H2K",
+            "TeamId": 287,
+            "startYear": 2009,
+            "prizeSum": 1226.53,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2009,
+            "prizeSum": 14004.05,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2009,
+            "prizeSum": 9000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2009,
+            "prizeSum": 5601.62,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Templars of Twilight",
+            "TeamId": 282,
+            "startYear": 2009,
+            "prizeSum": 600.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Lemondogs",
+            "TeamId": 380,
+            "startYear": 2009,
+            "prizeSum": 7663.54,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2009,
+            "prizeSum": 4263.18,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2009,
+            "prizeSum": 7952.64,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2009,
+            "prizeSum": 1978.18,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2009,
+            "prizeSum": 4391.74,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2009,
+            "prizeSum": 3709.08,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2009,
+            "prizeSum": 5736.5,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2009,
+            "prizeSum": 5736.5,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "SK Telecom T1",
+            "TeamId": 145,
+            "startYear": 2009,
+            "prizeSum": 34600.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2009,
+            "prizeSum": 3764.24,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2009,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "CheckSix Gaming",
+            "TeamId": 108,
+            "startYear": 2009,
+            "prizeSum": 7500.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2009,
+            "prizeSum": 14620.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2009,
+            "prizeSum": 5848.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team Roccat",
+            "TeamId": 220,
+            "startYear": 2009,
+            "prizeSum": 287.84,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2010,
+            "prizeSum": 7500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2010,
+            "prizeSum": 1574.3,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Evil Geniuses",
+            "TeamId": 101,
+            "startYear": 2010,
+            "prizeSum": 25000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2010,
+            "prizeSum": 3405.88,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2010,
+            "prizeSum": 3500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "STX SouL",
+            "TeamId": 447,
+            "startYear": 2010,
+            "prizeSum": 33880.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2010,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2010,
+            "prizeSum": 14000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2010,
+            "prizeSum": 29493.870000000003,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2010,
+            "prizeSum": 5014.4,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2010,
+            "prizeSum": 5000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2010,
+            "prizeSum": 1871.52,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2010,
+            "prizeSum": 2807.28,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2010,
+            "prizeSum": 7602.64,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2010,
+            "prizeSum": 15000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "German National Team",
+            "TeamId": 579,
+            "startYear": 2010,
+            "prizeSum": 5072.48,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Ukranian National Team",
+            "TeamId": 582,
+            "startYear": 2010,
+            "prizeSum": 5149.24,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Swedish National Team",
+            "TeamId": 584,
+            "startYear": 2010,
+            "prizeSum": 7626.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "British National Team",
+            "TeamId": 608,
+            "startYear": 2010,
+            "prizeSum": 6340.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "compLexity Gaming",
+            "TeamId": 104,
+            "startYear": 2010,
+            "prizeSum": 9000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2010,
+            "prizeSum": 18722.73,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "KT Rolster",
+            "TeamId": 177,
+            "startYear": 2010,
+            "prizeSum": 35720.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2010,
+            "prizeSum": 75000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2010,
+            "prizeSum": 9780.75,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2010,
+            "prizeSum": 4504.98,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2010,
+            "prizeSum": 8575.1,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2010,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2010,
+            "prizeSum": 13368.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2010,
+            "prizeSum": 6684.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2010,
+            "prizeSum": 15918.5,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "eSahara",
+            "TeamId": 110,
+            "startYear": 2011,
+            "prizeSum": 1632.84,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2011,
+            "prizeSum": 4526.76,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2011,
+            "prizeSum": 2303.05,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2011,
+            "prizeSum": 2150.58,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2011,
+            "prizeSum": 144.59,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2011,
+            "prizeSum": 143.91,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2011,
+            "prizeSum": 11707.2,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2011,
+            "prizeSum": 8649.77,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2011,
+            "prizeSum": 1545.6,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2011,
+            "prizeSum": 143.02,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Virus Gaming",
+            "TeamId": 160,
+            "startYear": 2011,
+            "prizeSum": 1815.37,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2011,
+            "prizeSum": 4245.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2011,
+            "prizeSum": 86.37,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2011,
+            "prizeSum": 7773.75,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2011,
+            "prizeSum": 4099.25,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "TCM Gaming",
+            "TeamId": 233,
+            "startYear": 2011,
+            "prizeSum": 2459.55,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2011,
+            "prizeSum": 400000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Canadian National Team",
+            "TeamId": 589,
+            "startYear": 2011,
+            "prizeSum": 2500.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Netcode Illuminati",
+            "TeamId": 772,
+            "startYear": 2011,
+            "prizeSum": 6500.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ESC Gaming",
+            "TeamId": 120,
+            "startYear": 2011,
+            "prizeSum": 1451.61,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team DK",
+            "TeamId": 285,
+            "startYear": 2011,
+            "prizeSum": 23514.66,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2011,
+            "prizeSum": 21402.12,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2011,
+            "prizeSum": 135.58,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team DK",
+            "TeamId": 285,
+            "startYear": 2011,
+            "prizeSum": 56929.509999999995,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2011,
+            "prizeSum": 6000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2011,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2011,
+            "prizeSum": 11381.75,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2011,
+            "prizeSum": 3951.69,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2011,
+            "prizeSum": 7943.69,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2011,
+            "prizeSum": 1562.01,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2012,
+            "prizeSum": 4000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Prime",
+            "TeamId": 134,
+            "startYear": 2012,
+            "prizeSum": 26524.03,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2012,
+            "prizeSum": 992.8,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Team DK",
+            "TeamId": 285,
+            "startYear": 2012,
+            "prizeSum": 4756.85,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2012,
+            "prizeSum": 264.75,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2012,
+            "prizeSum": 2984.91,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2012,
+            "prizeSum": 1000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "It's Gosu eSports",
+            "TeamId": 105,
+            "startYear": 2012,
+            "prizeSum": 663.39,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2012,
+            "prizeSum": 300.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2012,
+            "prizeSum": 19993.88,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2012,
+            "prizeSum": 1309.33,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2012,
+            "prizeSum": 12326.68,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2012,
+            "prizeSum": 12307.69,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2012,
+            "prizeSum": 480.18,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "LGD Gaming",
+            "TeamId": 227,
+            "startYear": 2012,
+            "prizeSum": 3000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "n!faculty",
+            "TeamId": 277,
+            "startYear": 2012,
+            "prizeSum": 5699.43,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Orange Esports",
+            "TeamId": 286,
+            "startYear": 2012,
+            "prizeSum": 2000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2012,
+            "prizeSum": 2500.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2012,
+            "prizeSum": 31444.56,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2012,
+            "prizeSum": 15740.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2012,
+            "prizeSum": 3200.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2012,
+            "prizeSum": 35554.25,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "compLexity Gaming",
+            "TeamId": 104,
+            "startYear": 2012,
+            "prizeSum": 24000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2012,
+            "prizeSum": 2500.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2012,
+            "prizeSum": 244.45999999999998,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2012,
+            "prizeSum": 700.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2012,
+            "prizeSum": 122.51,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team Curse",
+            "TeamId": 236,
+            "startYear": 2012,
+            "prizeSum": 4000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2012,
+            "prizeSum": 2545.9,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "mTw",
+            "TeamId": 114,
+            "startYear": 2012,
+            "prizeSum": 7548.59,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "StarTale",
+            "TeamId": 136,
+            "startYear": 2012,
+            "prizeSum": 9000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Ninjas in Pyjamas",
+            "TeamId": 162,
+            "startYear": 2012,
+            "prizeSum": 5586.34,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Counter Logic Gaming",
+            "TeamId": 207,
+            "startYear": 2012,
+            "prizeSum": 6700.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Orange Esports",
+            "TeamId": 286,
+            "startYear": 2012,
+            "prizeSum": 1500.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "compLexity Gaming",
+            "TeamId": 104,
+            "startYear": 2012,
+            "prizeSum": 4000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "FXOpen e-Sports",
+            "TeamId": 107,
+            "startYear": 2012,
+            "prizeSum": 27726.43,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2012,
+            "prizeSum": 7475.62,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2012,
+            "prizeSum": 1924.27,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team VeryGames",
+            "TeamId": 218,
+            "startYear": 2012,
+            "prizeSum": 656.38,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Curse",
+            "TeamId": 236,
+            "startYear": 2012,
+            "prizeSum": 1000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Orange Esports",
+            "TeamId": 286,
+            "startYear": 2012,
+            "prizeSum": 3000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "EloHell",
+            "TeamId": 387,
+            "startYear": 2012,
+            "prizeSum": 643.43,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2012,
+            "prizeSum": 2500.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Counter Logic Gaming",
+            "TeamId": 207,
+            "startYear": 2012,
+            "prizeSum": 1000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2012,
+            "prizeSum": 25000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2012,
+            "prizeSum": 25000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2012,
+            "prizeSum": 2500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2012,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2012,
+            "prizeSum": 5558.79,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "MVP",
+            "TeamId": 132,
+            "startYear": 2012,
+            "prizeSum": 9000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Woongjin Stars",
+            "TeamId": 147,
+            "startYear": 2012,
+            "prizeSum": 53357.05,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Anexis eSports",
+            "TeamId": 352,
+            "startYear": 2012,
+            "prizeSum": 1392.64,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Lemondogs",
+            "TeamId": 380,
+            "startYear": 2012,
+            "prizeSum": 1634.63,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Incredible Miracle",
+            "TeamId": 131,
+            "startYear": 2013,
+            "prizeSum": 15500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2013,
+            "prizeSum": 644.74,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Team Curse",
+            "TeamId": 236,
+            "startYear": 2013,
+            "prizeSum": 1867.91,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "MVP",
+            "TeamId": 132,
+            "startYear": 2013,
+            "prizeSum": 13821.06,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "ENCE eSports",
+            "TeamId": 385,
+            "startYear": 2013,
+            "prizeSum": 1978.63,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "LowLandLions",
+            "TeamId": 508,
+            "startYear": 2013,
+            "prizeSum": 1670.56,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "compLexity Gaming",
+            "TeamId": 104,
+            "startYear": 2013,
+            "prizeSum": 12000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Incredible Miracle",
+            "TeamId": 131,
+            "startYear": 2013,
+            "prizeSum": 44597.07,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2013,
+            "prizeSum": 20000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2013,
+            "prizeSum": 5517.87,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "TCM Gaming",
+            "TeamId": 233,
+            "startYear": 2013,
+            "prizeSum": 1250.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "NaJin e-mFire",
+            "TeamId": 305,
+            "startYear": 2013,
+            "prizeSum": 4429.62,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Netcode Illuminati",
+            "TeamId": 772,
+            "startYear": 2013,
+            "prizeSum": 4800.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2013,
+            "prizeSum": 23610.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2013,
+            "prizeSum": 653.88,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 2264.69,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "ahq e-Sports Club",
+            "TeamId": 403,
+            "startYear": 2013,
+            "prizeSum": 50000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "AT Gaming",
+            "TeamId": 434,
+            "startYear": 2013,
+            "prizeSum": 648.89,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2013,
+            "prizeSum": 82598.77,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 10815.51,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Benched Gaming",
+            "TeamId": 377,
+            "startYear": 2013,
+            "prizeSum": 790.54,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "AT Gaming",
+            "TeamId": 434,
+            "startYear": 2013,
+            "prizeSum": 790.54,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Hong Kong Attitude",
+            "TeamId": 744,
+            "startYear": 2013,
+            "prizeSum": 7737.79,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 31592.33,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2013,
+            "prizeSum": 3895.38,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 16065.75,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2013,
+            "prizeSum": 399.45,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "STX SouL",
+            "TeamId": 447,
+            "startYear": 2013,
+            "prizeSum": 35571.36,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2013,
+            "prizeSum": 135.26,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2013,
+            "prizeSum": 4000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2013,
+            "prizeSum": 24636.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2013,
+            "prizeSum": 685.29,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 800.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2013,
+            "prizeSum": 7500.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Planetkey Dynamics",
+            "TeamId": 266,
+            "startYear": 2013,
+            "prizeSum": 3426.39,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "OMG",
+            "TeamId": 344,
+            "startYear": 2013,
+            "prizeSum": 8169.53,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Kuala Lumpur Hunters",
+            "TeamId": 682,
+            "startYear": 2013,
+            "prizeSum": 2490.51,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2013,
+            "prizeSum": 35000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2013,
+            "prizeSum": 33066.6,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2013,
+            "prizeSum": 400.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "UNiTE Gaming",
+            "TeamId": 289,
+            "startYear": 2013,
+            "prizeSum": 2400.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "OMG",
+            "TeamId": 344,
+            "startYear": 2013,
+            "prizeSum": 16424.54,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "ahq e-Sports Club",
+            "TeamId": 403,
+            "startYear": 2013,
+            "prizeSum": 8365.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2013,
+            "prizeSum": 677.73,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2013,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2013,
+            "prizeSum": 25000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team LDLC.com",
+            "TeamId": 193,
+            "startYear": 2013,
+            "prizeSum": 4809.73,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "OMG",
+            "TeamId": 344,
+            "startYear": 2013,
+            "prizeSum": 16476.91,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "SUPA HOT CREW XD",
+            "TeamId": 381,
+            "startYear": 2013,
+            "prizeSum": 350.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Danish National Team",
+            "TeamId": 602,
+            "startYear": 2013,
+            "prizeSum": 2000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Kaos Latin Gamers",
+            "TeamId": 743,
+            "startYear": 2013,
+            "prizeSum": 1970.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2014,
+            "prizeSum": 6000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2014,
+            "prizeSum": 136.77,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Norweigan National Team",
+            "TeamId": 580,
+            "startYear": 2014,
+            "prizeSum": 3000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2014,
+            "prizeSum": 16004.71,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Samsung",
+            "TeamId": 144,
+            "startYear": 2014,
+            "prizeSum": 46585.95,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2014,
+            "prizeSum": 50000.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Denial Esports",
+            "TeamId": 172,
+            "startYear": 2014,
+            "prizeSum": 1092.63,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "G2 Esports",
+            "TeamId": 256,
+            "startYear": 2014,
+            "prizeSum": 350.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "ahq e-Sports Club",
+            "TeamId": 403,
+            "startYear": 2014,
+            "prizeSum": 9694.38,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2014,
+            "prizeSum": 134.88,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2014,
+            "prizeSum": 416.22,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2014,
+            "prizeSum": 689.29,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2014,
+            "prizeSum": 110500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2014,
+            "prizeSum": 16500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2014,
+            "prizeSum": 275.87,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2014,
+            "prizeSum": 676.81,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Norweigan National Team",
+            "TeamId": 580,
+            "startYear": 2014,
+            "prizeSum": 14608.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2014,
+            "prizeSum": 4057.8,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Ninjas in Pyjamas",
+            "TeamId": 162,
+            "startYear": 2014,
+            "prizeSum": 1200.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2014,
+            "prizeSum": 407.97,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2014,
+            "prizeSum": 3190.4,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2014,
+            "prizeSum": 50000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2014,
+            "prizeSum": 6761.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2014,
+            "prizeSum": 1780.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Giants Gaming",
+            "TeamId": 331,
+            "startYear": 2014,
+            "prizeSum": 4914.4,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "French National Team",
+            "TeamId": 586,
+            "startYear": 2014,
+            "prizeSum": 6000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2014,
+            "prizeSum": 381.13,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2014,
+            "prizeSum": 3500.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Lyon Gaming",
+            "TeamId": 745,
+            "startYear": 2014,
+            "prizeSum": 17000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2014,
+            "prizeSum": 758.34,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Flash Wolves",
+            "TeamId": 184,
+            "startYear": 2014,
+            "prizeSum": 2973.64,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Planetkey Dynamics",
+            "TeamId": 266,
+            "startYear": 2014,
+            "prizeSum": 4985.4,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Radical Online X-tremists",
+            "TeamId": 121,
+            "startYear": 2014,
+            "prizeSum": 15000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Curse",
+            "TeamId": 236,
+            "startYear": 2014,
+            "prizeSum": 6400.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "EDward Gaming",
+            "TeamId": 311,
+            "startYear": 2014,
+            "prizeSum": 16319.3,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Lyon Gaming",
+            "TeamId": 745,
+            "startYear": 2014,
+            "prizeSum": 30000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2014,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2014,
+            "prizeSum": 1000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2015,
+            "prizeSum": 30388.2,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Flash Wolves",
+            "TeamId": 184,
+            "startYear": 2015,
+            "prizeSum": 644.7,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 652.07,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Qiao Gu Reapers",
+            "TeamId": 340,
+            "startYear": 2015,
+            "prizeSum": 32223.2,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Enemy",
+            "TeamId": 335,
+            "startYear": 2015,
+            "prizeSum": 10000.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Lyon Gaming",
+            "TeamId": 745,
+            "startYear": 2015,
+            "prizeSum": 12500.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2015,
+            "prizeSum": 55000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Planetkey Dynamics",
+            "TeamId": 266,
+            "startYear": 2015,
+            "prizeSum": 539.25,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Giants Gaming",
+            "TeamId": 331,
+            "startYear": 2015,
+            "prizeSum": 658.47,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Invited",
+            "TeamId": 813,
+            "startYear": 2015,
+            "prizeSum": 3153.43,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2015,
+            "prizeSum": 600.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 652.07,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "HellRaisers",
+            "TeamId": 209,
+            "startYear": 2015,
+            "prizeSum": 150000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2015,
+            "prizeSum": 600.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Method",
+            "TeamId": 548,
+            "startYear": 2015,
+            "prizeSum": 900.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Kaos Latin Gamers",
+            "TeamId": 743,
+            "startYear": 2015,
+            "prizeSum": 10000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2015,
+            "prizeSum": 280.49,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2015,
+            "prizeSum": 1211.08,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 24766.91,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Mineski",
+            "TeamId": 427,
+            "startYear": 2015,
+            "prizeSum": 3247.8,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Fraternitas",
+            "TeamId": 478,
+            "startYear": 2015,
+            "prizeSum": 898.6800000000001,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2015,
+            "prizeSum": 1126.55,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2015,
+            "prizeSum": 27500.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "G2 Esports",
+            "TeamId": 256,
+            "startYear": 2015,
+            "prizeSum": 8808.2,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Lyon Gaming",
+            "TeamId": 745,
+            "startYear": 2015,
+            "prizeSum": 12500.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 652.07,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "OverGaming",
+            "TeamId": 426,
+            "startYear": 2015,
+            "prizeSum": 4332.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Fraternitas",
+            "TeamId": 478,
+            "startYear": 2015,
+            "prizeSum": 6530.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "American National Team",
+            "TeamId": 610,
+            "startYear": 2015,
+            "prizeSum": 80522.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Millenium",
+            "TeamId": 103,
+            "startYear": 2015,
+            "prizeSum": 10773.14,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 5000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Infused",
+            "TeamId": 248,
+            "startYear": 2015,
+            "prizeSum": 1138.13,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "X-Team",
+            "TeamId": 408,
+            "startYear": 2015,
+            "prizeSum": 6165.48,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2015,
+            "prizeSum": 25000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2015,
+            "prizeSum": 21961.1,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Denial Esports",
+            "TeamId": 172,
+            "startYear": 2015,
+            "prizeSum": 6000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 43064.4,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2015,
+            "prizeSum": 6000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Celestial",
+            "TeamId": 349,
+            "startYear": 2015,
+            "prizeSum": 65121.91,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2015,
+            "prizeSum": 224.5,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ESC Gaming",
+            "TeamId": 120,
+            "startYear": 2015,
+            "prizeSum": 652.07,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Radical Online X-tremists",
+            "TeamId": 121,
+            "startYear": 2015,
+            "prizeSum": 45000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2015,
+            "prizeSum": 163.02,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2015,
+            "prizeSum": 300.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Giants Gaming",
+            "TeamId": 331,
+            "startYear": 2015,
+            "prizeSum": 1723.04,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "French National Team",
+            "TeamId": 586,
+            "startYear": 2015,
+            "prizeSum": 50000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2015,
+            "prizeSum": 9621.29,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2015,
+            "prizeSum": 12500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2015,
+            "prizeSum": 1552.0700000000002,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Vega Squadron",
+            "TeamId": 319,
+            "startYear": 2015,
+            "prizeSum": 1500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Epiphany Bolt",
+            "TeamId": 400,
+            "startYear": 2015,
+            "prizeSum": 1500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "3sUP Enterprises",
+            "TeamId": 406,
+            "startYear": 2015,
+            "prizeSum": 2863.5,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2015,
+            "prizeSum": 1500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "E-corp Gaming",
+            "TeamId": 437,
+            "startYear": 2015,
+            "prizeSum": 3325.23,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Fraternitas",
+            "TeamId": 478,
+            "startYear": 2015,
+            "prizeSum": 1985.95,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Method",
+            "TeamId": 548,
+            "startYear": 2015,
+            "prizeSum": 350.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2015,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2015,
+            "prizeSum": 659.6899999999999,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2015,
+            "prizeSum": 2245.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Counter Logic Gaming",
+            "TeamId": 207,
+            "startYear": 2015,
+            "prizeSum": 10000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "HellRaisers",
+            "TeamId": 209,
+            "startYear": 2015,
+            "prizeSum": 185096.64,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2015,
+            "prizeSum": 1663.02,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "London Conspiracy",
+            "TeamId": 302,
+            "startYear": 2015,
+            "prizeSum": 1200.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Giants Gaming",
+            "TeamId": 331,
+            "startYear": 2015,
+            "prizeSum": 5438.5,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2015,
+            "prizeSum": 1500.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "French National Team",
+            "TeamId": 586,
+            "startYear": 2015,
+            "prizeSum": 8782.87,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Project_kr",
+            "TeamId": 616,
+            "startYear": 2015,
+            "prizeSum": 25000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Evil Geniuses",
+            "TeamId": 101,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Millenium",
+            "TeamId": 103,
+            "startYear": 2016,
+            "prizeSum": 1510.29,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Denial Esports",
+            "TeamId": 172,
+            "startYear": 2016,
+            "prizeSum": 24000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2016,
+            "prizeSum": 500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2016,
+            "prizeSum": 652.07,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Luminosity Gaming",
+            "TeamId": 317,
+            "startYear": 2016,
+            "prizeSum": 3973.97,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "PuLse Gaming",
+            "TeamId": 480,
+            "startYear": 2016,
+            "prizeSum": 10797.97,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Apex Gaming",
+            "TeamId": 519,
+            "startYear": 2016,
+            "prizeSum": 17500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "MVP",
+            "TeamId": 132,
+            "startYear": 2016,
+            "prizeSum": 1700.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team LDLC.com",
+            "TeamId": 193,
+            "startYear": 2016,
+            "prizeSum": 8927.52,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2016,
+            "prizeSum": 5576.5,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2016,
+            "prizeSum": 24000.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Renegades",
+            "TeamId": 338,
+            "startYear": 2016,
+            "prizeSum": 3960.78,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 15289.8,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2016,
+            "prizeSum": 542.58,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Secret",
+            "TeamId": 211,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Luminosity Gaming",
+            "TeamId": 317,
+            "startYear": 2016,
+            "prizeSum": 25000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Renegades",
+            "TeamId": 338,
+            "startYear": 2016,
+            "prizeSum": 3554.83,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "EURONICS Gaming",
+            "TeamId": 442,
+            "startYear": 2016,
+            "prizeSum": 1627.7400000000002,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Escape Gaming",
+            "TeamId": 646,
+            "startYear": 2016,
+            "prizeSum": 25000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Tricked eSports",
+            "TeamId": 671,
+            "startYear": 2016,
+            "prizeSum": 5588.5,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "mousesports",
+            "TeamId": 111,
+            "startYear": 2016,
+            "prizeSum": 25000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 7694.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2016,
+            "prizeSum": 150000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Copenhagen Wolves",
+            "TeamId": 197,
+            "startYear": 2016,
+            "prizeSum": 3500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "against All authority",
+            "TeamId": 198,
+            "startYear": 2016,
+            "prizeSum": 2245.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Counter Logic Gaming",
+            "TeamId": 207,
+            "startYear": 2016,
+            "prizeSum": 25000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2016,
+            "prizeSum": 17385.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Keyd Stars",
+            "TeamId": 268,
+            "startYear": 2016,
+            "prizeSum": 700.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Tempo Storm",
+            "TeamId": 337,
+            "startYear": 2016,
+            "prizeSum": 55000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Supremacy",
+            "TeamId": 481,
+            "startYear": 2016,
+            "prizeSum": 6471.9,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "The MongolZ",
+            "TeamId": 489,
+            "startYear": 2016,
+            "prizeSum": 2500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2016,
+            "prizeSum": 633.78,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 30000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2016,
+            "prizeSum": 1530.77,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2016,
+            "prizeSum": 50000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "HellRaisers",
+            "TeamId": 209,
+            "startYear": 2016,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2016,
+            "prizeSum": 30000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Luminosity Gaming",
+            "TeamId": 317,
+            "startYear": 2016,
+            "prizeSum": 2100.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Tempo Storm",
+            "TeamId": 337,
+            "startYear": 2016,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Bangkok Titans",
+            "TeamId": 404,
+            "startYear": 2016,
+            "prizeSum": 6500.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2016,
+            "prizeSum": 29978.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2016,
+            "prizeSum": 8493.75,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Team Secret",
+            "TeamId": 211,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "G2 Esports",
+            "TeamId": 256,
+            "startYear": 2016,
+            "prizeSum": 304958.64,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2016,
+            "prizeSum": 500.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "ENCE eSports",
+            "TeamId": 385,
+            "startYear": 2016,
+            "prizeSum": 1670.85,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Dark Passage",
+            "TeamId": 414,
+            "startYear": 2016,
+            "prizeSum": 42622.13,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "eStar Gaming",
+            "TeamId": 430,
+            "startYear": 2016,
+            "prizeSum": 2448.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "The Imperial",
+            "TeamId": 539,
+            "startYear": 2016,
+            "prizeSum": 2000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Millenium",
+            "TeamId": 103,
+            "startYear": 2016,
+            "prizeSum": 52000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2016,
+            "prizeSum": 5000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2016,
+            "prizeSum": 100000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2016,
+            "prizeSum": 13066.38,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2016,
+            "prizeSum": 66000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Mindfreak",
+            "TeamId": 309,
+            "startYear": 2016,
+            "prizeSum": 44000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Enemy",
+            "TeamId": 335,
+            "startYear": 2016,
+            "prizeSum": 20000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2016,
+            "prizeSum": 52682.7,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2016,
+            "prizeSum": 6000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "ESC Gaming",
+            "TeamId": 120,
+            "startYear": 2016,
+            "prizeSum": 560.13,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Newbee",
+            "TeamId": 210,
+            "startYear": 2016,
+            "prizeSum": 45036.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2016,
+            "prizeSum": 9054.5,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Renegades",
+            "TeamId": 338,
+            "startYear": 2016,
+            "prizeSum": 18000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2016,
+            "prizeSum": 12000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "LuxuryWatch",
+            "TeamId": 687,
+            "startYear": 2016,
+            "prizeSum": 4524.89,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Millenium",
+            "TeamId": 103,
+            "startYear": 2016,
+            "prizeSum": 5420.5,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Ninjas in Pyjamas",
+            "TeamId": 162,
+            "startYear": 2016,
+            "prizeSum": 130000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2016,
+            "prizeSum": 2000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team SoloMid",
+            "TeamId": 196,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2016,
+            "prizeSum": 5578.1,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2016,
+            "prizeSum": 12500.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "EDward Gaming",
+            "TeamId": 311,
+            "startYear": 2016,
+            "prizeSum": 2250.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2016,
+            "prizeSum": 11000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Immortals",
+            "TeamId": 411,
+            "startYear": 2016,
+            "prizeSum": 60000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Misfits",
+            "TeamId": 529,
+            "startYear": 2016,
+            "prizeSum": 100000.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2016,
+            "prizeSum": 20000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2016,
+            "prizeSum": 287332.89999999997,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2016,
+            "prizeSum": 1000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 44991.6,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Natus Vincere",
+            "TeamId": 163,
+            "startYear": 2016,
+            "prizeSum": 50000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2016,
+            "prizeSum": 37849.4,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Secret",
+            "TeamId": 211,
+            "startYear": 2016,
+            "prizeSum": 7000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2016,
+            "prizeSum": 203000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2016,
+            "prizeSum": 87170.22,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2016,
+            "prizeSum": 400000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Dead Pixels",
+            "TeamId": 312,
+            "startYear": 2016,
+            "prizeSum": 1683.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2016,
+            "prizeSum": 3924.86,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Splyce",
+            "TeamId": 382,
+            "startYear": 2016,
+            "prizeSum": 127000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ENCE eSports",
+            "TeamId": 385,
+            "startYear": 2016,
+            "prizeSum": 10000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Dark Passage",
+            "TeamId": 414,
+            "startYear": 2016,
+            "prizeSum": 1000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Supremacy",
+            "TeamId": 481,
+            "startYear": 2016,
+            "prizeSum": 10786.5,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Method",
+            "TeamId": 548,
+            "startYear": 2016,
+            "prizeSum": 50000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2016,
+            "prizeSum": 28000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Turkish National Team",
+            "TeamId": 591,
+            "startYear": 2016,
+            "prizeSum": 50000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Defenses Geniuses",
+            "TeamId": 632,
+            "startYear": 2016,
+            "prizeSum": 73.06,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2016,
+            "prizeSum": 90000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2016,
+            "prizeSum": 7944.9,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "World Elite",
+            "TeamId": 123,
+            "startYear": 2016,
+            "prizeSum": 14521.5,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Invictus Gaming",
+            "TeamId": 124,
+            "startYear": 2016,
+            "prizeSum": 43609.8,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 2000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Gambit Gaming",
+            "TeamId": 192,
+            "startYear": 2016,
+            "prizeSum": 75000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2016,
+            "prizeSum": 6356.04,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Secret",
+            "TeamId": 211,
+            "startYear": 2016,
+            "prizeSum": 71250.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2016,
+            "prizeSum": 2904.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Vitality",
+            "TeamId": 251,
+            "startYear": 2016,
+            "prizeSum": 30000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "VwS Gaming",
+            "TeamId": 330,
+            "startYear": 2016,
+            "prizeSum": 500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Immortals",
+            "TeamId": 411,
+            "startYear": 2016,
+            "prizeSum": 20000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2016,
+            "prizeSum": 2061.5,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Dark Passage",
+            "TeamId": 414,
+            "startYear": 2016,
+            "prizeSum": 3000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "The MongolZ",
+            "TeamId": 489,
+            "startYear": 2016,
+            "prizeSum": 23750.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "GODSENT",
+            "TeamId": 501,
+            "startYear": 2016,
+            "prizeSum": 30000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Heroic",
+            "TeamId": 558,
+            "startYear": 2016,
+            "prizeSum": 43325.7,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Albus NoX Luna",
+            "TeamId": 575,
+            "startYear": 2016,
+            "prizeSum": 12303.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "GC Busan",
+            "TeamId": 765,
+            "startYear": 2016,
+            "prizeSum": 44370.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2016,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Millenium",
+            "TeamId": 103,
+            "startYear": 2016,
+            "prizeSum": 5297.7,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2016,
+            "prizeSum": 71847.5,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2016,
+            "prizeSum": 8000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2016,
+            "prizeSum": 235923.86,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2016,
+            "prizeSum": 87252.6,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2016,
+            "prizeSum": 2750.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2016,
+            "prizeSum": 40000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2016,
+            "prizeSum": 2185.5,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Vega Squadron",
+            "TeamId": 319,
+            "startYear": 2016,
+            "prizeSum": 3000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2016,
+            "prizeSum": 4174.2,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "CNB e-Sports Club",
+            "TeamId": 398,
+            "startYear": 2016,
+            "prizeSum": 10073.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2016,
+            "prizeSum": 964.83,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2016,
+            "prizeSum": 15000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "LuxuryWatch",
+            "TeamId": 687,
+            "startYear": 2016,
+            "prizeSum": 50000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Flash Wolves",
+            "TeamId": 184,
+            "startYear": 2017,
+            "prizeSum": 49563.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2017,
+            "prizeSum": 50000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Luminosity Gaming",
+            "TeamId": 317,
+            "startYear": 2017,
+            "prizeSum": 5000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "paiN Gaming",
+            "TeamId": 396,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Immortals",
+            "TeamId": 411,
+            "startYear": 2017,
+            "prizeSum": 40000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "FM eSports",
+            "TeamId": 439,
+            "startYear": 2017,
+            "prizeSum": 1492.56,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Rogue",
+            "TeamId": 557,
+            "startYear": 2017,
+            "prizeSum": 18000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Gale Force eSports",
+            "TeamId": 572,
+            "startYear": 2017,
+            "prizeSum": 180.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Chinese National Team",
+            "TeamId": 609,
+            "startYear": 2017,
+            "prizeSum": 65408.85,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Lunatic-hai",
+            "TeamId": 613,
+            "startYear": 2017,
+            "prizeSum": 91560.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "BIG",
+            "TeamId": 658,
+            "startYear": 2017,
+            "prizeSum": 7500.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 600.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "eUnited",
+            "TeamId": 663,
+            "startYear": 2017,
+            "prizeSum": 18000.0,
+            "startMonth": 1
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "mYinsanity",
+            "TeamId": 168,
+            "startYear": 2017,
+            "prizeSum": 1822.78,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Denial Esports",
+            "TeamId": 172,
+            "startYear": 2017,
+            "prizeSum": 1700.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Team LDLC.com",
+            "TeamId": 193,
+            "startYear": 2017,
+            "prizeSum": 4194.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "wisdom Nerve victory",
+            "TeamId": 229,
+            "startYear": 2017,
+            "prizeSum": 4348.74,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "iGame.com",
+            "TeamId": 644,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "Mysterious Monkeys",
+            "TeamId": 718,
+            "startYear": 2017,
+            "prizeSum": 13199.88,
+            "startMonth": 2
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Fnatic",
+            "TeamId": 118,
+            "startYear": 2017,
+            "prizeSum": 14049.75,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2017,
+            "prizeSum": 58003.2,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Denial Esports",
+            "TeamId": 172,
+            "startYear": 2017,
+            "prizeSum": 350.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2017,
+            "prizeSum": 2500.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Secret",
+            "TeamId": 211,
+            "startYear": 2017,
+            "prizeSum": 15000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "paiN Gaming",
+            "TeamId": 396,
+            "startYear": 2017,
+            "prizeSum": 969.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2017,
+            "prizeSum": 12000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "FM eSports",
+            "TeamId": 439,
+            "startYear": 2017,
+            "prizeSum": 3719.7,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "The Imperial",
+            "TeamId": 539,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 14950.48,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "iGame.com",
+            "TeamId": 644,
+            "startYear": 2017,
+            "prizeSum": 3186.9,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 1862.43,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "Gold Coin United",
+            "TeamId": 673,
+            "startYear": 2017,
+            "prizeSum": 10000.0,
+            "startMonth": 3
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2017,
+            "prizeSum": 24993.66,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Planetkey Dynamics",
+            "TeamId": 266,
+            "startYear": 2017,
+            "prizeSum": 1591.85,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2017,
+            "prizeSum": 19334.1,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Panda Global",
+            "TeamId": 372,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "paiN Gaming",
+            "TeamId": 396,
+            "startYear": 2017,
+            "prizeSum": 940.8,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "FM eSports",
+            "TeamId": 439,
+            "startYear": 2017,
+            "prizeSum": 4695.75,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Obey Alliance",
+            "TeamId": 536,
+            "startYear": 2017,
+            "prizeSum": 180000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Rogue",
+            "TeamId": 557,
+            "startYear": 2017,
+            "prizeSum": 1500.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 4470.13,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Czech National Team",
+            "TeamId": 593,
+            "startYear": 2017,
+            "prizeSum": 60000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 2928.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "BIG",
+            "TeamId": 658,
+            "startYear": 2017,
+            "prizeSum": 8799.92,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "Team Singularity",
+            "TeamId": 708,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 4
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 23568.3,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2017,
+            "prizeSum": 15000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2017,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Planetkey Dynamics",
+            "TeamId": 266,
+            "startYear": 2017,
+            "prizeSum": 7707.88,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "x6tence",
+            "TeamId": 323,
+            "startYear": 2017,
+            "prizeSum": 8265.44,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Tempo Storm",
+            "TeamId": 337,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Immortals",
+            "TeamId": 411,
+            "startYear": 2017,
+            "prizeSum": 10000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2017,
+            "prizeSum": 20499.9,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Avant Garde",
+            "TeamId": 452,
+            "startYear": 2017,
+            "prizeSum": 2985.33,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 1506.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 37436.75,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "Miami Flamingos\u200f e-Sports",
+            "TeamId": 705,
+            "startYear": 2017,
+            "prizeSum": 1000.0,
+            "startMonth": 5
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 8789.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Flash Wolves",
+            "TeamId": 184,
+            "startYear": 2017,
+            "prizeSum": 49611.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2017,
+            "prizeSum": 65000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "PENTA Sports",
+            "TeamId": 205,
+            "startYear": 2017,
+            "prizeSum": 2561.2,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2017,
+            "prizeSum": 20000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2017,
+            "prizeSum": 9000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Keyd Stars",
+            "TeamId": 268,
+            "startYear": 2017,
+            "prizeSum": 1511.5,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Vega Squadron",
+            "TeamId": 319,
+            "startYear": 2017,
+            "prizeSum": 30000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Tempo Storm",
+            "TeamId": 337,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "ENCE eSports",
+            "TeamId": 385,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "ahq e-Sports Club",
+            "TeamId": 403,
+            "startYear": 2017,
+            "prizeSum": 8220.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2017,
+            "prizeSum": 1678.65,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Method",
+            "TeamId": 548,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "iGame.com",
+            "TeamId": 644,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 1499.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "BIG",
+            "TeamId": 658,
+            "startYear": 2017,
+            "prizeSum": 30000.0,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 3364.33,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "Mysterious Monkeys",
+            "TeamId": 718,
+            "startYear": 2017,
+            "prizeSum": 14317.2,
+            "startMonth": 6
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2017,
+            "prizeSum": 80000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "compLexity Gaming",
+            "TeamId": 104,
+            "startYear": 2017,
+            "prizeSum": 1500.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2017,
+            "prizeSum": 100000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Ninjas in Pyjamas",
+            "TeamId": 162,
+            "startYear": 2017,
+            "prizeSum": 50000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 7390.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team LDLC.com",
+            "TeamId": 193,
+            "startYear": 2017,
+            "prizeSum": 10245.51,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Epsilon eSports",
+            "TeamId": 195,
+            "startYear": 2017,
+            "prizeSum": 51801.2,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Counter Logic Gaming",
+            "TeamId": 207,
+            "startYear": 2017,
+            "prizeSum": 50000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2017,
+            "prizeSum": 50000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2017,
+            "prizeSum": 1182.45,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "LGD Gaming",
+            "TeamId": 227,
+            "startYear": 2017,
+            "prizeSum": 1187.2,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Giants Gaming",
+            "TeamId": 331,
+            "startYear": 2017,
+            "prizeSum": 4664.44,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Tempo Storm",
+            "TeamId": 337,
+            "startYear": 2017,
+            "prizeSum": 4000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Mineski",
+            "TeamId": 427,
+            "startYear": 2017,
+            "prizeSum": 29540.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "exceL eSports",
+            "TeamId": 462,
+            "startYear": 2017,
+            "prizeSum": 5667.27,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "The Imperial",
+            "TeamId": 539,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Method",
+            "TeamId": 548,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 2600.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Gale Force eSports",
+            "TeamId": 572,
+            "startYear": 2017,
+            "prizeSum": 1781.31,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Chinese National Team",
+            "TeamId": 609,
+            "startYear": 2017,
+            "prizeSum": 9000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Australian National Team",
+            "TeamId": 635,
+            "startYear": 2017,
+            "prizeSum": 9000.0,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "Tainted Minds",
+            "TeamId": 656,
+            "startYear": 2017,
+            "prizeSum": 2306.94,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 383.25,
+            "startMonth": 7
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "TyLoo",
+            "TeamId": 126,
+            "startYear": 2017,
+            "prizeSum": 1200.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "MVP",
+            "TeamId": 132,
+            "startYear": 2017,
+            "prizeSum": 4456.34,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 1188.89,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "FlipSid3 Tactics",
+            "TeamId": 215,
+            "startYear": 2017,
+            "prizeSum": 11882.3,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2017,
+            "prizeSum": 40000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "ENCE eSports",
+            "TeamId": 385,
+            "startYear": 2017,
+            "prizeSum": 5407.02,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2017,
+            "prizeSum": 1300.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "NRG Esports",
+            "TeamId": 425,
+            "startYear": 2017,
+            "prizeSum": 2500.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Mineski",
+            "TeamId": 427,
+            "startYear": 2017,
+            "prizeSum": 1457.92,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Team Spirit",
+            "TeamId": 494,
+            "startYear": 2017,
+            "prizeSum": 5000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 2800.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Canadian National Team",
+            "TeamId": 589,
+            "startYear": 2017,
+            "prizeSum": 9000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "British National Team",
+            "TeamId": 608,
+            "startYear": 2017,
+            "prizeSum": 9000.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Chinese National Team",
+            "TeamId": 609,
+            "startYear": 2017,
+            "prizeSum": 38361.6,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 2403.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 600.0,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "PRIDE Gaming",
+            "TeamId": 739,
+            "startYear": 2017,
+            "prizeSum": 3265.8,
+            "startMonth": 8
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2017,
+            "prizeSum": 6017.5,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Dignitas",
+            "TeamId": 117,
+            "startYear": 2017,
+            "prizeSum": 1327.28,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 15420.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2017,
+            "prizeSum": 15420.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2017,
+            "prizeSum": 8347.47,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Team Spirit",
+            "TeamId": 494,
+            "startYear": 2017,
+            "prizeSum": 22050.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Heroic",
+            "TeamId": 558,
+            "startYear": 2017,
+            "prizeSum": 26274.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 2050.59,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Gale Force eSports",
+            "TeamId": 572,
+            "startYear": 2017,
+            "prizeSum": 17250.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Tainted Minds",
+            "TeamId": 656,
+            "startYear": 2017,
+            "prizeSum": 1302.9,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "Movistar Riders",
+            "TeamId": 707,
+            "startYear": 2017,
+            "prizeSum": 10111.6,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "AGO Gaming",
+            "TeamId": 740,
+            "startYear": 2017,
+            "prizeSum": 2338.69,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "GC Busan",
+            "TeamId": 765,
+            "startYear": 2017,
+            "prizeSum": 44575.0,
+            "startMonth": 9
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2017,
+            "prizeSum": 20000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2017,
+            "prizeSum": 250000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2017,
+            "prizeSum": 11751.8,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2017,
+            "prizeSum": 55311.6,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "EHOME",
+            "TeamId": 225,
+            "startYear": 2017,
+            "prizeSum": 755.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Luminosity Gaming",
+            "TeamId": 317,
+            "startYear": 2017,
+            "prizeSum": 11280.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Kinguin",
+            "TeamId": 322,
+            "startYear": 2017,
+            "prizeSum": 7000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Renegades",
+            "TeamId": 338,
+            "startYear": 2017,
+            "prizeSum": 30000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "eSuba",
+            "TeamId": 413,
+            "startYear": 2017,
+            "prizeSum": 1032.29,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2017,
+            "prizeSum": 1584.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 12500.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Lunatic-hai",
+            "TeamId": 613,
+            "startYear": 2017,
+            "prizeSum": 60000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "North",
+            "TeamId": 657,
+            "startYear": 2017,
+            "prizeSum": 11773.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Tricked eSports",
+            "TeamId": 671,
+            "startYear": 2017,
+            "prizeSum": 15384.56,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "AGO Gaming",
+            "TeamId": 740,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "Team Orcus",
+            "TeamId": 810,
+            "startYear": 2017,
+            "prizeSum": 28863.8,
+            "startMonth": 10
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2017,
+            "prizeSum": 30000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2017,
+            "prizeSum": 125000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Vici Gaming",
+            "TeamId": 169,
+            "startYear": 2017,
+            "prizeSum": 7580.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Virtus.pro",
+            "TeamId": 185,
+            "startYear": 2017,
+            "prizeSum": 2500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team LDLC.com",
+            "TeamId": 193,
+            "startYear": 2017,
+            "prizeSum": 8706.3,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2017,
+            "prizeSum": 50000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "LGD Gaming",
+            "TeamId": 227,
+            "startYear": 2017,
+            "prizeSum": 15815.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "OpTic Gaming",
+            "TeamId": 231,
+            "startYear": 2017,
+            "prizeSum": 3000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Celestial",
+            "TeamId": 349,
+            "startYear": 2017,
+            "prizeSum": 80000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Space Soldiers",
+            "TeamId": 420,
+            "startYear": 2017,
+            "prizeSum": 30000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Team Spirit",
+            "TeamId": 494,
+            "startYear": 2017,
+            "prizeSum": 1500.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "INTZ eSports",
+            "TeamId": 544,
+            "startYear": 2017,
+            "prizeSum": 3778.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "SetToDestroyX",
+            "TeamId": 571,
+            "startYear": 2017,
+            "prizeSum": 1200.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Ukranian National Team",
+            "TeamId": 582,
+            "startYear": 2017,
+            "prizeSum": 40000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Korean National Team",
+            "TeamId": 583,
+            "startYear": 2017,
+            "prizeSum": 18045.2,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Polish National Team",
+            "TeamId": 587,
+            "startYear": 2017,
+            "prizeSum": 8000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "Bravado Gaming",
+            "TeamId": 660,
+            "startYear": 2017,
+            "prizeSum": 600.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "RunAway",
+            "TeamId": 732,
+            "startYear": 2017,
+            "prizeSum": 10021.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "AGO Gaming",
+            "TeamId": 740,
+            "startYear": 2017,
+            "prizeSum": 6000.0,
+            "startMonth": 11
+        },
+        {
+            "TeamName": "None",
+            "TeamId": -1,
+            "startYear": 2017,
+            "prizeSum": 0.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team Liquid",
+            "TeamId": 102,
+            "startYear": 2017,
+            "prizeSum": 70000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "SK Gaming",
+            "TeamId": 112,
+            "startYear": 2017,
+            "prizeSum": 225000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "ALTERNATE aTTaX",
+            "TeamId": 113,
+            "startYear": 2017,
+            "prizeSum": 5948.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Gambit Gaming",
+            "TeamId": 192,
+            "startYear": 2017,
+            "prizeSum": 1500.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Cloud9",
+            "TeamId": 212,
+            "startYear": 2017,
+            "prizeSum": 14000.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team EnVyUs",
+            "TeamId": 216,
+            "startYear": 2017,
+            "prizeSum": 8813.85,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "wisdom Nerve victory",
+            "TeamId": 229,
+            "startYear": 2017,
+            "prizeSum": 39322.4,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Qiao Gu Reapers",
+            "TeamId": 340,
+            "startYear": 2017,
+            "prizeSum": 45372.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Reason Gaming",
+            "TeamId": 421,
+            "startYear": 2017,
+            "prizeSum": 1581.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team Spirit",
+            "TeamId": 494,
+            "startYear": 2017,
+            "prizeSum": 1500.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "Team Singularity",
+            "TeamId": 708,
+            "startYear": 2017,
+            "prizeSum": 1174.22,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "PRIDE Gaming",
+            "TeamId": 739,
+            "startYear": 2017,
+            "prizeSum": 3500.0,
+            "startMonth": 12
+        },
+        {
+            "TeamName": "AGO Gaming",
+            "TeamId": 740,
+            "startYear": 2017,
+            "prizeSum": 8815.5,
+            "startMonth": 12
+        }
+    ]
+}
