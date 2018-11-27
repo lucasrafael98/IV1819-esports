@@ -29,7 +29,7 @@
     
     <body>
 
-        <div style="position: absolute; top:1vh; background: #353535;">
+        <div style="position: absolute; top:2px; background: #353535;">
             <div style="background: #1c3154; position: relative; display: block; z-index: 10; height: 48px; margin-bottom: 5px;">
                 <span class="btn" id="switchToEarningsAmountChoro" style="padding: 13.5px; position: absolute; top:2px; left:206px; width: 75px; background-color: lightblue; display: inline-block;">Show Earnings</span>
                 <span class="btn" id="switchToPlayerAmountChoro" style="padding: 13.5px; position: absolute; top:2px; left:313px; width: 75px; background-color: white; display: inline-block;">Show Players</span>
@@ -225,9 +225,8 @@
             <span class="btn" id="togg-y">Toggle Unemployment + Urban Pop / GDP</span>
             <span class="btn" id="togg-x">Toggle Players / Earnings</span>
         </div>
-        <div class="superbchart">
-            <div id="barchart" style="position: absolute; top: 55vh; left: 44vw;"></div>
-            <div class="chart-menu">
+        <div class="superbchart" style="position: absolute; top: 49vh; left: 44vw;">
+            <div class="chart-menu" style="display:block;">
                 <label class="container">
                     <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
                     <span class="checkmark"></span>
@@ -256,6 +255,8 @@
                     </label>
                 </div>
             </div>
+            <div id="barchart"></div>
+            
             <label id="resetButton" class="container">
                 <input id="reset" onchange="handleResetCheckBox(0)" type="checkbox" checked="checked">
                 <span class="checkmark"></span>

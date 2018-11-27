@@ -669,7 +669,7 @@ function handleResetCheckBox(type){
     let c5 = document.getElementById("check5");
 
     if(type == 0){
-        document.getElementById("resetButton").style.display = "none";
+        //document.getElementById("resetButton").style.display = "none";
         document.getElementsByClassName("chart-submenu")[0].style.display = "none";   
         c1.disabled = false;
         c2.disabled = false;
@@ -682,7 +682,7 @@ function handleResetCheckBox(type){
         c4.checked = false;
         c5.checked = false;
     }else if(type == 1){
-        document.getElementById("resetButton").style.display = "block";
+        //document.getElementById("resetButton").style.display = "block";
         document.getElementsByClassName("chart-submenu")[0].style.display = "block"; 
         c1.disabled = true;
         c2.disabled = true;
