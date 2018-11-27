@@ -112,3 +112,41 @@ text {
     right: 3%;
     bottom: 43%;
 }
+
+.caption{
+    position: absolute;
+    left: 600px;
+    bottom: 390px;
+    height: 50px;
+}
+
+.ball1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(70, 108, 137);
+    float: left;
+    margin-right: 10px;
+    border: 1.4px solid white;
+}
+
+.ball2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(9, 86, 137);
+    margin-right: 10px;
+    float: left;
+    border: 1.4px solid white;
+}
+
+.ball-text{
+    color: white;
+    position: relative;
+    top: 3px;
+    font-size: 1.2em;
+}
+
+.caption-container1{
+    margin-bottom: 10px;
+}
