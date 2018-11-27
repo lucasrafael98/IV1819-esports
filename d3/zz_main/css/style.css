@@ -105,3 +105,10 @@ text {
 #togg-x {
 	background-color: lightskyblue;
 }
+
+#resetButton{
+    display: none;
+    position: absolute;
+    right: 3%;
+    bottom: 43%;
+}

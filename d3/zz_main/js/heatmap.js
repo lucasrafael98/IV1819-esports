@@ -1,36 +1,44 @@
 let tourn_mmyy, tourn_team_mmyy, tourn_team_prize_mmyy;
 times = d3.range(24);
 let laststyle = "";
-d3.json("data/tourn_mmyyyy.json").then(function (data) {
-    data.data.forEach(element => {
-        element.tournaments = +element.tournaments;
-        element.startMonth = +element.startMonth;
-        element.startYear = +element.startYear;
-    });
-    tourn_mmyy = data.data;
+let custom_teams;
+let custom_teams_selected = false;
+let tags_custom_teams = [];
+let promises2 = [
+    d3.json("data/tourn_mmyyyy.json").then(function (data) {
+        data.data.forEach(element => {
+            element.tournaments = +element.tournaments;
+            element.startMonth = +element.startMonth;
+            element.startYear = +element.startYear;
+        });
+        tourn_mmyy = data.data;
+    }),
+    
+    d3.json("data/tourn_team_mmyyyy.json").then(function (data) {
+        data.TournsWonPerTeamYM.forEach(element => {
+            element.TeamName = element.TeamName;
+            element.TeamId = +element.TeamId;
+            element.TournamentsWon = +element.TournamentsWon;
+            element.startMonth = +element.startMonth;
+            element.startYear = +element.startYear;
+        });
+        tourn_team_mmyy = data.TournsWonPerTeamYM;
+    }),
+    
+    d3.json("data/tourn_team_prize_mmyyyy.json").then(function (data) {
+        data.prizePerTeamYM.forEach(element => {
+            element.TeamName = element.TeamName;
+            element.TeamId = +element.TeamId;
+            element.prizeSum = +element.prizeSum;
+            element.startMonth = +element.startMonth;
+            element.startYear = +element.startYear;
+        });
+        tourn_team_prize_mmyy = data.prizePerTeamYM;
+    })
+];
+
+Promise.all(promises2).then(function(values){
     gen_heatmap();
-});
-
-d3.json("data/tourn_team_mmyyyy.json").then(function (data) {
-    data.TournsWonPerTeamYM.forEach(element => {
-        element.TeamName = element.TeamName;
-        element.TeamId = +element.TeamId;
-        element.TournamentsWon = +element.TournamentsWon;
-        element.startMonth = +element.startMonth;
-        element.startYear = +element.startYear;
-    });
-    tourn_team_mmyy = data.TournsWonPerTeamYM;
-});
-
-d3.json("data/tourn_team_prize_mmyyyy.json").then(function (data) {
-    data.prizePerTeamYM.forEach(element => {
-        element.TeamName = element.TeamName;
-        element.TeamId = +element.TeamId;
-        element.prizeSum = +element.prizeSum;
-        element.startMonth = +element.startMonth;
-        element.startYear = +element.startYear;
-    });
-    tourn_team_prize_mmyy = data.prizePerTeamYM;
 });
 
 function gen_heatmap(){
@@ -96,46 +104,61 @@ function gen_heatmap(){
             else return colorScale(d.tournaments); });
 
     svg.selectAll(".heatmap-block").on("click",function(){
+        handleResetCheckBox(1);
         let diagram = d3.select(".superbchart").select("#barchart").select("svg").select("g");
         let bars = diagram.select(".main-bars");
         let month = this.__data__.startMonth;
         let year = this.__data__.startYear;
-        let mmyy_teams_won = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
-        if(mmyy_teams_won.length !== 0){
+        custom_teams = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
+        tags_custom_teams = [];
+        for (let i = 0; i < custom_teams.length; i++) {
+            tags_custom_teams.push(createTag(custom_teams[i].TeamName));
+        }
+        if(custom_teams.length !== 0){
+            custom_teams_selected = true;
             xscale = d3.scaleBand()
-                .domain(mmyy_teams_won.slice(0,numBars).map(function (d) { return d.TeamName; }))
+                .domain(custom_teams.slice(0,numBars).map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
             yscale = d3.scaleLinear()
-                .domain([0, d3.max(mmyy_teams_won, function (d) { return d.TournamentsWon; })])
+                .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
                 .range([barChartHeight, 0]);
-            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags[i] });
+            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_custom_teams[i] });
             yAxis  = d3.axisLeft().scale(yscale);
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
             d3.selectAll(".x.axis").selectAll("text").append("title")
-                .data(mmyy_teams_won)
+                .data(custom_teams.slice(0,numBars))
                 .text(function(d) { return d.TeamName;});
             xOverview = d3.scaleBand()
-                .domain(mmyy_teams_won.map(function (d) { return d.TeamName; }))
+                .domain(custom_teams.map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
             yOverview = d3.scaleLinear().range([heightOverview, 0]);
             yOverview.domain(yscale.domain());
-            rects = bars.selectAll("rect").data(mmyy_teams_won)
-                .transition()
+            rects = bars.selectAll("rect").data(custom_teams.slice(0,numBars));
+            rects.exit().remove();
+            rects.transition()
                 .duration(1000)
                 .attr("y", function (d) { return yscale(d.TournamentsWon); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
                 .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("width", function (d) { return xscale.bandwidth(); });
-            subBars = diagram.selectAll('.subBar');
-            subBars.data(mmyy_teams_won)
+            rects.data(custom_teams.slice(0,numBars)).enter().append("rect")
                 .transition()
+                .duration(1000)
+                .attr("class", "bar")
+                .attr("y", function (d) { return yscale(d.TournamentsWon); })
+                .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
+                .attr("x", function (d) { return xscale(d.TeamName); })
+                .attr("width", function (d) { return xscale.bandwidth(); });
+            subBars = diagram.selectAll('.subBar').data(custom_teams);
+            subBars.exit().remove();
+            subBars.transition()
                 .duration(1000)
                 .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
                 .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
-            subBars.data(mmyy_teams_won).enter().append("rect")
+            subBars.data(custom_teams).enter().append("rect")
                 .classed('subBar extra-subBar', true)
                 .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
@@ -143,10 +166,10 @@ function gen_heatmap(){
                 .attr("width", function(d) { return xOverview.bandwidth();});
             displayed = d3.scaleQuantize()
                 .domain([0, barChartWidth])
-                .range(d3.range(mmyy_teams_won.length));
+                .range(d3.range(custom_teams.length));
 
             d3.select(".mover")
-                .attr("width", Math.round(parseFloat(numBars * barChartWidth)/mmyy_teams_won.length))
+                .attr("width", Math.round(parseFloat(numBars * barChartWidth)/custom_teams.length))
                 .attr("x", 0)
                 .attr("y", 0);
         }

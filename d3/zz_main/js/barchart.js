@@ -90,6 +90,7 @@ function gen_vis(){
 
 
     d3.select("#check1").on("change",function(){
+        console.log("OMG", last_changed);
         if(last_changed == 1){return;}
         xscale = d3.scaleBand()
             .domain(earningsByAge.slice(0,numBars).map(function (d) { return d.age; }))
@@ -463,7 +464,8 @@ if (isScrollDisplayed)
         f = displayed(x);
         nf = displayed(nx);
         if ( f === nf ) return;
-        if(age_selected){
+        console.log(age_selected,custom_teams_selected);
+        if(age_selected && !custom_teams_selected){
 
             new_data = earningsByAge.slice(nf, nf + numBars);
 
@@ -483,7 +485,40 @@ if (isScrollDisplayed)
                 .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
             
             rects.exit().remove();
-        }else {
+        }else if(custom_teams_selected){
+            new_data = custom_teams.slice(nf, nf + numBars);
+            console.log(new_data);
+            new_tags = tags_custom_teams.slice(nf, nf + numBars);
+            xscale.domain(new_data.map(function (d) { return d.TeamName; }));
+            yscale = d3.scaleLinear()
+                .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
+                .range([barChartHeight, 0]);
+            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return new_tags[i] });
+            yAxis  = d3.axisLeft().scale(yscale);
+            diagram.select(".x.axis").call(xAxis);
+            diagram.select(".y.axis").call(yAxis);
+            rects = bars.selectAll("rect")
+                .data(new_data, function (d) {return d.TeamName; });
+
+            rects.attr("x", function (d) { return xscale(d.TeamName); });
+            rects.enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", function (d) { 
+                    console.log(xscale(d.TeamName));
+                    return xscale(d.TeamName); 
+                })
+                .attr("y", function (d) {
+                    console.log(xscale.bandwidth()); 
+                    return yscale(d.TournamentsWon); })
+                .attr("width", xscale.bandwidth())
+                .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); });
+
+            d3.selectAll(".x.axis").selectAll("text").append("title")
+                .data(new_data)
+                .text(function(d) { return d.TeamName;});  
+            rects.exit().remove();        
+        }
+        else{
             if(teams_selected){
                 new_data = teams_sorted.slice(nf, nf + numBars);
                 new_tags = tags_teams.slice(nf, nf + numBars);
@@ -622,6 +657,45 @@ function handleCheckBox(object){
         }
         document.getElementsByClassName("chart-submenu")[0].style.display = "block";        
     }
+}
+
+function handleResetCheckBox(type){
+    console.log("Cheguei aqui->",type);
+
+    let c1 = document.getElementById("check1");
+    let c2 = document.getElementById("check2");
+    let c3 = document.getElementById("check3");
+    let c4 = document.getElementById("check4");
+    let c5 = document.getElementById("check5");
+
+    if(type == 0){
+        document.getElementById("resetButton").style.display = "none";
+        document.getElementsByClassName("chart-submenu")[0].style.display = "none";   
+        c1.disabled = false;
+        c2.disabled = false;
+        c3.disabled = false;
+        c4.disabled = false;
+        c5.disabled = false;
+        c1.checked = true;
+        c2.checked = false;
+        c3.checked = false;
+        c4.checked = false;
+        c5.checked = false;
+    }else if(type == 1){
+        document.getElementById("resetButton").style.display = "block";
+        document.getElementsByClassName("chart-submenu")[0].style.display = "block"; 
+        c1.disabled = true;
+        c2.disabled = true;
+        c3.disabled = true;
+        c4.disabled = true;
+        c5.disabled = true;
+        c1.checked = false;
+        c2.checked = true;
+        c3.checked = false;
+        c4.checked = true;
+        c5.checked = false;
+    }
+    document.getElementById("reset").checked = true;
 }
 
 function createTag(name){
