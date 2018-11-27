@@ -1,0 +1,6444 @@
+{
+    "TournsWonPerTeamYM": [
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 5,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 8,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 3,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 8,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 3,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 8,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 5,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2000,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 6,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 6,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "SK Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "SK Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 4,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 3,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 8,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "SK Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 9,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "Ninjas in Pyjamas",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 162
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "Korean National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "Swedish National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2001,
+            "TeamName": "Chinese National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 609
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 7,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 5,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 3,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 7,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "M19",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 661
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 10,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 9,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2002,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 3,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 2,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "Greatest Ones",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 652
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 6,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 11,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 4,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "mTw",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 5,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "a-Losers",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 191
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 9,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "a-Losers",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 191
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 23,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "Greatest Ones",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 652
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 10,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 25,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "German National Team",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "Korean National Team",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "Dutch National Team",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 598
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "Taiwanese National Team",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 637
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 20,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 9,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2003,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 16,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "mTw",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 7,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 8,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Destination-Skyline",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 190
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 16,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "mTw",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Astralis (Finnish)",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 465
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 20,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 15,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "SK Telecom T1",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 145
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Ocrana",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 471
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 36,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Swedish National Team",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 25,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Pantech",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 709
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 18,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "Swedish National Team",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 28,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 12,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2004,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 13,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 12,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "4Kings",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 158
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 15,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 17,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Astralis (Finnish)",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 465
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 16,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 13,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "SK Telecom T1",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 145
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 19,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Virtus.pro",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Ocrana",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 471
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 24,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "4Kings",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 158
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 44,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Swedish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 16,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "mousesports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "SK Telecom T1",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 145
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 24,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Templars of Twilight",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 282
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 32,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "Team 3D",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 201
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 20,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2005,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 4,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 19,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "SK Telecom T1",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 145
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 15,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 37,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 11,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 42,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Made in Brazil",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 221
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 23,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 46,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Virtus.pro",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Swedish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 2,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 29,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 37,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Made in Brazil",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 221
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 40,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 31,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2006,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 17,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "4Kings",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 158
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 19,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Team Dignitas",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 30,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "World Elite",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 53,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "mTw",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Team Dignitas",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Samsung",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 144
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 25,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Fnatic",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 40,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "World Elite",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Templars of Twilight",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 282
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 26,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 53,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Team Dignitas",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Fnatic",
+            "startMonth": 8,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Polish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 587
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Finnish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 588
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 40,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 41,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Fnatic",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "H2K",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 287
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 39,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "SK Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "n!faculty",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 277
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "London Mint",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 459
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 37,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2007,
+            "TeamName": "Chicago Chimera",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 374
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 17,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 28,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Team Dignitas",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Fnatic",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "n!faculty",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 277
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 56,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "mTw",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Team Dignitas",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Birmingham Salvo",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 366
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 17,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Samsung",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 144
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 31,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Fnatic",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "World Elite",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Begrip Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 188
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "eSuba",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 30,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "SK Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 46,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Evil Geniuses",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 101
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Birmingham Salvo",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 366
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 43,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Nihilum Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 306
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Birmingham Salvo",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 366
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "LowLandLions",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 508
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Swedish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Polish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 587
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Czech National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 593
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Team Zenith",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 711
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 27,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "4Kings",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 158
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Birmingham Salvo",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 366
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 42,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "SK Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "mTw",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Team Dignitas",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Fnatic",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "x6tence",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 62,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Meet Your Makers",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 119
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Team VeryGames",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "EHOME",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 27,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "mTw",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2008,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 35,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "World Elite",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 41,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 43,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 72,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Evil Geniuses",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 101
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Team Dignitas",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 53,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "H2K",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 287
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 44,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "mousesports",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "SK Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "mTw",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Templars of Twilight",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 282
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Lemondogs",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 380
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 49,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Team Dignitas",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Fnatic",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 59,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Fnatic",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "EHOME",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Reason Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 2,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Swedish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 59,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 43,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "SK Telecom T1",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 145
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 51,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Fnatic",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 26,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "CheckSix Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 108
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2009,
+            "TeamName": "Team Roccat",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 220
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 33,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "SK Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 51,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 55,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Evil Geniuses",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 101
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Team Dignitas",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 65,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Fnatic",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "STX SouL",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 447
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 54,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "SK Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 66,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "EHOME",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 61,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Fnatic",
+            "startMonth": 7,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "against All authority",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "EHOME",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 101,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "SK Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Fnatic",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "against All authority",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "German National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 579
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Ukranian National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 582
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Swedish National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 584
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "British National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 608
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 84,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 115,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "compLexity Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 104
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Fnatic",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "KT Rolster",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 177
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "against All authority",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Team VeryGames",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "EHOME",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 112,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "Fnatic",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 85,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "mTw",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2010,
+            "TeamName": "EHOME",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 128,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "eSahara",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 110
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "EHOME",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 117,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Team Dignitas",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Team VeryGames",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 118,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 124,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Fnatic",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 128,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 139,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "SK Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "mTw",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Fnatic",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "TyLoo",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 126,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Virus Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 160
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "x6tence",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 131,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Team Dignitas",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "TCM Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 233
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 115,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Canadian National Team",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 589
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Netcode Illuminati",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 772
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 155,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "ESC Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 120
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Team DK",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 285
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 141,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Fnatic",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "against All authority",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Team DK",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 285
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "x6tence",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 119,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "mTw",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2011,
+            "TeamName": "Natus Vincere",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 133,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mousesports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Prime",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 134
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "against All authority",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team DK",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 285
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 134,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mousesports",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team VeryGames",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 164,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team Liquid",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "It's Gosu eSports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 105
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "x6tence",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 174,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mousesports",
+            "startMonth": 4,
+            "TournamentsWon": 2,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "SK Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Fnatic",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "LGD Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 227
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "n!faculty",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 277
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Orange Esports",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 286
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 164,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Fnatic",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "TyLoo",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 184,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mTw",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Fnatic",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 190,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "compLexity Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 104
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mousesports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mTw",
+            "startMonth": 7,
+            "TournamentsWon": 2,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Fnatic",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team VeryGames",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team Curse",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 236
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "x6tence",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 153,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mTw",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 114
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "StarTale",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 136
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Ninjas in Pyjamas",
+            "startMonth": 8,
+            "TournamentsWon": 3,
+            "TeamId": 162
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Counter Logic Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 207
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Orange Esports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 286
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 146,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "compLexity Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 104
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "FXOpen e-Sports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 107
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Fnatic",
+            "startMonth": 9,
+            "TournamentsWon": 3,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team VeryGames",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 218
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Team Curse",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 236
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Orange Esports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 286
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "EloHell",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 387
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 134,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Natus Vincere",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Counter Logic Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 207
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 166,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "TyLoo",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Natus Vincere",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 120,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "MVP",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 132
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Woongjin Stars",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 147
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Anexis eSports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 352
+        },
+        {
+            "startYear": 2012,
+            "TeamName": "Lemondogs",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 380
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 115,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Incredible Miracle",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 131
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Team Curse",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 236
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 160,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "MVP",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 132
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "ENCE eSports",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 385
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "LowLandLions",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 508
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 170,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "compLexity Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 104
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Incredible Miracle",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 131
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Cloud9",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "eSuba",
+            "startMonth": 3,
+            "TournamentsWon": 2,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 145,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "TCM Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 233
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "NaJin e-mFire",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 305
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Netcode Illuminati",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 772
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 179,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "TyLoo",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "ahq e-Sports Club",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 403
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "AT Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 434
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 205,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Benched Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 377
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "AT Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 434
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Hong Kong Attitude",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 744
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 204,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 7,
+            "TournamentsWon": 5,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 211,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 8,
+            "TournamentsWon": 3,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Reason Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "STX SouL",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 447
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 182,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "mousesports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Team Dignitas",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "TyLoo",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 208,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "against All authority",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Planetkey Dynamics",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 266
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "OMG",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 344
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Kuala Lumpur Hunters",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 682
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 222,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Team Dignitas",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "World Elite",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "UNiTE Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 289
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "OMG",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 344
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "ahq e-Sports Club",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 403
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "eSuba",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 163,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "TyLoo",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Team LDLC.com",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 193
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "OMG",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 344
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "SUPA HOT CREW XD",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 381
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Danish National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 602
+        },
+        {
+            "startYear": 2013,
+            "TeamName": "Kaos Latin Gamers",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 743
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 190,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Cloud9",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "eSuba",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Norweigan National Team",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 580
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 241,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "World Elite",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Samsung",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 144
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Natus Vincere",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Denial Esports",
+            "startMonth": 2,
+            "TournamentsWon": 2,
+            "TeamId": 172
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "G2 Esports",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 256
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "ahq e-Sports Club",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 403
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "eSuba",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 238,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "mousesports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "eSuba",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 256,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Natus Vincere",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Cloud9",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "eSuba",
+            "startMonth": 4,
+            "TournamentsWon": 2,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 230,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Norweigan National Team",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 580
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 225,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "SK Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Ninjas in Pyjamas",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 162
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "eSuba",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Reason Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 224,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Natus Vincere",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Reason Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 245,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Giants Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 331
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "French National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 586
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 239,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "mousesports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Korean National Team",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Lyon Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 745
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 314,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "mousesports",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Flash Wolves",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 184
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Planetkey Dynamics",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 266
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 309,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Radical Online X-tremists",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 121
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Team Curse",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 236
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "EDward Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 311
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "Lyon Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 745
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 268,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2014,
+            "TeamName": "mousesports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 290,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Natus Vincere",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Flash Wolves",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 184
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Qiao Gu Reapers",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 340
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 324,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Enemy",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 335
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Lyon Gaming",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 745
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 402,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Natus Vincere",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Planetkey Dynamics",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 266
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Giants Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 331
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Invited",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 813
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 460,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Dignitas",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "HellRaisers",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 209
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Cloud9",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Method",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 548
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Kaos Latin Gamers",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 743
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 482,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Liquid",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Dignitas",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Mineski",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 427
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Fraternitas",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 478
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 416,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Liquid",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Natus Vincere",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "G2 Esports",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 256
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Lyon Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 745
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 447,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "OverGaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 426
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Fraternitas",
+            "startMonth": 7,
+            "TournamentsWon": 2,
+            "TeamId": 478
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "American National Team",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 610
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 503,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Millenium",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 103
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Infused",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 248
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "X-Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 408
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 401,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Dignitas",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "World Elite",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Denial Esports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 172
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Celestial",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 349
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 490,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "ESC Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 120
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Radical Online X-tremists",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 121
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "PENTA Sports",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Giants Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 331
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "French National Team",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 586
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 423,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Team Liquid",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Fnatic",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 11,
+            "TournamentsWon": 4,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Vega Squadron",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 319
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Epiphany Bolt",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 400
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "3sUP Enterprises",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 406
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Space Soldiers",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "E-corp Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 437
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Fraternitas",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 478
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Method",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 548
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 304,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 12,
+            "TournamentsWon": 2,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "against All authority",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Counter Logic Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 207
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "HellRaisers",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 209
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 12,
+            "TournamentsWon": 2,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "London Conspiracy",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 302
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Giants Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 331
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Space Soldiers",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "French National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 586
+        },
+        {
+            "startYear": 2015,
+            "TeamName": "Project_kr",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 616
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 392,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Evil Geniuses",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 101
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Millenium",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 103
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Denial Esports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 172
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Luminosity Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 317
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PuLse Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 480
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Apex Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 519
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 345,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "MVP",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 132
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team LDLC.com",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 193
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PENTA Sports",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Renegades",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 338
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 378,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PENTA Sports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Secret",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 211
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Luminosity Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 317
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Renegades",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 338
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "EURONICS Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 3,
+            "TeamId": 442
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Escape Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 646
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Tricked eSports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 671
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 348,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "mousesports",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 111
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Natus Vincere",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Copenhagen Wolves",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 197
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "against All authority",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 198
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Counter Logic Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 207
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Keyd Stars",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 268
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Tempo Storm",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 337
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Supremacy",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 481
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "The MongolZ",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 489
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Korean National Team",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 370,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vici Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Virtus.pro",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "HellRaisers",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 209
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Luminosity Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 317
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Tempo Storm",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 337
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Bangkok Titans",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 404
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 333,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PENTA Sports",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Secret",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 211
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "G2 Esports",
+            "startMonth": 6,
+            "TournamentsWon": 3,
+            "TeamId": 256
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Kinguin",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ENCE eSports",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 385
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Dark Passage",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 414
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "eStar Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 430
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "The Imperial",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 539
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 304,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Millenium",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 103
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vici Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Mindfreak",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 309
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Enemy",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 335
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Korean National Team",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 309,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Dignitas",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ESC Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 120
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Newbee",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 210
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Kinguin",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Renegades",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 338
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Space Soldiers",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "LuxuryWatch",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 687
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 334,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Millenium",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 103
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Ninjas in Pyjamas",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 162
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Natus Vincere",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vici Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team SoloMid",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 196
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PENTA Sports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "EDward Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 311
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Kinguin",
+            "startMonth": 9,
+            "TournamentsWon": 3,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Immortals",
+            "startMonth": 9,
+            "TournamentsWon": 2,
+            "TeamId": 411
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Misfits",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 529
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 379,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Dignitas",
+            "startMonth": 10,
+            "TournamentsWon": 3,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Fnatic",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Natus Vincere",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 163
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vici Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Secret",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 211
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Cloud9",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Dead Pixels",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 312
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Kinguin",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Splyce",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 382
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ENCE eSports",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 385
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Dark Passage",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 414
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Supremacy",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 481
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Method",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 548
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Korean National Team",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Turkish National Team",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 591
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Defenses Geniuses",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 632
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 362,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Liquid",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "World Elite",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 123
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Invictus Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 124
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Gambit Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 192
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Secret",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 211
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "EHOME",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team Vitality",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 251
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "VwS Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 330
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Immortals",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 411
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "eSuba",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Dark Passage",
+            "startMonth": 11,
+            "TournamentsWon": 3,
+            "TeamId": 414
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "The MongolZ",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 489
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "GODSENT",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 501
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Heroic",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 558
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Albus NoX Luna",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 575
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "GC Busan",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 765
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 288,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Millenium",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 103
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Fnatic",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "TyLoo",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vici Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 2,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "PENTA Sports",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "EHOME",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Vega Squadron",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 319
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "x6tence",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "CNB e-Sports Club",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 398
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "eSuba",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "Korean National Team",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2016,
+            "TeamName": "LuxuryWatch",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 687
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 1,
+            "TournamentsWon": 308,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Flash Wolves",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 184
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Luminosity Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 317
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "paiN Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 396
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Immortals",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 411
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FM eSports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 439
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Rogue",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 557
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Gale Force eSports",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 572
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Chinese National Team",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 609
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Lunatic-hai",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 613
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "BIG",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 658
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "eUnited",
+            "startMonth": 1,
+            "TournamentsWon": 1,
+            "TeamId": 663
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 2,
+            "TournamentsWon": 307,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "mYinsanity",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 168
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Denial Esports",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 172
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team LDLC.com",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 193
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "wisdom Nerve victory",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 229
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "iGame.com",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 644
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Mysterious Monkeys",
+            "startMonth": 2,
+            "TournamentsWon": 1,
+            "TeamId": 718
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 3,
+            "TournamentsWon": 309,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Fnatic",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 118
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "TyLoo",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Denial Esports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 172
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "PENTA Sports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Secret",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 211
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Kinguin",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "paiN Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 396
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Space Soldiers",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FM eSports",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 439
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "The Imperial",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 539
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "iGame.com",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 644
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Gold Coin United",
+            "startMonth": 3,
+            "TournamentsWon": 1,
+            "TeamId": 673
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 4,
+            "TournamentsWon": 392,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Virtus.pro",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Planetkey Dynamics",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 266
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Kinguin",
+            "startMonth": 4,
+            "TournamentsWon": 2,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Panda Global",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 372
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "paiN Gaming",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 396
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FM eSports",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 439
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Obey Alliance",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 536
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Rogue",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 557
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Czech National Team",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 593
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "BIG",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 658
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Singularity",
+            "startMonth": 4,
+            "TournamentsWon": 1,
+            "TeamId": 708
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 5,
+            "TournamentsWon": 336,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "PENTA Sports",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Cloud9",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Planetkey Dynamics",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 266
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "x6tence",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 323
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tempo Storm",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 337
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Immortals",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 411
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Space Soldiers",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Avant Garde",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 452
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 5,
+            "TournamentsWon": 2,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Miami Flamingos\u200f e-Sports",
+            "startMonth": 5,
+            "TournamentsWon": 1,
+            "TeamId": 705
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 6,
+            "TournamentsWon": 284,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Flash Wolves",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 184
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Virtus.pro",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "PENTA Sports",
+            "startMonth": 6,
+            "TournamentsWon": 2,
+            "TeamId": 205
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Keyd Stars",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 268
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vega Squadron",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 319
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tempo Storm",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 337
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ENCE eSports",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 385
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ahq e-Sports Club",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 403
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "eSuba",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Method",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 548
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "iGame.com",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 644
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "BIG",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 658
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Mysterious Monkeys",
+            "startMonth": 6,
+            "TournamentsWon": 1,
+            "TeamId": 718
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 7,
+            "TournamentsWon": 351,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Liquid",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "compLexity Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 104
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SK Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Ninjas in Pyjamas",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 162
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team LDLC.com",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 193
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Epsilon eSports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 195
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Counter Logic Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 207
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "EHOME",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "LGD Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 227
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Giants Gaming",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 331
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tempo Storm",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 337
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Mineski",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 427
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "exceL eSports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 462
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "The Imperial",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 539
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Method",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 548
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 7,
+            "TournamentsWon": 2,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Gale Force eSports",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 572
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Chinese National Team",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 609
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Australian National Team",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 635
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tainted Minds",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 656
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 7,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 8,
+            "TournamentsWon": 349,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "TyLoo",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 126
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "MVP",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 132
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "FlipSid3 Tactics",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 215
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ENCE eSports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 385
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "eSuba",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "NRG Esports",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 425
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Mineski",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 427
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Spirit",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 494
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 8,
+            "TournamentsWon": 2,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Canadian National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 589
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "British National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 608
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Chinese National Team",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 609
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "PRIDE Gaming",
+            "startMonth": 8,
+            "TournamentsWon": 1,
+            "TeamId": 739
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 9,
+            "TournamentsWon": 366,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Dignitas",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 117
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "EHOME",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Kinguin",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Spirit",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 494
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Heroic",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 558
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Gale Force eSports",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 572
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tainted Minds",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 656
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Movistar Riders",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 707
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "AGO Gaming",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 740
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "GC Busan",
+            "startMonth": 9,
+            "TournamentsWon": 1,
+            "TeamId": 765
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 10,
+            "TournamentsWon": 321,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Liquid",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SK Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "EHOME",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 225
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Luminosity Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 317
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Kinguin",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 322
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Renegades",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 338
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "eSuba",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 413
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Reason Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Lunatic-hai",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 613
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "North",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 657
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Tricked eSports",
+            "startMonth": 10,
+            "TournamentsWon": 2,
+            "TeamId": 671
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "AGO Gaming",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 740
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Orcus",
+            "startMonth": 10,
+            "TournamentsWon": 1,
+            "TeamId": 810
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 11,
+            "TournamentsWon": 333,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Liquid",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SK Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Vici Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 169
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Virtus.pro",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 185
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team LDLC.com",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 193
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Cloud9",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "LGD Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 227
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "OpTic Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 231
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Celestial",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 349
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Space Soldiers",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 420
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Spirit",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 494
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "INTZ eSports",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 544
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SetToDestroyX",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 571
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Ukranian National Team",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 582
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Korean National Team",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 583
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Polish National Team",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 587
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Bravado Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 660
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "RunAway",
+            "startMonth": 11,
+            "TournamentsWon": 2,
+            "TeamId": 732
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "AGO Gaming",
+            "startMonth": 11,
+            "TournamentsWon": 1,
+            "TeamId": 740
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "None",
+            "startMonth": 12,
+            "TournamentsWon": 278,
+            "TeamId": -1
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Liquid",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 102
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "SK Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 112
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "ALTERNATE aTTaX",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 113
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Gambit Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 192
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Cloud9",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 212
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team EnVyUs",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 216
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "wisdom Nerve victory",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 229
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Qiao Gu Reapers",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 340
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Reason Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 421
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Spirit",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 494
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "Team Singularity",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 708
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "PRIDE Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 739
+        },
+        {
+            "startYear": 2017,
+            "TeamName": "AGO Gaming",
+            "startMonth": 12,
+            "TournamentsWon": 1,
+            "TeamId": 740
+        }
+    ]
+}
