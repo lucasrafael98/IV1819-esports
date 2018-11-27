@@ -175,7 +175,8 @@ function gen_vis(){
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalUSDPrize); })
                 .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
-                last_changed = 3;
+            last_changed = 3;
+            quantity = false;
         }else{
             yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(teams_sorted, function (d) { return d.TotalTournaments; })])
@@ -213,7 +214,8 @@ function gen_vis(){
                 .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TotalTournaments); })
                 .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
                 .attr("width", function(d) { return xOverview.bandwidth();});
-                last_changed = 4;
+            last_changed = 4;
+            quantity = true;
         }
 
         displayed = d3.scaleQuantize()
@@ -226,7 +228,6 @@ function gen_vis(){
             .attr("y", 0);
         
         age_selected = false;
-        quantity = false;
         teams_selected = true;
     });
     d3.select("#check3").on("change",function(){
@@ -251,6 +252,7 @@ function gen_vis(){
                 .duration(1000)
                 .attr("y", function (d) { return yscale(d.TotalUSDPrize); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); });
+            teams_selected = true;
         }else{
             yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalUSDPrize; })])
@@ -272,6 +274,7 @@ function gen_vis(){
                 .duration(1000)
                 .attr("y", function (d) { return yscale(d.totalUSDPrize); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.totalUSDPrize); });
+            teams_selected = false;
         }
         last_changed = 3;
         quantity = false;
@@ -298,6 +301,7 @@ function gen_vis(){
                 .duration(1000)
                 .attr("y", function (d) { return yscale(d.TotalTournaments); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.TotalTournaments); });
+            teams_selected = true;
         }else{
             yscale = d3.scalePow().exponent(0.35)
                 .domain([0, d3.max(games_sorted, function (d) { return d.totalTournaments; })])
@@ -319,6 +323,7 @@ function gen_vis(){
                 .duration(1000)
                 .attr("y", function (d) { return yscale(d.totalTournaments); })
                 .attr("height", function (d) { return barChartHeight - yscale(d.totalTournaments); });           
+            teams_selected = false;
         }
         quantity = true;
         last_changed = 4;
@@ -410,6 +415,7 @@ function gen_vis(){
             .attr("x", 0)
         last_changed = 5;
         teams_selected = false;
+        age_selected = false;
     });
   
 if (isScrollDisplayed)
