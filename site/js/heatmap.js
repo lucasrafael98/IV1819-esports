@@ -105,7 +105,7 @@ function gen_heatmap(){
 
     svg.selectAll(".heatmap-block").on("click",function(){
         handleResetCheckBox(1);
-        let diagram = d3.select(".superbchart").select("#barchart").select("svg").select("g");
+        let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
         let bars = diagram.select(".main-bars");
         let month = this.__data__.startMonth;
         let year = this.__data__.startYear;
@@ -123,12 +123,16 @@ function gen_heatmap(){
                 .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
                 .range([barChartHeight, 0]);
             xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_custom_teams[i] });
-            yAxis  = d3.axisLeft().scale(yscale);
+            yAxis  = d3.axisLeft().scale(yscale)
+                        .tickFormat(d3.format("d"))
+                        .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
             d3.selectAll(".x.axis").selectAll("text").append("title")
                 .data(custom_teams.slice(0,numBars))
                 .text(function(d) { return d.TeamName;});
+            d3.select(".bchart-x-text").text("Team");
+            d3.select(".bchart-y-text").text("Tournaments Won");
             xOverview = d3.scaleBand()
                 .domain(custom_teams.map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
@@ -150,7 +154,7 @@ function gen_heatmap(){
                 .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
                 .attr("x", function (d) { return xscale(d.TeamName); })
                 .attr("width", function (d) { return xscale.bandwidth(); });
-            subBars = diagram.selectAll('.subBar').data(custom_teams);
+            subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(custom_teams);
             subBars.exit().remove();
             subBars.transition()
                 .duration(1000)

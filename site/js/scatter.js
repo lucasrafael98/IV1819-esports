@@ -17,7 +17,7 @@ function gen_scatter(){
     var xscale = d3.scaleLog()
         .domain([1,1000])
         .range([padding + 10,w-padding]);
-    var color = d3.scaleOrdinal(["#095689", "#466c89"]);
+    var color = d3.scaleOrdinal(["#095689", "#009684"]);
     var svg = d3.select("#scatter");
 
     var seriesNames = d3.keys(countryStats[0])
@@ -106,7 +106,7 @@ function gen_scatter(){
         .attr("y", (h/6)-padding * 0.8)
         .attr("class", "scatter-x-text")
         .style("text-anchor", "middle")
-        .text("Number of Players");;
+        .text("Number of Players");
 
 
     // Switch Y axis
@@ -122,7 +122,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "#009684")
+                    .attr("fill", "#466c89")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
@@ -141,7 +141,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "#009684")
+                    .attr("fill", "#466c89")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
@@ -156,7 +156,7 @@ function gen_scatter(){
                 
                 yaxis = d3.axisLeft()
                     .scale(yscale)
-                    .tickFormat(d3.format("$.0"))
+                    .tickFormat(d3.format("$.0s"))
                     .ticks(5);
                 svg.selectAll(".scatter-y")
                     .transition()
@@ -167,7 +167,7 @@ function gen_scatter(){
                     .text("GDP");
 
                 document.getElementsByClassName("caption-container2")[0].style.display = "none";
-                document.getElementsByClassName("ball1")[0].style.backgroundColor = "rgb(0, 150, 132)";
+                document.getElementsByClassName("ball1")[0].style.backgroundColor = "#466c89";
                 document.getElementsByClassName("ball-text")[0].innerHTML = "GDP";
             }
             else{
@@ -275,7 +275,7 @@ function gen_scatter(){
                 
                 xaxis = d3.axisBottom()
                     .scale(xscale)
-                    .tickFormat(d3.format("$,d"))
+                    .tickFormat(d3.format("$.1s"))
                     .ticks(3);
                 svg.selectAll(".scatter-x")
                     .transition()

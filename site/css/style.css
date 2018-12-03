@@ -1,4 +1,13 @@
-html { font-size: 62.5%; } 
+/* A note on Z-indexes
+    0: normal
+    1: blue bar on top, heatmap
+    2: main title
+*/
+
+html { 
+    font-size: 62.5%; 
+    overflow: hidden;
+} 
 
 body {
     display: inline-block;
@@ -8,6 +17,27 @@ body {
     fill: #8C8C8C;
     background-color: #2c2c2c;
 }
+
+
+#top-bar{
+    background: #1c3154; 
+    position: relative; 
+    display: block; 
+    z-index: 1; 
+    height: 48px; 
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#main-title{
+    margin: 0;
+    padding-top: 7px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    z-index: 2;
+    font-size: 20pt;
+}
+
 
 .yearLabel, .monthLabel {
     font-size: 1.6rem;
@@ -45,7 +75,7 @@ text.axis-workweek, text.axis-worktime {
 
 text {
         font-size: 1.2rem;
-        fill: #AAAAAA;
+        fill: rgb(224, 224, 224);
         font-weight: 400;
 }
 
@@ -57,96 +87,8 @@ text {
 
 #heatmap{
     text-align: right;
-}
-
-#scatter{
-    text-align: left;
-
-}
-
-.scatter-y line{
-    stroke: rgb(224, 224, 224);
-}
-
-.scatter-y path{
-    stroke: rgb(224, 224, 224);
-}
-  
-.scatter-y text{
-    fill: rgb(224, 224, 224);
-}  
-
-.scatter-x line{
-    stroke: rgb(224, 224, 224);
-}
-
-.scatter-x path{
-    stroke: rgb(224, 224, 224);
-}
-  
-.scatter-x text{
-    fill: rgb(224, 224, 224);
-} 
-
-.btn {
-    text-align: center;
-	width: 50px;
-	cursor: pointer;
-	font-family: calibri, sans serif;
-	padding: 8px;
-	border: solid 1px white;
-	color: black;
-}
-
-#togg-y {
-	background-color: lightblue;
-}
-
-#togg-x {
-	background-color: lightskyblue;
-}
-
-#resetButton{
-    display: none;
-    position: absolute;
-    right: 3%;
-    bottom: 43%;
-}
-
-.caption{
-    position: absolute;
-    left: 600px;
-    bottom: 390px;
-    height: 50px;
-}
-
-.ball1{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: rgb(70, 108, 137);
-    float: left;
-    margin-right: 10px;
-    border: 1.4px solid white;
-}
-
-.ball2{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: rgb(9, 86, 137);
-    margin-right: 10px;
-    float: left;
-    border: 1.4px solid white;
-}
-
-.ball-text{
-    color: white;
-    position: relative;
-    top: 3px;
-    font-size: 1.2em;
-}
-
-.caption-container1{
-    margin-bottom: 10px;
+    position: absolute; 
+    top: 5vh; 
+    left: 58vw;
+    z-index: 1;
 }

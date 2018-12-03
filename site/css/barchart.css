@@ -1,4 +1,10 @@
 
+#superbchart{
+    position: absolute; 
+    top: 49vh; 
+    left: 44vw;
+}
+
 svg {
     font: 10px sans-serif;
   }
@@ -41,8 +47,9 @@ svg {
       width: 100px;
   }
   
-  .chart-menu{
-
+  #bchart-scroll{
+      position: absolute;
+      top: 1vh;
   }
   
   .chart-submenu{
