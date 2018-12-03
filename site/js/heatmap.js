@@ -4,6 +4,7 @@ let laststyle = "";
 let custom_teams;
 let custom_teams_selected = false;
 let tags_custom_teams = [];
+let colorLegend = [0, 1, 10, 100, 400, 500];
 let promises2 = [
     d3.json("data/tourn_mmyyyy.json").then(function (data) {
         data.data.forEach(element => {
@@ -102,6 +103,37 @@ function gen_heatmap(){
         .style("fill", function(d) { 
             if(d.tournaments === 0) return "#848484";
             else return colorScale(d.tournaments); });
+
+    var hml = d3.select('#heatmap').select("svg").append("g")
+        .attr("class", "heatmap-legend")
+        .attr("transform", "translate(" + width / 1.22 + ")")
+        .selectAll("rect").data(colorELegend);
+
+    var ls_w = 20, ls_h = 20;
+
+    d3.select('#heatmap').select("svg")
+        .selectAll(".heatmap-legend")
+        .append("text")
+        .attr("id", "heatmap-legend-stat")
+        .attr("transform", "translate(-15, " + ((height / 2) + 20) + ")")
+        .text("Tournaments Played:");
+
+    hml.data(colorLegend)
+        .enter().append("rect")
+        .attr("x", 20)
+        .attr("y", function(d, i){ return height - (i*ls_h) - 2*ls_h;})
+        .attr("width", ls_w)
+        .attr("height", ls_h)
+        .style("fill", function(d) { 
+            if(d === 0) return "#848484";
+            else return colorScale(d); });
+                
+    hml.data(colorLegend)
+        .enter().append("text")
+        .attr("class", "heatmap-legend-numbers")
+        .attr("x", 50)
+        .attr("y", function(d, i){ return height - (i*ls_h) - ls_h - 4;})
+        .text(function(d){ return d; });
 
     svg.selectAll(".heatmap-block").on("click",function(){
         handleResetCheckBox(1);

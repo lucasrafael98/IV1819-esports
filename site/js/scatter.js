@@ -17,7 +17,7 @@ function gen_scatter(){
     var xscale = d3.scaleLog()
         .domain([1,1000])
         .range([padding + 10,w-padding]);
-    var color = d3.scaleOrdinal(["#095689", "#009684"]);
+    var color = d3.scaleOrdinal(["#28568c", "#008e96"]);
     var svg = d3.select("#scatter");
 
     var seriesNames = d3.keys(countryStats[0])
@@ -122,7 +122,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "#466c89")
+                    .attr("fill", "#009684")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
@@ -141,7 +141,7 @@ function gen_scatter(){
                     .data(countryStats)
                     .transition()
                     .duration(700)
-                    .attr("fill", "#466c89")
+                    .attr("fill", "#009684")
                     .attr("cy", function(d){
                                     return yscale(d.annualGDPUSD / 1.2)})
                     .select("title")
@@ -167,7 +167,7 @@ function gen_scatter(){
                     .text("GDP");
 
                 document.getElementsByClassName("caption-container2")[0].style.display = "none";
-                document.getElementsByClassName("ball1")[0].style.backgroundColor = "#466c89";
+                document.getElementsByClassName("ball1")[0].style.backgroundColor = "#009684";
                 document.getElementsByClassName("ball-text")[0].innerHTML = "GDP";
             }
             else{
@@ -224,7 +224,7 @@ function gen_scatter(){
                     .text("Unemployment / Urban Population");
 
                 document.getElementsByClassName("caption-container2")[0].style.display = "block";
-                document.getElementsByClassName("ball1")[0].style.backgroundColor = "rgb(70, 108, 137)";
+                document.getElementsByClassName("ball1")[0].style.backgroundColor = "#008e96";
                 document.getElementsByClassName("ball-text")[0].innerHTML = "Urban Population";
             }
             scplYMode = !scplYMode;

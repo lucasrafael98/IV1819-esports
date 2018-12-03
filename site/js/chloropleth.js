@@ -11,14 +11,17 @@ var path = d3.geoPath()
 // Data and color scale
 var data = d3.map();
 var colorEarningsScale = d3.scaleLog()
-	.domain([1000, 10000000])
+	.domain([1000, 0.2e7])
 	.interpolate(d3.interpolateHcl)
   .range([d3.rgb("#969696"), d3.rgb('#28638c')]); 
 
-var colorPlayersScale = d3.scaleLinear()
-	.domain([0, 1000])
+var colorPlayersScale = d3.scaleLog()
+	.domain([2.5, 100])
 	.interpolate(d3.interpolateHcl)
-  .range([d3.rgb("#677d91"), d3.rgb('#28638c')]);  
+  .range([d3.rgb("#677d91"), d3.rgb('#28568c')]);  
+
+var colorELegend = [1e4, 1e5, 1e6, 1e7, 1e8]
+var colorPLegend = [1, 10, 100, 1000]
 
 
 //Load Data
@@ -271,6 +274,34 @@ Promise.all(promises_cl).then(function(values){
               
             }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
+
+  var cml = svg.append("g")
+                .attr("class", "chloro-legend")
+                .attr("transform", "translate(190)")
+                .selectAll("rect").data(colorELegend);
+
+  var ls_w = 20, ls_h = 20;
+
+  svg.select(".chloro-legend")
+      .append("text")
+      .attr("id", "chloro-legend-stat")
+      .attr("transform", "translate(25, 270)")
+      .text("Earnings:");
+
+  cml.data(colorELegend)
+        .enter().append("rect")
+        .attr("x", 20)
+        .attr("y", function(d, i){ return height - (i*ls_h) - 2*ls_h;})
+        .attr("width", ls_w)
+        .attr("height", ls_h)
+        .style("fill", function(d) { return colorEarningsScale(d); });
+                
+  cml.data(colorELegend)
+        .enter().append("text")
+        .attr("class", "chloro-legend-number")
+        .attr("x", 50)
+        .attr("y", function(d, i){ return height - (i*ls_h) - ls_h - 4;})
+        .text(function(d){ return d3.format("$.1s")(d); });
   
   d3.selectAll("#switchToPlayerAmountChoro")
     .on("mousedown", function(){
@@ -288,6 +319,21 @@ Promise.all(promises_cl).then(function(values){
             // Set the color
             return data.get(d.id+choroMode) ? colorPlayersScale(d.players) : "#969696"; 
           })
+        svg.selectAll(".chloro-legend").selectAll("rect")
+            .data(colorPLegend).exit().remove();
+        svg.selectAll(".chloro-legend").selectAll(".chloro-legend-number")
+            .data(colorPLegend).exit().remove();
+        svg.selectAll(".chloro-legend")
+            .selectAll("rect").data(colorPLegend)
+            .transition().duration(700)
+            .style("fill", function(d) { return colorPlayersScale(d); })
+        svg.selectAll(".chloro-legend")
+            .selectAll(".chloro-legend-number").data(colorPLegend)
+            .text(function(d){ return d; });
+        svg.selectAll(".chloro-legend")
+            .select("#chloro-legend-stat")
+            .attr("transform", "translate(25, 290)")
+            .text("Players:");
       }
     })
   d3.selectAll("#switchToEarningsAmountChoro")
@@ -306,6 +352,30 @@ Promise.all(promises_cl).then(function(values){
             // Set the color
             return data.get(d.id+choroMode) ? colorEarningsScale(d.totalUSDPrize) : "#969696";
           })
+        svg.selectAll(".chloro-legend")
+            .selectAll("rect").data(colorELegend)
+            .transition().duration(700)
+            .style("fill", function(d) { return colorEarningsScale(d); })
+        svg.selectAll(".chloro-legend")
+            .selectAll(".chloro-legend-number").data(colorELegend)
+            .text(function(d){ return d3.format("$.1s")(d); });
+        svg.selectAll(".chloro-legend")
+            .select("#chloro-legend-stat")
+            .attr("transform", "translate(25, 270)")
+            .text("Earnings:");
+        svg.selectAll(".chloro-legend")
+            .selectAll("rect").data(colorELegend).enter().append("rect")
+            .attr("x", 20)
+            .attr("y", function(d, i){ return height - (i*ls_h) - 2*ls_h;})
+            .attr("width", ls_w)
+            .attr("height", ls_h)
+            .style("fill", function(d) { return colorEarningsScale(d); })
+        svg.selectAll(".chloro-legend")
+            .selectAll(".chloro-legend-number").data(colorELegend).enter().append("text")
+            .attr("class", "chloro-legend-number")
+            .attr("x", 50)
+            .attr("y", function(d, i){ return height - (i*ls_h) - ls_h - 4;})
+            .text(function(d){ return d3.format("$.1s")(d); });
       }
     })
 
