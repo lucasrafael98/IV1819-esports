@@ -1,0 +1,10 @@
+note the adblock thing on the report just to be safe
+replace barchart with a "no data avail" message if there isnt any data for the month/country
+show what is selected in the scrollbar (lines from the barchart edges to scroll selection)
+show info while hovering on countries
+disable being able to select countries w/ 0 or 1 players
+remove countries w/1 player from the scatter plot
+make font sizes more consistent (esp the top bar "show players/earnings fonts")
+[EBA = earnings by age]
+make the country whose EBA is currently shown on the bar chart a different color
+maybe make the bar chart display several country EBA at a time

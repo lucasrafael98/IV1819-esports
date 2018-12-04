@@ -4,7 +4,7 @@ let laststyle = "";
 let custom_teams;
 let custom_teams_selected = false;
 let tags_custom_teams = [];
-let colorLegend = [0, 1, 10, 100, 400, 500];
+let colorLegend = [0, 1, 10, 150, 300, 400, 500];
 let promises2 = [
     d3.json("data/tourn_mmyyyy.json").then(function (data) {
         data.data.forEach(element => {
@@ -115,7 +115,7 @@ function gen_heatmap(){
         .selectAll(".heatmap-legend")
         .append("text")
         .attr("id", "heatmap-legend-stat")
-        .attr("transform", "translate(-15, " + ((height / 2) + 20) + ")")
+        .attr("transform", "translate(-15, " + (height / 2) + ")")
         .text("Tournaments Played:");
 
     hml.data(colorLegend)
