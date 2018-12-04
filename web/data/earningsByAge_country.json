@@ -1,0 +1,2952 @@
+{
+    "earningsPerAgeCountry":[
+        {
+            "CountryCode": "am",
+            "earnings": [
+                {
+                    "earnings": 13226.98,
+                    "age": 17
+                },
+                {
+                    "earnings": 62181.4,
+                    "age": 18
+                },
+                {
+                    "earnings": 7500.0,
+                    "age": 19
+                },
+                {
+                    "earnings": 3000.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 7019.78,
+                    "age": 22
+                },
+                {
+                    "earnings": 17053.8,
+                    "age": 23
+                },
+                {
+                    "earnings": 16164.0,
+                    "age": 24
+                }
+            ]
+        },
+        {
+            "CountryCode": "ar",
+            "earningsByAge": [
+                {
+                    "earnings": 50.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 9489.3,
+                    "age": 21
+                },
+                {
+                    "earnings": 11831.27,
+                    "age": 22
+                }
+            ]
+        },
+        {
+            "CountryCode": "at",
+            "earningsByAge": [
+                {
+                    "earnings": 11953.97,
+                    "age": 18
+                },
+                {
+                    "earnings": 5094.36,
+                    "age": 19
+                },
+                {
+                    "earnings": 67442.79000000001,
+                    "age": 20
+                },
+                {
+                    "earnings": 366643.6,
+                    "age": 21
+                },
+                {
+                    "earnings": 2431850.8,
+                    "age": 22
+                },
+                {
+                    "earnings": 664630.64,
+                    "age": 23
+                },
+                {
+                    "earnings": 37046.97,
+                    "age": 24
+                },
+                {
+                    "earnings": 31079.19,
+                    "age": 25
+                },
+                {
+                    "earnings": 10000.0,
+                    "age": 26
+                }
+            ]
+        },
+        {
+            "CountryCode": "au",
+            "earningsByAge": [
+                {
+                    "earnings": 37984.68,
+                    "age": 16
+                },
+                {
+                    "earnings": 571835.2000000001,
+                    "age": 17
+                },
+                {
+                    "earnings": 2248314.2,
+                    "age": 18
+                },
+                {
+                    "earnings": 3148.41,
+                    "age": 19
+                },
+                {
+                    "earnings": 5650.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 7133.87,
+                    "age": 21
+                },
+                {
+                    "earnings": 11568.57,
+                    "age": 22
+                },
+                {
+                    "earnings": 14152.21,
+                    "age": 23
+                },
+                {
+                    "earnings": 19936.0,
+                    "age": 24
+                },
+                {
+                    "earnings": 19704.04,
+                    "age": 25
+                },
+                {
+                    "earnings": 19885.43,
+                    "age": 26
+                },
+                {
+                    "earnings": 12236.79,
+                    "age": 27
+                },
+                {
+                    "earnings": 7123.05,
+                    "age": 28
+                },
+                {
+                    "earnings": 860.26,
+                    "age": 29
+                }
+            ]
+        },
+        {
+            "CountryCode": "ba",
+            "earningsByAge":[
+                {
+                    "earnings": 5803.68,
+                    "age": 18
+                },
+                {
+                    "earnings": 3939.42,
+                    "age": 19
+                },
+                {
+                    "earnings": 13862.81,
+                    "age": 20
+                },
+                {
+                    "earnings": 1561.96,
+                    "age": 21
+                },
+                {
+                    "earnings": 4366.72,
+                    "age": 22
+                },
+                {
+                    "earnings": 834.97,
+                    "age": 23
+                },
+                {
+                    "earnings": 11541.67,
+                    "age": 25
+                },
+                {
+                    "earnings": 400.0,
+                    "age": 26
+                }
+            ]
+        },
+        {
+            "CountryCode": "be",
+            "earningsByAge":[
+                {
+                    "earnings": 11953.97,
+                    "age": 18
+                },
+                {
+                    "earnings": 5094.36,
+                    "age": 19
+                },
+                {
+                    "earnings": 67442.79000000001,
+                    "age": 20
+                },
+                {
+                    "earnings": 366643.6,
+                    "age": 21
+                },
+                {
+                    "earnings": 2431850.8,
+                    "age": 22
+                },
+                {
+                    "earnings": 664630.64,
+                    "age": 23
+                },
+                {
+                    "earnings": 37046.97,
+                    "age": 24
+                },
+                {
+                    "earnings": 31079.19,
+                    "age": 25
+                },
+                {
+                    "earnings": 10000.0,
+                    "age": 26
+                }
+            ]
+        },
+        {
+            "CountryCode": "bg",
+            "earningsByAge":[
+                {
+                    "earnings": 11953.97,
+                    "age": 18
+                },
+                {
+                    "earnings": 5094.36,
+                    "age": 19
+                },
+                {
+                    "earnings": 67442.79000000001,
+                    "age": 20
+                },
+                {
+                    "earnings": 366643.6,
+                    "age": 21
+                },
+                {
+                    "earnings": 2431850.8,
+                    "age": 22
+                },
+                {
+                    "earnings": 664630.64,
+                    "age": 23
+                },
+                {
+                    "earnings": 37046.97,
+                    "age": 24
+                },
+                {
+                    "earnings": 31079.19,
+                    "age": 25
+                },
+                {
+                    "earnings": 10000.0,
+                    "age": 26
+                }
+            ]
+        },
+        {
+            "CountryCode": "br",
+            "earningsByAge":[
+                {
+                    "earnings": 20000.0,
+                    "age": 14
+                },
+                {
+                    "earnings": 3734.67,
+                    "age": 15
+                },
+                {
+                    "earnings": 31604.08,
+                    "age": 16
+                },
+                {
+                    "earnings": 38690.79,
+                    "age": 17
+                },
+                {
+                    "earnings": 65622.52,
+                    "age": 18
+                },
+                {
+                    "earnings": 54743.969999999994,
+                    "age": 19
+                },
+                {
+                    "earnings": 69010.4,
+                    "age": 20
+                },
+                {
+                    "earnings": 759736.9600000001,
+                    "age": 21
+                },
+                {
+                    "earnings": 654112.5800000001,
+                    "age": 22
+                },
+                {
+                    "earnings": 643088.51,
+                    "age": 23
+                },
+                {
+                    "earnings": 636931.2000000001,
+                    "age": 24
+                },
+                {
+                    "earnings": 756004.3,
+                    "age": 25
+                },
+                {
+                    "earnings": 701563.23,
+                    "age": 26
+                },
+                {
+                    "earnings": 93069.39,
+                    "age": 27
+                },
+                {
+                    "earnings": 14863.48,
+                    "age": 28
+                },
+                {
+                    "earnings": 25018.79,
+                    "age": 29
+                },
+                {
+                    "earnings": 12394.61,
+                    "age": 30
+                },
+                {
+                    "earnings": 4806.46,
+                    "age": 31
+                }
+            ]
+        },
+        {
+            "CountryCode": "by",
+            "earningsByAge":[
+                {
+                    "earnings": 1957.66,
+                    "age": 15
+                },
+                {
+                    "earnings": 14304.29,
+                    "age": 16
+                },
+                {
+                    "earnings": 10296.54,
+                    "age": 17
+                },
+                {
+                    "earnings": 30585.82,
+                    "age": 18
+                },
+                {
+                    "earnings": 324320.54,
+                    "age": 19
+                },
+                {
+                    "earnings": 99759.14,
+                    "age": 20
+                },
+                {
+                    "earnings": 32451.079999999998,
+                    "age": 21
+                },
+                {
+                    "earnings": 45228.25,
+                    "age": 22
+                },
+                {
+                    "earnings": 12463.85,
+                    "age": 23
+                },
+                {
+                    "earnings": 32796.92,
+                    "age": 24
+                },
+                {
+                    "earnings": 1770.67,
+                    "age": 25
+                },
+                {
+                    "earnings": 1113.49,
+                    "age": 26
+                },
+                {
+                    "earnings": 19367.52,
+                    "age": 27
+                },
+                {
+                    "earnings": 6297.5,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "ca",
+            "earningsByAge":[
+                {
+                    "earnings": 60.0,
+                    "age": 14
+                },
+                {
+                    "earnings": 50.0,
+                    "age": 15
+                },
+                {
+                    "earnings": 17626.77,
+                    "age": 16
+                },
+                {
+                    "earnings": 125734.31999999999,
+                    "age": 17
+                },
+                {
+                    "earnings": 594796.42,
+                    "age": 18
+                },
+                {
+                    "earnings": 892240.51,
+                    "age": 19
+                },
+                {
+                    "earnings": 913279.69,
+                    "age": 20
+                },
+                {
+                    "earnings": 614346.28,
+                    "age": 21
+                },
+                {
+                    "earnings": 2805199.23,
+                    "age": 22
+                },
+                {
+                    "earnings": 864574.73,
+                    "age": 23
+                },
+                {
+                    "earnings": 1398046.94,
+                    "age": 24
+                },
+                {
+                    "earnings": 193806.13,
+                    "age": 25
+                },
+                {
+                    "earnings": 158814.48,
+                    "age": 26
+                },
+                {
+                    "earnings": 40126.7,
+                    "age": 27
+                },
+                {
+                    "earnings": 1250.0,
+                    "age": 28
+                },
+                {
+                    "earnings": 19208.33,
+                    "age": 29
+                },
+                {
+                    "earnings": 10105.0,
+                    "age": 31
+                },
+                {
+                    "earnings": 100.0,
+                    "age": 32
+                }
+            ]
+        },
+        {
+            "CountryCode": "ch",
+            "earningsByAge":[
+                {
+                    "earnings": 3000.0,
+                    "age": 18
+                },
+                {
+                    "earnings": 166.66,
+                    "age": 21
+                },
+                {
+                    "earnings": 1792.44,
+                    "age": 22
+                },
+                {
+                    "earnings": 26250.0,
+                    "age": 23
+                }
+            ]
+        },
+        {
+            "CountryCode": "cl",
+            "earningsByAge":[
+                {
+                    "earnings": 20.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 7989.04,
+                    "age": 21
+                },
+                {
+                    "earnings": 22420.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 3850.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 2200.0,
+                    "age": 26
+                },
+                {
+                    "earnings": 1100.0,
+                    "age": 27
+                },
+                {
+                    "earnings": 1215.0,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "cn",
+            "earningsByAge":[
+                {
+                    "earnings": 4569.4400000000005,
+                    "age": 15
+                },
+                {
+                    "earnings": 106659.23,
+                    "age": 16
+                },
+                {
+                    "earnings": 267928.89,
+                    "age": 17
+                },
+                {
+                    "earnings": 4176604.989999999,
+                    "age": 18
+                },
+                {
+                    "earnings": 2318525.19,
+                    "age": 19
+                },
+                {
+                    "earnings": 2416800.2800000003,
+                    "age": 20
+                },
+                {
+                    "earnings": 3007903.6800000006,
+                    "age": 21
+                },
+                {
+                    "earnings": 4210135.5600000005,
+                    "age": 22
+                },
+                {
+                    "earnings": 3449633.85,
+                    "age": 23
+                },
+                {
+                    "earnings": 5161998.389999999,
+                    "age": 24
+                },
+                {
+                    "earnings": 2786004.8900000006,
+                    "age": 25
+                },
+                {
+                    "earnings": 2211187.1,
+                    "age": 26
+                },
+                {
+                    "earnings": 1128303.8599999999,
+                    "age": 27
+                },
+                {
+                    "earnings": 331004.06,
+                    "age": 28
+                },
+                {
+                    "earnings": 586316.22,
+                    "age": 29
+                },
+                {
+                    "earnings": 132111.99,
+                    "age": 30
+                },
+                {
+                    "earnings": 35495.58,
+                    "age": 31
+                },
+                {
+                    "earnings": 3057.96,
+                    "age": 32
+                },
+                {
+                    "earnings": 29666.67,
+                    "age": 33
+                }
+            ]
+        },
+        {
+            "CountryCode": "co",
+            "earningsByAge":[
+                {
+                    "earnings": 16000.0,
+                    "age": 18
+                },
+                {
+                    "earnings": 48000.0,
+                    "age": 19
+                },
+                {
+                    "earnings": 16000.0,
+                    "age": 20
+                }
+            ]
+        },
+        {
+            "CountryCode": "cz",
+            "earningsByAge":[
+                {
+                    "earnings": 52.66,
+                    "age": 17
+                },
+                {
+                    "earnings": 1502.24,
+                    "age": 18
+                },
+                {
+                    "earnings": 11723.49,
+                    "age": 19
+                },
+                {
+                    "earnings": 2871.75,
+                    "age": 20
+                },
+                {
+                    "earnings": 3422.18,
+                    "age": 22
+                },
+                {
+                    "earnings": 5416.78,
+                    "age": 23
+                },
+                {
+                    "earnings": 2600.0,
+                    "age": 24
+                },
+                {
+                    "earnings": 67.63,
+                    "age": 25
+                },
+                {
+                    "earnings": 99.43,
+                    "age": 26
+                },
+                {
+                    "earnings": 13750.0,
+                    "age": 29
+                }
+            ]
+        },
+        {
+            "CountryCode": "de",
+            "earningsByAge":[
+                {
+                    "earnings": 1214.98,
+                    "age": 14
+                },
+                {
+                    "earnings": 8093.85,
+                    "age": 15
+                },
+                {
+                    "earnings": 108691.61,
+                    "age": 16
+                },
+                {
+                    "earnings": 133220.84,
+                    "age": 17
+                },
+                {
+                    "earnings": 358595.24000000005,
+                    "age": 18
+                },
+                {
+                    "earnings": 421918.83999999997,
+                    "age": 19
+                },
+                {
+                    "earnings": 621283.2100000001,
+                    "age": 20
+                },
+                {
+                    "earnings": 598461.54,
+                    "age": 21
+                },
+                {
+                    "earnings": 830933.96,
+                    "age": 22
+                },
+                {
+                    "earnings": 998375.21,
+                    "age": 23
+                },
+                {
+                    "earnings": 2973479.02,
+                    "age": 24
+                },
+                {
+                    "earnings": 1196879.47,
+                    "age": 25
+                },
+                {
+                    "earnings": 65380.149999999994,
+                    "age": 26
+                },
+                {
+                    "earnings": 52698.229999999996,
+                    "age": 27
+                },
+                {
+                    "earnings": 111022.54,
+                    "age": 28
+                },
+                {
+                    "earnings": 83293.69,
+                    "age": 29
+                },
+                {
+                    "earnings": 70053.44,
+                    "age": 30
+                },
+                {
+                    "earnings": 20309.48,
+                    "age": 31
+                },
+                {
+                    "earnings": 20000.0,
+                    "age": 39
+                }
+            ]
+        },
+        {
+            "CountryCode": "dk",
+            "earningsByAge":[
+                {
+                    "earnings": 581.0699999999999,
+                    "age": 15
+                },
+                {
+                    "earnings": 17238.43,
+                    "age": 16
+                },
+                {
+                    "earnings": 92735.56,
+                    "age": 17
+                },
+                {
+                    "earnings": 356437.95000000007,
+                    "age": 18
+                },
+                {
+                    "earnings": 952601.56,
+                    "age": 19
+                },
+                {
+                    "earnings": 1345842.8399999999,
+                    "age": 20
+                },
+                {
+                    "earnings": 1473120.28,
+                    "age": 21
+                },
+                {
+                    "earnings": 2237026.17,
+                    "age": 22
+                },
+                {
+                    "earnings": 1351038.09,
+                    "age": 23
+                },
+                {
+                    "earnings": 3069872.5400000005,
+                    "age": 24
+                },
+                {
+                    "earnings": 1410451.3099999998,
+                    "age": 25
+                },
+                {
+                    "earnings": 442653.07,
+                    "age": 26
+                },
+                {
+                    "earnings": 425561.22,
+                    "age": 27
+                },
+                {
+                    "earnings": 102491.17,
+                    "age": 28
+                },
+                {
+                    "earnings": 6333.33,
+                    "age": 29
+                },
+                {
+                    "earnings": 12566.66,
+                    "age": 30
+                }
+            ]
+        },
+        {
+            "CountryCode": "es",
+            "earningsByAge":[
+                {
+                    "earnings": 149.2,
+                    "age": 16
+                },
+                {
+                    "earnings": 5776.700000000001,
+                    "age": 17
+                },
+                {
+                    "earnings": 35018.79,
+                    "age": 18
+                },
+                {
+                    "earnings": 84388.63,
+                    "age": 19
+                },
+                {
+                    "earnings": 82332.47,
+                    "age": 20
+                },
+                {
+                    "earnings": 146494.12,
+                    "age": 21
+                },
+                {
+                    "earnings": 203389.04,
+                    "age": 22
+                },
+                {
+                    "earnings": 150640.59000000003,
+                    "age": 23
+                },
+                {
+                    "earnings": 3855.1,
+                    "age": 24
+                },
+                {
+                    "earnings": 121.95,
+                    "age": 25
+                },
+                {
+                    "earnings": 12045.81,
+                    "age": 26
+                },
+                {
+                    "earnings": 3303.44,
+                    "age": 27
+                },
+                {
+                    "earnings": 1271.5,
+                    "age": 28
+                },
+                {
+                    "earnings": 4683.7,
+                    "age": 29
+                },
+                {
+                    "earnings": 994.7,
+                    "age": 30
+                }
+            ]
+        },
+        {
+            "CountryCode": "fi",
+            "earningsByAge":[
+                {
+                    "earnings": 200.0,
+                    "age": 14
+                },
+                {
+                    "earnings": 3560.3199999999997,
+                    "age": 15
+                },
+                {
+                    "earnings": 30264.61,
+                    "age": 16
+                },
+                {
+                    "earnings": 47026.299999999996,
+                    "age": 17
+                },
+                {
+                    "earnings": 134586.83000000002,
+                    "age": 18
+                },
+                {
+                    "earnings": 263146.67,
+                    "age": 19
+                },
+                {
+                    "earnings": 204146.28,
+                    "age": 20
+                },
+                {
+                    "earnings": 474183.87,
+                    "age": 21
+                },
+                {
+                    "earnings": 2554023.54,
+                    "age": 22
+                },
+                {
+                    "earnings": 754919.73,
+                    "age": 23
+                },
+                {
+                    "earnings": 803735.64,
+                    "age": 24
+                },
+                {
+                    "earnings": 257118.76,
+                    "age": 25
+                },
+                {
+                    "earnings": 2276192.93,
+                    "age": 26
+                },
+                {
+                    "earnings": 2719.34,
+                    "age": 27
+                },
+                {
+                    "earnings": 6263.95,
+                    "age": 28
+                },
+                {
+                    "earnings": 9082.25,
+                    "age": 29
+                },
+                {
+                    "earnings": 1056.32,
+                    "age": 30
+                },
+                {
+                    "earnings": 952.4100000000001,
+                    "age": 31
+                }
+            ]
+        },
+        {
+            "CountryCode": "fr",
+            "earningsByAge":[
+                {
+                    "earnings": 4502.32,
+                    "age": 15
+                },
+                {
+                    "earnings": 35068.07,
+                    "age": 16
+                },
+                {
+                    "earnings": 42904.04999999999,
+                    "age": 17
+                },
+                {
+                    "earnings": 245598.95,
+                    "age": 18
+                },
+                {
+                    "earnings": 315742.7800000001,
+                    "age": 19
+                },
+                {
+                    "earnings": 474452.29999999993,
+                    "age": 20
+                },
+                {
+                    "earnings": 640934.31,
+                    "age": 21
+                },
+                {
+                    "earnings": 796408.2899999999,
+                    "age": 22
+                },
+                {
+                    "earnings": 682442.0899999999,
+                    "age": 23
+                },
+                {
+                    "earnings": 514631.84,
+                    "age": 24
+                },
+                {
+                    "earnings": 683060.05,
+                    "age": 25
+                },
+                {
+                    "earnings": 239182.43999999997,
+                    "age": 26
+                },
+                {
+                    "earnings": 197931.03999999998,
+                    "age": 27
+                },
+                {
+                    "earnings": 44257.14,
+                    "age": 28
+                },
+                {
+                    "earnings": 51704.29,
+                    "age": 29
+                },
+                {
+                    "earnings": 37651.25,
+                    "age": 30
+                },
+                {
+                    "earnings": 3252.86,
+                    "age": 31
+                }
+            ]
+        },
+        {
+            "CountryCode": "gb",
+            "earningsByAge":[
+                {
+                    "earnings": 711.19,
+                    "age": 14
+                },
+                {
+                    "earnings": 12231.26,
+                    "age": 15
+                },
+                {
+                    "earnings": 49058.04,
+                    "age": 16
+                },
+                {
+                    "earnings": 20649.059999999998,
+                    "age": 17
+                },
+                {
+                    "earnings": 95979.56999999999,
+                    "age": 18
+                },
+                {
+                    "earnings": 214984.49000000005,
+                    "age": 19
+                },
+                {
+                    "earnings": 426367.42000000004,
+                    "age": 20
+                },
+                {
+                    "earnings": 257414.46000000008,
+                    "age": 21
+                },
+                {
+                    "earnings": 239506.66000000003,
+                    "age": 22
+                },
+                {
+                    "earnings": 99730.04999999999,
+                    "age": 23
+                },
+                {
+                    "earnings": 97840.53,
+                    "age": 24
+                },
+                {
+                    "earnings": 34105.8,
+                    "age": 25
+                },
+                {
+                    "earnings": 116435.95,
+                    "age": 26
+                },
+                {
+                    "earnings": 131214.23,
+                    "age": 27
+                },
+                {
+                    "earnings": 6493.8,
+                    "age": 28
+                },
+                {
+                    "earnings": 70.12,
+                    "age": 29
+                },
+                {
+                    "earnings": 20092.22,
+                    "age": 31
+                },
+                {
+                    "earnings": 10638.58,
+                    "age": 32
+                },
+                {
+                    "earnings": 19375.0,
+                    "age": 33
+                },
+                {
+                    "earnings": 25500.0,
+                    "age": 34
+                }
+            ]
+        },
+        {
+            "CountryCode": "hr",
+            "earningsByAge":[
+                {
+                    "earnings": 301.92,
+                    "age": 15
+                },
+                {
+                    "earnings": 2630.65,
+                    "age": 16
+                },
+                {
+                    "earnings": 19633.33,
+                    "age": 17
+                },
+                {
+                    "earnings": 123763.96,
+                    "age": 18
+                },
+                {
+                    "earnings": 40839.34,
+                    "age": 19
+                },
+                {
+                    "earnings": 20000.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 7000.0,
+                    "age": 24
+                },
+                {
+                    "earnings": 3200.0,
+                    "age": 25
+                },
+                {
+                    "earnings": 2333.33,
+                    "age": 26
+                },
+                {
+                    "earnings": 5000.0,
+                    "age": 27
+                },
+                {
+                    "earnings": 4000.0,
+                    "age": 28
+                },
+                {
+                    "earnings": 15000.0,
+                    "age": 29
+                }
+            ]
+        },
+        {
+            "CountryCode": "ie",
+            "earningsByAge":[
+                {
+                    "earnings": 410.64,
+                    "age": 17
+                },
+                {
+                    "earnings": 20519.26,
+                    "age": 18
+                },
+                {
+                    "earnings": 8828.61,
+                    "age": 19
+                },
+                {
+                    "earnings": 11217.45,
+                    "age": 20
+                },
+                {
+                    "earnings": 39777.94,
+                    "age": 21
+                },
+                {
+                    "earnings": 103575.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 20750.0,
+                    "age": 23
+                }
+            ]
+        },
+        {
+            "CountryCode": "il",
+            "earningsByAge":[
+                {
+                    "earnings": 1715.02,
+                    "age": 17
+                },
+                {
+                    "earnings": 6436.59,
+                    "age": 18
+                },
+                {
+                    "earnings": 11315.14,
+                    "age": 19
+                },
+                {
+                    "earnings": 29848.85,
+                    "age": 20
+                },
+                {
+                    "earnings": 47226.53,
+                    "age": 21
+                },
+                {
+                    "earnings": 319142.47,
+                    "age": 22
+                },
+                {
+                    "earnings": 571876.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 411149.4,
+                    "age": 24
+                },
+                {
+                    "earnings": 571475.8,
+                    "age": 25
+                }
+            ]
+        },
+        {
+            "CountryCode": "iq",
+            "earningsByAge":[
+                {
+                    "earnings": 17747.0,
+                    "age": 19
+                },
+                {
+                    "earnings": 6899.99,
+                    "age": 20
+                }
+            ]
+        },
+        {
+            "CountryCode": "it",
+            "earningsByAge":[
+                {
+                    "earnings": 10000.0,
+                    "age": 16
+                },
+                {
+                    "earnings": 9999.99,
+                    "age": 17
+                }
+            ]
+        },
+        {
+            "CountryCode": "jo",
+            "earningsByAge":[
+                {
+                    "earnings": 759.45,
+                    "age": 17
+                },
+                {
+                    "earnings": 551586.0,
+                    "age": 18
+                },
+                {
+                    "earnings": 201894.2,
+                    "age": 19
+                },
+                {
+                    "earnings": 2559647.23,
+                    "age": 20
+                },
+                {
+                    "earnings": 357450.4,
+                    "age": 21
+                }
+            ]
+        },
+        {
+            "CountryCode": "jp",
+            "earningsByAge":[
+                {
+                    "earnings": 4250.0,
+                    "age": 18
+                },
+                {
+                    "earnings": 10000.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 757.0,
+                    "age": 21
+                },
+                {
+                    "earnings": 6916.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 4133.43,
+                    "age": 23
+                },
+                {
+                    "earnings": 52548.56,
+                    "age": 24
+                },
+                {
+                    "earnings": 15104.91,
+                    "age": 25
+                },
+                {
+                    "earnings": 19131.73,
+                    "age": 26
+                },
+                {
+                    "earnings": 18950.1,
+                    "age": 27
+                },
+                {
+                    "earnings": 14350.98,
+                    "age": 28
+                },
+                {
+                    "earnings": 6517.84,
+                    "age": 29
+                },
+                {
+                    "earnings": 48801.95,
+                    "age": 30
+                },
+                {
+                    "earnings": 69356.87999999999,
+                    "age": 31
+                },
+                {
+                    "earnings": 75101.78,
+                    "age": 32
+                },
+                {
+                    "earnings": 39867.28,
+                    "age": 33
+                },
+                {
+                    "earnings": 105269.8,
+                    "age": 34
+                },
+                {
+                    "earnings": 17096.010000000002,
+                    "age": 35
+                },
+                {
+                    "earnings": 39348.54,
+                    "age": 36
+                },
+                {
+                    "earnings": 30000.0,
+                    "age": 37
+                },
+                {
+                    "earnings": 3196.2,
+                    "age": 38
+                },
+                {
+                    "earnings": 16250.0,
+                    "age": 39
+                }
+            ]
+        },
+        {
+            "CountryCode": "kr",
+            "earningsByAge":[
+                {
+                    "earnings": 29287.44,
+                    "age": 13
+                },
+                {
+                    "earnings": 44904.619999999995,
+                    "age": 14
+                },
+                {
+                    "earnings": 264991.63,
+                    "age": 15
+                },
+                {
+                    "earnings": 493810.59999999986,
+                    "age": 16
+                },
+                {
+                    "earnings": 1692064.5000000002,
+                    "age": 17
+                },
+                {
+                    "earnings": 3017813.1499999994,
+                    "age": 18
+                },
+                {
+                    "earnings": 4829561.32,
+                    "age": 19
+                },
+                {
+                    "earnings": 5599442.329999998,
+                    "age": 20
+                },
+                {
+                    "earnings": 5009471.709999999,
+                    "age": 21
+                },
+                {
+                    "earnings": 4379654.960000001,
+                    "age": 22
+                },
+                {
+                    "earnings": 2664290.6399999997,
+                    "age": 23
+                },
+                {
+                    "earnings": 2192348.9,
+                    "age": 24
+                },
+                {
+                    "earnings": 1464960.6099999996,
+                    "age": 25
+                },
+                {
+                    "earnings": 996712.4200000002,
+                    "age": 26
+                },
+                {
+                    "earnings": 304047.19,
+                    "age": 27
+                },
+                {
+                    "earnings": 298640.89,
+                    "age": 28
+                },
+                {
+                    "earnings": 84743.75,
+                    "age": 29
+                },
+                {
+                    "earnings": 140861.77,
+                    "age": 30
+                },
+                {
+                    "earnings": 59341.62,
+                    "age": 31
+                },
+                {
+                    "earnings": 3148.21,
+                    "age": 32
+                },
+                {
+                    "earnings": 1013.4,
+                    "age": 33
+                },
+                {
+                    "earnings": 176.4,
+                    "age": 35
+                }
+            ]
+        },
+        {
+            "CountryCode": "kz",
+            "earningsByAge":[
+                {
+                    "earnings": 1290.05,
+                    "age": 21
+                },
+                {
+                    "earnings": 5272.81,
+                    "age": 22
+                },
+                {
+                    "earnings": 4997.6,
+                    "age": 23
+                },
+                {
+                    "earnings": 3925.15,
+                    "age": 24
+                }
+            ]
+        },
+        {
+            "CountryCode": "lt",
+            "earningsByAge":[
+                {
+                    "earnings": 81.49,
+                    "age": 17
+                },
+                {
+                    "earnings": 4645.3,
+                    "age": 18
+                },
+                {
+                    "earnings": 11048.1,
+                    "age": 19
+                },
+                {
+                    "earnings": 40.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 35.55,
+                    "age": 21
+                },
+                {
+                    "earnings": 4781.88,
+                    "age": 22
+                },
+                {
+                    "earnings": 9225.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 1825.0,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "lv",
+            "earningsByAge":[
+                {
+                    "earnings": 1371.07,
+                    "age": 20
+                },
+                {
+                    "earnings": 11494.27,
+                    "age": 21
+                },
+                {
+                    "earnings": 1000.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 10000.0,
+                    "age": 23
+                }
+            ]
+        },
+        {
+            "CountryCode": "mk",
+            "earningsByAge":[
+                {
+                    "earnings": 334.95,
+                    "age": 19
+                },
+                {
+                    "earnings": 20983.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 798690.4,
+                    "age": 21
+                },
+                {
+                    "earnings": 29060.0,
+                    "age": 22
+                }
+            ]
+        },
+        {
+            "CountryCode": "mo",
+            "earningsByAge":[
+                {
+                    "earnings": 990.92,
+                    "age": 20
+                },
+                {
+                    "earnings": 11238.78,
+                    "age": 21
+                },
+                {
+                    "earnings": 44597.75,
+                    "age": 22
+                },
+                {
+                    "earnings": 19678.78,
+                    "age": 23
+                },
+                {
+                    "earnings": 161963.77,
+                    "age": 24
+                },
+                {
+                    "earnings": 351871.52,
+                    "age": 25
+                },
+                {
+                    "earnings": 97240.93,
+                    "age": 26
+                },
+                {
+                    "earnings": 620658.42,
+                    "age": 27
+                },
+                {
+                    "earnings": 25532.2,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "mx",
+            "earningsByAge":[
+                {
+                    "earnings": 500.0,
+                    "age": 15
+                },
+                {
+                    "earnings": 7400.0,
+                    "age": 16
+                },
+                {
+                    "earnings": 8184.13,
+                    "age": 17
+                },
+                {
+                    "earnings": 33300.0,
+                    "age": 18
+                },
+                {
+                    "earnings": 65384.42,
+                    "age": 19
+                },
+                {
+                    "earnings": 63906.619999999995,
+                    "age": 20
+                },
+                {
+                    "earnings": 49050.44,
+                    "age": 21
+                },
+                {
+                    "earnings": 25366.08,
+                    "age": 22
+                },
+                {
+                    "earnings": 36052.61,
+                    "age": 23
+                },
+                {
+                    "earnings": 118831.0,
+                    "age": 24
+                },
+                {
+                    "earnings": 30406.77,
+                    "age": 25
+                },
+                {
+                    "earnings": 860.0,
+                    "age": 26
+                },
+                {
+                    "earnings": 3633.33,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "my",
+            "earningsByAge":[
+                {
+                    "earnings": 2717.74,
+                    "age": 17
+                },
+                {
+                    "earnings": 2832.1400000000003,
+                    "age": 18
+                },
+                {
+                    "earnings": 45837.32,
+                    "age": 19
+                },
+                {
+                    "earnings": 74240.56999999999,
+                    "age": 20
+                },
+                {
+                    "earnings": 328865.19000000006,
+                    "age": 21
+                },
+                {
+                    "earnings": 438101.41,
+                    "age": 22
+                },
+                {
+                    "earnings": 741030.61,
+                    "age": 23
+                },
+                {
+                    "earnings": 441212.75,
+                    "age": 24
+                },
+                {
+                    "earnings": 476499.06,
+                    "age": 25
+                },
+                {
+                    "earnings": 72044.94,
+                    "age": 26
+                },
+                {
+                    "earnings": 195613.6,
+                    "age": 27
+                },
+                {
+                    "earnings": 1023.2,
+                    "age": 29
+                }
+            ]
+        },
+        {
+            "CountryCode": "nl",
+            "earningsByAge":[
+                {
+                    "earnings": 5278.719999999999,
+                    "age": 15
+                },
+                {
+                    "earnings": 37677.56999999999,
+                    "age": 16
+                },
+                {
+                    "earnings": 37167.5,
+                    "age": 17
+                },
+                {
+                    "earnings": 21243.25,
+                    "age": 18
+                },
+                {
+                    "earnings": 52320.42,
+                    "age": 19
+                },
+                {
+                    "earnings": 115853.57,
+                    "age": 20
+                },
+                {
+                    "earnings": 37272.73,
+                    "age": 21
+                },
+                {
+                    "earnings": 78804.27999999998,
+                    "age": 22
+                },
+                {
+                    "earnings": 42513.69,
+                    "age": 23
+                },
+                {
+                    "earnings": 43685.07,
+                    "age": 24
+                },
+                {
+                    "earnings": 38070.11,
+                    "age": 25
+                },
+                {
+                    "earnings": 26267.870000000003,
+                    "age": 26
+                },
+                {
+                    "earnings": 14607.83,
+                    "age": 27
+                },
+                {
+                    "earnings": 82585.57,
+                    "age": 28
+                },
+                {
+                    "earnings": 34362.05,
+                    "age": 29
+                }
+            ]
+        },
+        {
+            "CountryCode": "no",
+            "earningsByAge":[
+                {
+                    "earnings": 1067.96,
+                    "age": 15
+                },
+                {
+                    "earnings": 25904.52,
+                    "age": 16
+                },
+                {
+                    "earnings": 25058.33,
+                    "age": 17
+                },
+                {
+                    "earnings": 46502.880000000005,
+                    "age": 18
+                },
+                {
+                    "earnings": 96825.59999999999,
+                    "age": 19
+                },
+                {
+                    "earnings": 70300.48,
+                    "age": 20
+                },
+                {
+                    "earnings": 79505.63,
+                    "age": 21
+                },
+                {
+                    "earnings": 201579.2,
+                    "age": 22
+                },
+                {
+                    "earnings": 85747.47,
+                    "age": 23
+                },
+                {
+                    "earnings": 76929.3,
+                    "age": 24
+                },
+                {
+                    "earnings": 75454.6,
+                    "age": 25
+                },
+                {
+                    "earnings": 82517.72,
+                    "age": 26
+                },
+                {
+                    "earnings": 47468.09,
+                    "age": 27
+                },
+                {
+                    "earnings": 856.0,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "nz",
+            "earningsByAge":[
+                {
+                    "earnings": 200.0,
+                    "age": 15
+                },
+                {
+                    "earnings": 770.26,
+                    "age": 16
+                },
+                {
+                    "earnings": 2724.57,
+                    "age": 17
+                },
+                {
+                    "earnings": 6838.28,
+                    "age": 18
+                },
+                {
+                    "earnings": 19092.29,
+                    "age": 19
+                },
+                {
+                    "earnings": 322.5,
+                    "age": 20
+                }
+            ]
+        },
+        {
+            "CountryCode": "pe",
+            "earningsByAge":[
+                {
+                    "earnings": 1500.0,
+                    "age": 14
+                },
+                {
+                    "earnings": 58.2,
+                    "age": 15
+                },
+                {
+                    "earnings": 200.0,
+                    "age": 16
+                },
+                {
+                    "earnings": 533.33,
+                    "age": 17
+                },
+                {
+                    "earnings": 18878.37,
+                    "age": 18
+                },
+                {
+                    "earnings": 1057.26,
+                    "age": 19
+                },
+                {
+                    "earnings": 11000.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 100.0,
+                    "age": 21
+                }
+            ]
+        },
+        {
+            "CountryCode": "ph",
+            "earningsByAge":[
+                {
+                    "earnings": 3000.0,
+                    "age": 16
+                },
+                {
+                    "earnings": 17000.0,
+                    "age": 17
+                },
+                {
+                    "earnings": 101094.88,
+                    "age": 18
+                },
+                {
+                    "earnings": 223484.38,
+                    "age": 19
+                },
+                {
+                    "earnings": 348474.47,
+                    "age": 20
+                },
+                {
+                    "earnings": 556877.38,
+                    "age": 21
+                },
+                {
+                    "earnings": 64865.229999999996,
+                    "age": 22
+                },
+                {
+                    "earnings": 143550.56,
+                    "age": 23
+                },
+                {
+                    "earnings": 44018.6,
+                    "age": 24
+                },
+                {
+                    "earnings": 65815.0,
+                    "age": 25
+                },
+                {
+                    "earnings": 52367.4,
+                    "age": 26
+                },
+                {
+                    "earnings": 34705.2,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "pk",
+            "earningsByAge":[
+                {
+                    "earnings": 258564.8,
+                    "age": 15
+                },
+                {
+                    "earnings": 1494702.94,
+                    "age": 16
+                },
+                {
+                    "earnings": 648263.8,
+                    "age": 17
+                },
+                {
+                    "earnings": 265607.6,
+                    "age": 18
+                },
+                {
+                    "earnings": 598775.8,
+                    "age": 19
+                }
+            ]
+        },
+        {
+            "CountryCode": "pl",
+            "earningsByAge":[
+                {
+                    "earnings": 9461.289999999999,
+                    "age": 15
+                },
+                {
+                    "earnings": 32436.280000000002,
+                    "age": 16
+                },
+                {
+                    "earnings": 59336.22,
+                    "age": 17
+                },
+                {
+                    "earnings": 154239.81000000006,
+                    "age": 18
+                },
+                {
+                    "earnings": 202477.00999999998,
+                    "age": 19
+                },
+                {
+                    "earnings": 278848.89,
+                    "age": 20
+                },
+                {
+                    "earnings": 303912.25999999995,
+                    "age": 21
+                },
+                {
+                    "earnings": 648307.43,
+                    "age": 22
+                },
+                {
+                    "earnings": 572612.35,
+                    "age": 23
+                },
+                {
+                    "earnings": 378449.48,
+                    "age": 24
+                },
+                {
+                    "earnings": 198272.45,
+                    "age": 25
+                },
+                {
+                    "earnings": 115293.00999999998,
+                    "age": 26
+                },
+                {
+                    "earnings": 199868.8,
+                    "age": 27
+                },
+                {
+                    "earnings": 454755.26,
+                    "age": 28
+                },
+                {
+                    "earnings": 477147.52,
+                    "age": 29
+                },
+                {
+                    "earnings": 403902.32,
+                    "age": 30
+                },
+                {
+                    "earnings": 86423.3,
+                    "age": 31
+                },
+                {
+                    "earnings": 30713.26,
+                    "age": 32
+                }
+            ]
+        },
+        {
+            "CountryCode": "pr",
+            "earningsByAge":[
+                {
+                    "earnings": 10250.0,
+                    "age": 19
+                },
+                {
+                    "earnings": 48400.0,
+                    "age": 20
+                },
+                {
+                    "earnings": 15200.0,
+                    "age": 21
+                }
+            ]
+        },
+        {
+            "CountryCode": "pt",
+            "earningsByAge":[
+                {
+                    "earnings": 60995.2,
+                    "age": 20
+                },
+                {
+                    "earnings": 19150.0,
+                    "age": 21
+                },
+                {
+                    "earnings": 1250.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 22000.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 19666.66,
+                    "age": 24
+                },
+                {
+                    "earnings": 2645.83,
+                    "age": 25
+                }
+            ]
+        },
+        {
+            "CountryCode": "ro",
+            "earningsByAge":[
+                {
+                    "earnings": 4766.67,
+                    "age": 18
+                },
+                {
+                    "earnings": 18228.98,
+                    "age": 19
+                },
+                {
+                    "earnings": 181592.65,
+                    "age": 20
+                },
+                {
+                    "earnings": 1006789.25,
+                    "age": 21
+                },
+                {
+                    "earnings": 44180.93,
+                    "age": 22
+                },
+                {
+                    "earnings": 49394.93,
+                    "age": 23
+                },
+                {
+                    "earnings": 6289.56,
+                    "age": 24
+                },
+                {
+                    "earnings": 1379.27,
+                    "age": 25
+                },
+                {
+                    "earnings": 4667.68,
+                    "age": 26
+                },
+                {
+                    "earnings": 93.8,
+                    "age": 27
+                },
+                {
+                    "earnings": 1100.0,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "rs",
+            "earningsByAge":[
+                {
+                    "earnings": 100.0,
+                    "age": 19
+                },
+                {
+                    "earnings": 4641.03,
+                    "age": 20
+                },
+                {
+                    "earnings": 1411.1,
+                    "age": 21
+                },
+                {
+                    "earnings": 1700.0,
+                    "age": 22
+                },
+                {
+                    "earnings": 61.98,
+                    "age": 23
+                },
+                {
+                    "earnings": 6114.91,
+                    "age": 24
+                },
+                {
+                    "earnings": 4266.98,
+                    "age": 25
+                },
+                {
+                    "earnings": 450.75,
+                    "age": 26
+                }
+            ]
+        },
+        {
+            "CountryCode": "ru",
+            "earningsByAge":[
+                {
+                    "earnings": 5454.89,
+                    "age": 15
+                },
+                {
+                    "earnings": 41422.7,
+                    "age": 16
+                },
+                {
+                    "earnings": 131761.4,
+                    "age": 17
+                },
+                {
+                    "earnings": 1105696.51,
+                    "age": 18
+                },
+                {
+                    "earnings": 853458.73,
+                    "age": 19
+                },
+                {
+                    "earnings": 342019.81,
+                    "age": 20
+                },
+                {
+                    "earnings": 515985.82999999996,
+                    "age": 21
+                },
+                {
+                    "earnings": 334967.85000000003,
+                    "age": 22
+                },
+                {
+                    "earnings": 553896.55,
+                    "age": 23
+                },
+                {
+                    "earnings": 363281.5,
+                    "age": 24
+                },
+                {
+                    "earnings": 294213.49999999994,
+                    "age": 25
+                },
+                {
+                    "earnings": 234653.67999999996,
+                    "age": 26
+                },
+                {
+                    "earnings": 876562.45,
+                    "age": 27
+                },
+                {
+                    "earnings": 242091.3,
+                    "age": 28
+                },
+                {
+                    "earnings": 29975.58,
+                    "age": 29
+                },
+                {
+                    "earnings": 2682.47,
+                    "age": 30
+                },
+                {
+                    "earnings": 31522.02,
+                    "age": 31
+                }
+            ]
+        },
+        {
+            "CountryCode": "se",
+            "earningsByAge":[
+                {
+                    "earnings": 18156.530000000002,
+                    "age": 15
+                },
+                {
+                    "earnings": 289130.47,
+                    "age": 16
+                },
+                {
+                    "earnings": 333022.63999999996,
+                    "age": 17
+                },
+                {
+                    "earnings": 519791.2300000001,
+                    "age": 18
+                },
+                {
+                    "earnings": 1156077.9799999997,
+                    "age": 19
+                },
+                {
+                    "earnings": 1088172.8599999999,
+                    "age": 20
+                },
+                {
+                    "earnings": 1616688.1899999997,
+                    "age": 21
+                },
+                {
+                    "earnings": 1535430.5499999996,
+                    "age": 22
+                },
+                {
+                    "earnings": 1832046.93,
+                    "age": 23
+                },
+                {
+                    "earnings": 1292323.7200000002,
+                    "age": 24
+                },
+                {
+                    "earnings": 1849638.48,
+                    "age": 25
+                },
+                {
+                    "earnings": 1169126.46,
+                    "age": 26
+                },
+                {
+                    "earnings": 388920.01,
+                    "age": 27
+                },
+                {
+                    "earnings": 269806.29,
+                    "age": 28
+                },
+                {
+                    "earnings": 89666.31,
+                    "age": 29
+                },
+                {
+                    "earnings": 50830.240000000005,
+                    "age": 30
+                },
+                {
+                    "earnings": 7425.200000000001,
+                    "age": 31
+                },
+                {
+                    "earnings": 59381.94,
+                    "age": 32
+                },
+                {
+                    "earnings": 90650.46,
+                    "age": 33
+                },
+                {
+                    "earnings": 26525.0,
+                    "age": 34
+                }
+            ]
+        },
+        {
+            "CountryCode": "sg",
+            "earningsByAge":[
+                {
+                    "earnings": 464.86,
+                    "age": 16
+                },
+                {
+                    "earnings": 6871.43,
+                    "age": 17
+                },
+                {
+                    "earnings": 12429.66,
+                    "age": 18
+                },
+                {
+                    "earnings": 43814.93,
+                    "age": 19
+                },
+                {
+                    "earnings": 11434.18,
+                    "age": 20
+                },
+                {
+                    "earnings": 42891.71,
+                    "age": 21
+                },
+                {
+                    "earnings": 14119.830000000002,
+                    "age": 22
+                },
+                {
+                    "earnings": 110437.61,
+                    "age": 23
+                },
+                {
+                    "earnings": 391155.87,
+                    "age": 24
+                },
+                {
+                    "earnings": 417045.81,
+                    "age": 25
+                },
+                {
+                    "earnings": 246376.77,
+                    "age": 26
+                },
+                {
+                    "earnings": 154800.0,
+                    "age": 27
+                },
+                {
+                    "earnings": 76596.6,
+                    "age": 28
+                }
+            ]
+        },
+        {
+            "CountryCode": "si",
+            "earningsByAge":[
+                {
+                    "earnings": 3281.62,
+                    "age": 16
+                },
+                {
+                    "earnings": 7279.46,
+                    "age": 17
+                },
+                {
+                    "earnings": 4722.74,
+                    "age": 18
+                },
+                {
+                    "earnings": 73.06,
+                    "age": 19
+                },
+                {
+                    "earnings": 400.0,
+                    "age": 21
+                }
+            ]
+        },
+        {
+            "CountryCode": "sk",
+            "earningsByAge":[
+                {
+                    "earnings": 423.84,
+                    "age": 15
+                },
+                {
+                    "earnings": 3769.43,
+                    "age": 16
+                },
+                {
+                    "earnings": 25088.68,
+                    "age": 17
+                },
+                {
+                    "earnings": 10583.039999999999,
+                    "age": 18
+                },
+                {
+                    "earnings": 301.79,
+                    "age": 19
+                },
+                {
+                    "earnings": 4242.54,
+                    "age": 21
+                },
+                {
+                    "earnings": 6522.13,
+                    "age": 22
+                },
+                {
+                    "earnings": 30582.07,
+                    "age": 23
+                },
+                {
+                    "earnings": 140233.33,
+                    "age": 24
+                },
+                {
+                    "earnings": 93000.0,
+                    "age": 25
+                },
+                {
+                    "earnings": 361107.4,
+                    "age": 26
+                },
+                {
+                    "earnings": 15800.0,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "th",
+            "earningsByAge":[
+                {
+                    "earnings": 4166.67,
+                    "age": 21
+                },
+                {
+                    "earnings": 1639.77,
+                    "age": 22
+                },
+                {
+                    "earnings": 156.08,
+                    "age": 23
+                },
+                {
+                    "earnings": 1671.27,
+                    "age": 24
+                },
+                {
+                    "earnings": 2130.03,
+                    "age": 25
+                },
+                {
+                    "earnings": 9923.75,
+                    "age": 26
+                },
+                {
+                    "earnings": 1172.89,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "tr",
+            "earningsByAge":[
+                {
+                    "earnings": 5422.82,
+                    "age": 16
+                },
+                {
+                    "earnings": 12106.66,
+                    "age": 17
+                },
+                {
+                    "earnings": 7608.88,
+                    "age": 18
+                },
+                {
+                    "earnings": 3044.44,
+                    "age": 19
+                },
+                {
+                    "earnings": 23013.010000000002,
+                    "age": 20
+                },
+                {
+                    "earnings": 16255.95,
+                    "age": 21
+                },
+                {
+                    "earnings": 7527.34,
+                    "age": 22
+                },
+                {
+                    "earnings": 5530.1,
+                    "age": 23
+                },
+                {
+                    "earnings": 2600.0,
+                    "age": 24
+                },
+                {
+                    "earnings": 306.2,
+                    "age": 25
+                }
+            ]
+        },
+        {
+            "CountryCode": "tw",
+            "earningsByAge":[
+                {
+                    "earnings": 7369.35,
+                    "age": 16
+                },
+                {
+                    "earnings": 14939.14,
+                    "age": 17
+                },
+                {
+                    "earnings": 37583.33,
+                    "age": 18
+                },
+                {
+                    "earnings": 66731.59999999999,
+                    "age": 19
+                },
+                {
+                    "earnings": 79199.77,
+                    "age": 20
+                },
+                {
+                    "earnings": 630683.38,
+                    "age": 21
+                },
+                {
+                    "earnings": 160534.85,
+                    "age": 22
+                },
+                {
+                    "earnings": 335813.65,
+                    "age": 23
+                },
+                {
+                    "earnings": 315174.35,
+                    "age": 24
+                },
+                {
+                    "earnings": 42478.520000000004,
+                    "age": 25
+                },
+                {
+                    "earnings": 44759.89,
+                    "age": 26
+                },
+                {
+                    "earnings": 25998.9,
+                    "age": 27
+                },
+                {
+                    "earnings": 17664.31,
+                    "age": 28
+                },
+                {
+                    "earnings": 2650.06,
+                    "age": 29
+                },
+                {
+                    "earnings": 7460.94,
+                    "age": 30
+                }
+            ]
+        },
+        {
+            "CountryCode": "ua",
+            "earningsByAge":[
+                {
+                    "earnings": 60.0,
+                    "age": 14
+                },
+                {
+                    "earnings": 4255.79,
+                    "age": 16
+                },
+                {
+                    "earnings": 50232.46,
+                    "age": 17
+                },
+                {
+                    "earnings": 191227.69,
+                    "age": 18
+                },
+                {
+                    "earnings": 1178699.77,
+                    "age": 19
+                },
+                {
+                    "earnings": 780015.1699999999,
+                    "age": 20
+                },
+                {
+                    "earnings": 1080923.54,
+                    "age": 21
+                },
+                {
+                    "earnings": 452505.45,
+                    "age": 22
+                },
+                {
+                    "earnings": 619497.6,
+                    "age": 23
+                },
+                {
+                    "earnings": 676085.52,
+                    "age": 24
+                },
+                {
+                    "earnings": 392214.81,
+                    "age": 25
+                },
+                {
+                    "earnings": 325949.02,
+                    "age": 26
+                },
+                {
+                    "earnings": 354427.58,
+                    "age": 27
+                },
+                {
+                    "earnings": 378808.19999999995,
+                    "age": 28
+                },
+                {
+                    "earnings": 292666.85,
+                    "age": 29
+                },
+                {
+                    "earnings": 427861.60000000003,
+                    "age": 30
+                },
+                {
+                    "earnings": 5905.0,
+                    "age": 31
+                },
+                {
+                    "earnings": 905.78,
+                    "age": 32
+                },
+                {
+                    "earnings": 75.0,
+                    "age": 33
+                }
+            ]
+        },
+        {
+            "CountryCode": "us",
+            "earningsByAge":[
+                {
+                    "earnings": 515.0,
+                    "age": 12
+                },
+                {
+                    "earnings": 8337.2,
+                    "age": 13
+                },
+                {
+                    "earnings": 39709.91,
+                    "age": 14
+                },
+                {
+                    "earnings": 89666.12999999999,
+                    "age": 15
+                },
+                {
+                    "earnings": 274194.16000000003,
+                    "age": 16
+                },
+                {
+                    "earnings": 984333.6199999996,
+                    "age": 17
+                },
+                {
+                    "earnings": 2568766.01,
+                    "age": 18
+                },
+                {
+                    "earnings": 3246981.1999999997,
+                    "age": 19
+                },
+                {
+                    "earnings": 5016788.409999998,
+                    "age": 20
+                },
+                {
+                    "earnings": 2666161.550000001,
+                    "age": 21
+                },
+                {
+                    "earnings": 4012057.1500000004,
+                    "age": 22
+                },
+                {
+                    "earnings": 4037705.8499999996,
+                    "age": 23
+                },
+                {
+                    "earnings": 3185316.9899999998,
+                    "age": 24
+                },
+                {
+                    "earnings": 2774407.129999999,
+                    "age": 25
+                },
+                {
+                    "earnings": 2053251.85,
+                    "age": 26
+                },
+                {
+                    "earnings": 2288188.88,
+                    "age": 27
+                },
+                {
+                    "earnings": 1039586.0599999999,
+                    "age": 28
+                },
+                {
+                    "earnings": 491122.79000000004,
+                    "age": 29
+                },
+                {
+                    "earnings": 134492.75,
+                    "age": 30
+                },
+                {
+                    "earnings": 27732.33,
+                    "age": 31
+                },
+                {
+                    "earnings": 19410.52,
+                    "age": 32
+                },
+                {
+                    "earnings": 501.0,
+                    "age": 33
+                },
+                {
+                    "earnings": 50000.0,
+                    "age": 35
+                }
+            ]
+        },
+        {
+            "CountryCode": "uy",
+            "earningsByAge":[
+                {
+                    "earnings": 4000.0,
+                    "age": 23
+                },
+                {
+                    "earnings": 8035.05,
+                    "age": 24
+                },
+                {
+                    "earnings": 1212.01,
+                    "age": 25
+                },
+                {
+                    "earnings": 3480.42,
+                    "age": 27
+                }
+            ]
+        },
+        {
+            "CountryCode": "vn",
+            "earningsByAge":[
+                {
+                    "earnings": 285.26,
+                    "age": 15
+                },
+                {
+                    "earnings": 3074.16,
+                    "age": 16
+                },
+                {
+                    "earnings": 6776.0,
+                    "age": 17
+                },
+                {
+                    "earnings": 15469.17,
+                    "age": 18
+                },
+                {
+                    "earnings": 26360.22,
+                    "age": 19
+                },
+                {
+                    "earnings": 79178.45,
+                    "age": 20
+                },
+                {
+                    "earnings": 31414.94,
+                    "age": 21
+                },
+                {
+                    "earnings": 20049.02,
+                    "age": 22
+                },
+                {
+                    "earnings": 12686.52,
+                    "age": 23
+                },
+                {
+                    "earnings": 25216.23,
+                    "age": 24
+                },
+                {
+                    "earnings": 35802.69,
+                    "age": 25
+                },
+                {
+                    "earnings": 1786.3,
+                    "age": 26
+                },
+                {
+                    "earnings": 2200.0,
+                    "age": 27
+                },
+                {
+                    "earnings": 4752.07,
+                    "age": 28
+                },
+                {
+                    "earnings": 964.75,
+                    "age": 29
+                },
+                {
+                    "earnings": 904.17,
+                    "age": 31
+                }
+            ]
+        },
+        {
+            "CountryCode": "za",
+            "earningsByAge":[
+                {
+                    "earnings": 554.34,
+                    "age": 20
+                },
+                {
+                    "earnings": 5874.56,
+                    "age": 21
+                },
+                {
+                    "earnings": 8178.63,
+                    "age": 22
+                },
+                {
+                    "earnings": 3490.36,
+                    "age": 23
+                }
+            ]
+        }
+    ]
+}

@@ -507,7 +507,7 @@ if (isScrollDisplayed)
         nf = displayed(nx);
         if ( f === nf ) return;
         console.log(age_selected,custom_teams_selected);
-        if(age_selected && !custom_teams_selected){
+        if(age_selected && !custom_teams_selected && !eba_country_selected){
 
             new_data = earningsByAge.slice(nf, nf + numBars);
 
@@ -527,7 +527,39 @@ if (isScrollDisplayed)
                 .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
             
             rects.exit().remove();
-        }else if(custom_teams_selected){
+        } else if (eba_country_selected){
+            new_data = curCountryEBA.slice(nf, nf + numBars);
+            console.log(new_data);
+            xscale.domain(new_data.map(function (d) { return d.age; }));
+            yscale = d3.scalePow().exponent(0.4)
+                            .domain([0, d3.max(curCountryEBA, function (d) { return d.earnings; })])
+                            .range([barChartHeight, 0]);
+            xAxis  = d3.axisBottom().scale(xscale);
+            yAxis  = d3.axisLeft().scale(yscale)
+                            .tickFormat(d3.format("$.2s")).ticks(5);
+            diagram.select(".x.axis").call(xAxis);
+            diagram.select(".y.axis").call(yAxis);
+            rects = bars.selectAll("rect")
+                .data(new_data, function (d) {return d.age; });
+
+            rects.attr("x", function (d) { return xscale(d.age); });
+            rects.enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", function (d) { 
+                    console.log(xscale(d.age));
+                    return xscale(d.age); 
+                })
+                .attr("y", function (d) {
+                    console.log(xscale.bandwidth()); 
+                    return yscale(d.earnings); })
+                .attr("width", xscale.bandwidth())
+                .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
+
+            d3.selectAll(".x.axis").selectAll("text").append("title")
+                .data(new_data)
+                .text(function(d) { return d.TeamName;});  
+            rects.exit().remove();  
+        } else if(custom_teams_selected){
             new_data = custom_teams.slice(nf, nf + numBars);
             console.log(new_data);
             new_tags = tags_custom_teams.slice(nf, nf + numBars);
