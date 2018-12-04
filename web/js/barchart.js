@@ -89,7 +89,7 @@ function gen_vis(){
         .attr("transform", "rotate(-90)")
         .attr("class", "bchart-y-text")
         .style("text-anchor", "middle")
-        .text("Earnings");
+        .text("Earnings (Worldwide)");
   
     var bars = diagram.append("g").attr("class", "main-bars");
   
@@ -146,7 +146,7 @@ function gen_vis(){
             .attr("width", Math.round(parseFloat(numBars * barChartWidth)/earningsByAge.length));
         
         d3.select(".bchart-x-text").text("Age");
-        d3.select(".bchart-y-text").text("Earnings");
+        d3.select(".bchart-y-text").text("Earnings (Worldwide)");
         last_changed = 1;
         age_selected = true;
     });

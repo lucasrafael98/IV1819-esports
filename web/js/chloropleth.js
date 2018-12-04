@@ -67,68 +67,71 @@ Promise.all(promises_cl).then(function(values){
         /************************
          * Change the bar chart.
          ************************/
-        curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; })[0].earningsByAge;
+        curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; });
+        if(curCountryEBA.length !== 0){
+          curCountryEBA = curCountryEBA[0].earningsByAge;
+          let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
+          let bars = diagram.select(".main-bars");
+          xscale = d3.scaleBand()
+              .domain(curCountryEBA.slice(0,numBars).map(function (d) { return d.age; }))
+              .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+          yscale = d3.scalePow().exponent(0.4)
+              .domain([0, d3.max(curCountryEBA, function (d) { return d.earnings; })])
+              .range([barChartHeight, 0]);
+          xAxis  = d3.axisBottom().scale(xscale);
+          yAxis  = d3.axisLeft().scale(yscale)
+                      .tickFormat(d3.format("$.2s"))
+                      .ticks(5);
+          d3.selectAll(".x.axis").call(xAxis);
+          d3.selectAll(".y.axis").call(yAxis);
+          d3.select(".bchart-x-text").text("Age");
+          d3.select(".bchart-y-text").text("Earnings (" + value.text + ")");
+          xOverview = d3.scaleBand()
+              .domain(curCountryEBA.map(function (d) { return d.age; }))
+              .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+          yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
+          yOverview.domain(yscale.domain());
+          rects = bars.selectAll("rect").data(curCountryEBA.slice(0,numBars));
+          rects.exit().remove();
+          rects.transition()
+              .duration(1000)
+              .attr("y", function (d) { return yscale(d.earnings); })
+              .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
+              .attr("x", function (d) { return xscale(d.age); })
+              .attr("width", function (d) { return xscale.bandwidth(); });
+          rects.data(curCountryEBA.slice(0,numBars)).enter().append("rect")
+              .transition()
+              .duration(1000)
+              .attr("class", "bar")
+              .attr("y", function (d) { return yscale(d.earnings); })
+              .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
+              .attr("x", function (d) { return xscale(d.age); })
+              .attr("width", function (d) { return xscale.bandwidth(); });
+          subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(curCountryEBA);
+          subBars.exit().remove();
+          subBars.transition()
+              .duration(1000)
+              .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
+              .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
+              .attr("x", function(d) { return xOverview(d.age) - 84;})
+              .attr("width", function(d) { return xOverview.bandwidth();});
+          subBars.data(curCountryEBA).enter().append("rect")
+              .classed('subBar extra-subBar', true)
+              .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
+              .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
+              .attr("x", function(d) { return xOverview(d.age) - 84;})
+              .attr("width", function(d) { return xOverview.bandwidth();});
+          displayed = d3.scaleQuantize()
+              .domain([0, barChartWidth])
+              .range(d3.range(curCountryEBA.length));
 
-        let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
-        let bars = diagram.select(".main-bars");
-        xscale = d3.scaleBand()
-            .domain(curCountryEBA.slice(0,numBars).map(function (d) { return d.age; }))
-            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yscale = d3.scalePow().exponent(0.4)
-            .domain([0, d3.max(curCountryEBA, function (d) { return d.earnings; })])
-            .range([barChartHeight, 0]);
-        xAxis  = d3.axisBottom().scale(xscale);
-        yAxis  = d3.axisLeft().scale(yscale)
-                    .tickFormat(d3.format("$.2s"))
-                    .ticks(5);
-        d3.selectAll(".x.axis").call(xAxis);
-        d3.selectAll(".y.axis").call(yAxis);
-        d3.select(".bchart-x-text").text("Age");
-        d3.select(".bchart-y-text").text("Earnings");
-        xOverview = d3.scaleBand()
-            .domain(curCountryEBA.map(function (d) { return d.age; }))
-            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-        yOverview = d3.scaleLinear().range([heightOverview, 0]);
-        yOverview.domain(yscale.domain());
-        rects = bars.selectAll("rect").data(curCountryEBA.slice(0,numBars));
-        rects.exit().remove();
-        rects.transition()
-            .duration(1000)
-            .attr("y", function (d) { return yscale(d.earnings); })
-            .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
-            .attr("x", function (d) { return xscale(d.age); })
-            .attr("width", function (d) { return xscale.bandwidth(); });
-        rects.data(curCountryEBA.slice(0,numBars)).enter().append("rect")
-            .transition()
-            .duration(1000)
-            .attr("class", "bar")
-            .attr("y", function (d) { return yscale(d.earnings); })
-            .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
-            .attr("x", function (d) { return xscale(d.age); })
-            .attr("width", function (d) { return xscale.bandwidth(); });
-        subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(curCountryEBA);
-        subBars.exit().remove();
-        subBars.transition()
-            .duration(1000)
-            .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
-            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-            .attr("x", function(d) { return xOverview(d.age) - 84;})
-            .attr("width", function(d) { return xOverview.bandwidth();});
-        subBars.data(curCountryEBA).enter().append("rect")
-            .classed('subBar extra-subBar', true)
-            .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
-            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-            .attr("x", function(d) { return xOverview(d.age) - 84;})
-            .attr("width", function(d) { return xOverview.bandwidth();});
-        displayed = d3.scaleQuantize()
-            .domain([0, barChartWidth])
-            .range(d3.range(curCountryEBA.length));
-
-        d3.select(".mover")
-            .attr("width", Math.round(parseFloat(numBars * barChartWidth)/curCountryEBA.length))
-            .attr("x", 0)
-            .attr("y", 0);
-        eba_country_selected = true;
+          d3.select(".mover")
+              .attr("width", Math.round(parseFloat(numBars * barChartWidth)/curCountryEBA.length))
+              .attr("x", 0)
+              .attr("y", 0);
+          eba_country_selected = true;
+        }
+        else{ alert("This country doesn't have earnings by age info available. Sorry! (please fix me)"); }
 
         /**************************
          * Change the scatter plot.
@@ -264,68 +267,71 @@ Promise.all(promises_cl).then(function(values){
                  * Change the bar chart.
                  ************************/
 
-                curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; })[0].earningsByAge;
-                
-                let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
-                let bars = diagram.select(".main-bars");
-                xscale = d3.scaleBand()
-                    .domain(curCountryEBA.slice(0,numBars).map(function (d) { return d.age; }))
-                    .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-                yscale = d3.scalePow().exponent(0.4)
-                    .domain([0, d3.max(curCountryEBA, function (d) { return d.earnings; })])
-                    .range([barChartHeight, 0]);
-                xAxis  = d3.axisBottom().scale(xscale);
-                yAxis  = d3.axisLeft().scale(yscale)
-                            .tickFormat(d3.format("$.2s"))
-                            .ticks(5);
-                d3.selectAll(".x.axis").call(xAxis);
-                d3.selectAll(".y.axis").call(yAxis);
-                d3.select(".bchart-x-text").text("Age");
-                d3.select(".bchart-y-text").text("Earnings");
-                xOverview = d3.scaleBand()
-                    .domain(curCountryEBA.map(function (d) { return d.age; }))
-                    .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-                yOverview = d3.scaleLinear().range([heightOverview, 0]);
-                yOverview.domain(yscale.domain());
-                rects = bars.selectAll("rect").data(curCountryEBA.slice(0,numBars));
-                rects.exit().remove();
-                rects.transition()
-                    .duration(1000)
-                    .attr("y", function (d) { return yscale(d.earnings); })
-                    .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
-                    .attr("x", function (d) { return xscale(d.age); })
-                    .attr("width", function (d) { return xscale.bandwidth(); });
-                rects.data(curCountryEBA.slice(0,numBars)).enter().append("rect")
-                    .transition()
-                    .duration(1000)
-                    .attr("class", "bar")
-                    .attr("y", function (d) { return yscale(d.earnings); })
-                    .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
-                    .attr("x", function (d) { return xscale(d.age); })
-                    .attr("width", function (d) { return xscale.bandwidth(); });
-                subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(curCountryEBA);
-                subBars.exit().remove();
-                subBars.transition()
-                    .duration(1000)
-                    .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
-                    .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-                    .attr("x", function(d) { return xOverview(d.age) - 84;})
-                    .attr("width", function(d) { return xOverview.bandwidth();});
-                subBars.data(curCountryEBA).enter().append("rect")
-                    .classed('subBar extra-subBar', true)
-                    .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
-                    .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-                    .attr("x", function(d) { return xOverview(d.age) - 84;})
-                    .attr("width", function(d) { return xOverview.bandwidth();});
-                displayed = d3.scaleQuantize()
-                    .domain([0, barChartWidth])
-                    .range(d3.range(curCountryEBA.length));
+                curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
+                if(curCountryEBA.length !== 0){
+                  curCountryEBA = curCountryEBA[0].earningsByAge;
+                  let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
+                  let bars = diagram.select(".main-bars");
+                  xscale = d3.scaleBand()
+                      .domain(curCountryEBA.slice(0,numBars).map(function (d) { return d.age; }))
+                      .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+                  yscale = d3.scalePow().exponent(0.4)
+                      .domain([0, d3.max(curCountryEBA, function (d) { return d.earnings; })])
+                      .range([barChartHeight, 0]);
+                  xAxis  = d3.axisBottom().scale(xscale);
+                  yAxis  = d3.axisLeft().scale(yscale)
+                              .tickFormat(d3.format("$.2s"))
+                              .ticks(5);
+                  d3.selectAll(".x.axis").call(xAxis);
+                  d3.selectAll(".y.axis").call(yAxis);
+                  d3.select(".bchart-x-text").text("Age");
+                  d3.select(".bchart-y-text").text("Earnings (" + this.__data__.properties.name + ")");
+                  xOverview = d3.scaleBand()
+                      .domain(curCountryEBA.map(function (d) { return d.age; }))
+                      .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+                  yOverview = d3.scalePow().exponent(0.35).range([heightOverview, 0]);
+                  yOverview.domain(yscale.domain());
+                  rects = bars.selectAll("rect").data(curCountryEBA.slice(0,numBars));
+                  rects.exit().remove();
+                  rects.transition()
+                      .duration(1000)
+                      .attr("y", function (d) { return yscale(d.earnings); })
+                      .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
+                      .attr("x", function (d) { return xscale(d.age); })
+                      .attr("width", function (d) { return xscale.bandwidth(); });
+                  rects.data(curCountryEBA.slice(0,numBars)).enter().append("rect")
+                      .transition()
+                      .duration(1000)
+                      .attr("class", "bar")
+                      .attr("y", function (d) { return yscale(d.earnings); })
+                      .attr("height", function (d) { return barChartHeight - yscale(d.earnings); })
+                      .attr("x", function (d) { return xscale(d.age); })
+                      .attr("width", function (d) { return xscale.bandwidth(); });
+                  subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(curCountryEBA);
+                  subBars.exit().remove();
+                  subBars.transition()
+                      .duration(1000)
+                      .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
+                      .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
+                      .attr("x", function(d) { return xOverview(d.age) - 84;})
+                      .attr("width", function(d) { return xOverview.bandwidth();});
+                  subBars.data(curCountryEBA).enter().append("rect")
+                      .classed('subBar extra-subBar', true)
+                      .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
+                      .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
+                      .attr("x", function(d) { return xOverview(d.age) - 84;})
+                      .attr("width", function(d) { return xOverview.bandwidth();});
+                  displayed = d3.scaleQuantize()
+                      .domain([0, barChartWidth])
+                      .range(d3.range(curCountryEBA.length));
 
-                d3.select(".mover")
-                    .attr("width", Math.round(parseFloat(numBars * barChartWidth)/curCountryEBA.length))
-                    .attr("x", 0)
-                    .attr("y", 0);
-                eba_country_selected = true;
+                  d3.select(".mover")
+                      .attr("width", Math.round(parseFloat(numBars * barChartWidth)/curCountryEBA.length))
+                      .attr("x", 0)
+                      .attr("y", 0);
+                  eba_country_selected = true;
+                }
+                else{ alert("This country doesn't have earnings by age info available. Sorry! (please fix me)"); }
 
                 /**************************
                  * Change the scatter plot.

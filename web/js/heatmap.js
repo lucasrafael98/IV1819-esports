@@ -147,6 +147,7 @@ function gen_heatmap(){
             tags_custom_teams.push(createTag(custom_teams[i].TeamName));
         }
         if(custom_teams.length !== 0){
+            eba_country_selected = false;
             custom_teams_selected = true;
             xscale = d3.scaleBand()
                 .domain(custom_teams.slice(0,numBars).map(function (d) { return d.TeamName; }))
