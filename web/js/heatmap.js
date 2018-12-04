@@ -161,7 +161,7 @@ function gen_heatmap(){
                         .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
-            d3.selectAll(".x.axis").selectAll("text").append("title")
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(custom_teams.slice(0,numBars))
                 .text(function(d) { return d.TeamName;});
             d3.select(".bchart-x-text").text("Team");

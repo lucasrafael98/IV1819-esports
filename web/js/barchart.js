@@ -159,13 +159,13 @@ function gen_vis(){
             yscale = d3.scalePow().exponent(0.35)
                 .domain([0, 25E6])
                 .range([barChartHeight, 0]);
-            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_teams[i] });
+            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){console.log(tags_teams[i]); return tags_teams[i] });
             yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
-            d3.selectAll(".x.axis").selectAll("text").append("title")
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(teams_sorted)
-                .text(function(d) { return d.TeamName;});
+                .text(function(d) { console.log(d.TeamName); return d.TeamName; });
             xOverview = d3.scaleBand()
                 .domain(teams_sorted.map(function (d) { return d.TeamName; }))
                 .rangeRound([0, barChartWidth]).paddingInner([0.5]);
@@ -204,7 +204,7 @@ function gen_vis(){
             yAxis  = d3.axisLeft().scale(yscale).ticks(5);
             d3.selectAll(".x.axis").call(xAxis);
             d3.selectAll(".y.axis").call(yAxis);
-            d3.selectAll(".x.axis").selectAll("text").append("title")
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(teams_sorted)
                 .text(function(d) { return d.TeamName;});
             xOverview = d3.scaleBand()
@@ -366,7 +366,7 @@ function gen_vis(){
 
         xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_games[i] });
         d3.selectAll(".x.axis").call(xAxis);
-        d3.selectAll(".x.axis").selectAll("text").append("title")
+        d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
             .data(games_sorted)
             .text(function(d) { return d.gameName;});
         xOverview = d3.scaleBand()
@@ -555,7 +555,7 @@ if (isScrollDisplayed)
                 .attr("width", xscale.bandwidth())
                 .attr("height", function (d) { return barChartHeight - yscale(d.earnings); });
 
-            d3.selectAll(".x.axis").selectAll("text").append("title")
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(new_data)
                 .text(function(d) { return d.TeamName;});  
             rects.exit().remove();  
@@ -568,7 +568,9 @@ if (isScrollDisplayed)
                 .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
                 .range([barChartHeight, 0]);
             xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return new_tags[i] });
-            yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s"));
+            yAxis  = d3.axisLeft().scale(yscale)
+                        .tickFormat(d3.format("d"))
+                        .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
             diagram.select(".x.axis").call(xAxis);
             diagram.select(".y.axis").call(yAxis);
             rects = bars.selectAll("rect")
@@ -587,7 +589,7 @@ if (isScrollDisplayed)
                 .attr("width", xscale.bandwidth())
                 .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); });
 
-            d3.selectAll(".x.axis").selectAll("text").append("title")
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(new_data)
                 .text(function(d) { return d.TeamName;});  
             rects.exit().remove();        
@@ -622,7 +624,7 @@ if (isScrollDisplayed)
                     .attr("width", xscale.bandwidth())
                     .attr("height", function (d) { return barChartHeight - yscale(d.TotalUSDPrize); });
                 }
-                d3.selectAll(".x.axis").selectAll("text").append("title")
+                d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                     .data(new_data)
                     .text(function(d) { return d.TeamName;});
             }else{
@@ -655,7 +657,7 @@ if (isScrollDisplayed)
                     .attr("width", xscale.bandwidth())
                     .attr("height", function (d) { return barChartHeight - yscale(d.totalUSDPrize); });
                 }
-                d3.selectAll(".x.axis").selectAll("text").append("title")
+                d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                     .data(new_data)
                     .text(function(d) { return d.gameName;});               
             }
