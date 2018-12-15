@@ -41,7 +41,7 @@ General styling
   border: 1px solid #D7D7D7;
   box-sizing: border-box;
   color: #232323;
-  font-size: 1.1em;
+  font-size: 1.2em;
   background-color: #fff; }
   .fstElement > select,
   .fstElement > input {
@@ -91,7 +91,6 @@ General styling
   display: none; }
 
 .fstResultItem {
-  font-size: 1.4em;
   display: block;
   padding: 0.5em 0.71429em;
   margin: 0;
@@ -109,7 +108,6 @@ General styling
     border-color: #73baf6; }
 
 .fstGroupTitle {
-  font-size: 1.4em;
   display: block;
   padding: 0.5em 0.71429em;
   margin: 0;
@@ -121,7 +119,6 @@ General styling
     padding-top: 0; }
 
 .fstNoResults {
-  font-size: 1.4em;
   display: block;
   padding: 0.71429em 0.71429em;
   margin: 0;
@@ -141,7 +138,6 @@ Single Mode
   display: none; }
 
 .fstSingleMode .fstQueryInput {
-  font-size: 1.4em;
   display: block;
   width: 100%;
   padding: 0.5em 0.35714em;
@@ -166,7 +162,6 @@ Multiple mode
 ----------------------------------------------------------------------------------------------------*/
 .fstChoiceItem {
   display: inline-block;
-  font-size: 1.2em;
   position: relative;
   margin: 0 0.41667em 0.41667em 0;
   padding: 0.33333em 0.33333em 0.33333em 1.5em;
@@ -192,7 +187,6 @@ Multiple mode
   border: 0;
   cursor: pointer;
   background: none;
-  font-size: 1.16667em;
   position: absolute;
   left: 0;
   top: 50%;
@@ -209,11 +203,9 @@ Multiple mode
   box-sizing: border-box;
   padding: 0.5em 0.5em 0em 0.5em;
   overflow: hidden;
-  width: 20em;
   cursor: text; }
 
 .fstMultipleMode .fstQueryInput {
-  font-size: 1.4em;
   float: left;
   padding: 0.28571em 0;
   margin: 0 0 0.35714em 0;
@@ -225,8 +217,7 @@ Multiple mode
   width: 100%;
   padding: 0.28571em 0.35714em; }
 
-.fstMultipleMode .fstFakeInput {
-  font-size: 1.4em; }
+.fstMultipleMode .fstFakeInput { }
 
 .fstMultipleMode.fstActive,
 .fstMultipleMode.fstActive .fstResults {
