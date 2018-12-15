@@ -88,3 +88,12 @@ text {
     left: 58vw;
     z-index: 1;
 }
+
+#no-data-chart{
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    position: absolute;
+    top: 48%;
+    left: 31%;
+    visibility: hidden;
+}
