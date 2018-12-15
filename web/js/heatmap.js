@@ -50,7 +50,7 @@ function gen_heatmap(){
         bottom: 70,
         left: 25
     };
-    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec"];
+    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     let years = d3.range(2000,2018);
 
     let width = window.innerWidth / 2.4;
