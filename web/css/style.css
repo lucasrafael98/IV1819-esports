@@ -11,22 +11,23 @@ html {
 
 body {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.3em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     fill: #8C8C8C;
-    background-color: #2c2c2c;
+    background-color: #1e1e1e;
 }
 
 
 #top-bar{
-    background: #1c3154; 
+    background: #13284c; 
     position: relative; 
     display: block; 
     z-index: 1; 
     height: 48px; 
     margin-bottom: 5px;
     width: 100%;
+    top: -2px;
 }
 
 #main-title{
@@ -40,7 +41,6 @@ body {
 
 
 .yearLabel, .monthLabel {
-    font-size: 1.6rem;
     fill: #AAAAAA;
     font-weight: 300;
 }
@@ -51,19 +51,16 @@ text.axis-workweek, text.axis-worktime {
 }
 
 .title {
-    font-size: 2.8rem;
     fill: #4F4F4F;
     font-weight: 300;
 }
 
 .subtitle {
-    font-size: 1.4rem;
     fill: #AAAAAA;
     font-weight: 300;
 }
     
 .credit {
-    font-size: 1.2rem;
     fill: #AAAAAA;
     font-weight: 400;
 }
@@ -74,13 +71,12 @@ text.axis-workweek, text.axis-worktime {
     }
 
 text {
-        font-size: 1.2rem;
-        fill: rgb(224, 224, 224);
-        font-weight: 400;
+    font-size: 1.3em;
+    fill: rgb(224, 224, 224);
+    font-weight: 400;
 }
 
 .legendTitle {
-        font-size: 1.6rem;
         fill: #4F4F4F;
         font-weight: 300;
 }
@@ -91,4 +87,13 @@ text {
     top: 5vh; 
     left: 58vw;
     z-index: 1;
+}
+
+#no-data-chart{
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    position: absolute;
+    top: 48%;
+    left: 31%;
+    visibility: hidden;
 }

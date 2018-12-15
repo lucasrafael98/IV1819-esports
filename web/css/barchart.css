@@ -67,7 +67,6 @@ svg {
       padding-left: 35px;
       margin-bottom: 12px;
       cursor: pointer;
-      font-size: 12px;
       -webkit-user-select: none;
       -moz-user-select: none;
       -ms-user-select: none;
@@ -121,7 +120,7 @@ svg {
       top: 2px;
       width: 4px;
       height: 8px;
-      border: solid white;
+      border: solid rgb(224, 224, 224);
       border-width: 0 3px 3px 0;
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);

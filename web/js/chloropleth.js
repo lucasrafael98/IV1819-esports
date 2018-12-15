@@ -67,6 +67,7 @@ Promise.all(promises_cl).then(function(values){
         /************************
          * Change the bar chart.
          ************************/
+        d3.select("#no-data-chart").style("visibility", "hidden");
         curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; });
         if(curCountryEBA.length !== 0){
           curCountryEBA = curCountryEBA[0].earningsByAge;
@@ -266,7 +267,7 @@ Promise.all(promises_cl).then(function(values){
                 /************************
                  * Change the bar chart.
                  ************************/
-
+                d3.select("#no-data-chart").style("visibility", "hidden");
                 curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
                 if(curCountryEBA.length !== 0){
                   curCountryEBA = curCountryEBA[0].earningsByAge;

@@ -50,7 +50,7 @@ function gen_heatmap(){
         bottom: 70,
         left: 25
     };
-    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec"];
+    let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     let years = d3.range(2000,2018);
 
     let width = window.innerWidth / 2.4;
@@ -146,72 +146,73 @@ function gen_heatmap(){
         for (let i = 0; i < custom_teams.length; i++) {
             tags_custom_teams.push(createTag(custom_teams[i].TeamName));
         }
+        eba_country_selected = false;
+        custom_teams_selected = true;
+        xscale = d3.scaleBand()
+            .domain(custom_teams.slice(0,numBars).map(function (d) { return d.TeamName; }))
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+        yscale = d3.scaleLinear()
+            .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
+            .range([barChartHeight, 0]);
+        xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_custom_teams[i] });
+        yAxis  = d3.axisLeft().scale(yscale)
+                    .tickFormat(d3.format("d"))
+                    .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
+        d3.selectAll(".x.axis").call(xAxis);
+        d3.selectAll(".y.axis").call(yAxis);
+        d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_teams.slice(0,numBars))
+            .text(function(d) { return d.TeamName;});
+        d3.select(".bchart-x-text").text("Team");
+        d3.select(".bchart-y-text").text("Tournaments Won");
+        xOverview = d3.scaleBand()
+            .domain(custom_teams.map(function (d) { return d.TeamName; }))
+            .rangeRound([0, barChartWidth]).paddingInner([0.5]);
+        yOverview = d3.scaleLinear().range([heightOverview, 0]);
+        yOverview.domain(yscale.domain());
+        rects = bars.selectAll("rect").data(custom_teams.slice(0,numBars));
+        rects.exit().remove();
+        rects.transition()
+            .duration(1000)
+            .attr("y", function (d) { return yscale(d.TournamentsWon); })
+            .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
+            .attr("x", function (d) { return xscale(d.TeamName); })
+            .attr("width", function (d) { return xscale.bandwidth(); });
+        rects.data(custom_teams.slice(0,numBars)).enter().append("rect")
+            .transition()
+            .duration(1000)
+            .attr("class", "bar")
+            .attr("y", function (d) { return yscale(d.TournamentsWon); })
+            .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
+            .attr("x", function (d) { return xscale(d.TeamName); })
+            .attr("width", function (d) { return xscale.bandwidth(); });
+        subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(custom_teams);
+        subBars.exit().remove();
+        subBars.transition()
+            .duration(1000)
+            .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
+            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
+            .attr("width", function(d) { return xOverview.bandwidth();});
+        subBars.data(custom_teams).enter().append("rect")
+            .classed('subBar extra-subBar', true)
+            .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
+            .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
+            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
+            .attr("width", function(d) { return xOverview.bandwidth();});
+            
         if(custom_teams.length !== 0){
-            eba_country_selected = false;
-            custom_teams_selected = true;
-            xscale = d3.scaleBand()
-                .domain(custom_teams.slice(0,numBars).map(function (d) { return d.TeamName; }))
-                .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-            yscale = d3.scaleLinear()
-                .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
-                .range([barChartHeight, 0]);
-            xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return tags_custom_teams[i] });
-            yAxis  = d3.axisLeft().scale(yscale)
-                        .tickFormat(d3.format("d"))
-                        .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
-            d3.selectAll(".x.axis").call(xAxis);
-            d3.selectAll(".y.axis").call(yAxis);
-            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
-                .data(custom_teams.slice(0,numBars))
-                .text(function(d) { return d.TeamName;});
-            d3.select(".bchart-x-text").text("Team");
-            d3.select(".bchart-y-text").text("Tournaments Won");
-            xOverview = d3.scaleBand()
-                .domain(custom_teams.map(function (d) { return d.TeamName; }))
-                .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-            yOverview = d3.scaleLinear().range([heightOverview, 0]);
-            yOverview.domain(yscale.domain());
-            rects = bars.selectAll("rect").data(custom_teams.slice(0,numBars));
-            rects.exit().remove();
-            rects.transition()
-                .duration(1000)
-                .attr("y", function (d) { return yscale(d.TournamentsWon); })
-                .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
-                .attr("x", function (d) { return xscale(d.TeamName); })
-                .attr("width", function (d) { return xscale.bandwidth(); });
-            rects.data(custom_teams.slice(0,numBars)).enter().append("rect")
-                .transition()
-                .duration(1000)
-                .attr("class", "bar")
-                .attr("y", function (d) { return yscale(d.TournamentsWon); })
-                .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); })
-                .attr("x", function (d) { return xscale(d.TeamName); })
-                .attr("width", function (d) { return xscale.bandwidth(); });
-            subBars = diagram.select("#bchart-scroll").selectAll('.subBar').data(custom_teams);
-            subBars.exit().remove();
-            subBars.transition()
-                .duration(1000)
-                .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
-                .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
-                .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
-                .attr("width", function(d) { return xOverview.bandwidth();});
-            subBars.data(custom_teams).enter().append("rect")
-                .classed('subBar extra-subBar', true)
-                .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
-                .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
-                .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
-                .attr("width", function(d) { return xOverview.bandwidth();});
             displayed = d3.scaleQuantize()
                 .domain([0, barChartWidth])
                 .range(d3.range(custom_teams.length));
-
             d3.select(".mover")
                 .attr("width", Math.round(parseFloat(numBars * barChartWidth)/custom_teams.length))
                 .attr("x", 0)
                 .attr("y", 0);
+            d3.select("#no-data-chart").style("visibility", "hidden");
         }
         else{
-            alert("No teams found for this month. Sorry! (please fix me)");
+            d3.select("#no-data-chart").style("visibility", "visible");
         }
     });
     svg.selectAll(".heatmap-block").on("mouseover",function(){

@@ -3,7 +3,9 @@ var scplYMode = false;
 var scplXMode = false;
 
 d3.json("data/countries.json").then(function (data) {
-    countryStats = data.countries;
+    countryStats = data.countries.filter(function(d){
+        if (d.players > 1) return d;
+    });
     gen_scatter();
 });
 
@@ -15,7 +17,7 @@ function gen_scatter(){
         .domain([0,1])
         .range([h - padding, padding]);
     var xscale = d3.scaleLog()
-        .domain([1,1000])
+        .domain([1.6,1000])
         .range([padding + 10,w-padding]);
     var color = d3.scaleOrdinal(["#28568c", "#008e96"]);
     var svg = d3.select("#scatter");
@@ -92,11 +94,9 @@ function gen_scatter(){
         .style("text-anchor", "middle")
         .text("Unemployment / Urban Population");;
     var xaxis = d3.axisBottom()
-        .scale(d3.scaleLog()
-            .domain([1, 1000])
-            .range([padding + 10, w-padding]))
+        .scale(xscale)
         .tickFormat(d3.format("d"))
-        .ticks(2.5);
+        .tickValues([10, 100, 1000]);
     svg.append("g")
         .attr("transform","translate(0," + (h-padding) + ")")
         .attr("class","scatter-x")
@@ -288,7 +288,7 @@ function gen_scatter(){
             }
             else{
                 xscale = d3.scaleLog()
-                            .domain([1,1000])
+                            .domain([1.6,1000])
                             .range([padding + 10,w-padding]);
     
                 svg.selectAll(".scpl-circle0")
@@ -328,7 +328,7 @@ function gen_scatter(){
                 xaxis = d3.axisBottom()
                     .scale(xscale)
                     .tickFormat(d3.format("d"))
-                    .ticks(2.5);
+                    .tickValues([10, 100, 1000]);
                 svg.selectAll(".scatter-x")
                     .transition()
                     .duration(700)
