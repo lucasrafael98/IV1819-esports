@@ -59,12 +59,27 @@ Promise.all(promises_cl).then(function(values){
       //console.log(value.value);
       //console.log(this.optionsCollection.selectedValues);
       if(selectedCountries[value.value] == null){
+        
+
         d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })
           .transition()
           .duration(1500)
-          .attr("fill", "#009684");
+          .attr("fill", "#a8a200");
         selectedCountries[value.value] = data.get(value.value+choroMode) ? returnActualColorScale(data.get(value.value+choroMode)) : "#d6d6d6";
 
+        if(last_selected_country != null && last_selected_country != d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })._groups[0][0]
+          && selectedCountries[value.value]){
+         d3.select(last_selected_country)
+         .transition()
+         .duration(400)
+         .attr("fill", function (){
+           // Set the color
+           return selectedCountries[last_selected_country.__data__.id] ? "#009684" : (data.get(last_selected_country.__data__.id+choroMode) ? returnActualColorScale(data.get(last_selected_country.__data__.id+choroMode)) : "#969696");
+         });
+       }
+              
+        if(selectedCountries[value.value])
+          last_selected_country = d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })._groups[0][0];
         /************************
          * Change the bar chart.
          ************************/
@@ -174,6 +189,10 @@ Promise.all(promises_cl).then(function(values){
             return data.get(d.id+choroMode) ? returnActualColorScale(data.get(d.id+choroMode)) : "#969696";
           })
         delete selectedCountries[value.value]
+
+        if(last_selected_country == d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })._groups[0][0])
+          last_selected_country = null
+
         let removedId = value.value;
         if(Object.keys(selectedCountries).length === 0){
           circles0 = d3.selectAll("#scatter")
@@ -467,6 +486,9 @@ Promise.all(promises_cl).then(function(values){
                 return selectedCountries[this.__data__.id] ? "#a8a200" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
               });
               
+              if(last_selected_country == this)
+                last_selected_country = null;
+
               if(selectedCountries[this.__data__.id])
                 last_selected_country = this;
             }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
