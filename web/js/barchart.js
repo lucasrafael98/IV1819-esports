@@ -6,6 +6,7 @@ let last_changed = 1;
 let tags_teams = [];
 let tags_games = [];
 let xscale, yscale, xAxis, yAxis, svg, diagram, xOverview, yOverview, previousDataSet,bars,displayed;
+let currCountry;
 let promises = [
     d3.json("data/earningsByAge_global.json").then(function (data) {
         data.earningsByAge.forEach(element => {
