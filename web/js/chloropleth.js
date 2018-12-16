@@ -231,7 +231,11 @@ Promise.all(promises_cl).then(function(values){
                 return data.get(d.id+"0") ? colorEarningsScale(d.totalUSDPrize) : "#969696";
             })
             .attr("d", path)
-            .on("mouseover", function () {
+            .on("mouseover", function (d) {
+              if(d["players"] == null || d['players'] < 2){
+                $(this).css( 'cursor', 'not-allowed' );
+              }
+
               if(selectedCountries[this.__data__.id] == null)
               d3.select(this)
                 .transition()
@@ -255,7 +259,7 @@ Promise.all(promises_cl).then(function(values){
             .on("mousemove", function(d){
               var totalUSDPrize = d['totalUSDPrize'] ? "$"+numeral(d['totalUSDPrize']).format('0a') : "none";
               var players = d['players'] ? numeral(d['players']).format('0a') : "none";
-              var text = d['properties']['name']  + "<br>Players: " + players + "<br>Total Earnings: " + totalUSDPrize;
+              var text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) + (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
               console.log(JSON.stringify(d));
               $('.tooltip').html(text);
               $('.tooltip').css({
@@ -264,7 +268,12 @@ Promise.all(promises_cl).then(function(values){
                 top: d3.mouse(this)[1] + 30
               });
             })
-            .on("mousedown", function(){
+            .on("mousedown", function(d){
+
+              if(d["players"] == null || d['players'] < 2){
+                return;
+              }
+
               var option = d3.selectAll(".multipleSelect").select("[value='"+this.__data__.id+"']")._groups[0][0];
               
               if(selectedCountries[this.__data__.id] == null){                
