@@ -83,7 +83,6 @@ Promise.all(promises_cl).then(function(values){
         /************************
          * Change the bar chart.
          ************************/
-        d3.select("#no-data-chart").style("visibility", "hidden");
         curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; });
         if(curCountryEBA.length !== 0){
           curCountryEBA = curCountryEBA[0].earningsByAge;
@@ -234,7 +233,7 @@ Promise.all(promises_cl).then(function(values){
     }
   });
 
-  var svg = d3.select("#chloropleth")
+  var svg = d3.select("#choropleth")
             .insert("svg", ":first-child")
             .attr("width",width)
             .attr("height",height); 
@@ -255,6 +254,8 @@ Promise.all(promises_cl).then(function(values){
               if(d["players"] == null || d['players'] < 2){
                 $(this).css( 'cursor', 'not-allowed' );
               }
+              else
+                $(this).css( 'cursor', 'pointer' );
 
               if(selectedCountries[this.__data__.id] == null)
               d3.select(this)
@@ -279,8 +280,16 @@ Promise.all(promises_cl).then(function(values){
             .on("mousemove", function(d){
               var totalUSDPrize = d['totalUSDPrize'] ? d3.format("$.3s")(d['totalUSDPrize']) : "none";
               var players = d['players'] ? d3.format("d")(d['players']) : "none";
-              var text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) + (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
-              //console.log(JSON.stringify(d));
+              temp = this
+              curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
+              var text;
+              if(curCountryEBA.length !== 0)
+                text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) +
+                             (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
+              else 
+                text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) +
+                             (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "") +
+                             "<br>No age data available for this country.";
               $('.tooltip').html(text);
               $('.tooltip').css({
                 display: "block",
@@ -313,7 +322,6 @@ Promise.all(promises_cl).then(function(values){
                 /************************
                  * Change the bar chart.
                  ************************/
-                d3.select("#no-data-chart").style("visibility", "hidden");
                 curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
                 if(curCountryEBA.length !== 0){
                   curCountryEBA = curCountryEBA[0].earningsByAge;
@@ -378,7 +386,6 @@ Promise.all(promises_cl).then(function(values){
                       .attr("y", 0);
                   eba_country_selected = true;
                 }
-                else{ alert("This country doesn't have earnings by age info available. Sorry! (please fix me)"); }
 
                 /**************************
                  * Change the scatter plot.
