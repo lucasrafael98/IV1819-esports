@@ -1,6 +1,7 @@
 var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5 - window.innerHeight * 0.5*0.15;
 var earningsByAgeCountry, curCountryEBA;
 var eba_country_selected = false;
+var last_selected_country = null;
 
 // Map and projection
 var path = d3.geoPath();
@@ -442,17 +443,32 @@ Promise.all(promises_cl).then(function(values){
                 }
               }
 
-              d3.select(this)
-                .transition()
-                .duration(400)
-                .attr("fill", "#3bf99a")
+
+              if(last_selected_country != null && last_selected_country != this
+                 && selectedCountries[this.__data__.id]){
+                d3.select(last_selected_country)
                 .transition()
                 .duration(400)
                 .attr("fill", function (d){
                   // Set the color
                   return selectedCountries[this.__data__.id] ? "#009684" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
                 });
+              }
+
               
+              d3.select(this)
+              .transition()
+              .duration(400)
+              .attr("fill", (last_selected_country == null || last_selected_country == this || selectedCountries[this.__data__.id]) ? "#fff600" : "#3bf99a")
+              .transition()
+              .duration(400)
+              .attr("fill", function (d){
+                // Set the color
+                return selectedCountries[this.__data__.id] ? "#a8a200" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
+              });
+              
+              if(selectedCountries[this.__data__.id])
+                last_selected_country = this;
             }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
 
