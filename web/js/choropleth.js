@@ -485,12 +485,12 @@ Promise.all(promises_cl).then(function(values){
               d3.select(this)
               .transition()
               .duration(400)
-              .attr("fill", (last_selected_country == null || last_selected_country == this || selectedCountries[this.__data__.id]) ? "#fff600" : "#3bf99a")
+              .attr("fill", (last_selected_country == null || last_selected_country == this || selectedCountries[this.__data__.id]) ? "#00ffe0" : "#3bf99a")
               .transition()
               .duration(400)
               .attr("fill", function (d){
                 // Set the color
-                return selectedCountries[this.__data__.id] ? "#a8a200" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
+                return selectedCountries[this.__data__.id] ? "#63ffec" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
               });
               
               if(last_selected_country == this)
