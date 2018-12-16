@@ -246,7 +246,24 @@ Promise.all(promises_cl).then(function(values){
                   .attr("fill", function (d){
                     // Set the color
                     return data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696";
-              })})
+                })
+
+                $('.tooltip').css({
+                  display: "none"
+                });
+            })
+            .on("mousemove", function(d){
+              var totalUSDPrize = d['totalUSDPrize'] ? "$"+numeral(d['totalUSDPrize']).format('0a') : "none";
+              var players = d['players'] ? numeral(d['players']).format('0a') : "none";
+              var text = d['properties']['name']  + "<br>Players: " + players + "<br>Total Earnings: " + totalUSDPrize;
+              console.log(JSON.stringify(d));
+              $('.tooltip').html(text);
+              $('.tooltip').css({
+                display: "block",
+                left: d3.mouse(this)[0] + 30,
+                top: d3.mouse(this)[1] + 30
+              });
+            })
             .on("mousedown", function(){
               var option = d3.selectAll(".multipleSelect").select("[value='"+this.__data__.id+"']")._groups[0][0];
               
