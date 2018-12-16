@@ -258,8 +258,8 @@ Promise.all(promises_cl).then(function(values){
                 });
             })
             .on("mousemove", function(d){
-              var totalUSDPrize = d['totalUSDPrize'] ? "$"+numeral(d['totalUSDPrize']).format('0a') : "none";
-              var players = d['players'] ? numeral(d['players']).format('0a') : "none";
+              var totalUSDPrize = d['totalUSDPrize'] ? d3.format("$.3s")(d['totalUSDPrize']) : "none";
+              var players = d['players'] ? d3.format("d")(d['players']) : "none";
               var text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) + (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
               console.log(JSON.stringify(d));
               $('.tooltip').html(text);

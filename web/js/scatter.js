@@ -68,13 +68,22 @@ function gen_scatter(){
                 .duration(1800)
                 .attr("r", function(d){ return (Object.keys(selectedCountries).length !== 0 &&
                                                  selectedCountries[d.countryCode] == null) ? 0.75 : 4.5});
+            $('.tooltip').css({
+                display: "none"
+            });
         })
-        .append("title")
-        .text(function(d) {
+        .on("mousemove", function(d){
+            var text;
             if(d.i === "urbanPopPercentage")
-                return ("Country:\t" + d.title + "\nPlayers:\t" + d.x + "\nUrban Population:\t" + d3.format(".1%")(d.y / 100));
+                text = (d.title + "<br>Players: " + d.x + "<br>Urban Population: " + d3.format(".1%")(d.y / 100));
             else
-                return ("Country:\t" + d.title + "\nPlayers:\t" + d.x + "\nUneployment:\t" + d3.format(".1%")(d.y / 100));
+                text = (d.title + "<br>Players: " + d.x + "<br>Uneployment: " + d3.format(".1%")(d.y / 100));
+            $('.tooltip').html(text);
+            $('.tooltip').css({
+              display: "block",
+              left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+              top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+            })
         });
     
     // axes
@@ -120,39 +129,51 @@ function gen_scatter(){
                 svg.selectAll(".scpl-circle0")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplXMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100)); 
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("fill", "#009684")
                     .attr("cy", function(d){
-                                    return yscale(d.annualGDPUSD / 1.2)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplXMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100)); 
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));   
-                    });
+                                    return yscale(d.annualGDPUSD / 1.2)});
 
                 
                 svg.selectAll(".scpl-circle1")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplXMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("fill", "#009684")
                     .attr("cy", function(d){
-                                    return yscale(d.annualGDPUSD / 1.2)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplXMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100)); 
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));   
-                    });
+                                    return yscale(d.annualGDPUSD / 1.2)});
                 
                 yaxis = d3.axisLeft()
                     .scale(yscale)
@@ -178,38 +199,50 @@ function gen_scatter(){
                 svg.selectAll(".scpl-circle0")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplXMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                            "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("fill", function() { return color(0); })
                     .attr("cy", function(d){
-                                    return yscale(d.unemploymentPercentage / 100)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplXMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100)); 
-                    });
+                                    return yscale(d.unemploymentPercentage / 100)});
 
                 svg.selectAll(".scpl-circle1")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplXMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("fill", function() { return color(1); })
                     .attr("cy", function(d){
                                     return yscale(d.urbanPopPercentage / 100)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplXMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100)); 
-                    });
                 
                 yaxis = d3.axisLeft()
                     .scale(yscale)
@@ -242,36 +275,48 @@ function gen_scatter(){
                 svg.selectAll(".scpl-circle0")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplYMode)
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("cx", function(d){
-                            return xscale(d.totalUSDPrize)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplYMode)
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));   
-                    });
+                            return xscale(d.totalUSDPrize)});
 
                 svg.selectAll(".scpl-circle1")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplYMode)
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("cx", function(d){
-                            return xscale(d.totalUSDPrize)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplYMode)
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nEarnings:\t" + d3.format("$,d")(d.totalUSDPrize) +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));   
-                    });
+                            return xscale(d.totalUSDPrize)});
                 
                 xaxis = d3.axisBottom()
                     .scale(xscale)
@@ -294,36 +339,48 @@ function gen_scatter(){
                 svg.selectAll(".scpl-circle0")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplYMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("cx", function(d){
-                            return xscale(d.players)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplYMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nUnemployment:\t" + d3.format(".1%")(d.unemploymentPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));
-                    });
+                            return xscale(d.players)});
 
                 svg.selectAll(".scpl-circle1")
                     .selectAll("circle")
                     .data(countryStats)
+                    .on("mousemove", function(d){
+                        var text;
+                        if(!scplYMode)
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));
+                        else
+                            text = (d.countryName + "<br>Players: " + d.players +
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                        $('.tooltip').html(text);
+                        $('.tooltip').css({
+                            display: "block",
+                            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.007,
+                            top: d3.mouse(this)[1] + 30 + $(window).height() * 0.445
+                        })
+                    })
                     .transition()
                     .duration(700)
                     .attr("cx", function(d){
-                            return xscale(d.players)})
-                    .select("title")
-                    .text(function(d) {
-                        if(!scplYMode)
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nUrban Population:\t" + d3.format(".1%")(d.urbanPopPercentage / 100));
-                        else
-                            return ("Country:\t" + d.countryName + "\nPlayers:\t" + d.players +
-                                        "\nGDP:\t" + d3.format("$,d")(d.annualGDPUSD / 100));   
-                    });
+                            return xscale(d.players)});
                 
                 xaxis = d3.axisBottom()
                     .scale(xscale)
