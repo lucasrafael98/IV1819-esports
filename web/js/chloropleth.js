@@ -280,7 +280,7 @@ Promise.all(promises_cl).then(function(values){
               var totalUSDPrize = d['totalUSDPrize'] ? d3.format("$.3s")(d['totalUSDPrize']) : "none";
               var players = d['players'] ? d3.format("d")(d['players']) : "none";
               var text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) + (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
-              console.log(JSON.stringify(d));
+              //console.log(JSON.stringify(d));
               $('.tooltip').html(text);
               $('.tooltip').css({
                 display: "block",
@@ -360,13 +360,13 @@ Promise.all(promises_cl).then(function(values){
                       .duration(1000)
                       .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
                       .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-                      .attr("x", function(d) { return xOverview(d.age) - 84;})
+                      .attr("x", function(d) { return xOverview(d.age);})
                       .attr("width", function(d) { return xOverview.bandwidth();});
                   subBars.data(curCountryEBA).enter().append("rect")
                       .classed('subBar extra-subBar', true)
                       .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
                       .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-                      .attr("x", function(d) { return xOverview(d.age) - 84;})
+                      .attr("x", function(d) { return xOverview(d.age);})
                       .attr("width", function(d) { return xOverview.bandwidth();});
                   displayed = d3.scaleQuantize()
                       .domain([0, barChartWidth])

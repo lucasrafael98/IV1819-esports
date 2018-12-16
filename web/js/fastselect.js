@@ -366,7 +366,7 @@
         setSelectedOption: function(option) {
 
             if (this.optionsCollection.isSelected(option.value)) {
-                console.log(option);
+                //console.log(option);
                 //TIRAR DE SELECIONADOS E' AQUI
                 var removedModel = this.optionsCollection.removeSelected(option);
 

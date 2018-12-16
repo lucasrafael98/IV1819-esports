@@ -192,13 +192,13 @@ function gen_heatmap(){
             .duration(1000)
             .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
             .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
-            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
+            .attr("x", function(d) { return xOverview(d.TeamName);})
             .attr("width", function(d) { return xOverview.bandwidth();});
         subBars.data(custom_teams).enter().append("rect")
             .classed('subBar extra-subBar', true)
             .attr("height", function(d) {return heightOverview - yOverview(d.TournamentsWon);})
             .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.TournamentsWon); })
-            .attr("x", function(d) { return xOverview(d.TeamName) - 84;})
+            .attr("x", function(d) { return xOverview(d.TeamName);})
             .attr("width", function(d) { return xOverview.bandwidth();});
             
         if(custom_teams.length !== 0){
