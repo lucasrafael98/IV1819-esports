@@ -486,8 +486,12 @@ Promise.all(promises_cl).then(function(values){
                 return selectedCountries[this.__data__.id] ? "#a8a200" : (data.get(d.id+choroMode) ? returnActualColorScale(data.get(this.__data__.id+choroMode)) : "#969696");
               });
               
+              if(last_selected_country == this)
+                last_selected_country = null;
+
               if(selectedCountries[this.__data__.id])
                 last_selected_country = this;
+            }//console.log(data.get(this.__data__.id+choroMode) ? data.get(this.__data__.id+choroMode) : 0)} //demo to show clicked data
             )
 
   var cml = svg.append("g")
