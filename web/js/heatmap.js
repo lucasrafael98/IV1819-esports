@@ -5,6 +5,7 @@ let custom_teams;
 let custom_teams_selected = false;
 let tags_custom_teams = [];
 let colorLegend = [0, 1, 10, 150, 300, 400, 500];
+let months_ext = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", "December"]
 let promises2 = [
     d3.json("data/tourn_mmyyyy.json").then(function (data) {
         data.data.forEach(element => {
@@ -226,5 +227,18 @@ function gen_heatmap(){
 
         d3.select(this).style("stroke-opacity", "0.6");
         d3.select(this).style("fill", laststyle);
+        $('.tooltip').css({
+            display: "none"
+        });
+    });
+
+    svg.selectAll(".heatmap-block").data(tourn_mmyy).on("mousemove",function(d){
+        var text = months_ext[d.startMonth - 1] + " of " + d.startYear + "<br>Tournaments Played: " + d.tournaments;
+        $('.tooltip').html(text);
+        $('.tooltip').css({
+            display: "block",
+            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.482,
+            top: d3.mouse(this)[1] + 20
+        });
     });
 }

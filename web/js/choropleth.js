@@ -234,7 +234,7 @@ Promise.all(promises_cl).then(function(values){
     }
   });
 
-  var svg = d3.select("#chloropleth")
+  var svg = d3.select("#choropleth")
             .insert("svg", ":first-child")
             .attr("width",width)
             .attr("height",height); 
