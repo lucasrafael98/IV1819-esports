@@ -330,37 +330,7 @@ function gen_vis(){
     });
 
     d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
-        var text;
-        if(age_selected){
-            text = d.age + " years old " + "<br>Earnings: " + d3.format("$.3s")(d.earnings);
-        }else if(custom_teams_selected){
-            if(document.getElementById("custom-check").checked && document.getElementById("custom-check3").checked){
-                text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
-            }else if(document.getElementById("custom-check").checked && document.getElementById("custom-check4").checked){
-                text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TournamentsWon;
-            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check3").checked){
-                text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
-            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check4").checked){
-                text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.TournamentsPlayed;
-            }
-        }else{
-            if(document.getElementById("check2").checked && document.getElementById("check3").checked){
-                text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.TotalUSDPrize);
-            }else if(document.getElementById("check2").checked && document.getElementById("check4").checked){
-                text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TotalTournaments;
-            }else if(document.getElementById("check5").checked && document.getElementById("check3").checked){
-                text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize);
-            }else if(document.getElementById("check5").checked && document.getElementById("check4").checked){
-                text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.totalTournaments;
-            }
-        }
-        //text = months_ext[d.startMonth - 1] + " of " + d.startYear + "<br>Tournaments Played: " + d.tournaments;
-        $('.tooltip').html(text);
-        $('.tooltip').css({
-            display: "block",
-            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.482,
-            top: d3.mouse(this)[1] + $(window).height() * 0.55
-        });
+        addMouseOver(d,this);
     });
 
     d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
@@ -616,6 +586,16 @@ if (isScrollDisplayed)
 
             rects.exit().remove();
         }
+
+        d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+            addMouseOver(d,this);
+        });
+    
+        d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+            $('.tooltip').css({
+                display: "none"
+            });
+        });
     };
 }
 
@@ -706,6 +686,40 @@ function handleCustomCheckBox(object){
         c3.checked = false;
         c4.checked = true;    
     }
+}
+
+function addMouseOver(d,obj){
+    var text;
+    if(age_selected){
+        text = d.age + " years old " + "<br>Earnings: " + d3.format("$.3s")(d.earnings);
+    }else if(custom_teams_selected){
+        if(document.getElementById("custom-check").checked && document.getElementById("custom-check3").checked){
+            text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
+        }else if(document.getElementById("custom-check").checked && document.getElementById("custom-check4").checked){
+            text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TournamentsWon;
+        }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check3").checked){
+            text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
+        }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check4").checked){
+            text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.TournamentsPlayed;
+        }
+    }else{
+        if(document.getElementById("check2").checked && document.getElementById("check3").checked){
+            text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.TotalUSDPrize);
+        }else if(document.getElementById("check2").checked && document.getElementById("check4").checked){
+            text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TotalTournaments;
+        }else if(document.getElementById("check5").checked && document.getElementById("check3").checked){
+            text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize);
+        }else if(document.getElementById("check5").checked && document.getElementById("check4").checked){
+            text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.totalTournaments;
+        }
+    }
+    //text = months_ext[d.startMonth - 1] + " of " + d.startYear + "<br>Tournaments Played: " + d.tournaments;
+    $('.tooltip').html(text);
+    $('.tooltip').css({
+        display: "block",
+        left: d3.mouse(obj)[0] + 30 + $(window).width() * 0.482,
+        top: d3.mouse(obj)[1] + $(window).height() * 0.55
+    });
 }
 
 function resetCustomBoxes(){
@@ -878,4 +892,14 @@ function updateBars(data,x,y,padI=0.15,exp=0.15){
             return barChartHeight + heightOverview + yOverview(d[y]);
         })
     }
+
+    d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+        addMouseOver(d,this);
+    });
+
+    d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+        $('.tooltip').css({
+            display: "none"
+        });
+    });
 }

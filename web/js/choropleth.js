@@ -83,6 +83,7 @@ Promise.all(promises_cl).then(function(values){
          ************************/
         curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; });
         if(curCountryEBA.length !== 0){
+          age_selected = true;
           document.getElementById("default-chart-menu").style.display = "none";
           document.getElementById("custom-chart-menu").style.display = "none";
           document.getElementById("reset-bar-chart").style.display = "block";
@@ -130,13 +131,13 @@ Promise.all(promises_cl).then(function(values){
               .duration(1000)
               .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
               .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-              .attr("x", function(d) { return xOverview(d.age) - 84;})
+              .attr("x", function(d) { return xOverview(d.age);})
               .attr("width", function(d) { return xOverview.bandwidth();});
           subBars.data(curCountryEBA).enter().append("rect")
               .classed('subBar extra-subBar', true)
               .attr("height", function(d) {return heightOverview - yOverview(d.earnings);})
               .attr("y", function (d) { return barChartHeight + heightOverview + yOverview(d.earnings); })
-              .attr("x", function(d) { return xOverview(d.age) - 84;})
+              .attr("x", function(d) { return xOverview(d.age);})
               .attr("width", function(d) { return xOverview.bandwidth();});
           displayed = d3.scaleQuantize()
               .domain([0, barChartWidth])
@@ -147,6 +148,15 @@ Promise.all(promises_cl).then(function(values){
               .attr("x", 0)
               .attr("y", 0);
           eba_country_selected = true;
+        d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+            addMouseOver(d,this);
+        });
+    
+        d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+            $('.tooltip').css({
+                display: "none"
+            });
+        });
         }
         else{ alert("This country doesn't have earnings by age info available. Sorry! (please fix me)"); }
 
@@ -325,6 +335,7 @@ Promise.all(promises_cl).then(function(values){
                  ************************/
                 curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
                 if(curCountryEBA.length !== 0){
+                  age_selected = true;
                   document.getElementById("default-chart-menu").style.display = "none";
                   document.getElementById("custom-chart-menu").style.display = "none";
                   document.getElementById("reset-bar-chart").style.display = "block";
@@ -389,6 +400,15 @@ Promise.all(promises_cl).then(function(values){
                       .attr("x", 0)
                       .attr("y", 0);
                   eba_country_selected = true;
+                d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+                    addMouseOver(d,this);
+                });
+            
+                d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+                    $('.tooltip').css({
+                        display: "none"
+                    });
+                });
                 }
 
                 /**************************
