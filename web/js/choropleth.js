@@ -1,7 +1,6 @@
 var width = window.innerWidth * 0.55, height = window.innerHeight * 0.5 - window.innerHeight * 0.5*0.15;
 var earningsByAgeCountry, curCountryEBA;
 var eba_country_selected = false;
-var last_selected_country = null;
 
 // Map and projection
 var path = d3.geoPath();

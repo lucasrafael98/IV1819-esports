@@ -15,6 +15,7 @@
             var barChartHeight;
             var barChartWidth;
             var selectedCountries = {};
+            var last_selected_country = null;
         </script>
         <script src="d3/d3.v5.min.js" charset="utf-8"></script>
         <script src="d3/d3-scale-chromatic.v1.min.js"></script>
@@ -217,7 +218,7 @@
                                 <option value="ZWE">Zimbabwe</option>-->
                             </select>
                 </div>
-                
+
             </div>
             <div id="choropleth" style="position: relative;">
             </div>
@@ -290,12 +291,6 @@
                 </div>
             </div>
             <div id="barchart"></div>
-            
-            <label id="resetButton" class="container">
-                <input id="reset" onchange="handleResetCheckBox(0)" type="checkbox" checked="checked">
-                <span class="checkmark"></span>
-                Reset Bar Chart
-            </label>
         </div>
         <div class="caption">
             <div class="caption-container1"><div class="ball1"></div> <span class="ball-text">Urban Population</span></div>

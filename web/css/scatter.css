@@ -46,13 +46,6 @@
 	background-color: lightskyblue;
 }
 
-#resetButton{
-    display: none;
-    position: absolute;
-    right: 3%;
-    bottom: 43%;
-}
-
 .caption{
     position: absolute;
     left: 600px;

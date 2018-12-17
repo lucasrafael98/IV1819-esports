@@ -303,6 +303,17 @@ function gen_vis(){
     });
 
     d3.select("#reset-bar-chart").on("click",function(){
+        if(last_selected_country != null){
+         d3.select(last_selected_country)
+         .transition()
+         .duration(400)
+         .attr("fill", function (){
+           // Set the color
+           return selectedCountries[last_selected_country.__data__.id] ? "#009684" : (data.get(last_selected_country.__data__.id+choroMode) ? returnActualColorScale(data.get(last_selected_country.__data__.id+choroMode)) : "#969696");
+         });
+         last_selected_country = null;
+       }
+
         custom_teams_selected = false;
         eba_country_selected = false;
         isReset = true;
@@ -398,6 +409,7 @@ if (isScrollDisplayed)
             .attr("width", Math.round(parseFloat(numBars * barChartWidth)/earningsByAge.length))
             .attr("pointer-events", "all")
             .attr("cursor", "ew-resize")
+            .attr("z-index", 1)
             .call(d3.drag().on("drag", display));
 
         previousDataSet = earningsByAge;
