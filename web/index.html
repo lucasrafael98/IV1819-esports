@@ -228,7 +228,7 @@
             <span class="btn" id="togg-x">Toggle Players / Earnings</span>
         </div>
         <div id="superbchart">
-            <div class="chart-menu" style="display:block;">
+            <div id="default-chart-menu" class="chart-menu" style="display:block;">
                 <label class="container">
                     <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
                     <span class="checkmark"></span>
@@ -257,6 +257,30 @@
                     </label>
                     <label class="container">
                         <input id="check4" onchange="handleCheckBox(this)" type="checkbox">
+                        <span class="checkmark"></span>
+                    Tournaments
+                    </label>
+                </div>
+            </div>
+            <div id="custom-chart-menu" class="chart-menu">
+                <label class="container">
+                    <input id="custom-check" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                    Teams
+                </label>
+                <label class="container">
+                    <input id="custom-check2" onchange="handleCustomCheckBox(this)" type="checkbox">
+                    <span class="checkmark"></span>
+                    Games
+                </label>
+                <div id="custom-chart-submenu">
+                    <label class="container">
+                        <input id="custom-check3" onchange="handleCustomCheckBox(this)" type="checkbox">
+                        <span class="checkmark"></span>
+                    Earnings
+                    </label>
+                    <label class="container">
+                        <input id="custom-check4" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
                         <span class="checkmark"></span>
                     Tournaments
                     </label>

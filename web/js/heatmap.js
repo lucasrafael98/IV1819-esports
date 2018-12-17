@@ -1,9 +1,10 @@
-let tourn_mmyy, tourn_team_mmyy, tourn_team_prize_mmyy;
+let tourn_mmyy, tourn_team_mmyy, tourn_team_prize_mmyy, tourn_game_mmyyyy,tourn_game_usd_mmyyyy;
 times = d3.range(24);
 let laststyle = "";
-let custom_teams;
+let custom_teams,custom_teams_earnings,custom_games,custom_games_earnings;
 let custom_teams_selected = false;
 let tags_custom_teams = [];
+let tags_custom_games = [];
 let colorLegend = [0, 1, 10, 150, 300, 400, 500];
 let months_ext = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novemeber", "December"]
 let promises2 = [
@@ -36,6 +37,26 @@ let promises2 = [
             element.startYear = +element.startYear;
         });
         tourn_team_prize_mmyy = data.prizePerTeamYM;
+    }),
+    d3.json("data/new_tourn_game_mmyyyy.json").then(function (data) {
+        data.data.forEach(element => {
+            element.gameName = element.gameName;
+            element.gameId = +element.gameId;
+            element.TournamentsPlayed = +element.TournamentsPlayed;
+            element.startMonth = +element.startMonth;
+            element.startYear = +element.startYear;
+        });
+        tourn_game_mmyyyy = data.data;
+    }),
+    d3.json("data/new_tourn_game_usd_mmyyyy.json").then(function (data) {
+        data.data.forEach(element => {
+            element.gameName = element.gameName;
+            element.gameId = +element.gameId;
+            element.prizeSum = +element.prizeSum;
+            element.startMonth = +element.startMonth;
+            element.startYear = +element.startYear;
+        });
+        tourn_game_usd_mmyyyy = data.data;
     })
 ];
 
@@ -140,12 +161,20 @@ function gen_heatmap(){
         let month = this.__data__.startMonth;
         let year = this.__data__.startYear;
         custom_teams = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
+        custom_teams_earnings = tourn_team_prize_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
+        custom_games = tourn_game_mmyyyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.gameId !== -1; });
+        custom_games_earnings = tourn_game_usd_mmyyyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.gameId !== -1; });
         tags_custom_teams = [];
+        tags_custom_games = [];
         for (let i = 0; i < custom_teams.length; i++) {
             tags_custom_teams.push(createTag(custom_teams[i].TeamName));
         }
+        for (let i = 0; i < custom_games.length; i++) {
+            tags_custom_games.push(createTag(custom_games[i].gameName));
+        }
         if(custom_teams.length !== 0){
             handleResetCheckBox(1);
+            resetCustomBoxes();
             let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
             let bars = diagram.select(".main-bars");
             eba_country_selected = false;

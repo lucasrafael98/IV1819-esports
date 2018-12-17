@@ -3,6 +3,7 @@ let quantity = false;
 let age_selected = true;
 let teams_selected;
 let last_changed = 1;
+let last_custom_changed = 1;
 let tags_teams = [];
 let tags_games = [];
 let xscale, yscale, xAxis, yAxis, svg, diagram, xOverview, yOverview, previousDataSet,bars,displayed;
@@ -206,8 +207,101 @@ function gen_vis(){
         teams_selected = false;
         age_selected = false;
     });
+
+    d3.select("#custom-check").on("change",function(){
+        if(last_custom_changed == 1) {return;}        
+        if(document.getElementById("custom-check3").checked){
+            updateBars(custom_teams_earnings,"TeamName","prizeSum");
+            
+            d3.select(".bchart-x-text").text("Team");
+            d3.select(".bchart-y-text").text("Earnings");
+        }else{   
+            updateBars(custom_teams,"TeamName","TournamentsWon");
+            
+            d3.select(".bchart-x-text").text("Team");
+            d3.select(".bchart-y-text").text("Tournaments Won");
+
+        }
+        d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_teams.slice(0,numBars))
+            .text(function(d) { return d.TeamName;});
+        
+        last_custom_changed = 1;
+    });
+
+    d3.select("#custom-check2").on("change",function(){
+        if(last_custom_changed == 2) {return;}
+        if(document.getElementById("custom-check3").checked){
+            updateBars(custom_games_earnings,"gameName","prizeSum");
+            
+            d3.select(".bchart-x-text").text("Game");
+            d3.select(".bchart-y-text").text("Earnings");
+        }else{   
+            console.log("What", custom_games);
+            updateBars(custom_games,"gameName","TournamentsPlayed");
+            
+            d3.select(".bchart-x-text").text("Game");
+            d3.select(".bchart-y-text").text("Tournaments Played");
+
+        }
+        d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_games.slice(0,numBars))
+            .text(function(d) { return d.gameName;});
+        
+        last_custom_changed = 2;
+    });
+
+    d3.select("#custom-check3").on("change",function(){
+        if(last_custom_changed == 3) {return;} 
+        if(document.getElementById("custom-check2").checked){
+            updateBars(custom_games_earnings,"gameName","prizeSum");
+            
+            d3.select(".bchart-x-text").text("Game");
+            d3.select(".bchart-y-text").text("Earnings");
+
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_games.slice(0,numBars))
+            .text(function(d) { return d.gameName;});
+        }else{   
+            updateBars(custom_teams_earnings,"TeamName","prizeSum");
+            
+            d3.select(".bchart-x-text").text("Team");
+            d3.select(".bchart-y-text").text("Earnings");
+
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_teams.slice(0,numBars))
+            .text(function(d) { return d.TeamName;});
+        }
+        
+        last_custom_changed = 3;
+    });
+
+    d3.select("#custom-check4").on("change",function(){
+        if(last_custom_changed == 4) {return;} 
+        if(document.getElementById("custom-check2").checked){
+            updateBars(custom_games,"gameName","TournamentsPlayed");
+            
+            d3.select(".bchart-x-text").text("Game");
+            d3.select(".bchart-y-text").text("Tournaments Won");
+
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_games.slice(0,numBars))
+            .text(function(d) { return d.gameName;});
+        }else{   
+            updateBars(custom_teams,"TeamName","TournamentsWon");
+            
+            d3.select(".bchart-x-text").text("Team");
+            d3.select(".bchart-y-text").text("Tournaments Won");
+
+            d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
+            .data(custom_teams.slice(0,numBars))
+            .text(function(d) { return d.TeamName;});
+        }
+
+        last_custom_changed = 4;
+    });
     
-    if (isScrollDisplayed)
+if (isScrollDisplayed)
 {
     xOverview = d3.scaleBand()
         .domain(earningsByAge.map(function (d) { return d.age; }))
@@ -314,35 +408,74 @@ function gen_vis(){
                 .text(function(d) { return d.TeamName;});  
             rects.exit().remove();  
         } else if(custom_teams_selected){
-            new_data = custom_teams.slice(nf, nf + numBars);
-            new_tags = tags_custom_teams.slice(nf, nf + numBars);
-            xscale.domain(new_data.map(function (d) { return d.TeamName; }));
-            yscale = d3.scaleLinear()
-                .domain([0, d3.max(custom_teams, function (d) { return d.TournamentsWon; })])
-                .range([barChartHeight, 0]);
+            let tempArray,x,y,tags;
+            if(document.getElementById("custom-check").checked && document.getElementById("custom-check3").checked){
+                tempArray = custom_teams_earnings;
+                x = "TeamName";
+                y = "prizeSum";
+                tags = tags_custom_teams;
+                yscale = d3.scalePow().exponent(0.4)
+                    .domain([0, d3.max(tempArray, function (d) { return d[y]; })])
+                    .range([barChartHeight, 0]);
+                yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+            }else if(document.getElementById("custom-check").checked && document.getElementById("custom-check4").checked){
+                tempArray = custom_teams;
+                x = "TeamName";
+                y = "TournamentsWon";
+                tags = tags_custom_teams;
+                yscale = d3.scaleLinear()
+                    .domain([0, d3.max(tempArray, function (d) { return d[y]; })])
+                    .range([barChartHeight, 0]);
+                yAxis = d3.axisLeft().scale(yscale)
+                    .tickFormat(d3.format("d"))
+                    .ticks(d3.max(tempArray, function (d) { return d[y]; }));
+            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check3").checked){
+                tempArray = custom_games_earnings;
+                x = "gameName";
+                y = "prizeSum";
+                tags = tags_custom_games;
+                yscale = d3.scalePow().exponent(0.4)
+                    .domain([0, d3.max(tempArray, function (d) { return d[y]; })])
+                    .range([barChartHeight, 0]);
+                yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check4").checked){
+                tempArray = custom_games;
+                x = "gameName";
+                y = "TournamentsPlayed";
+                tags = tags_custom_games;
+                yscale = d3.scaleLinear()
+                    .domain([0, d3.max(tempArray, function (d) { return d[y]; })])
+                    .range([barChartHeight, 0]);
+                yAxis = d3.axisLeft().scale(yscale)
+                    .tickFormat(d3.format("d"))
+                    .ticks(d3.max(tempArray, function (d) { return d[y]; })/10 + 1);
+            }
+            console.log(tempArray,x,y,tags);
+            new_data = tempArray.slice(nf, nf + numBars);
+            new_tags = tags.slice(nf, nf + numBars);
+            xscale.domain(new_data.map(function (d) { return d[x]; }));
+
             xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){ return new_tags[i] });
-            yAxis  = d3.axisLeft().scale(yscale)
-                        .tickFormat(d3.format("d"))
-                        .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
+
             diagram.select(".x.axis").call(xAxis);
             diagram.select(".y.axis").call(yAxis);
             rects = bars.selectAll("rect")
-                .data(new_data, function (d) {return d.TeamName; });
+                .data(new_data, function (d) {return d[x]; });
 
-            rects.attr("x", function (d) { return xscale(d.TeamName); });
+            rects.attr("x", function (d) { return xscale(d[x]); });
             rects.enter().append("rect")
                 .attr("class", "bar")
                 .attr("x", function (d) { 
-                    return xscale(d.TeamName); 
+                    return xscale(d[x]); 
                 })
                 .attr("y", function (d) {
-                    return yscale(d.TournamentsWon); })
+                    return yscale(d[y]); })
                 .attr("width", xscale.bandwidth())
-                .attr("height", function (d) { return barChartHeight - yscale(d.TournamentsWon); });
+                .attr("height", function (d) { return barChartHeight - yscale(d[y]); });
 
             d3.selectAll(".x.axis").selectAll(".tick").select("text").append("title")
                 .data(new_data)
-                .text(function(d) { return d.TeamName;});  
+                .text(function(d) { return d[x];});  
             rects.exit().remove();        
         }
         else{
@@ -486,6 +619,35 @@ function handleCheckBox(object){
     }
 }
 
+function handleCustomCheckBox(object){
+    let c1 = document.getElementById("custom-check");
+    let c2 = document.getElementById("custom-check2");
+    let c3 = document.getElementById("custom-check3");
+    let c4 = document.getElementById("custom-check4");
+
+    if( c1 == object){
+        c1.checked = true;
+        c2.checked = false;
+    }else if( c2 == object){
+        c1.checked = false;
+        c2.checked = true;
+    }else if( c3 == object){
+        c3.checked = true;
+        c4.checked = false;
+    }else if(c4 == object){
+        c3.checked = false;
+        c4.checked = true;    
+    }
+}
+
+function resetCustomBoxes(){
+    document.getElementById("custom-check").checked = true;
+    document.getElementById("custom-check2").checked = false;
+    document.getElementById("custom-check3").checked = false;
+    document.getElementById("custom-check4").checked = true;
+    last_custom_changed = 1;
+}
+
 function handleResetCheckBox(type){
     let c1 = document.getElementById("check1");
     let c2 = document.getElementById("check2");
@@ -508,7 +670,8 @@ function handleResetCheckBox(type){
         c5.checked = false;
     }else if(type == 1){
         //document.getElementById("resetButton").style.display = "block";
-        document.getElementsByClassName("chart-submenu")[0].style.display = "block"; 
+        document.getElementById("default-chart-menu").style.display = "none";
+        document.getElementById("custom-chart-menu").style.display = "block";
         c1.disabled = true;
         c2.disabled = true;
         c3.disabled = true;
@@ -541,27 +704,68 @@ function updateBars(data,x,y,padI=0.15,exp=0.15){
     xscale = d3.scaleBand()
         .domain(data.slice(0,numBars).map(function (d) { return d[x]; }))
         .rangeRound([0, barChartWidth]).paddingInner([0.5]);
-    yscale = d3.scalePow().exponent(0.4)
-        .domain([0, d3.max(data, function (d) { return d[y]; })])
-        .range([barChartHeight, 0]);
+    if(custom_teams_selected && document.getElementById("custom-check4").checked){
+        yscale = d3.scaleLinear()
+            .domain([0, d3.max(data, function (d) { return d[y]; })])
+            .range([barChartHeight, 0]);
+    }else{
+        yscale = d3.scalePow().exponent(0.4)
+            .domain([0, d3.max(data, function (d) { return d[y]; })])
+            .range([barChartHeight, 0]);
+    }
     if(x == "age"){
         xAxis  = d3.axisBottom().scale(xscale);
     }else if(x == "TeamName"){
-        xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_teams[i] });
+        if(custom_teams_selected){
+            xAxis = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_custom_teams[i] });
+        }else{
+            xAxis = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_teams[i] });
+        }
     }else if(x == "gameName"){
-        xAxis  = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_games[i] });
+        if(custom_teams_selected){
+            xAxis = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_custom_games[i] });
+        }else{
+            xAxis = d3.axisBottom().scale(xscale).tickFormat(function(d,i){return tags_games[i] });
+        }
     }
-    yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+
+    if(custom_teams_selected && document.getElementById("custom-check4").checked){
+        if(document.getElementById("custom-check").checked){
+            yAxis  = d3.axisLeft().scale(yscale)
+            .tickFormat(d3.format("d"))
+            .ticks(d3.max(custom_teams, function (d) { return d.TournamentsWon; }));
+        }else{
+            yAxis  = d3.axisLeft().scale(yscale)
+            .tickFormat(d3.format("d"))
+            .ticks(d3.max(custom_games, function (d) { return d.TournamentsPlayed; })/10 + 1);
+        }
+    }else{
+        yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+    }
+
     d3.selectAll(".x.axis").call(xAxis);
     d3.selectAll(".y.axis").call(yAxis);
 
-    rects = bars.selectAll("rect").data(data)
-        .transition()
+    rects = bars.selectAll("rect").data(data.slice(0,numBars));
+    rects.exit().remove();
+    rects.transition()
         .duration(1000)
         .attr("y", function (d) { return yscale(d[y]); })
         .attr("height", function (d) { return barChartHeight - yscale(d[y]); })
         .attr("x", function (d) { return xscale(d[x]); })
         .attr("width", function (d) { return xscale.bandwidth(); });
+
+    if(custom_teams_selected && rects.enter()._groups[0].length > rects.exit()._groups[0].length){
+        rects.enter().append("rect")
+            .transition()
+            .duration(1000)
+            .attr("class", "bar")
+            .attr("y", function (d) { return yscale(d[y]); })
+            .attr("height", function (d) { return barChartHeight - yscale(d[y]); })
+            .attr("x", function (d) { return xscale(d[x]); })
+            .attr("width", function (d) { return xscale.bandwidth(); });
+    }
+
     displayed = d3.scaleQuantize()
         .domain([0, barChartWidth])
         .range(d3.range(data.length));

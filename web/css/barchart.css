@@ -5,6 +5,17 @@
     left: 44vw;
 }
 
+#custom-chart-menu{
+    display: none;
+}
+
+#custom-chart-submenu{
+    position: absolute;
+    top: 0.5vh;
+    left: 8.5vw;
+    padding-top: 1em;
+}
+
 svg {
     font: 10px sans-serif;
   }
