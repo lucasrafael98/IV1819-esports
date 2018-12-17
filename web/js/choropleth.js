@@ -64,7 +64,7 @@ Promise.all(promises_cl).then(function(values){
         d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })
           .transition()
           .duration(1500)
-          .attr("fill", "#a8a200");
+          .attr("fill", "#63ffec");
         selectedCountries[value.value] = data.get(value.value+choroMode) ? returnActualColorScale(data.get(value.value+choroMode)) : "#d6d6d6";
 
         if(last_selected_country != null && last_selected_country != d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })._groups[0][0]
