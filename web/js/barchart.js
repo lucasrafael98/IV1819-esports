@@ -712,7 +712,6 @@ function handleResetCheckBox(type){
         c4.checked = true;
         c5.checked = false;
     }
-    document.getElementById("reset").checked = true;
 }
 
 function createTag(name){
