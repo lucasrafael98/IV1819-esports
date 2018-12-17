@@ -245,7 +245,7 @@ function gen_heatmap(){
             $('.tooltip').css({
                 display: "block",
                 left: d3.mouse(this)[0] + 30 + $(window).width() * 0.482,
-                top: d3.mouse(this)[1] + 20
+                top: d3.mouse(this)[1] + 30
             });
         }
         else{
@@ -255,7 +255,7 @@ function gen_heatmap(){
             $('.tooltip').css({
                 display: "block",
                 left: d3.mouse(this)[0] + 30 + $(window).width() * 0.442,
-                top: d3.mouse(this)[1] + 20
+                top: d3.mouse(this)[1] + 30
             });
         }
     });
