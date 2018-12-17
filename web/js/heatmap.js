@@ -158,6 +158,7 @@ function gen_heatmap(){
         .text(function(d){ return d; });
 
     svg.selectAll(".heatmap-block").on("click",function(){
+        age_selected = false;
         let month = this.__data__.startMonth;
         let year = this.__data__.startYear;
         custom_teams = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
@@ -240,6 +241,15 @@ function gen_heatmap(){
                 .attr("width", Math.round(parseFloat(numBars * barChartWidth)/custom_teams.length))
                 .attr("x", 0)
                 .attr("y", 0);
+            d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+                addMouseOver(d,this);
+            });
+        
+            d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+                $('.tooltip').css({
+                    display: "none"
+                });
+            });
         }
     });
     svg.selectAll(".heatmap-block").on("mouseover",function(){
