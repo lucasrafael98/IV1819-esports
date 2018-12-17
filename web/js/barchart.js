@@ -358,6 +358,7 @@ if (isScrollDisplayed)
             .attr("width", Math.round(parseFloat(numBars * barChartWidth)/earningsByAge.length))
             .attr("pointer-events", "all")
             .attr("cursor", "ew-resize")
+            .attr("z-index", 1)
             .call(d3.drag().on("drag", display));
 
         previousDataSet = earningsByAge;
