@@ -77,7 +77,6 @@ Promise.all(promises_cl).then(function(values){
            return selectedCountries[last_selected_country.__data__.id] ? "#009684" : (data.get(last_selected_country.__data__.id+choroMode) ? returnActualColorScale(data.get(last_selected_country.__data__.id+choroMode)) : "#969696");
          });
        }
-              
         if(selectedCountries[value.value])
           last_selected_country = d3.selectAll("path").filter(function(d) { return d ? d.id === value.value : false; })._groups[0][0];
         /************************
@@ -85,6 +84,9 @@ Promise.all(promises_cl).then(function(values){
          ************************/
         curCountryEBA = earningsByAgeCountry.filter(function(d){ return value.value == d.CountryCode; });
         if(curCountryEBA.length !== 0){
+          document.getElementById("default-chart-menu").style.display = "none";
+          document.getElementById("custom-chart-menu").style.display = "none";
+          document.getElementById("reset-bar-chart").style.display = "block";
           curCountryEBA = curCountryEBA[0].earningsByAge;
           let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
           let bars = diagram.select(".main-bars");
@@ -324,6 +326,9 @@ Promise.all(promises_cl).then(function(values){
                  ************************/
                 curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
                 if(curCountryEBA.length !== 0){
+                  document.getElementById("default-chart-menu").style.display = "none";
+                  document.getElementById("custom-chart-menu").style.display = "none";
+                  document.getElementById("reset-bar-chart").style.display = "block";
                   curCountryEBA = curCountryEBA[0].earningsByAge;
                   let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");
                   let bars = diagram.select(".main-bars");

@@ -173,6 +173,7 @@ function gen_heatmap(){
             tags_custom_games.push(createTag(custom_games[i].gameName));
         }
         if(custom_teams.length !== 0){
+            document.getElementById("reset-bar-chart").style.display = "block";
             handleResetCheckBox(1);
             resetCustomBoxes();
             let diagram = d3.select("#superbchart").select("#barchart").select("svg").select("g");

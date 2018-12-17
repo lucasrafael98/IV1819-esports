@@ -1,6 +1,7 @@
 let teams_sorted, earningsByAge, games_sorted;
 let quantity = false;
 let age_selected = true;
+let isReset = false;
 let teams_selected;
 let last_changed = 1;
 let last_custom_changed = 1;
@@ -299,6 +300,22 @@ function gen_vis(){
         }
 
         last_custom_changed = 4;
+    });
+
+    d3.select("#reset-bar-chart").on("click",function(){
+        custom_teams_selected = false;
+        eba_country_selected = false;
+        isReset = true;
+        updateBars(earningsByAge,"age","earnings",0.5,0.1);
+        isReset = false;
+        
+        d3.select(".bchart-x-text").text("Age");
+        d3.select(".bchart-y-text").text("Earnings (Worldwide)");
+        document.getElementById("reset-bar-chart").style.display = "none";
+        handleResetCheckBox(0);
+        document.getElementById("custom-chart-menu").style.display = "none";
+        last_changed = 1;
+        age_selected = true;
     });
     
 if (isScrollDisplayed)
@@ -656,7 +673,7 @@ function handleResetCheckBox(type){
     let c5 = document.getElementById("check5");
 
     if(type == 0){
-        //document.getElementById("resetButton").style.display = "none";
+        document.getElementById("default-chart-menu").style.display = "block";
         document.getElementsByClassName("chart-submenu")[0].style.display = "none";   
         c1.disabled = false;
         c2.disabled = false;
@@ -755,7 +772,7 @@ function updateBars(data,x,y,padI=0.15,exp=0.15){
         .attr("x", function (d) { return xscale(d[x]); })
         .attr("width", function (d) { return xscale.bandwidth(); });
 
-    if(custom_teams_selected && rects.enter()._groups[0].length > rects.exit()._groups[0].length){
+    if((custom_teams_selected || isReset) && rects.enter()._groups[0].length > rects.exit()._groups[0].length){
         rects.enter().append("rect")
             .transition()
             .duration(1000)
@@ -771,7 +788,8 @@ function updateBars(data,x,y,padI=0.15,exp=0.15){
         .range(d3.range(data.length));
 
     d3.select(".mover")
-        .attr("width", Math.round(parseFloat(numBars * barChartWidth)/data.length));
+        .attr("width", Math.round(parseFloat(numBars * barChartWidth)/data.length))
+        .attr("x",0);
 
     xOverview = d3.scaleBand()
         .domain(data.map(function (d) {

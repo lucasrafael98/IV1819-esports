@@ -35,6 +35,7 @@
                 <h1 id="main-title">A Deep Dive Into the World of Esports</h1>
                 <span class="btn" id="switchToEarningsAmountChoro" style="padding: 5px; position: absolute; top:2px; left:206px; width: 70px; background-color: lightblue; display: inline-block;">Show Earnings</span>
                 <span class="btn" id="switchToPlayerAmountChoro" style="padding: 5px; position: absolute; top:2px; left:291px; width: 70px; background-color: white; display: inline-block;">Show Players</span>
+                <span class="btn" id="reset-bar-chart" style="padding: 5px; position: absolute; top:2px; right:2px; width: 70px; background-color: white; display: none;">Reset Bar Chart</span>
                 <div style="position: absolute; top:2px; left:3px; ">
                         <select class="multipleSelect" multiple name="language">
                                 <!-- <option value="AFG">Afghanistan</option>
@@ -228,62 +229,64 @@
             <span class="btn" id="togg-x">Toggle Players / Earnings</span>
         </div>
         <div id="superbchart">
-            <div id="default-chart-menu" class="chart-menu" style="display:block;">
-                <label class="container">
-                    <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                    Earnings by Age 
-                        <span 
-                            title="How much players earned at a specific age." 
-                            style="color:rgb(0, 150, 132); z-index: 1;">
-                                (?)
-                        </span>
-                </label>
-                <label class="container">
-                    <input id="check2" onchange="handleCheckBox(this)" type="checkbox">
-                    <span class="checkmark"></span>
-                    Teams
-                </label>
-                <label class="container">
-                    <input id="check5" onchange="handleCheckBox(this)" type="checkbox">
-                    <span class="checkmark"></span>
-                    Games
-                </label>
-                <div class="chart-submenu">
+            <div id="wrapper" style="min-height:82px">
+                <div id="default-chart-menu" class="chart-menu" style="display:block;">
                     <label class="container">
-                        <input id="check3" onchange="handleCheckBox(this)" type="checkbox">
+                        <input id="check1" onchange="handleCheckBox(this)" type="checkbox" checked="checked">
                         <span class="checkmark"></span>
-                    Earnings
+                        Earnings by Age 
+                            <span 
+                                title="How much players earned at a specific age." 
+                                style="color:rgb(0, 150, 132); z-index: 1;">
+                                    (?)
+                            </span>
                     </label>
                     <label class="container">
-                        <input id="check4" onchange="handleCheckBox(this)" type="checkbox">
+                        <input id="check2" onchange="handleCheckBox(this)" type="checkbox">
                         <span class="checkmark"></span>
-                    Tournaments
+                        Teams
                     </label>
+                    <label class="container">
+                        <input id="check5" onchange="handleCheckBox(this)" type="checkbox">
+                        <span class="checkmark"></span>
+                        Games
+                    </label>
+                    <div class="chart-submenu">
+                        <label class="container">
+                            <input id="check3" onchange="handleCheckBox(this)" type="checkbox">
+                            <span class="checkmark"></span>
+                        Earnings
+                        </label>
+                        <label class="container">
+                            <input id="check4" onchange="handleCheckBox(this)" type="checkbox">
+                            <span class="checkmark"></span>
+                        Tournaments
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div id="custom-chart-menu" class="chart-menu">
-                <label class="container">
-                    <input id="custom-check" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                    Teams
-                </label>
-                <label class="container">
-                    <input id="custom-check2" onchange="handleCustomCheckBox(this)" type="checkbox">
-                    <span class="checkmark"></span>
-                    Games
-                </label>
-                <div id="custom-chart-submenu">
+                <div id="custom-chart-menu" class="chart-menu">
                     <label class="container">
-                        <input id="custom-check3" onchange="handleCustomCheckBox(this)" type="checkbox">
+                        <input id="custom-check" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
                         <span class="checkmark"></span>
-                    Earnings
+                        Teams
                     </label>
                     <label class="container">
-                        <input id="custom-check4" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
+                        <input id="custom-check2" onchange="handleCustomCheckBox(this)" type="checkbox">
                         <span class="checkmark"></span>
-                    Tournaments
+                        Games
                     </label>
+                    <div id="custom-chart-submenu">
+                        <label class="container">
+                            <input id="custom-check3" onchange="handleCustomCheckBox(this)" type="checkbox">
+                            <span class="checkmark"></span>
+                        Earnings
+                        </label>
+                        <label class="container">
+                            <input id="custom-check4" onchange="handleCustomCheckBox(this)" type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        Tournaments
+                        </label>
+                    </div>
                 </div>
             </div>
             <div id="barchart"></div>
