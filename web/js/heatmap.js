@@ -219,8 +219,8 @@ function gen_heatmap(){
         d3.select(this).style("cursor", function(){
             let month = this.__data__.startMonth;
             let year = this.__data__.startYear;
-            custom_teams = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
-            if(custom_teams.length !== 0) return "pointer";
+            let custom_teamsTemp = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
+            if(custom_teamsTemp.length !== 0) return "pointer";
             else return "not-allowed";
         });
     });
@@ -237,9 +237,9 @@ function gen_heatmap(){
     svg.selectAll(".heatmap-block").data(tourn_mmyy).on("mousemove",function(d){
         let month = this.__data__.startMonth;
         let year = this.__data__.startYear;
-        custom_teams = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
+        custom_teamsTemp = tourn_team_mmyy.filter(function(d){ return d.startMonth === month && d.startYear === year && d.TeamId !== -1; });
         var text;
-        if(custom_teams.length !== 0){
+        if(custom_teamsTemp.length !== 0){
             text = months_ext[d.startMonth - 1] + " of " + d.startYear + "<br>Tournaments Played: " + d.tournaments;
             $('.tooltip').html(text);
             $('.tooltip').css({

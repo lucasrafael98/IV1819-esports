@@ -281,9 +281,9 @@ Promise.all(promises_cl).then(function(values){
               var totalUSDPrize = d['totalUSDPrize'] ? d3.format("$.3s")(d['totalUSDPrize']) : "none";
               var players = d['players'] ? d3.format("d")(d['players']) : "none";
               temp = this
-              curCountryEBA = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
+              var curCountryEBATemp = earningsByAgeCountry.filter(function(d){ return temp.__data__.id == d.CountryCode; });
               var text;
-              if(curCountryEBA.length !== 0)
+              if(curCountryEBATemp.length !== 0)
                 text = d['properties']['name']  + (players != "none" ? "<br>Players: " + players : "" ) +
                              (totalUSDPrize != "none" ? "<br>Total Earnings: " + totalUSDPrize : "");
               else 
