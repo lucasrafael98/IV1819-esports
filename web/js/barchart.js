@@ -317,6 +317,46 @@ function gen_vis(){
         last_changed = 1;
         age_selected = true;
     });
+
+    d3.selectAll(".main-bars").selectAll("rect").on("mousemove",function(d){
+        var text;
+        if(age_selected){
+            text = d.age + " years old " + "<br>Earnings: " + d3.format("$.3s")(d.earnings);
+        }else if(custom_teams_selected){
+            if(document.getElementById("custom-check").checked && document.getElementById("custom-check3").checked){
+                text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
+            }else if(document.getElementById("custom-check").checked && document.getElementById("custom-check4").checked){
+                text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TournamentsWon;
+            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check3").checked){
+                text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.prizeSum);
+            }else if(document.getElementById("custom-check2").checked && document.getElementById("custom-check4").checked){
+                text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.TournamentsPlayed;
+            }
+        }else{
+            if(document.getElementById("check2").checked && document.getElementById("check3").checked){
+                text = "Team: "+ d.TeamName + "<br>Earnings: " + d3.format("$.3s")(d.TotalUSDPrize);
+            }else if(document.getElementById("check2").checked && document.getElementById("check4").checked){
+                text = "Team: "+ d.TeamName + "<br>Tournaments Won: " + d.TotalTournaments;
+            }else if(document.getElementById("check5").checked && document.getElementById("check3").checked){
+                text = "Game: "+ d.gameName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize);
+            }else if(document.getElementById("check5").checked && document.getElementById("check4").checked){
+                text = "Game: "+ d.gameName + "<br>Tournaments Played: " + d.totalTournaments;
+            }
+        }
+        //text = months_ext[d.startMonth - 1] + " of " + d.startYear + "<br>Tournaments Played: " + d.tournaments;
+        $('.tooltip').html(text);
+        $('.tooltip').css({
+            display: "block",
+            left: d3.mouse(this)[0] + 30 + $(window).width() * 0.482,
+            top: d3.mouse(this)[1] + $(window).height() * 0.55
+        });
+    });
+
+    d3.selectAll(".main-bars").selectAll("rect").on("mouseout",function(){
+        $('.tooltip').css({
+            display: "none"
+        });
+    });
     
 if (isScrollDisplayed)
 {
@@ -467,7 +507,6 @@ if (isScrollDisplayed)
                     .tickFormat(d3.format("d"))
                     .ticks(d3.max(tempArray, function (d) { return d[y]; })/10 + 1);
             }
-            console.log(tempArray,x,y,tags);
             new_data = tempArray.slice(nf, nf + numBars);
             new_tags = tags.slice(nf, nf + numBars);
             xscale.domain(new_data.map(function (d) { return d[x]; }));
@@ -757,7 +796,11 @@ function updateBars(data,x,y,padI=0.15,exp=0.15){
             .ticks(d3.max(custom_games, function (d) { return d.TournamentsPlayed; })/10 + 1);
         }
     }else{
-        yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+        if(document.getElementById("check3").checked){
+            yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format("$.2s")).ticks(5);
+        }else{
+            yAxis  = d3.axisLeft().scale(yscale).tickFormat(d3.format(".2s")).ticks(5);
+        }
     }
 
     d3.selectAll(".x.axis").call(xAxis);
