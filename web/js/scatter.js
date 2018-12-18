@@ -133,10 +133,10 @@ function gen_scatter(){
                         var text;
                         if(!scplXMode)
                             text = (d.countryName + "<br>Players: " + d.players +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100)); 
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD)); 
                         else
                             text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
@@ -158,10 +158,10 @@ function gen_scatter(){
                         var text;
                         if(!scplXMode)
                             text = (d.countryName + "<br>Players: " + d.players +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));
                         else
                             text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
@@ -282,7 +282,7 @@ function gen_scatter(){
                                         "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));
                         else
                             text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
@@ -305,7 +305,7 @@ function gen_scatter(){
                                         "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));
                         else
                             text = (d.countryName + "<br>Earnings: " + d3.format("$.3s")(d.totalUSDPrize) +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
@@ -346,7 +346,7 @@ function gen_scatter(){
                                         "<br>Unemployment: " + d3.format(".1%")(d.unemploymentPercentage / 100));
                         else
                             text = (d.countryName + "<br>Players: " + d.players +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
@@ -369,7 +369,7 @@ function gen_scatter(){
                                         "<br>Urban Population: " + d3.format(".1%")(d.urbanPopPercentage / 100));
                         else
                             text = (d.countryName + "<br>Players: " + d.players +
-                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD / 100));   
+                                        "<br>GDP: " + d3.format("$.3s")(d.annualGDPUSD));   
                         $('.tooltip').html(text);
                         $('.tooltip').css({
                             display: "block",
